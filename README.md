@@ -8,7 +8,7 @@ Esta traducción ha sido **probada y funciona correctamente** en las siguientes 
 
 - `2-0.9.2`
 - `2-0.9.3`
-- `2.0.9.3`
+- `2.0.9.3b`
 
 No se garantiza compatibilidad con versiones anteriores o futuras. Si decides probarla en otra versión, ¡cuéntame tu experiencia creando un issue o dejando un comentario en el video tutorial! Tu feedback puede ayudarme a mantener esta traducción actualizada. 🔧
 
