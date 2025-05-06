@@ -36,7 +36,12 @@ Si no planeas regresar a la versión en inglés o respaldar archivos:
 2. Pégalas en tu directorio raíz de **Craft to Exile 2**.
 3. Cuando te pida reemplazar archivos, selecciona **Reemplazar todo**.
 
-✅ ¡Listo! Ya deberías tener traducido el juego con misiones principales, tooltips, las nuevas clases, herramientawsw y habilidades.
+### 🧩 Paso Recomendado: Traducción Extendida de Datapacks
+Si deseas una **traducción aún más completa**, incluyendo textos adicionales para datapacks personalizados del ModPack (como nuevas clases, habilidades y elementos del mod de M&S y otros mods principales), puedes descargar el contenido adicional aquí:
+
+🔗 [Descargar Traducción Extendida desde mi Gumroad (gratis)](https://slaaard.gumroad.com/l/qsmfo)
+
+✅ ¡Listo! Ya deberías tener traducido el juego con misiones principales, tooltips, las nuevas clases, herramientas y habilidades.
 
 ## ❓ Soporte
 Si tienes problemas o sugerencias, no dudes en crear un **Issue** en este repositorio o contactarme directamente a mi correo contactoslaaard@gmail.com.
