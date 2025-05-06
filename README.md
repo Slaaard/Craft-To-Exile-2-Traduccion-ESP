@@ -1,6 +1,17 @@
-# 🌟 Traducción al Español de Craft to Exile 2 (v2-0.9.2)
+# 🌟 Traducción al Español de Craft to Exile 2
 
-Este proyecto lo he hecho con el objetivo de proporcionar una traducción "completa" y coherente del ModPack **Craft to Exile 2** para su versión **2-0.9.2**. No estoy seguro su compatibilidad con versiones más antiguas o futuras pero eres libre de probarlas y comentarlas en el repositorio o en el vídeo tutorial para saber si aún es compatible o me animo a actualiarlo. 📅
+Este proyecto lo he hecho con el objetivo de proporcionar una traducción "completa" y coherente del ModPack **Craft to Exile 2**.
+
+## ✅ Compatibilidad Probada
+
+Esta traducción ha sido **probada y funciona correctamente** en las siguientes versiones del ModPack:
+
+- `2-0.9.2`
+- `2-0.9.3`
+- `2.0.9.3`
+
+No se garantiza compatibilidad con versiones anteriores o futuras. Si decides probarla en otra versión, ¡cuéntame tu experiencia creando un issue o dejando un comentario en el video tutorial! Tu feedback puede ayudarme a mantener esta traducción actualizada. 🔧
+
 
 ## 📌 Características
 - Traducción de misiones principales.
