@@ -1,0 +1,46 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:iron_helmet"
+		tag: {
+			Damage: 0
+			mmorpg_gear: "{\"baseStats\":{\"p\":57},\"imp\":{\"p\":91},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":10,\"id\":\"seraphim\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":4,\"rs\":0,\"lvl\":1,\"gtype\":\"plate_helmet\",\"pot\":\"common\",\"pn\":100}"
+		}
+	}
+	id: "785B9A3ACA6307BA"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:plate_0_helmet"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":21},\"imp\":{\"p\":97},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":19,\"id\":\"giants\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":3,\"rs\":1,\"lvl\":3,\"gtype\":\"plate_helmet\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:leather_0_helmet"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":17},\"imp\":{\"p\":21},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":23,\"id\":\"item_perc_dodge\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":0,\"rs\":0,\"lvl\":3,\"gtype\":\"leather_helmet\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:cloth_0_helmet"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":11},\"imp\":{\"p\":2},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":12,\"id\":\"giants\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":1,\"rs\":2,\"lvl\":3,\"gtype\":\"cloth_helmet\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+	]
+	title: "Primer Casco"
+}

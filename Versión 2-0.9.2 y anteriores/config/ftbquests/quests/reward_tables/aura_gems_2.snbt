@@ -1,0 +1,38 @@
+{
+	id: "176BFE3BD002B5A4"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"armor\",\"type\":\"AURA\",\"perc\":28,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Armadura"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"dodge\",\"type\":\"AURA\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Evasión"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"magic_shield\",\"type\":\"AURA\",\"perc\":29,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Escudo Mágico"
+		}
+	]
+	title: "Gemas de Aumento 2"
+}

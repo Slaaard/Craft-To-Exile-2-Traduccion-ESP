@@ -1,0 +1,48 @@
+{
+	id: "7FF7286DF7C37C1A"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"rejuv_totem\",\"type\":\"SKILL\",\"perc\":26,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Tótem Rejuvenecedor"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_trap\",\"type\":\"SKILL\",\"perc\":31,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Trampa de Fuego"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"frost_nova\",\"type\":\"SKILL\",\"perc\":29,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Nova de Escarcha"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"arrow_barrage\",\"type\":\"SKILL\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Descarga de Flechas"
+		}
+	]
+	title: "Gemas de Habilidad 1"
+}

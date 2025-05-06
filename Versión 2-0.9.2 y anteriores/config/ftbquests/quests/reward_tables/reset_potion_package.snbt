@@ -1,0 +1,14 @@
+{
+	hide_tooltip: true
+	id: "6355A870A165DFE3"
+	loot_size: 4
+	order_index: 40
+	rewards: [
+		{ item: "mmorpg:potions/full_reset_talent" }
+		{ item: "mmorpg:potions/full_reset_spell" }
+		{ item: "mmorpg:potions/full_reset_passive" }
+		{ item: "mmorpg:potions/full_reset_stat" }
+	]
+	title: "Paquete de Poción de Reinicio (4 Artículos)"
+	use_title: true
+}

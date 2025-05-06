@@ -1,0 +1,46 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:iron_boots"
+		tag: {
+			Damage: 0
+			mmorpg_gear: "{\"baseStats\":{\"p\":42},\"imp\":{\"p\":30},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":1,\"id\":\"item_flat_armor\",\"t\":1,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":0,\"rs\":1,\"lvl\":1,\"gtype\":\"plate_boots\",\"pot\":\"common\",\"pn\":100}"
+		}
+	}
+	id: "4FAC51956C55A453"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:plate_0_boots"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":24},\"imp\":{\"p\":46},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":10,\"id\":\"giants\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":4,\"rs\":2,\"lvl\":3,\"gtype\":\"plate_boots\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:leather_0_boots"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":10},\"imp\":{\"p\":5},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":13,\"id\":\"item_flat_dodge\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":5,\"rs\":1,\"lvl\":3,\"gtype\":\"leather_boots\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:cloth_0_boots"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":13},\"imp\":{\"p\":40},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":25,\"id\":\"seraphim\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":3,\"rs\":0,\"lvl\":3,\"gtype\":\"cloth_boots\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+	]
+	title: "Primeras Botas"
+}

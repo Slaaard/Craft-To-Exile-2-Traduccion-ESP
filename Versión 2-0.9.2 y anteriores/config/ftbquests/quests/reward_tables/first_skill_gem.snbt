@@ -1,0 +1,59 @@
+{
+	icon: "mmorpg:skill_gems/skill/int"
+	id: "2B0A9AC82D550AA8"
+	loot_size: 2
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fireball\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Bola de Fuego"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"gong_strike\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Golpe de Gong"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"craft_arrows\",\"type\":\"SKILL\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Fabricar Flechas"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_zombie\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Invocar Zombi"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"healing_aura\",\"type\":\"SKILL\",\"perc\":19,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Ola Curativa"
+		}
+	]
+	title: "Primera Gema de Habilidad"
+}

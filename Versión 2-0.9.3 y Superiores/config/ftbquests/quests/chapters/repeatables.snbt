@@ -1,0 +1,347 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "repeatables"
+	group: "1E3C4B5FFAE48A39"
+	icon: {
+		Count: 1
+		id: "roe_weapons:sword_0"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "34C2FF296725F858"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["0D9B68F2990B8E94"]
+			description: [
+				"¡Completa la misión mencionada a continuación para desbloquear esta misión repetible!"
+				""
+				"{ \"text\": \"Problemas que Brillan en la Oscuridad\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D9B68F2990B8E94\" } }"
+			]
+			id: "324C9BEA9C3F0AC3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 150"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "22385397363DF4AE"
+				silent: true
+				title: "150 Experiencia"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "monsterplus:glow_skeleton"
+				icon: {
+					Count: 1
+					id: "twilightforest:skeleton_skull_candle"
+					tag: {
+						BlockEntityTag: {
+							CandleAmount: 1
+							CandleColor: 0
+						}
+					}
+				}
+				id: "7167EEEB84804B82"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1D01AD334C7C70F1"]
+			description: [
+				"¡Completa la misión mencionada a continuación para desbloquear esta misión repetible!"
+				""
+				"{ \"text\": \"Enemigos Ardientes\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D01AD334C7C70F1\" } }"
+			]
+			icon: "minecraft:blaze_powder"
+			id: "2EB52DD9E2CA42B7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6B943AAF55E07A27"
+				silent: true
+				title: "1500 Experiencia"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "19A3097222CE8608"
+					type: "kill"
+					value: 24L
+				}
+				{
+					entity: "realmrpg_wyrms:red_wyrm"
+					icon: "minecraft:blaze_powder"
+					id: "7B115CCAFCE6BF38"
+					type: "kill"
+					value: 12L
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["60A18C940B623CDA"]
+			description: [
+				"¡Completa la misión mencionada a continuación para desbloquear esta misión repetible!"
+				""
+				"{ \"text\": \"Bichos Espeluznantes\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B6034E8571F3AFA\" } }"
+			]
+			id: "6218543CC0A83C9B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 7500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6E8E96CA4284B88B"
+				silent: true
+				title: "7500 Experiencia"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "aquamirae:tortured_soul"
+				icon: {
+					Count: 1
+					id: "betterarcheology:soul_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5CC3966B4F7DD63E"
+				type: "kill"
+				value: 30L
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["61FABF4C4DB118C8"]
+			description: [
+				"¡Completa la misión mencionada a continuación para desbloquear esta misión repetible!"
+				""
+				"{ \"text\": \"Congelado en el Tiempo\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FABF4C4DB118C8\" } }"
+			]
+			id: "04DE011FEEFE6147"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7649A7E781D80ED1"
+				silent: true
+				title: "12500 Experiencia"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "blue_skies:armored_frost_spirit"
+				icon: {
+					Count: 1
+					id: "undergarden:froststeel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "544B1E0331B8E417"
+				type: "kill"
+				value: 30L
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B6034E8571F3AFA"]
+			description: [
+				"¡Completa la misión mencionada a continuación para desbloquear esta misión repetible!"
+				""
+				"{ \"text\": \"Congelado en el Tiempo\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FABF4C4DB118C8\" } }"
+			]
+			id: "42CC9D6AB01A1B7C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "20605B6EF6CD2F14"
+				silent: true
+				title: "12500 Experiencia"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "blue_skies:infested_swarmer"
+				icon: "botania:mycelium_seeds"
+				id: "758BF3FC1A3D5AFD"
+				type: "kill"
+				value: 30L
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["61FF2CADDF0013F6"]
+			description: [
+				"¡Completa la misión mencionada a continuación para desbloquear esta misión repetible!"
+				""
+				"{ \"text\": \"Desove de Dragón\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FF2CADDF0013F6\" } }"
+			]
+			id: "729ECF1D11EDF573"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 15500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "296696F69ECA5142"
+				silent: true
+				title: "15500 Experiencia"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "realmrpg_wyrms:ender_wyrm"
+				icon: "simplehats:dragonskullender"
+				id: "6E118349E188C606"
+				type: "kill"
+				value: 30L
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["69FD852AE0306BD2"]
+			description: [
+				"¡Completa la misión mencionada a continuación para desbloquear esta misión repetible!"
+				""
+				"{ \"text\": \"Sabían que Venías\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } }"
+			]
+			id: "5C5DEBCACA7C5721"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 17000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6D23E2486AAAC0FD"
+				silent: true
+				title: "17000 Experiencia"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				icon: "alexsmobs:farseer_arm"
+				id: "69EF6E41CE175CC5"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["783CA457464E8E3D"]
+			description: [
+				"¡Completa la misión mencionada a continuación para desbloquear esta misión repetible!"
+				""
+				"{ \"text\": \"Investigación\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"783CA457464E8E3D\" } }"
+			]
+			id: "5EB9C031A1270E3D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "57C29501D0B0F1B3"
+				silent: true
+				title: "250 Experiencia"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					icon: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "26EAFD4CED378BEA"
+					type: "kill"
+					value: 32L
+				}
+				{
+					entity: "minecraft:vindicator"
+					icon: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "70CEA0BE44C3CE94"
+					type: "kill"
+					value: 16L
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"¡Completa la misión mencionada a continuación para desbloquear esta misión repetible!"
+				""
+				"{ \"text\": \"Civilización del Pasado\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"775A13E1924D6C9A\" } }"
+			]
+			id: "5BCB23A74EC4AAA8"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 6000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6D4E0BA3D852CCB7"
+				silent: true
+				title: "6000 Experiencia"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "undergarden:forgotten"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "696978C4FE4BC1E0"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	title: "Repetibles"
+}

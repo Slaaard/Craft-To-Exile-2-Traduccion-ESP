@@ -1,0 +1,2363 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical_flora"
+	group: "5F2CCE8075FCC994"
+	icon: "botania:mana_pylon"
+	id: "00D02083FCA226DA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"La &eLexica Botania&r es un objeto muy útil y una guía que te ayudará a navegar por &2&lBotania&r&r. Si mantienes la Lexica en tu barra de acceso rápido, puedes pasar el cursor sobre cualquier objeto y mantener presionado &eCtrl&r para abrir un artículo sobre ese objeto en la Lexica Botania."
+				""
+				"Familiarizándote con Botania, podrás fabricar poderosos amuletos y objetos que te ayudarán en el combate y la automatización."
+				""
+				"&c&oTen en cuenta que algunas partes de Botania están deshabilitadas por razones de balance. La siguiente lista no es exhaustiva y solo cubre las eliminaciones más notables:&r&r"
+				"- Loonium"
+				"- Lentes de Perforación, Fuerza, Daño, Entropía, Peso, Encendido y Lanzapantalones"
+				"- Reliquias de Gaia (del Dado)"
+				"- Armadura y espada de Elementium"
+				"- Varias Varas"
+				""
+				"Hay muchas cosas útiles que no se mencionan aquí, ¡leer la &eLexica Botania&r periódicamente a medida que progresas es imprescindible!"
+			]
+			id: "375C5F3D6F6CE434"
+			rewards: [
+				{
+					count: 5
+					id: "3291161A23C92E22"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "70B7B4E51C690B9C"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "Un ideólogo lógico realista"
+			tasks: [{
+				id: "333E6715999C5638"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			title: "Las Escrituras de Botania"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["375C5F3D6F6CE434"]
+			description: [
+				"Las &eFlores Místicas&r son el inicio del progreso en Botania. La &eBolsa de Flores&r te ayudará a mantenerlas organizadas en un solo lugar."
+				""
+				"El &eFertilizante Floral&r se puede usar como polvo de hueso para obtener más fácilmente &eFlores Místicas&r."
+			]
+			id: "386F0541CCE9CA16"
+			rewards: [
+				{
+					id: "6E81C7A61DE06E7D"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4316A2F887A0A2FD"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "Cielo del Principio"
+			tasks: [
+				{
+					count: 16L
+					id: "21B15803AAC1AE3D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:mystical_flowers"
+						}
+					}
+					title: "Cualquier #botania:mystical_flowers"
+					type: "item"
+				}
+				{
+					id: "19A688423B1BB907"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			title: "Plantas mágicas"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["386F0541CCE9CA16"]
+			description: ["Puedes cultivar tus &eFlores Místicas&r en más flores colocando &ePétalos&r en el mundo y usando polvo de hueso sobre ellos."]
+			id: "7F9BDB18FBE5EDCF"
+			rewards: [
+				{
+					count: 4
+					id: "4F4E9BC44D0D2D31"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4A67BA0D6CB28907"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "58491A36F25EE617"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:double_mystical_flowers"
+					}
+				}
+				title: "Cualquier #botania:double_mystical_flowers"
+				type: "item"
+			}]
+			title: "Más plantas mágicas"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["386F0541CCE9CA16"]
+			description: ["El &eAltar de Pétalos&r es la 'estación' principal de Botania. Funciona como la mesa de crafteo para todas las &eFlores Funcionales y Generadoras&r."]
+			id: "7F4A3981CAAEF73B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6FB5B5E1ED6DE217"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "5E1529E6B524E776"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "62167E5B16566363"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F4A3981CAAEF73B"]
+			description: ["La &eDaisy Pura&r es la base de las flores: transforma &ePiedra y Troncos en Roca Viviente y Madera Viviente&r respectivamente."]
+			icon: "botania:pure_daisy"
+			id: "5886370AB6110B26"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "55F9B02BA217DC97"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Un vivace extático"
+			tasks: [
+				{
+					id: "15080337FAF41819"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0178EB0610FAAC3B"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4A10DC91A578B8F4"
+					item: { Count: 5, id: "botania:livingwood_log" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5886370AB6110B26"
+				"425932D1D16BF387"
+			]
+			description: [
+				"La &ePiscina de Maná&r es tu \"batería\" que almacena todo el maná que acumulas. Como almacenamiento principal, ¡es vital que pongas en marcha tu Piscina de Maná!"
+				""
+				"&eRequiere completar TODAS las dependencias.&r"
+			]
+			id: "626B63941D36E8C2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "180F4535CFA511ED"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Onda viva"
+			tasks: [{
+				id: "735046BC3125BB03"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			title: "¡Dame tu maná!"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5886370AB6110B26"
+				"425932D1D16BF387"
+			]
+			description: [
+				"El &eDispersor de Maná&r se usa principalmente para dirigir pulsos de maná hacia y desde las &ePiscinas de Maná&r. También es necesario para generar maná, ya que la flor generadora debe enviar su maná a un dispersor vinculado antes de que llegue a la piscina."
+				""
+				"Es importante notar que la distancia afecta drásticamente las tasas de transferencia de maná, un dispersor no puede disparar otro pulso hasta que el anterior haya aterrizado."
+				""
+				"&oTransfiere 160 de maná por pulso.&r"
+				""
+				"&eRequiere completar TODAS las dependencias.&r"
+			]
+			id: "144467B32903983B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "12E22C5A783337C6"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "0D6BDB6B4BAD5E2A"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			title: "Delegación Mana"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5886370AB6110B26"]
+			description: ["La &eVara del Bosque&r es tu herramienta de enlace y 'llave inglesa' que te ayudará a &evincular&r flores a &ePiscinas de Maná/Dispersores de Maná&r. Piensa en la vara como una herramienta que te permite conectar ciertos objetos de Botania, como la dirección del flujo de maná desde el Dispersor de Maná."]
+			id: "425932D1D16BF387"
+			rewards: [
+				{
+					id: "0BD216B7D41C5F33"
+					item: "simplehats:lightning_eyes"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "140F35FD322F6C29"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5130669687385326"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "La llave inglesa del bosque"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["626B63941D36E8C2"]
+			description: ["Al arrojar varios objetos en una &ePiscina de Maná&r llena, puedes transformarlos en variantes de maná que se usan en la mayoría de los crafteos."]
+			id: "7765E99AC13D3032"
+			rewards: [
+				{
+					count: 3
+					id: "0BC23B68BD5A183C"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1E110EC96B1DACA3"
+					item: "mmorpg:stone/2"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1FA7C3BF8B7EAFD5"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "2E963E280A3E2CB1"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1D5F7C90CA307282"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0094350D39F50F54"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			title: "Lingotes infundidos"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["144467B32903983B"]
+			description: [
+				"Para generar maná realmente, necesitarás &eFlores Generadoras&r como la &eEndoflama o la Hydroangea.&r"
+				""
+				"La Endoflama consumirá combustibles de horno como carbón o carbón vegetal para generar maná, mientras que la Hydroangea absorberá fuentes de agua cercanas en un área de 3x3 para proporcionar pequeñas cantidades de maná de forma pasiva. Sin embargo, la Hydroangea eventualmente se marchitará."
+			]
+			id: "757C990D0DCFE95B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "27BD5A116AD9354A"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "225794BF517EA186"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "10D95B7770A93DA2"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+			]
+			subtitle: "Magia floral"
+			tasks: [
+				{
+					id: "0D4CA0EF2C1317EE"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "7D590C6772A6E03F"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+			]
+			title: "Primera generación de flora"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["626B63941D36E8C2"]
+			description: ["Al sumergir hilos en una &ePiscina de Maná&r, puedes crear &eHilos de Maná&r. Estos hilos pueden usarse para varios objetos y adornos cosméticos."]
+			id: "35AF07FCCB27D2E0"
+			rewards: [
+				{
+					id: "02B27520FC0497E6"
+					item: "botania:cosmetic_eerie_mask"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "206DCA8214A88470"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "571E3F5AC93747AF"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			title: "Es hora de ponerse elegante"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35AF07FCCB27D2E0"]
+			description: ["Si combinas &eHilos de Maná&r en &eTela de Tejimana&r, podrás crear una buena armadura básica de Botania que reducirá significativamente el consumo de maná de todas las varas, armaduras y herramientas."]
+			id: "4E4F05F210F326B4"
+			rewards: [
+				{
+					id: "4257552173C28185"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "15C136EA1FB795A8"
+					item: "mmorpg:currency/affix_common_reroll"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "05F410CDAE0F5C2D"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "Bosque de la imaginación"
+			tasks: [
+				{
+					id: "2C9CEA1A0FD8BEAB"
+					item: {
+						Count: 1
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "701B90582985D13A"
+					item: {
+						Count: 1
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D9B02482FE23A66"
+					item: {
+						Count: 1
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28719367432D7C6B"
+					item: {
+						Count: 1
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ropa exterior elegante"
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7765E99AC13D3032"]
+			description: ["Al usar una &3&lTableta de Maná&r&r puedes almacenar y transferir maná. Usa la Vara del Bosque para cambiar la Piscina de Maná entre los modos de carga y drenaje; simplemente suelta la tableta en la piscina para transferir maná."]
+			icon: "botania:mana_tablet"
+			id: "21E565614968622B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1F23CBF2C75BD36A"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 4
+					id: "2474F9CA59F7A1CF"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D6C1714298883CF"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			title: "Maná portátil"
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"626B63941D36E8C2"
+				"144467B32903983B"
+				"425932D1D16BF387"
+			]
+			description: [
+				"Al dirigir maná hacia el &n&3&lAltar Rúnico&r&r&r y agregar algunos materiales de fabricación, puedes iniciar la creación de &eRunas de Botania&r (&c¡no confundir con las Runas de Mine and Slash!&r). Para finalizar el proceso de fabricación, debes arrojar una &eRoca Viviente&r sobre el altar y luego hacer clic en ella con la &eVara del Bosque&r. Las runas se usan en varios crafteos."
+				""
+				"&eRequiere completar TODAS las dependencias.&r"
+			]
+			icon: "botania:runic_altar"
+			id: "2CCB1CB299A81969"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5E7EBF27BF99F475"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "322FC2807B4D18EB"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":20,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Caramelos Drop Pop"
+			tasks: [
+				{
+					id: "524F696A444E116F"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "42953863EFF14F5C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:runes"
+						}
+					}
+					title: "Cualquier #botania:runas"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2CCB1CB299A81969"]
+			description: ["Las &eRunas Elementales&r son runas fundamentales que se pueden usar para crear runas más complejas y diversos objetos."]
+			id: "5AF488FC9A36BFA1"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3C14054033CDCB8D"
+					silent: true
+					title: "250 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "05C80CF5711B03FF"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":20,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Poder elemental"
+			tasks: [
+				{
+					id: "4598AB9722168777"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "7D656D186AB14893"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "5380286FB99B2511"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "219396CC4AF3607F"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "27EB134436733A24"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+			]
+			title: "Runas elementales"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5AF488FC9A36BFA1"]
+			description: ["La &ePlaca de Aglomeración&r se usa como estación de fabricación para la creación de &eTerrasteel&r."]
+			id: "4C947F0DD56C009C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "543340695C1E918F"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "43CD4827B0A8EBDA"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "76CDBDF4133C8D19"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "64D74FF0E04B05AA"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C8DE2D66937F802"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "369F738FC5EBEE08"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7E6A4FC09C14F5FF"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "59EB5E4FFE62E171"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4C947F0DD56C009C"]
+			description: [
+				"Al verter grandes cantidades de maná sobre recursos esenciales de maná, puedes combinarlos en lingotes más poderosos que el simple &eLingote de Manáacero&r. Se requiere la mitad de una Piscina de Maná para fabricar con éxito, asegúrate de que el proceso no sea interrumpido o el maná se perderá."
+				""
+				"Se recomienda encarecidamente colocar una Chispa tanto en la Placa como en la Piscina de Maná de origen para acelerar enormemente este proceso, ya que los dispersores son demasiado lentos para un procedimiento tan complejo."
+				""
+				"&eRequiere completar TODAS las dependencias.&r"
+			]
+			id: "29FF9EF35E5B5FC7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "19CC8E55BADA7FA6"
+				silent: true
+				title: "200 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Bailarina en la oscuridad"
+			tasks: [{
+				count: 4L
+				id: "73F5589E0579E511"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "Introducción a Terrasteel"
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["626B63941D36E8C2"]
+			description: ["Durante tus aventuras, ocasionalmente puedes encontrar un &eLoto Negro&r en cofres. Si arrojas el loto en una &ePiscina de Maná&r no vacía, ¡obtendrás algo de maná gratis!"]
+			id: "7CFDB0573735E69E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "70510941304702CA"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				count: 3L
+				id: "0F277CC6C3F60B56"
+				item: "botania:black_lotus"
+				type: "item"
+			}]
+			title: "¡¿Maná gratis?!"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7CFDB0573735E69E"]
+			description: ["A veces, tu suerte supera tus expectativas y encuentras una versión mejorada del &eLoto Negro&r..."]
+			id: "19C436D10269B068"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6B31AAE148A74E0B"
+					silent: true
+					title: "250 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "6CA94324ACAC5BAB"
+					item: "simplehats:antlers"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "2DD15EB4DA3AF53D"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			title: "Potencia Nueve al Cuadrado"
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: ["¡Corta un árbol entero de un solo golpe! Tiene un límite superior para evitar el lag en servidores."]
+			id: "644D7EB2D3F68FB1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "601ABD659AF2BC18"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "El sueño del leñador"
+			tasks: [{
+				id: "10862186EDEB87AF"
+				item: {
+					Count: 1
+					id: "botania:terra_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tree Feller"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: [
+				"El pico mejorable por excelencia, que consume solo... una pizca de tu maná para mejorarse, ¿verdad?"
+				"Para mejorarlo, simplemente sumérgelo en una Piscina de Maná con suficiente maná. Consume grandes cantidades de maná para avanzar a través de varias etapas y tamaños, comenzando con D (sin bonificación) hasta llegar a la increíblemente costosa &c&lSS&r&r, ¡un 9x9! Se necesitan más de 1,000 Piscinas de Maná llenas para mejorarlo completamente."
+			]
+			id: "3529E83325555E7A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "31373E602F46AAE7"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "20B1B345809D3BFB"
+					item: "simplehats:dwarfminerbeard"
+					type: "item"
+				}
+			]
+			subtitle: "Cosechar la Tierra"
+			tasks: [{
+				id: "54D79ECAD22B6004"
+				item: {
+					Count: 1
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El Terrashatterer"
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: [
+				"Al combinar varios bloques como se muestra en tu Lexica y agregar grandes cantidades de maná, puedes crear una conexión de portal con los &eComerciantes Élficos&r. Tal vez, una vez establecida la conexión, se interesen en tu &eLexica Botania&r..."
+				"{image:botania:block/alfheim_portal_swirl width:100 height:100 align:center}"
+			]
+			id: "5E33BF5591E1C097"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "69F464A7F336481B"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Llamada mundial"
+			tasks: [
+				{
+					id: "20FECEC54F5EDD1C"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5A4CD1AA62FA8F09"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:glimmering_livingwood_logs"
+						}
+					}
+					title: "Cualquier #botania:glimmering_livingwood_logs"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "23F93DCB22EF28BC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:livingwood_logs"
+						}
+					}
+					title: "Cualquier #botania:livingwood_logs"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "55980D74B6B040EF"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					id: "41A87859AB252B81"
+					item: {
+						Count: 1
+						id: "ftb_ph:exp"
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Comerciantes elfos"
+			x: -4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5E33BF5591E1C097"]
+			description: [
+				"Puedes invocar al &eGuardián de Gaia&r construyendo una arena especial como se muestra en la &eLexica Botania&r y arrojando &eLingotes de Terrasteel&r en el centro."
+				""
+				"&cEl Guardián de Gaia siempre aparece con un nivel mínimo de 45.&r"
+				""
+				"El Guardián de Gaia tiene:"
+				"&b+30% Probabilidad de Esquivar&r"
+				"&b+30% Probabilidad de Esquivar Hechizos&r"
+				"&b+100% Resistencia Elemental&r"
+			]
+			icon: "botania:life_essence"
+			id: "0F4713A9935F369F"
+			rewards: [
+				{
+					id: "46BBA0C2125307D3"
+					item: "simplehats:festiveantlers"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "502C82E8854716EB"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Muertos y buscados"
+			tasks: [
+				{
+					count: 4L
+					id: "38B6FD25DDFE6D7F"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "368DFD575236AE0A"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "23799D66DB46E6B5"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "594862AFB9DC64B6"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					entity: "botania:doppleganger"
+					icon: "botania:life_essence"
+					id: "4EB8C545D6989285"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El guardián de Gaia"
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0F4713A9935F369F"]
+			description: ["Si combinas &eLingotes de Terrasteel&r con &eEspíritus de Gaia&r, podrás crear un metal más resistente. Este nuevo metal, el &eLingote de Espíritu de Gaia&r, puede usarse para invocar una versión más fuerte del Guardián."]
+			id: "2AA870C10523482D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4F999D5876FBD2F7"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "6F980E5DA27FAEDF"
+					item: "simplehats:rainboworbiters"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EFF6FFE75FDC3BF"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "Gaia sobrecargada"
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7E4CDBDAE7BAD2C3"]
+			description: [
+				"Si detonas un bloque de TNT cerca de la &c&lEntropinnyum&r&r, absorberá la explosión y la convertirá en una gran cantidad de maná."
+				"Nota importante: si tiene maná almacenado en su reserva, ignorará cualquier otra explosión, permitiendo que ocurra con normalidad. ¡La sincronización es vital para evitar daños catastróficos! Vaciar esta flor lo más rápido posible es esencial... tal vez haya una forma de mejorar ese viejo dispersor de maná. Además, la flor parece detectar si el TNT fue obtenido de manera ética, aplicando una penalización severa si se obtuvo mediante una máquina de duplicación."
+				""
+				"La &c&lThermalilly&r&r es una alternativa del Nether a la Hydroangeas, que genera maná al consumir fuentes de lava. Tiene un tiempo de reutilización después de procesar la lava y, si colocas otra fuente de lava durante este tiempo, la absorberá y restablecerá el temporizador sin generar maná. Esta flor es difícil de automatizar debido a su tiempo de reutilización variable, ¡pero puede ser una poderosa fuente de maná!"
+			]
+			id: "622EF4EBE96C0429"
+			rewards: [
+				{
+					count: 8
+					id: "68CCA2D4D65DB8F8"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "589F49ED4647E9A7"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "60F4410FF8DE1DD7"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "35CCF62F68153164"
+					item: "botania:entropinnyum"
+					type: "item"
+				}
+				{
+					id: "0E76635EBE50BE78"
+					item: "botania:thermalily"
+					type: "item"
+				}
+			]
+			title: "Explosión madura"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["757C990D0DCFE95B"]
+			description: [
+				"La &2&lGourmaryllis&r&r es una flor hambrienta que consumirá cualquier alimento que reciba y lo convertirá en maná después de digerirlo. Cualquier alimento arrojado mientras aún está digiriendo no generará maná, pero igual será consumido. El tiempo de digestión y la cantidad de maná dependen directamente del valor nutricional del alimento. Esta flor prefiere variedad y aplicará una penalización si come el mismo alimento demasiadas veces seguidas."
+				"La &2&lKekimurus&r&r tiene un gran gusto por lo dulce, consumirá gradualmente cualquier pastel cercano y lo convertirá en maná."
+			]
+			id: "7E4CDBDAE7BAD2C3"
+			rewards: [
+				{
+					id: "1C9F4A8D4D9D3D12"
+					item: "aquaculturedelight:tuna_spaghetti"
+					type: "item"
+				}
+				{
+					id: "36BAD0A2B16E9E38"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3BB4113929999F8A"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "0A2528AE92227789"
+					item: "botania:gourmaryllis"
+					type: "item"
+				}
+				{
+					id: "5C80FE77C87274F7"
+					item: "botania:kekimurus"
+					type: "item"
+				}
+			]
+			title: "Sabroso manjar"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E4F05F210F326B4"]
+			description: ["Las armaduras y herramientas de Manáacero tienen un sistema de auto-reparación incorporado que las restaurará lentamente utilizando el maná de tu fuente portátil."]
+			id: "63FAC5EE546117E9"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "79CFBA772E1368A8"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2870F8664EA8B508"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Protección mágica"
+			tasks: [
+				{
+					id: "41E4BB72C3044925"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "551AC11BFF35B327"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AD40097E975DDB4"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E6F072C8BE033E9"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mana\"steal\""
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21E565614968622B"]
+			description: ["En lugar de llevar tabletas de maná, puedes convertirlas en anillos para equiparlas en tu ranura de curiosidades. ¡Estos accesorios incluso pueden tener aplicadas Almas de MNS!"]
+			id: "29792179C0F9C558"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6594D243FDD2E394"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Artes interiores"
+			tasks: [{
+				id: "3AC049EC332B237A"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2CCB1CB299A81969"]
+			description: ["La &eCervecería Botánica&r permite elaborar pociones de múltiples usos con efectos tanto de vainilla como exclusivos de Botania."]
+			id: "5501085B22C643F9"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4CEE80924C54A38B"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "6B8E3243D165C2ED"
+					item: "simplehats:zigzagwitchhat"
+					type: "item"
+				}
+			]
+			subtitle: "Mis pociones más fuertes"
+			tasks: [
+				{
+					id: "6161F6D45BD55F73"
+					item: "botania:brewery"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "577580DFA0C10900"
+					item: "botania:vial"
+					type: "item"
+				}
+			]
+			title: "¡Prepárame más!"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5501085B22C643F9"]
+			description: [
+				"¿Alguna vez has deseado un descanso de los mobs que te rodean? El &l&3Brebaje del Vacío de la Vanidad&r&r detendrá el aparecimiento natural de mobs en un radio de &n128 bloques&r a tu alrededor, convirtiéndote en una Megatorch portátil mientras dure el efecto."
+				""
+				"Y si, en cambio, deseas más sangre y te cuesta encontrar mobs... el &c&lBrebaje de la Sombra Carmesí&r&r te ayudará con eso en un radio de &n64 bloques&r mientras dure su efecto, convirtiéndote en una Luna de Sangre portátil."
+			]
+			id: "6C492D34CE6F404C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5663C62720C9A346"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Paz o caos"
+			tasks: [
+				{
+					id: "0EFEF6DB4CB9FAA6"
+					item: {
+						Count: 1
+						id: "botania:brew_vial"
+						tag: {
+							brewKey: "botania:emptiness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F2DE0D38EC44F9F"
+					item: {
+						Count: 1
+						id: "botania:brew_vial"
+						tag: {
+							brewKey: "botania:bloodthirst"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Elaboración de cerveza compleja"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["144467B32903983B"]
+			description: [
+				"Además de la flora generadora, también existen muchas variedades de &nFlora Funcional&r. Si les proporcionas maná, estas flores lo utilizarán para realizar diversas acciones."
+				"Las más comunes son:"
+				"&2&lHopperhock&r&r - recoge todos los objetos dentro de su radio y los deposita en un inventario cercano. Si se le suministra una pequeña cantidad de maná, su radio aumenta considerablemente. También puedes filtrar objetos usando marcos de objetos en los inventarios."
+				"&2&lAgricarnation&r&r - una flor fertilizante que acelerará el crecimiento de tus cultivos si recibe maná."
+				"&2&lExoflame&r&r - el opuesto de la Endoflame de la flora generadora. Si recibe maná, alimentará y acelerará los hornos cercanos sin necesidad de combustible."
+			]
+			id: "2A9C8DC76F5402B5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4B46D1460C6AFD85"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "63965FBF768F2F40"
+					item: "botania:hopperhock"
+					type: "item"
+				}
+				{
+					id: "20617DFE1C64B837"
+					item: "botania:agricarnation"
+					type: "item"
+				}
+				{
+					id: "726DE0CCAB76F1FC"
+					item: "botania:exoflame"
+					type: "item"
+				}
+			]
+			title: "Introducción a la flora funcional"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C84C6DC5D77E05D"]
+			description: [
+				"Un gran ejemplo de Flora Generadora son la &2&lOrechid&r&r y la &2&lOrechid Ignem&r&r."
+				"Ambas flores pueden transformar Piedra/Netherrack en una cantidad considerable de minerales específicos de la dimensión si reciben una gran cantidad de maná."
+				"&eNota importante: La Orechid Ignem necesita estar en el Nether para funcionar.&r"
+			]
+			id: "14960E1ACAB65A8A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4B65D23594342E6C"
+				silent: true
+				title: "200 Experiencia x Lv."
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "2DBE5470551AD1CC"
+					item: "botania:orechid"
+					type: "item"
+				}
+				{
+					id: "283AA0F503FB441F"
+					item: "botania:orechid_ignem"
+					type: "item"
+				}
+			]
+			title: "Generación de mineral"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2A9C8DC76F5402B5"]
+			description: [
+				"La &2&lSpectranthemum&r&r es una flor que teletransporta objetos a una ubicación vinculada a cambio de maná. Puedes vincular una ubicación específica usando la Vara del Bosque en modo de vinculación."
+				"La &2&lClayconia&r&r convierte rápidamente bloques de arena cercanos en bolas de arcilla."
+			]
+			id: "6C84C6DC5D77E05D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5AECFFDAD351684B"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "62FD3A289F8352ED"
+					item: "botania:spectranthemum"
+					type: "item"
+				}
+				{
+					id: "2033CC67E4F13CD2"
+					item: "botania:clayconia"
+					type: "item"
+				}
+			]
+			title: "Servicios naturales"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2A9C8DC76F5402B5"]
+			description: ["Hay una gran variedad de &eFlora Generadora&r que no está listada en este libro. Sería prudente revisar el capítulo correspondiente en la &eLexica Botania&r para descubrir otras opciones interesantes y poderosas."]
+			icon: "botania:narslimmus"
+			id: "0E605A9E8F7445AE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "72A51782A5F20458"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Curiosidades complejas"
+			tasks: [{
+				id: "716172C55EF47C42"
+				title: "Flora generacional avanzada"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6C492D34CE6F404C"]
+			description: ["Si utilizas un &ePalito de Incienso&r en lugar de un Vial en el proceso de elaboración, puedes imbuirlo con el mismo efecto que una poción. Al sacrificar la movilidad de un efecto de poción y colocar un &ePalito de Incienso&r en una &ePlaca de Incienso&r, encendiéndolo con un Pedernal y Acero, ¡el efecto durará 64 veces más!"]
+			id: "53845C1C87A44C3C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1A7B949E858E7836"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Baliza temporal personalizada"
+			tasks: [
+				{
+					id: "26C5AE6669DF73EE"
+					item: "botania:incense_plate"
+					type: "item"
+				}
+				{
+					id: "0BA67246C42BEA39"
+					item: "botania:incense_stick"
+					type: "item"
+				}
+			]
+			title: "Efectos del tabaquismo"
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5B980171D8F54AAC"]
+			description: ["Cuando se equipa y se le proporciona una pequeña cantidad de maná, la &l&2Banda del Viajero&r&r aumenta la altura del salto y la velocidad de movimiento, además de permitirte subir bloques de 1 de altura sin saltar."]
+			id: "2AC92077C2E11DEE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "56E5DC6F0C992AA6"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Artes interiores"
+			tasks: [{
+				id: "6B70CD8CB9D75CE1"
+				item: "botania:travel_belt"
+				type: "item"
+			}]
+			title: "¡Tienes que ir rápido!"
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0F4713A9935F369F"]
+			description: ["Versión mejorada de la Banda del Viajero que te hace aún más rápido."]
+			id: "3328931FE8E2792E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "783D8B1057916D55"
+				silent: true
+				title: "200 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Tengo que irme.&lrealmente&r ¡Rápido!"
+			tasks: [{
+				id: "58023219C8F85AF1"
+				item: "botania:super_travel_belt"
+				type: "item"
+			}]
+			title: "Zoom zoom zoom"
+			x: -2.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["21E565614968622B"]
+			description: [
+			"Puedes fabricar y equipar varios &e&nAdornos y Accesorios&r&r que te otorgarán diversos efectos útiles."
+			""
+			"Tu primer adorno debería ser el &2&lMonóculo Manaseer&r&r, que te permitirá ver los estallidos de maná incluso a través de las paredes. Sin embargo, su habilidad más útil es que visualiza el rango de efecto de la flora Generadora y Funcional."
+			""
+			"Otro adorno muy útil es &l&2El Espectador&r&r. Simplemente sostén un objeto deseado en la mano y cualquier contenedor cercano que lo contenga brillará."
+			""
+			"El &2&lTercer Ojo&r&r hará que los mobs cercanos tengan un contorno brillante que podrás ver incluso a través de las paredes."
+			]
+			id: "5B980171D8F54AAC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6C4757A8FFB7C5A9"
+				silent: true
+				title: "200 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Artes interiores"
+			tasks: [
+				{
+					id: "12BEDDA4F2B264F3"
+					item: "botania:monocle"
+					type: "item"
+				}
+				{
+					id: "35FA316E88FF49AC"
+					item: "botania:itemfinder"
+					type: "item"
+				}
+				{
+					id: "662B23A12D592BD5"
+					item: "botania:third_eye"
+					type: "item"
+				}
+			]
+			title: "Introducción a las baratijas"
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5B980171D8F54AAC"]
+			description: [
+			"El &2&lAmuleto de Cirrus&r&r te proporciona la habilidad de &e&ndoble salto&r&r. El segundo salto anula completamente el impulso vertical y, por lo tanto, todo el daño por caída."
+			""
+			"El &2&lAmuleto de la Diosa Benevolente&r&r evitará que las explosiones destruyan bloques, como si nunca hubieran ocurrido."
+			]
+			id: "15A416B2B899440A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "006AA537479C9A70"
+				silent: true
+				title: "200 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Artes interiores"
+			tasks: [
+				{
+					id: "1D11C480C4911605"
+					item: "botania:cloud_pendant"
+					type: "item"
+				}
+				{
+					id: "3DF3522DA66B29F2"
+					item: "botania:goddess_charm"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["15A416B2B899440A"]
+			description: [
+			"El &2&lAnillo del Manto&r&r otorga al portador el efecto de Prisa para minar con mayor eficiencia."
+			""
+			"El &2&lAnillo de Chordata&r&r permite respirar bajo el agua, además de mejorar la visión y la velocidad de minería en ese entorno."
+			]
+			id: "00367AAF028966BC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3D6378D70ACCBE7A"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Artes interiores"
+			tasks: [
+				{
+					id: "68EFA8D0F7CC6FC4"
+					item: "botania:mining_ring"
+					type: "item"
+				}
+				{
+					id: "1B70FF91DB7BD964"
+					item: "botania:water_ring"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5AF488FC9A36BFA1"]
+			description: [
+			"Al imbuir varas con runas elementales, puedes obtener resultados interesantes. Botania te ofrece muchas varas útiles, algunos de los mejores ejemplos son:"
+			"&2&lVara de los Cielos&r&r: te lanza alto en el cielo y puede usarse en lugar de cohetes junto con una Élitros o un Parapente para facilitar el vuelo;"
+			"&2&lVara de la Tierra&r&r: te proporciona tierra ilimitada siempre que tengas suficiente maná, facilitando la terraformación;"
+			"&2&lVara de las Profundidades&r&r: realiza la misma acción que la Vara de la Tierra, pero con adoquines, a un costo de maná ligeramente mayor."
+			"&2&lVara de los Mares&r&r: es un cubo de agua infinito que te proporciona agua siempre que tengas maná, especialmente útil al trabajar con un &eAltar Floral&r."
+			]
+			id: "52BB2147C93EAEDD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4DD2369F7B276F9C"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Herramientas elementales"
+			tasks: [
+				{
+					id: "675177DCE483E2DF"
+					item: {
+						Count: 1
+						id: "botania:tornado_rod"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "53F0B227D10E37D4"
+					item: "botania:dirt_rod"
+					type: "item"
+				}
+				{
+					id: "1929608B919D44D1"
+					item: "botania:cobble_rod"
+					type: "item"
+				}
+				{
+					id: "2589618EA6A5BA3C"
+					item: "botania:water_rod"
+					type: "item"
+				}
+			]
+			title: "Varillas elementales"
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5E33BF5591E1C097"]
+			description: [
+			"Al establecer rutas de &eIntercambio Élfico&r, has encontrado la manera de &emejorar tus Chispas con Aumentos&r."
+			"Los aumentos pueden aplicarse a las chispas que están sobre un estanque de maná."
+			"El &2&lAumento Dispersivo&r&r drenará maná del estanque y recargará lentamente los objetos en el inventario del aventurero."
+			"El &2&lAumento Dominante&r&r absorberá maná de todos los estanques con chispas cercanas para llenar su propio estanque."
+			"El &2&lAumento Recesivo&r&r dispersará el maná de su propio estanque a todas las demás chispas del sistema."
+			"El &2&lAumento de Aislamiento&r&r aislará completamente la chispa de los efectos de otros Aumentos."
+			""
+			"¡Usa cualquier combinación de estos &2&lAumentos&r&r para habilitar almacenamiento y transferencia masiva de maná!"
+			]
+			id: "0F137A63D6205437"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3D83621C90FDE899"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "442BD63FAC98AD99"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			subtitle: "Conducción en directo"
+			tasks: [
+				{
+					id: "4981A7B70DB3CE7E"
+					item: "botania:spark_upgrade_dispersive"
+					type: "item"
+				}
+				{
+					id: "1CD7DE3D236D8D3E"
+					item: "botania:spark_upgrade_dominant"
+					type: "item"
+				}
+				{
+					id: "7AD8AFB77F9F3C52"
+					item: "botania:spark_upgrade_recessive"
+					type: "item"
+				}
+				{
+					id: "088668D371DF0CCE"
+					item: "botania:spark_upgrade_isolated"
+					type: "item"
+				}
+			]
+			title: "Aumentos de chispa"
+			x: -5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0F4713A9935F369F"]
+			description: [
+			"Tras dominar el uso de los &eEspíritus de Gaia&r, has encontrado una forma de obtener vuelo Creativo temporal con un alto consumo de maná al usar la &2&lTiara de Flugel&r&r."
+			""
+			"La &2&lTiara de Flugel&r&r tiene una duración de 1 minuto con un tiempo de recarga de 2 minutos. También existen varias versiones de la Tiara con alas cosméticas diferentes."
+			]
+			id: "33A780B33D377C67"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1EFA6AF2AB7CBA63"
+				silent: true
+				title: "200 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Tirador de corazón"
+			tasks: [{
+				id: "2AB588B5037968FD"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Creo que puedo volar"
+			x: -1.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7765E99AC13D3032"]
+			description: ["Tras experimentar con los &eLingotes de Maná&r y una &eMesa de Crafteo&r, logras crear una versión portátil: el &2&lHalo de Ensamblaje&r&r."]
+			id: "39B5D2C538B15A8F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "210D8324EEAC377D"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "30B12BFE9B59B42F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "614CC397A1D5F1EE"
+				item: "botania:crafting_halo"
+				type: "item"
+			}]
+			title: "Artesanía portátil"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["386F0541CCE9CA16"]
+			description: ["Si colocas una &l&2Calabaza Vil&r&r &eencima de 2 &nBarras de Hierro&r como si fueras a construir un Gólem de Nieve&r, lograrás invocar un Blaze, pero debido a su forma debilitada, solo soltará &ePolvo de Blaze&r en lugar de Varas."]
+			id: "44C71BBCFFAB3A33"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0FC8CC5B5FED43E6"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "6B9E0A40EE22D4F9"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63C97B9736E32938"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3C6BF51592A3D0AE"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39B5D2C538B15A8F"]
+			description: [
+			"Con una pequeña mejora al &eHalo de Ensamblaje&r, logras crear una fábrica de crafteo portátil: el &l&2Halo de Manufactura&r&r."
+			"Si se configura correctamente, puede fabricar automáticamente los objetos especificados extrayendo los materiales de tu inventario."
+			]
+			id: "4303B37227E3BB77"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0DFA77AF7A346BDA"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "710EC11A06F82A2D"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "323D596DE69170C8"
+				item: "botania:auto_crafting_halo"
+				type: "item"
+			}]
+			title: "Fábrica portátil"
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0F4713A9935F369F"]
+			description: ["Después de juguetear con la energía del Fin, el Conocimiento Élfico y los espíritus de Gaia, consigues crear un espacio de bolsillo aparentemente infinito que puede contener 1 tipo de objeto -&l&2Talismán del Agujero Negro&r&ry puedes acceder a él mientras tengas maná."]
+			id: "33EF4CC9FE5B1ED4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "735D74249264D06E"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "En algún lugar para todo ese adoquín."
+			tasks: [{
+				id: "44A4E008202DFC62"
+				item: "botania:black_hole_talisman"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: ["El &l&2Espejo de Maná&r&r refleja la piscina a la que está vinculado, permitiéndole reemplazar tu &eAlmacenamiento Portátil de Maná&r al extraer maná directamente de una piscina enlazada. Incluso funciona cuando el fragmento está descargado, aunque la piscina no se rellenará hasta que regreses."]
+			id: "3ACE081643D7F60B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6A6FCC4CAB46BBE6"
+				silent: true
+				title: "200 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Reflejos en el agua"
+			tasks: [{
+				id: "608A781631CE984B"
+				item: "botania:mana_mirror"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: ["Al combinar tu &eBanda de Maná&r con la recién descubierta aleación &eTerrasteel&r, logras crear una &l&2Banda de Maná Superior&r&r que mejora la cantidad de maná que puedes llevar en un solo anillo, equivalente a dos piscinas enteras."]
+			id: "4EA7CD6212661856"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4F685B151AE21EA7"
+				silent: true
+				title: "200 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Mass Mana On The Go"
+			tasks: [{
+				id: "3A58E8C9A21ACB1C"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["35AF07FCCB27D2E0"]
+			description: ["&l&2Teru Teru Bozu&r&r es un pequeño ser con el poder de alterar las condiciones climáticas. Si sientes que te has empapado suficiente bajo la lluvia, solo dale un &egirasol&r para traer de vuelta un día soleado."]
+			id: "27127198811C49D0"
+			rewards: [
+				{
+					id: "27F162D2881B87D3"
+					item: "minecraft:sunflower"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7F439C04D1C7ECC0"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "79E5D02E5E6EF349"
+					item: "simplehats:raincloud"
+					type: "item"
+				}
+			]
+			subtitle: "¡Alabado sea el Sol!"
+			tasks: [{
+				id: "01F7CD3A3E7BEE30"
+				item: "botania:teru_teru_bozu"
+				type: "item"
+			}]
+			title: "Cuando el cielo es gris"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			description: ["El &eSistema Corpóreo&r consta de varios componentes que, cuando se combinan, permiten una transferencia de ítems bastante compleja. Este sistema es demasiado complicado para el alcance de este libro de misiones, por lo que te recomendamos estudiar las entradas en la &eLexica Botania&r."]
+			icon: "botania:corporea_spark_creative"
+			id: "1576B342D9197BD6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4E034DF7119888A1"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Transferencia de artículos"
+			tasks: [{
+				id: "701E468F93F2F03B"
+				title: "Sistema Corporea"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E33BF5591E1C097"]
+			description: [
+				"Los &eLuminizadores&r permiten un transporte rápido y divertido para jugadores. Simplemente coloca y enlaza dos dentro de su rango y haz clic derecho. ¡Incluso puedes transferir ítems y animales con ellos usando el &eLanzador de Luminizadores&r! También atraviesa bloques, así que cuida tu cabeza."
+				""
+				"Los &eLuminizadores Detector, Bifurcado y Conmutador&r permiten sistemas de transporte más avanzados e interesantes."
+			]
+			id: "2B77DB16F266880E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0995DAA000BAD7C1"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "4789C0E10A5DB97B"
+					item: "botania:light_relay"
+					type: "item"
+				}
+			]
+			subtitle: "Fin del Mundo Dancehall"
+			tasks: [{
+				count: 2L
+				id: "5C092F8FFAE39310"
+				item: "botania:light_relay"
+				type: "item"
+			}]
+			title: "Luminizador"
+			x: -4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["144467B32903983B"]
+			description: ["El &eBláster de Maná&r es un &eDispersor de Maná&r portátil que también puede aceptar &eLentes de Maná&r para modificar su comportamiento al disparar. La &eLente de Destello&r es particularmente útil como fuente de luz casi infinita, ¡incluso se puede teñir para cambiar el color de la luz resultante!"]
+			id: "621ABA886F06170A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3FC674038D61F647"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "M'aider Stranded Girl"
+			tasks: [
+				{
+					id: "72E05E0B0C9AC1E2"
+					item: {
+						Count: 1
+						id: "botania:mana_gun"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "17A49D147451C1FC"
+					item: "botania:lens_light"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2CCB1CB299A81969"]
+			description: ["El &eEncantador de Maná&r es una gran estructura multibloque que te permite aplicar encantamientos al equipo simplemente arrojando los libros encantados deseados junto a él y haciendo clic derecho con una &eVara del Bosque&r. Este proceso notablemente NO consume los libros. Sin embargo, consume una gran cantidad de maná de las piscinas cercanas a través de una chispa en el encantador. ¡Cuantos más encantamientos y niveles, más maná consume! Consulta la &eLexica Botania&r para ver una visualización de la estructura."]
+			icon: "botania:enchanter"
+			id: "72B3D8E498D1E1F1"
+			rewards: [{
+				auto: "enabled"
+				command: "100 Experience x Lv."
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2793AD7DEEFB84CC"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Encantar con maná"
+			tasks: [{
+				id: "732608E288086EA6"
+				title: "Encantador de maná"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["626B63941D36E8C2"]
+			description: ["El &eCatalizador de Alquimia&r, cuando se coloca bajo una &ePiscina de Maná&r, cambia el resultado cuando se arrojan objetos en ella, permitiéndote convertir diversos materiales. ¡Pedernal en pólvora, transmutar distintos tipos de madera y retoños, redstone en piedra luminosa!"]
+			id: "496BD9236D7C1D89"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "79CB48A21A0DA987"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "6A68F68AA68462F3"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["496BD9236D7C1D89"]
+			description: ["El &eCatalizador de Conjuración&r es una versión más avanzada del &eCatalizador de Alquimia&r que te permite consumir una gran cantidad de maná para duplicar ciertos objetos. ¡Cuarzo, redstone, piedra luminosa y carbón son los principales ejemplos! Ten en cuenta que duplicar carbón no te permitirá crear un bucle infinito de maná con endoflamas."]
+			id: "058D4013FD42AC1F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "46FB8436FC2C127A"
+					silent: true
+					title: "200 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "4AB029364AB0F305"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "78C28A22C9984874"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "21F3914F19CB7D53"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "329DFECAC62A6BF5"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06635DFAEC461A04"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E33BF5591E1C097"]
+			description: [
+				"El &eDispersor de Maná Élfico&r aumenta la cantidad de maná transferido por ráfaga en un 50% en comparación con el dispersor normal. ¡También incrementa significativamente la distancia que una ráfaga puede viajar antes de empezar a perder maná!"
+				""
+				"&oTransfiere 240 maná por ráfaga.&r"
+			]
+			id: "40A9BBD5C665B831"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "74D4D2CC9BB5A535"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "68BF910C52D83E81"
+					item: "botania:dreamwood_log"
+					type: "item"
+				}
+				{
+					id: "4A59BDB97F2522B8"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Esparcidores mejorados"
+			tasks: [{
+				id: "37856729D86ABFBB"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0F4713A9935F369F"]
+			description: [
+				"El &eDispersor de Maná de Gaia&r es el dispersor definitivo, con más del doble de la tasa de transferencia que su predecesor."
+				""
+				"&oTransfiere la asombrosa cantidad de 640 maná por ráfaga.&r"
+			]
+			id: "6A58CF9DF79B8269"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "692A7A30A070098D"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "7A08ABBFCDA48277"
+					item: "botania:cosmetic_botanist_emblem"
+					type: "item"
+				}
+			]
+			subtitle: "El esparcidor definitivo"
+			tasks: [{
+				id: "752DAA1E1B192724"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["144467B32903983B"]
+			description: ["Las &eLentes de Maná&r afectan el comportamiento de los dispersores de maná de varias maneras. La más útil es la &eLente de Potencia&r, que duplica la tasa de transferencia del dispersor al que está adjunta. También están la &eLente de Velocidad&r, que aumenta la velocidad de la ráfaga, la &eLente de Rebote&r, que hace que rebote en las paredes, e incluso la &eLente de Gravedad&r, que la hace afectada por la gravedad."]
+			id: "30243F276BE11AC3"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5462B9F9DD3A668C"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "74701E8D74F63D31"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+			]
+			subtitle: "Tasa de transferencia"
+			tasks: [{
+				id: "0A40C97CF59B559A"
+				item: "botania:lens_power"
+				type: "item"
+			}]
+			title: "Lentes separadoras"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["30243F276BE11AC3"]
+			description: ["Dos &eLentes de Maná&r diferentes pueden ser pegadas con un poco de slime para combinar sus efectos en una sola lente. ¡La combinación de &ePotencia&r y &eVelocidad&r es notable, ya que duplica el maná por ráfaga Y la hace volar más rápido!"]
+			icon: "botania:lens_firework"
+			id: "49644F197F1FDF73"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "14E614C4B7DAF869"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "5CDFFC578A03DCBC"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			subtitle: "Personalización definitiva"
+			tasks: [{
+				id: "0766EB2208BDC6D8"
+				title: "Lentes compuestas"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Los &eCargadores de Fragmento&r te permiten mantener áreas cargadas en todo momento. Esto es útil para ciertas actividades como la automatización, y los cultivos seguirán procesándose/creciendo incluso cuando no estés en el área."
+				""
+				"Hay 4 tipos diferentes de Cargadores de Fragmento:"
+				"&8Cargador de Fragmento Único&r - 1 Fragmento"
+				"Cargador de Fragmento Básico - 3x3 Fragmentos"
+				"&eCargador de Fragmento Avanzado&r - 5x5 Fragmentos"
+				"&bCargador de Fragmento Definitivo&r - 7x7 Fragmentos"
+				""
+				"&ePuedes ver el mapa de Cargadores de Fragmento con la tecla predeterminada: \"&cF8&r&e\".&r"
+			]
+			id: "63BF085EEE4B3689"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "073BACAAB8027196"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Carga de trozos"
+			tasks: [{
+				id: "3C7BB9EFD738D636"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+	]
+	title: "Flora Mágica"
+}

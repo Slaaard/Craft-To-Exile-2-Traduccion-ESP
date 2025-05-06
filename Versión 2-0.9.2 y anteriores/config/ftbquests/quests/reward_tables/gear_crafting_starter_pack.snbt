@@ -1,0 +1,24 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "mmorpg:stat_soul/family/jewelry/common"
+		tag: {
+			level: 1
+			tier: 0
+		}
+	}
+	id: "7A98FB9AEE02BBB2"
+	loot_size: 8
+	order_index: 37
+	rewards: [
+		{ count: 4, item: "mmorpg:material/mining/0" }
+		{ count: 16, item: "mmorpg:stone/0" }
+		{ count: 4, item: "lightmanscurrency:coin_copper" }
+		{ item: "minecraft:gold_ingot" }
+		{ item: "minecraft:iron_ingot" }
+		{ item: "minecraft:stick" }
+		{ item: "minecraft:string" }
+	]
+	title: "Kit de Inicio Para la Creación de Equipos"
+}

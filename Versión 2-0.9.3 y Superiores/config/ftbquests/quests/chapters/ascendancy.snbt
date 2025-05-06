@@ -1,0 +1,184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascendancy"
+	group: "1E3C4B5FFAE48A39"
+	icon: "blue_skies:soul_fragment"
+	id: "341A901B4933D0AC"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B57F45BE30AA5F2"]
+description: [
+				"Completa la misión del &eActo II&r mencionada en la tarea para ganar automáticamente el(los) Punto(s) de Ascendencia."
+				""
+				"&eEstos Puntos de Ascendencia se comparten entre tus personajes (consulta el menú de Personaje en el Hub).&r"
+				""
+				"&cSi las misiones se restablecen mediante \"Restablecer Misiones de la Campaña Principal\" en Recompensas (desbloqueado en el Acto IV), estas misiones permanecerán completadas.&r"
+			]
+			id: "17F9635AF7CDEA18"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				elevate_perms: true
+				icon: "ftb_ph:ascend"
+				id: "3FE6B8CF6B61EE20"
+				silent: true
+				title: "1 Punto de Ascendencia"
+				type: "command"
+			}]
+			subtitle: "Ascendencia de los novatos"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:book"
+				id: "1A4E5F840A029C7F"
+				stat: "minecraft:walk_one_cm"
+				title: "Completo: Defensores de los infiernos"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"17F9635AF7CDEA18"
+				"46DB9530C236A4AD"
+			]
+description: [
+				"Completa la misión del &eActo III&r mencionada en la tarea para ganar automáticamente el(los) Punto(s) de Ascendencia."
+				""
+				"&eEstos Puntos de Ascendencia se comparten entre tus personajes (consulta el menú de Personaje en el Hub).&r"
+				""
+				"&cSi las misiones se restablecen mediante \"Restablecer Misiones de la Campaña Principal\" en Recompensas (desbloqueado en el Acto IV), estas misiones permanecerán completadas.&r"
+			]
+			id: "7E712A56BE4C40B7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p ASCENDANCY 2"
+				elevate_perms: true
+				icon: "ftb_ph:ascend"
+				id: "52EC28D99FEEDDD8"
+				silent: true
+				title: "2 Puntos de Ascendencia"
+				type: "command"
+			}]
+			subtitle: "Cruel ascendencia"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Unknown"
+						generation: 3
+						pages: [
+								"{\"text\":\"Entrada #12\n\nAyer por la tarde, la capitana Cornelia descendió al fondo marino en busca de recursos adicionales. Hay rumores entre la tripulación de que el verdadero objetivo de su expedición es otro.\"}",
+								"{\"text\":\"Ha pasado más de un día desde la inmersión de la capitana. Ella llevaba el único traje de buceo que teníamos, así que no pudimos ayudarla de ninguna manera. Lo peor de todo es que tenía la llave maestra con ella. Mientras nuestras esperanzas de rescate disminuyen, la amenaza de una rebelión crece.\"}"
+							]
+						resolved: 1b
+						title: "Cuaderno de bitácora de Pillagers"
+					}
+				}
+				id: "5042FB25C4207F1B"
+				stat: "minecraft:walk_one_cm"
+				title: "Completo: Nadador resbaladizo"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7E712A56BE4C40B7"
+				"69FD852AE0306BD2"
+			]
+description: [
+				"Completa la misión del &eActo V&r mencionada en la tarea para ganar automáticamente el(los) Punto(s) de Ascendencia."
+				""
+				"&eEstos Puntos de Ascendencia se comparten entre tus personajes (consulta el menú de Personaje en el Hub).&r"
+				""
+				"&cSi las misiones se restablecen mediante \"Restablecer Misiones de la Campaña Principal\" en Recompensas (desbloqueado en el Acto IV), estas misiones permanecerán completadas.&r"
+			]
+			id: "05F71CA8CB6A9B71"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p ASCENDANCY 2"
+				elevate_perms: true
+				icon: "ftb_ph:ascend"
+				id: "34D7610A95635B7B"
+				silent: true
+				title: "2 Puntos de Ascendencia"
+				type: "command"
+			}]
+			subtitle: "Ascendencia despiadada"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "59D4B5D606051069"
+				stat: "minecraft:walk_one_cm"
+				title: "Completo: Sabían que venías"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07EBFDA1B8808DAF"
+				"005E75571665043C"
+				"56B2B51011037E61"
+				"6B2C722AC00A07C0"
+				"05F71CA8CB6A9B71"
+			]
+description: [
+				"Completa las &e4 Misiones del Epílogo&r mencionadas a continuación para ganar automáticamente el(los) Punto(s) de Ascendencia."
+				""
+				"&bLa Torre Helada&r"
+				"&cLas Profundidades Ardientes&r"
+				"&aLos Viñedos Extensos&r"
+				"&5La Fortaleza Galvánica&r"
+				""
+				"&eEstos Puntos de Ascendencia se comparten entre tus personajes (consulta el menú de Personaje en el Hub).&r"
+				""
+				"&cSi las misiones se restablecen mediante \"Restablecer Misiones de la Campaña Principal\" en Recompensas (desbloqueado en el Acto IV), estas misiones permanecerán completadas.&r"
+			]
+			id: "087DA043F088CC11"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p ASCENDANCY 2"
+				elevate_perms: true
+				icon: "ftb_ph:ascend"
+				id: "54F6B95B27F25CA8"
+				silent: true
+				title: "2 Puntos de Ascendencia"
+				type: "command"
+			}]
+			subtitle: "Ascendente"
+			tasks: [{
+				disable_toast: true
+				icon: "handcrafted:stackable_book"
+				id: "1BE3C1B048BD304B"
+				stat: "minecraft:walk_one_cm"
+				title: "Completo: Epílogo Jefes Elementales"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "Ascendencia"
+}

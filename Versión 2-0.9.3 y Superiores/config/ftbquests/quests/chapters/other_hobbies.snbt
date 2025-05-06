@@ -1,0 +1,1317 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "other_hobbies"
+	group: "37C10F4BE9E00A26"
+	icon: "minecraft:sniffer_egg"
+	id: "09DEC7C6D9BF9CAB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Los &eOlfateadores&r aparecen al eclosionar de &ehuevos de olfateador&r encontrados en &earena sospechosa&r de &errestos de océano cálido&r. Criar olfateadores con &esemillas de flor antorcha&r también hará que se coloque un huevo de olfateador como ítem. &eDetectan y desentierran semillas&r de varias plantas decorativas únicas en bloques de tierra, hierba y musgo. Cavan a través de bloques como &etierra y hierba&r."
+				""
+				"El olfateador &ealmacena las últimas 20 ubicaciones&r en las que ha cavado, por lo que no puede volver a excavar allí. Después de desenterrar semillas, se activa un &eenfriamiento de ocho minutos&r antes de que pueda volver a excavar."
+			]
+			id: "1D611B5828213E51"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5508F53BDD3E83AE"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtener un Huevo Sniffer"
+			tasks: [{
+				id: "090B2E583665D316"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			title: "Olfateadores"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D611B5828213E51"]
+			description: [
+				"Las &esemillas de flor antorcha&r pueden colocarse en tierra de cultivo, donde crecen en tres etapas. Romper el cultivo antes de que madure deja caer la semilla, mientras que romper la etapa final produce una flor antorcha pero no devuelve la semilla. Las flores antorcha no hacen nada especial, excepto &everse geniales&r."
+				""
+				"Las &eVainas de Jarro&r crecen en tres etapas como un cultivo de jarro. Tampoco hacen nada, excepto verse geniales."
+			]
+			id: "141FAE11D6180780"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1F1AAEF0168D5E6F"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenga uno de cada"
+			tasks: [
+				{
+					id: "4A1EC9F27C69F7C4"
+					item: "minecraft:torchflower_seeds"
+					type: "item"
+				}
+				{
+					id: "61297EA8B1558B06"
+					item: "minecraft:pitcher_pod"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["141FAE11D6180780"]
+			description: [
+				"&eMás Flores de Olfateador&r agrega más semillas y plantas que el olfateador puede desenterrar y que realmente tienen funciones."
+				""
+				"Las &eBayas del Alba&r dejan caer bayas comestibles cuando se cosechan."
+				""
+				"Las &eEmboscadas&r producen &eÁmbar&r, que deja caer un nuevo patrón de armadura, un patrón de estandarte y más."
+				""
+				"Las &eColiflores&r son plantas decorativas animadas."
+			]
+			id: "0D8B0AB8564ABCB9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6F86EA0055996E20"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenga uno de cada"
+			tasks: [
+				{
+					id: "1E3D39CF7477B26F"
+					item: "moresnifferflowers:dawnberry_vine_seeds"
+					type: "item"
+				}
+				{
+					id: "166A38FEFF8D254A"
+					item: "moresnifferflowers:ambush_seeds"
+					type: "item"
+				}
+				{
+					id: "01C9D119CCEDFA5C"
+					item: "moresnifferflowers:caulorflower"
+					type: "item"
+				}
+			]
+			title: "Más flores Sniffer"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DB047DAC7A392C3"]
+			description: [
+				"El &efósil de oveja&r se puede encontrar en algunos pequeños picos pedregosos. Se puede afinar y activar como un bloque de notas para reproducir sonidos de Cuerno de Cabra."
+				""
+				"El &efósil de ocelote&r se puede encontrar escondido en su cueva (quizás derrumbada) dentro de la jungla. Ahuyenta a los creepers al doble de la distancia que lo hacen los gatos (sin hacer sonidos molestos)."
+				""
+				"El &efósil de creeper&r se puede encontrar en una vieja cabaña de tierra explotada. Emite partículas de fuego y humo cuando se coloca."
+				""
+				"El &efósil de aldeano&r se puede encontrar en la tumba de una casa marginada y podrida. Puede sostener objetos como una vitrina y emitirá la luz del objeto que sostiene."
+				""
+				"El &efósil de gallina&r se puede encontrar debajo de árboles rodeados de pequeñas rocas. Otorga a los jugadores en un radio de 10 bloques el efecto de caída lenta."
+			]
+			id: "4687F41A2DC1F1F6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "498FD4941D060885"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenga uno de cada"
+			tasks: [
+				{
+					id: "6E1BBB79990C18E3"
+					item: "betterarcheology:creeper_fossil"
+					type: "item"
+				}
+				{
+					id: "787401578CD7901A"
+					item: "betterarcheology:villager_fossil"
+					type: "item"
+				}
+				{
+					id: "716587A0E389F3D4"
+					item: "betterarcheology:chicken_fossil"
+					type: "item"
+				}
+				{
+					id: "7ED41F714F1807FE"
+					item: "betterarcheology:ocelot_fossil"
+					type: "item"
+				}
+				{
+					id: "200F4A277C26812A"
+					item: "betterarcheology:sheep_fossil"
+					type: "item"
+				}
+			]
+			title: "Fósiles"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4687F41A2DC1F1F6"]
+			description: ["Los &eTótems&r se pueden encontrar en &eestructuras submarinas&r, así como en &eRuinas de Mesa&r."]
+			id: "6D81B1B54FCBAFA0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1AFBDF90391AE1C3"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenga uno de cada"
+			tasks: [
+				{
+					id: "5FE97D3DDBF7A7E1"
+					item: {
+						Count: 1
+						id: "betterarcheology:torrent_totem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BEF716754381262"
+					item: {
+						Count: 1
+						id: "betterarcheology:soul_totem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tótems"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&eMejor Arqueología&r introduce contenido a la arqueología. Los &eFósiles&r de varios mobs pueden encontrarse al &ecepillar Tierra Fosilífera&r, que se genera en áreas específicas. Cada área contiene un &etipo específico de fósil&r, por ejemplo, la Tierra Fosilífera cerca de pilares de piedra contiene fósiles de oveja."
+				""
+				"La &eMesa de Arqueología&r se usa para &eanalizar Artefactos No Identificados&r utilizando cualquier tipo de cepillo. Los &eArtefactos Identificados&r actúan como catalizadores para &eEncantamientos antiguos como los Libros Encantados&r. Aplícalos a tu equipo usando un Yunque."
+				""
+				"Los &eFragmentos de Artefacto&r pueden encontrarse al &eromper vasijas o cepillar arena sospechosa&r. Son fragmentos de conocimiento que pueden unirse para fabricar Artefactos No Identificados."
+				""
+				"&eIdentifica&r los Artefactos No Identificados con la &eMesa de Arqueología&r."
+			]
+			id: "3DB047DAC7A392C3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "60C206051579389D"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft uno de cada"
+			tasks: [
+				{
+					id: "1EE5F2F4EF889807"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+				{
+					id: "6BD72743811EF470"
+					item: {
+						Count: 1
+						id: "betterarcheology:iron_brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1563FEEE74FDE751"
+					item: "betterarcheology:unidentified_artifact"
+					type: "item"
+				}
+				{
+					id: "58FDCF2AD34CFDAF"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+			]
+			title: "Mejor arqueología"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D81B1B54FCBAFA0"]
+			id: "6EAAB84EB04E035A"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "27CC9951B28EB7D5"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "0C196B060E25D63C"
+					item: "simplehats:plaguedoctor"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [{
+				consume_items: true
+				id: "192947A1A4847203"
+				item: {
+					Count: 1
+					id: "betterarcheology:diamond_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Antropólogo antiguo"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6EAAB84EB04E035A"
+				"73612B81124DE424"
+				"7A0715E60A882B2A"
+				"635EB23DC67E9B2A"
+				"160A8E0EF74CCF7D"
+				"2F32A34764DD8F55"
+				"46CE10AA0F5E648A"
+			]
+			icon: "alexsmobs:mimicream"
+			id: "6DF33D1B5C76639B"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achieved The Multipotentialite !\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "5E89A5FC157054B3"
+					title: "Haga clic aquí para presumir"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "312CF3C2B8F795EF"
+					silent: true
+					title: "750 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "314DD321EC8CEA73"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "4D21ACABF78321AE"
+					item: "simplehats:baseballhatrgb"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Logros"
+			tasks: [{
+				id: "0BD9F8B671E38D86"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "La Multipotencialidad"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D8B0AB8564ABCB9"]
+			id: "73612B81124DE424"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "635FEB1219074A0C"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "4BEDE46D5EF456DC"
+					item: "simplehats:strawberry_hat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "6056263F619A0D1B"
+					item: "moresnifferflowers:amber_shard"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "0EF8A81697E4986F"
+					item: "moresnifferflowers:dawnberry"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "22EF97D933CA3A78"
+					item: {
+						Count: 1
+						id: "moresnifferflowers:dyespria"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Antiguo agricultor"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: ["Los &ePortales&r te permiten invocar oleadas de un cierto tipo de mob para combatir. Cada oleada debe ser eliminada dentro de un &elímite de tiempo&r, de lo contrario, el portal desaparecerá. Si completas todas las oleadas, aparecerá &eun montón de botines de mobs&r en la base del portal."]
+			id: "3E5A643A19ECF957"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "074EE398AB5748F8"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtener un Zombie Gateway"
+			tasks: [{
+				id: "007A339DDC0E287A"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/zombie"
+					}
+				}
+				type: "item"
+			}]
+			title: "Puertas de la eternidad"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E5A643A19ECF957"]
+			description: ["&ePuertas de enlace más grandes&r aumentan la cantidad de mobs por oleada, pero también la cantidad de drops."]
+			icon: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+			id: "5C89FB95B4B3B3C4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "284AE3D5303FF1E2"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Deafeat 5 Pasarelas"
+			tasks: [{
+				id: "32012537114311E4"
+				stat: "gateways:gates_defeated"
+				type: "stat"
+				value: 5
+			}]
+			title: "Cazador de dimensiones cruzadas"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C89FB95B4B3B3C4"]
+			description: ["&ePuertas de enlace grandes&r son el desafío definitivo y tienen límites de tiempo estrictos."]
+			icon: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
+			id: "19026C269C1E109C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2DB868FFA4D236E4"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Derrota a 10 puertas de enlace"
+			tasks: [{
+				id: "50B3081435E93654"
+				stat: "gateways:gates_defeated"
+				type: "stat"
+				value: 10
+			}]
+			title: "Portero dimensional"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19026C269C1E109C"]
+			id: "7A0715E60A882B2A"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "51050FA3A1AAB53D"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "6A4D29FCBB94E914"
+					item: "simplehats:headshot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [{
+				icon: "mmorpg:tp_back"
+				id: "37DCF8DC33EEBCEF"
+				stat: "gateways:gates_defeated"
+				type: "stat"
+				value: 25
+			}]
+			title: "Seguridad nacional"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "7BE88C3D7287D322"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "45FFD1EC176A50AA"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Muere una vez"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: ""
+					}
+				}
+				id: "713B2CECB8A88321"
+				stat: "minecraft:deaths"
+				title: "La única vez"
+				type: "stat"
+				value: 1
+			}]
+			title: "Bienvenido a Craft to Exile 2"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7BE88C3D7287D322"]
+			id: "36A9457DD4BA277F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7D5F07EE76519098"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Muere 25 veces"
+			tasks: [{
+				icon: "minecraft:skeleton_skull"
+				id: "0F35571D76091705"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 25
+			}]
+			title: "Esto es Craft to Exile 2"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36A9457DD4BA277F"]
+			id: "78AA28A9F76F7BCA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "66EE632F173355DE"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Muere 50 veces"
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "284110B216A15CE0"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 50
+			}]
+			title: "Bienvenido a Craft to Exile 2: Prepare to Mine Edition"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78AA28A9F76F7BCA"]
+			id: "635EB23DC67E9B2A"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "14F7CE2018D48BB2"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "6FF02EA9DAA490AA"
+					item: "simplehats:dorkglassesandteeth"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [{
+				icon: "minecraft:dragon_head"
+				id: "0D403D8B23E6D98D"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 100
+			}]
+			title: "Desafiado: Hueco"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "6EAC9D2D70106BDB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0812D567A416ACE0"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Mata a 100 mobs"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2593BC1835330321"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100
+			}]
+			title: "Calentamiento"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EAC9D2D70106BDB"]
+			id: "2C4C9137E512E59A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "49E4DE4BF1590E2A"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Mata a 500 mobs"
+			tasks: [{
+				id: "35DFB874EE92E276"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 500
+			}]
+			title: "Cazador de monstruos"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C4C9137E512E59A"]
+			id: "2AF6754ABC84000A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "486BE1CCDFE7813F"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Mata 1000 mobs"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2A6B409D14409A97"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000
+			}]
+			title: "Sediento de sangre"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AF6754ABC84000A"]
+			id: "160A8E0EF74CCF7D"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "27B87D0FCB706481"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "3C0E0794E437837E"
+					item: "simplehats:murdered"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "484B483D66088238"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 5000
+			}]
+			title: "Liquidador"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C91F7CC3D7675AF"]
+			id: "2F32A34764DD8F55"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "64800E1CE8CBF4E8"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "3C57DEEC8E181EEF"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "4EA8F31039FBF052"
+					item: "simplehats:vikinghatbeard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [
+				{
+					id: "05F0F5F68C77971D"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:admire_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0A5CD8FDD9467EA9"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:call_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3CF9939D151D89B1"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:feel_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53536DD5708BB6AD"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:ponder_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "10DF65E8ABEF6AAE"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:seek_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "47E75944263D8CA0"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:sing_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "44A816F82ADF838C"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:dream_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "44819B3C41EE3DE6"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:yearn_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Llamada de guerra"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			description: [
+			"Para &eencontrar&r monstruos para completar misiones o farmear mobs, presiona Y para abrir la &econfiguración del minimapa&r. &eHaz clic en el radar de entidades&r, luego haz clic en &ecategoría de entidad&r. Haz clic en &eVivo,&r luego en &e"Agregar Subcategoría"&r y ponle el nombre que quieras. Haz clic en esta &enueva subcategoría&r, haz clic en &econfiguración&r, y luego haz lo siguiente:"
+			""
+			"&eMostrar: &rACTIVADO"
+			"&eÍconos:&r SIEMPRE"
+			"&eNombres: &rSIEMPRE"
+			"&eTamaño del punto de entidad: &r3"
+			"&eEscala del ícono de entidad:&r 2.00"
+			"&eRenderizar sobre el marco del minimapa:&r Siempre"
+			""
+			"Luego, ve a la &eLista de Inclusión&r. En el cuadro &e"Agregar a la lista"&r, escribe el &enombre del mob&r que quieres y haz clic en el correcto, por ejemplo, escribe "spider" y luego haz clic en &e"minecraft:cave_spider"&r. Ahora, todos los mobs que hayas seleccionado aparecerán como un &eícono grande en tu minimapa y mapa&r."
+			""
+			"También en el Radar de Entidades, ve a la segunda página (presiona siguiente página) y cambia &eLímite de Altura de Entidad a 2050&r, lo que permitirá que el minimapa muestre mobs en &etodos los niveles de Y&r."
+			""
+			"Recuerda quitar el mob del radar cuando termines."
+			]
+			id: "24A1F71924383794"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1AF7E547098AFD59"
+				silent: true
+				title: "50 Experiencia x Lv."
+				type: "command"
+			}]
+			size: 1.0d
+			subtitle: "Leer y, a continuación, haga clic en la marca de verificación"
+			tasks: [{
+				id: "0EE61E427FF22F79"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Herramientas de caza: Radar de entidades"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24A1F71924383794"]
+			description: ["&eAlex's Mobs&r agrega numerosos mobs que pueden ser &edomesticados y cazados&r."]
+			id: "3C8E45CB8CEA634D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7E7040314627CB0C"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "El diccionario de animales"
+			tasks: [{
+				id: "50E1D666495F1533"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			title: "Herramientas de caza: Conocimientos"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C8E45CB8CEA634D"]
+			description: ["Hora de ver qué has &eaprendido.&r "]
+			icon: "kobolds:kobold_skull"
+			id: "0C91F7CC3D7675AF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "696E851FBF1B8E5D"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Mata a 16 de cada mafia"
+			tasks: [
+				{
+					entity: "minecraft:sheep"
+					id: "447CF12D24A59994"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "minecraft:pig"
+					id: "651923E28FE2A76C"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "minecraft:cow"
+					id: "0E383B6CFE120F7D"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "alexsmobs:raccoon"
+					id: "1414A17494EB126D"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "alexsmobs:fly"
+					id: "13A66BE4F4F86D6F"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "minecraft:goat"
+					id: "09DE7A4AB5930ECF"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "Herramientas del cazador: La prueba"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			description: [
+			"&eDoggy Talents Next&r te permite interactuar con tus perros, subirlos de nivel y cuidarlos. Puedes &ejugar a la mancha, traer objetos, localizar a tu perro, revivirlo y enseñarle talentos útiles&r."
+			""
+			"&eDomestica un lobo&r y luego usa un Snack de Entrenamiento en él. Haz clic derecho en el perro con un palo para abrir su menú. &eMás opciones&r se encuentran en la parte &einferior de la pantalla en la GUI&r."
+			""
+			"Coloca un &eCollar de Radio&r a tu perro y fabrica un &eLocalizador Canino&r para nunca perderlo. También puedes usar un &eHueso&r para colocar a tu perro sobre tu cabeza. El &eHueso Conductor&r puede teletransportar a tu perro desde cualquier parte del mundo hasta ti."
+			""
+			"&eModos de Comportamiento:&r"
+			""
+			"&eDócil:&r El perro te seguirá, pero no atacará."
+			""
+			"&eErrante:&r El perro permanecerá cerca de su cuenco de comida."
+			""
+			"&eAgresivo:&r El perro atacará a cualquier mob que te ataque o que tú ataques."
+			""
+			"&eBerserker:&r El perro atacará a cualquier mob cercano. La versión menor no atacará a Piglins ni Endermen."
+			""
+			"&ePatrulla:&r El perro patrullará la zona en busca de mobs."
+			""
+			"&eGuardia:&r El perro te seguirá de cerca y atacará mobs que se acerquen. La versión plana no atacará a Piglins ni Endermen. La versión menor no atacará, sino que gruñirá como advertencia."
+			""
+			"&eTáctico:&r El perro no atacará a menos que uses el silbato táctico en un mob."
+			]
+			id: "77DED163AD398568"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "01AE52CA844F06A8"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "6F31C5034D07BA5F"
+					item: "doggytalents:conducting_bone"
+					type: "item"
+				}
+			]
+			subtitle: "Craft uno de cada"
+			tasks: [
+				{
+					id: "66AF3B35CCDEFBFD"
+					item: "doggytalents:training_treat"
+					type: "item"
+				}
+				{
+					id: "52BACC7DAF80AAAD"
+					item: "doggytalents:radio_collar"
+					type: "item"
+				}
+				{
+					id: "2F6D6735B32311A9"
+					item: "doggytalents:canine_tracker"
+					type: "item"
+				}
+				{
+					id: "7FF051BCD8101C8D"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			title: "Talentos caninos Siguiente"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77DED163AD398568"]
+			description: [
+			"Necesitarás una &eCama para Perro, Bañera para Perro y Cuenco de Comida&r para cuidar a tu perro. &eVincula la Cama para Perro&r a tu perro haciendo &eclic derecho&r en la cama y luego en el perro, y el &eCuenco de Comida&r acercando al perro a 1 bloque de distancia. El perro comerá del cuenco cuando &etenga hambre&r si hay comida dentro."
+			""
+			"El &eSilbato&r es tu principal método para dar órdenes a tu perro. &eHaz clic derecho&r para usar el comando seleccionado y &eshift + clic derecho&r para cambiar el comando."
+			""
+			"Tu perro tiene &ehambre&r (el número del medio sobre su cabeza), que se drena al &ecurarse y usar talentos&r. Si llega a &e0&r, el perro comenzará a &emorir.&r"
+			""
+			"&eComandos del Silbato&r"
+			""
+			"&eDe pie/¿Ok?:&r Los perros se ponen de pie y se teletransportan hacia ti."
+			""
+			"&eTalón:&r Todos los perros de pie vienen hacia ti."
+			""
+			"&eQuédate:&r Todos los perros de pie se sientan."
+			""
+			"&eA la cama:&r Todos los perros regresan a su cama si tienen una."
+			""
+			"&eIr detrás:&r Todos los perros de pie se teletransportan detrás de ti."
+			""
+			"&eTáctico:&r Ordena a todos los perros en Modo Táctico que ataquen al objetivo al que apuntas con el silbato."
+			""
+			"&eAullar:&r Apunta a un perro y úsalo para que aulle."
+			""
+			"&eViaja conmigo:&r Apunta a un vehículo, como un bote, y el perro se subirá."
+			]
+			id: "1BAD2923BF4081F3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "58F716F857F5DB38"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft uno de cada"
+			tasks: [
+				{
+					id: "4343B7F7B6C39F6A"
+					item: {
+						Count: 1
+						id: "doggytalents:dog_bed"
+						tag: {
+							doggytalents: {
+								beddingId: "minecraft:green_wool"
+								casingId: "undergarden:grongle_wood"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FAACE0FD8AB481F"
+					item: "doggytalents:dog_bath"
+					type: "item"
+				}
+				{
+					id: "3CF3C341D681C9C7"
+					item: "doggytalents:food_bowl"
+					type: "item"
+				}
+				{
+					id: "1CC86BFECD4C5A97"
+					item: "doggytalents:whistle"
+					type: "item"
+				}
+			]
+			title: "Preparación del hogar"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BAD2923BF4081F3"]
+			description: [
+			"Cuando esté en &emodo Incapacitado&r, tu perro necesitará ser &etransportado a su cama&r y recibir &eVendajes&r para acelerar el proceso de curación. Su hambre se establecerá en 0 y se regenerará &egradualmente hasta 64&r. Cuando llegue a 64, el perro será &erevivido.&r Usa un &eHueso&r en el perro para recogerlo."
+			""
+			"Cualquier perro que &eno haya sido vinculado&r a una cama aún puede revivir en una cama sin reclamar usando un &eTótem de la Inmortalidad&r."
+			""
+			"Si se aplican suficientes &eVendajes&r, el perro podrá &ecaminar.&r Ten en cuenta que cualquier &edaño&r recibido restablecerá su hambre a 0 y eliminará los &eVendajes&r. Los perros &eno pueden teletransportarse cuando están incapacitados&r. &eLos Tótems de la Inmortalidad&r revivirán instantáneamente a todos los perros cercanos."
+			""
+			"Tu perro jugará &eal pilla-pilla&r si le lanzas una &eBola de Nieve&r. Usa un &ePalo Lanzador o Hueso Lanzador&r para jugar a traer objetos."
+			""
+			"El &eHueso Energizante&r da a tu perro pequeños &ebuffs&r, como &evelocidad,&r ideal para usarlo como &emontura.&r El &eHueso de Cría&r puede criar dos perros de diferente género."
+			""
+			"El &eHueso de Aumento&r hará que tu perro &eaumente de tamaño&r, mientras que el &eMazo Encogedor&r lo &eempequeñecerá&r hasta que sea un &ecachorro.&r"
+			]
+			id: "2DED343BD83179E3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2B6D36197CB197FB"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft uno de cada"
+			tasks: [
+				{
+					id: "2D51AC345728136C"
+					item: "doggytalents:bandaid"
+					type: "item"
+				}
+				{
+					id: "03B5C769ABCB7493"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "4562578B233BC7E7"
+					item: "doggytalents:throw_bone"
+					type: "item"
+				}
+				{
+					id: "01B4A736B0D59E5F"
+					item: "doggytalents:throw_stick"
+					type: "item"
+				}
+				{
+					id: "19B5F1FF1C92D59F"
+					item: "doggytalents:energizer_stick"
+					type: "item"
+				}
+				{
+					id: "03140B45FA5A0589"
+					item: "doggytalents:breeding_bone"
+					type: "item"
+				}
+				{
+					id: "739531F189E86361"
+					item: {
+						Count: 1
+						id: "doggytalents:shrinking_mallet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23F6B217DE329FC9"
+					item: {
+						Count: 1
+						id: "doggytalents:magnifying_bone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cuidados del perro"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2DED343BD83179E3"]
+			description: [
+			"Tu perro necesitará &egolosinas de mayor nivel&r para &esubir de nivel&r. Su nivel máximo es &e60.&r Esto &4NO&r es un sistema de niveles como en Mine and Slash."
+			""
+			"Tu perro puede ser &epersonalizado&r con &edisfraces, capas teñibles, collares, etc&r. Algunos incluso permitirán que el perro deje caer &ediscos de música especiales&r si mata a un mob mientras los lleva puestos."
+			]
+			id: "46CE10AA0F5E648A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "227CFC5C7EB9CBCA"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "7FC92D4FF998B4CA"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "79292EB52FA9BFB5"
+					item: "simplehats:longfoxears"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [
+				{
+					id: "1739E3CF4C2FEC23"
+					item: "doggytalents:super_treat"
+					type: "item"
+				}
+				{
+					id: "74BF6896DAE77C01"
+					item: "doggytalents:master_treat"
+					type: "item"
+				}
+				{
+					id: "24629A9B22F86228"
+					item: "doggytalents:kami_treat"
+					type: "item"
+				}
+			]
+			title: "Cinólogo"
+			x: 9.0d
+			y: -2.0d
+		}
+	]
+	title: "Otros Pasatiempos"
+}

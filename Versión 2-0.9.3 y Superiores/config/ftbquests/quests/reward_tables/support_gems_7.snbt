@@ -1,0 +1,48 @@
+{
+	id: "167DA6B456BCD60B"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"crit_dmg_less_non_crit_dmg\",\"type\":\"SUPPORT\",\"perc\":36,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte Ruina Confiada"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"gmp\",\"type\":\"SUPPORT\",\"perc\":35,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte Proyectiles Múltiples Mayores"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"spell_damage\",\"type\":\"SUPPORT\",\"perc\":28,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte Daño de Habilidad"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"cluster_traps\",\"type\":\"SUPPORT\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte Trampas de Racimo"
+		}
+	]
+	title: "Gemas de Soporte 7"
+}

@@ -1,0 +1,90 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.robertx22.mine_and_slash.gui.screens.spell.SpellSchoolScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1716913452738
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:a6c46a59-a2e7-40fc-b43f-cef75cb1e03e-1730431594571] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 0da1856d-b087-4432-b970-b8d370e09764-1716913452744
+  [executable_action_instance:2dfde643-06bc-4b1a-b391-be0e1bc6ba6b-1716913452744][action_type:opengui] = com.robertx22.mine_and_slash.gui.screens.character_screen.MainHubScreen
+  [executable_block:0da1856d-b087-4432-b970-b8d370e09764-1716913452744][type:generic] = [executables:2dfde643-06bc-4b1a-b391-be0e1bc6ba6b-1716913452744;]
+  backgroundnormal = [source:local]config/fancymenu/images/leftright.png
+  backgroundhovered = [source:local]config/fancymenu/images/leftright-hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = ae608564-1be9-4693-810a-0bd426f7b59e1694668977817
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -124
+  y = -141
+  width = 24
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = d5070dac-a339-4977-a252-eeba50196232-1716913452745
+  [loading_requirement_container_meta:d5070dac-a339-4977-a252-eeba50196232-1716913452745] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 7385c028-b9ed-4a70-b8a0-20c884b466c1-1716913452746
+  [executable_block:7385c028-b9ed-4a70-b8a0-20c884b466c1-1716913452746][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu/images/extra_info_button.png
+  backgroundhovered = [source:local]config/fancymenu/images/extra_info_button.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = Asigna puntos en este árbol de habilidades%n%para seleccionar tu clase.%n%Puedes tener hasta dos%n%clases seleccionadas, lo que%n%permite "dobles especializaciones".%n%%n%Los niveles más altos en una%n%habilidad aumentarán su%n%potencia y proporcionarán%n%más espacios para%n%&5Gemas de Apoyo&r.
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 1513280d-92e9-465b-a86c-25fad1051ca81694668977817
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 101
+  y = -141
+  width = 24
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 67aa70f8-9f07-486f-8e41-fb070a73d086-1716913452746
+  [loading_requirement_container_meta:67aa70f8-9f07-486f-8e41-fb070a73d086-1716913452746] = [groups:][instances:]
+}
+

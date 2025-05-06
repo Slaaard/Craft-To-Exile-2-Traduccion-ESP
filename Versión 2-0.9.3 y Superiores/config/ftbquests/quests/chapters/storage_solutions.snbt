@@ -1,0 +1,905 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: "5F2CCE8075FCC994"
+	icon: "minecraft:chest"
+	id: "732D5372C55E98C3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eRefined Storage&r es el mejor método para almacenar, filtrar y fabricar objetos en masa. Los dispositivos dentro de la red de almacenamiento manipulan tus objetos, los cuales se encuentran en Discos."
+				""
+				"El &eControlador&r es el núcleo de la red de almacenamiento. Todo el resto de Refined Storage debe conectarse a él estando cerca o mediante cables. Requiere &eEnergía de Forge&r para funcionar, la cual solo se puede obtener a través del &eMana Fluxfield de Botania&r."
+				""
+				"Esta línea de misiones no es exhaustiva. Consulta &eJEI&r para ver la lista completa de objetos y posibilidades dentro de Refined Storage."
+			]
+			id: "6390924916E0EF54"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5703DB65FB3ABDD3"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Almacenamiento refinado"
+			tasks: [{
+				id: "4B2ED6A485F2593C"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Arquetas interconectadas"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&eSophisticated Backpacks&r te permite hacer todo lo que desees con una mochila. Hay muchas mejoras, como autoalimentación, fabricación y fundición dentro de la mochila, además de llevar líquidos y experiencia en forma de fluido. Consulta JEI para ver la lista completa de mejoras."
+				""
+				"Cada nivel de mochila permite más ranuras de mejora y más espacio de inventario."
+				""
+				"&eMochila:&r 27 ranuras, 1 ranura de mejora"
+				""
+				"&eMochila de Hierro:&r 54 ranuras, 2 ranuras de mejora"
+				""
+				"&eMochila de Oro:&r 81 ranuras, 3 ranuras de mejora"
+				""
+				"&eMochila de Diamante:&r 108 ranuras, 5 ranuras de mejora"
+				""
+				"&eMochila de Netherite:&r 120 ranuras, 7 ranuras de mejora"
+			]
+			id: "309037CD749F2133"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0A7512AB8CD1DC80"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Mochilas sofisticadas"
+			tasks: [{
+				id: "5C2725F78F0E4006"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "En movimiento"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&eSophisticated Storage&r es el complemento de Sophisticated Backpacks. Los cofres y barriles pueden mejorarse de Hierro a Oro, Diamante y Netherite, aumentando la cantidad de ranuras de objetos y ranuras de mejora."
+				""
+				"Los cofres y barriles de Minecraft Vanilla pueden mejorarse a sus equivalentes de Sophisticated Storage usando la Mejora de Nivel Básica."
+				""
+				"&eCofre Normal:&r 27 ranuras, 1 ranura de mejora"
+				""
+				"&eCofre de Hierro:&r 54 ranuras, 2 ranuras de mejora"
+				""
+				"&eCofre de Oro:&r 81 ranuras, 3 ranuras de mejora"
+				""
+				"&eCofre de Diamante:&r 108 ranuras, 4 ranuras de mejora"
+				""
+				"&eCofre de Netherite:&r 120 ranuras, 5 ranuras de mejora"
+			]
+			id: "2DC978CB3CC53730"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "643E5E2551F6B2B5"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Almacenamiento sofisticado"
+			tasks: [
+				{
+					id: "0948893647A2EBC8"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "072BF8A427BD7398"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:iron_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gran capacidad de organización"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["309037CD749F2133"]
+			dependency_requirement: "one_started"
+			description: [
+				"&eLas Mejoras de Apilamiento&r son extremadamente importantes. Estas mejoras pueden acumularse entre sí si hay más de una dentro de una mochila."
+				""
+				"Por ejemplo:"
+				""
+				"&e1 Mejora de Apilamiento Nivel 4&r: 1024"
+				""
+				"&e2 Mejoras de Apilamiento Nivel 4:&r 16,384"
+				""
+				"&e3 Mejoras de Apilamiento Nivel 4:&r 262,144"
+				""
+				"&e4 Mejoras de Apilamiento Nivel 4: &r4,194,304"
+				""
+				"Multiplica el máximo anterior por 16 para obtener el siguiente máximo, hasta un total de 7 ranuras."
+			]
+			id: "0E17ABDC0AD61E23"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "02AE780F088113BE"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Mochilas sofisticadas"
+			tasks: [{
+				id: "2A98D58B86F8196D"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "Actualizaciones de la pila"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31D3B2B532AADE5B"]
+			id: "0430A5349F4B06A8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7798F68FE81EC7D9"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 5
+					id: "38130FD7A439B180"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "02E5D59D4BFE5460"
+					item: "simplehats:camerabeard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [
+				{
+					id: "71DA616E7AF70799"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:netherite_backpack"
+						tag: {
+							contentsUuid: [I;
+								-248892482
+								-1947645115
+								-1238068440
+								-1305121003
+							]
+							inventorySlots: 120
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+								]
+							}
+							upgradeSlots: 7
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "38BFA09795642909"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+			]
+			title: "Nómada"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["059B848E5374A860"]
+			description: ["&eLas Mejoras Avanzadas&r permiten un &efiltrado más preciso&r y un mayor control sobre el comportamiento de la mejora en la mochila. Por ejemplo, la mejora avanzada de recolección permite recoger objetos en una lista blanca, bloquear objetos en una lista negra o recoger objetos que ya están en la mochila."]
+			id: "31D3B2B532AADE5B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "35288E68A43A8D5E"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Mochilas sofisticadas"
+			tasks: [
+				{
+					id: "754607476FB2AE70"
+					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "75D45391DAC0B839"
+					item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+					type: "item"
+				}
+			]
+			title: "Actualizaciones avanzadas"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6390924916E0EF54"]
+			description: [
+				"El &eUnidad de Disco&r contiene &eDiscos&r, donde cada disco añade capacidad al inventario de la red. Los niveles más altos son más costosos y tardan más en fabricarse, pero pueden almacenar más objetos."
+				""
+				"El &ePanel&r es el método básico para interactuar con los objetos dentro de la red. Te permite &etomar o insertar objetos&r en la red. La Mesa de Trabajo del Panel es una mejora que permite fabricar usando todos los objetos dentro de la red. JEI puede extraer objetos del panel."
+				""
+				"&eEl almacenamiento de fluidos&r requiere versiones especializadas tanto del Panel como de la Unidad de Disco para almacenar líquidos dentro de la red."
+				""
+				"Cada bloque de Refined Storage tiene una prioridad que puedes configurar para determinar de dónde tomará o recibirá objetos primero la red."
+				""
+				"¡Un sistema de almacenamiento básico (&eControlador, Unidad de Disco y cualquier Panel&r) no consume energía para funcionar!"
+			]
+			id: "0BBF59F29BA6851E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7999735B9C4588BA"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Almacenamiento refinado"
+			tasks: [
+				{
+					id: "6B0223CDA914FC54"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "2B7765A169A2D050"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "1F1B445738E62077"
+					item: "refinedstorage:grid"
+					type: "item"
+				}
+				{
+					id: "265EE9FA99B4B2AC"
+					item: "refinedstorage:64k_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "6EFC8A82C99ABB40"
+					item: "refinedstorage:fluid_grid"
+					type: "item"
+				}
+				{
+					id: "18DA127DD1997096"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+			]
+			title: "Almacenamiento básico"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EF2C5B82615DD1B"]
+			description: [
+				"El &eMonitor de Almacenamiento&r te permite seleccionar un objeto de la red para mostrar cuántos quedan."
+				""
+				"El &ePanel de Patrones&r permite la autoconstrucción dentro de la red. Cada subobjeto dentro de una receta debe tener su propio patrón."
+				""
+				"El &eFabricador&r es donde se almacenarán los patrones y donde se llevará a cabo la fabricación."
+			]
+			id: "5F5B3C75910F8870"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "29386B5711B850B7"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Almacenamiento refinado"
+			tasks: [
+				{
+					id: "06B652F2C9EA0322"
+					item: "refinedstorage:storage_monitor"
+					type: "item"
+				}
+				{
+					id: "121B3364E98AC4FB"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					id: "62C84E7861D0E991"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+			]
+			title: "Almacenamiento avanzado"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F5B3C75910F8870"]
+			description: [
+				"Estos dispositivos te permiten &eacceder&r al inventario de una red desde &elejos&r."
+				""
+				"Simplemente fabrica un &eTransmisor de Red&r y conéctalo a tu sistema de Refined Storage en tu base principal."
+				""
+				"Después, fabrica una &eTarjeta de Red&r."
+				""
+				"Tras fabricar una Tarjeta de Red, fabrica un &eReceptor de Red&r y colócalo en un área alejada de tu base."
+				""
+				"Toma la Tarjeta de Red y &ehaz clic derecho&r sobre el Receptor de Red."
+				""
+				"Coloca la Tarjeta de Red en el Transmisor de Red para que este sepa a dónde &eenviar la señal&r."
+				""
+				"¡Y ya está! Simplemente &econecta máquinas&r a tu Receptor de Red siguiendo las reglas normales de conexión de máquinas."
+				""
+				"El Transmisor debe estar &ecargado en chunks&r antes de vincularse a la red."
+			]
+			id: "0EF218EB24BCC487"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4CE32B206F01E1BD"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 5
+					id: "10621BD641DAB9D6"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "2FF2FEA283ED6A28"
+					item: "simplehats:tvhead"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [
+				{
+					id: "61BC6B3C28C327BF"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+				{
+					id: "2E8BDBC699EB34D8"
+					item: "refinedstorage:network_card"
+					type: "item"
+				}
+				{
+					id: "15F235BE4FC02695"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+			]
+			title: "Tecnófilo"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BBF59F29BA6851E"]
+			description: [
+				"Si quieres extraer objetos &edel&r almacenamiento de la red, usa un &eExportador&r y conéctalo a un inventario al que quieras exportar."
+				""
+				"Si quieres insertar objetos &een&r la red de almacenamiento, usa un &eImportador&r y conéctalo a un inventario desde el que quieras importar."
+				""
+				"¿Quieres lo mejor de ambos mundos? Usa una &eInterfaz&r para obtener la funcionalidad de &eimportación y exportación&r en un solo bloque."
+				""
+				"Para &ecolocar&r bloques de tu red de almacenamiento en el mundo, usa un &eConstructor.&r"
+				""
+				"Para &edestruir e insertar bloques&r del mundo en tu almacenamiento, usa un &eDestructor.&r"
+				""
+				"El &eMana Fluxfield&r convierte Mana de Botania en FE para la manipulación de objetos en Refined Storage."
+				""
+				"Cada bloque puede tener filtros aplicados a él."
+			]
+			id: "6EF2C5B82615DD1B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5DE6A4583A76E4E5"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 8
+					id: "73E8823D7A15F046"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Almacenamiento refinado"
+			tasks: [
+				{
+					id: "16E23820542D9533"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+				{
+					id: "398A9D9D275E80A0"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "21E2D50800CDD38A"
+					item: "refinedstorage:interface"
+					type: "item"
+				}
+				{
+					id: "1BE8765B0D9CC098"
+					item: "botania:mana_fluxfield"
+					type: "item"
+				}
+			]
+			title: "Manipulación básica de objetos"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E17ABDC0AD61E23"]
+			description: ["Consulta &eJEI&r para ver la lista completa de mejoras."]
+			id: "059B848E5374A860"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7C40E770D3092D25"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Mochilas sofisticadas"
+			tasks: [
+				{
+					id: "27BA72C5B24C8F27"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "120B791ADFA28474"
+					item: "sophisticatedbackpacks:smelting_upgrade"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2DC978CB3CC53730"]
+			description: [
+				"&eLas Mejoras de Apilamiento&r son extremadamente importantes. Estas mejoras pueden acumularse entre sí si hay más de una dentro de un bloque de almacenamiento."
+				""
+				"Por ejemplo:"
+				""
+				"&e1 Mejora de Apilamiento Nivel 4:&r 1024"
+				""
+				"&e2 Mejoras de Apilamiento Nivel 4:&r 16,384"
+				""
+				"&e3 Mejoras de Apilamiento Nivel 4:&r 262,144"
+				""
+				"&e4 Mejoras de Apilamiento Nivel 4:&r 4,194,304"
+				""
+				"Multiplica el máximo anterior por 16 para obtener el siguiente máximo, hasta un total de 7 ranuras."
+				""
+				"Consulta JEI para ver la lista completa de mejoras."
+			]
+			id: "4F7406B2025F6706"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5B55E6903CC702C9"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Almacenamiento sofisticado"
+			tasks: [
+				{
+					id: "228AB62E3C290839"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "5FB218960F49B7F6"
+					item: "sophisticatedstorage:stack_upgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "2BF630B5597B7752"
+					item: "sophisticatedstorage:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "0808E2106FC244AA"
+					item: "sophisticatedstorage:smelting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Actualizaciones"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F7406B2025F6706"]
+			description: [
+				"&eLos Barriles Limitados&r funcionan como cajones, donde se pueden almacenar hasta &ecuatro tipos de objetos&r y tienen &elimites de apilamiento extremadamente altos&r de forma predeterminada. Los barriles están marcados por dos características: &eNivel&r y &eLímite de Objetos&r."
+				""
+				"&eNormal, Hierro, Oro, Diamante y Netherite&r son los niveles, los cuales determinan el límite de apilamiento."
+				""
+				"&eI, II, III, IIII&r representan el Límite de Objetos, es decir, cuántos tipos diferentes de objetos pueden almacenarse dentro, desde 1 hasta 4. Los barriles con un Límite de Objetos mayor tienen un límite máximo de apilamiento menor."
+				""
+				"Estos barriles también pueden mejorarse igual que el almacenamiento normal."
+			]
+			id: "4A3CBD5BF1BC9968"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2C33C7226B9351E6"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Almacenamiento sofisticado"
+			tasks: [
+				{
+					id: "2F214FD2DB7CB5F2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A1C80132C9846B9"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_iron_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41F08B55CAC4D8E2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "320AAAC1CA8E4CE9"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_iron_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cajones de barril"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A3CBD5BF1BC9968"]
+			description: [
+				"&eLos Controladores de Almacenamiento&r te permiten &eintegrar o extraer objetos&r con bloques de almacenamiento conectados. La prioridad se determina según qué bloques de almacenamiento fueron colocados en último lugar. Actualmente no tienen una interfaz gráfica."
+				""
+				"&eEl Enlace de Almacenamiento&r permite &econectar múltiples almacenamientos&r que no estén adjuntos al controlador ni a ningún bloque conectado a él."
+				""
+				"La &eHerramienta de Almacenamiento&r te permite &eenlazar, bloquear y alternar la visibilidad de bloqueos y conteos de objetos&r. Usa Shift + rueda del mouse para cambiar el modo. Para enlazar, haz clic derecho en el controlador para comenzar a vincularlo y luego haz clic derecho en los bloques de almacenamiento o enlaces de almacenamiento para conectarlos."
+				""
+				"&eLa Cinta de Empaque&r te permite &eempacar&r un bloque de almacenamiento y extraerlo como un bloque normal sin que los objetos caigan al suelo."
+			]
+			id: "4F8DAFD8E626D7A1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "236882E6AC66900C"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Almacenamiento sofisticado"
+			tasks: [
+				{
+					id: "2D33DC885082CA5F"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+				{
+					id: "4A4077F0D62EBD0E"
+					item: "sophisticatedstorage:storage_link"
+					type: "item"
+				}
+				{
+					id: "6E08CC3287BB9BD0"
+					item: "sophisticatedstorage:storage_tool"
+					type: "item"
+				}
+				{
+					id: "2AF686EDE54C3BA9"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F8DAFD8E626D7A1"]
+			description: ["¡Mantente organizado!"]
+			id: "629A6257109536AB"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2AFF0D9FFE57369A"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 5
+					id: "4B3FB70060B569CE"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "0115F4FB21EAD46B"
+					item: "simplehats:bucket"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [
+				{
+					id: "0765FE1E964931AB"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:netherite_barrel"
+						tag: {
+							accentColor: 16383998
+							mainColor: 16383998
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "414BDBE999CBB24B"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_netherite_barrel_4"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "427BAB062D0F0C24"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:netherite_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E35887EB7D7646F"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:netherite_shulker_box"
+						tag: {
+							accentColor: 16383998
+							mainColor: 16383998
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Demasiados cofres"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0430A5349F4B06A8"
+				"0EF218EB24BCC487"
+				"629A6257109536AB"
+			]
+			icon: "minecraft:ender_chest"
+			id: "6428AF7E62AC7FA9"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achived Professional Hoarder\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "4B4093F03AC14A41"
+					title: "Haga clic aquí para presumir"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6937B10EF0E96632"
+					silent: true
+					title: "750 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "4BC2120BF612C79C"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "42A93AE6423DC86D"
+					item: "simplehats:policebucket"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Logros"
+			tasks: [{
+				id: "7FAAD1441DAB60C3"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Acaparador profesional"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4A3CBD5BF1BC9968"
+				"6EF2C5B82615DD1B"
+			]
+			description: ["El &eAlmacenamiento Externo&r te permite vincular &eRefined Storage&r con bloques de almacenamiento externos, como los bloques de &eSophisticated Storage&r!"]
+			id: "4E4A3F37E8B476D5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "632F0EE8C983348E"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Almacenamiento refinado"
+			tasks: [{
+				id: "3A278D31677ADF0F"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			title: "Compatibilidad"
+			x: 1.25d
+			y: -3.75d
+		}
+	]
+	title: "Soluciones de Almacenamiento"
+}

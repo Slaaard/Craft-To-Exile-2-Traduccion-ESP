@@ -1,0 +1,38 @@
+{
+	id: "349B91E0F4315AA3"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_flat_dmg\",\"type\":\"SUPPORT\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño de Fuego Añadido"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"water_flat_dmg\",\"type\":\"SUPPORT\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño de Frío Plano"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_flat_dmg\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño de Rayo Plano"
+		}
+	]
+	title: "Gemas de Soporte Plano"
+}

@@ -1,0 +1,44 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:shield"
+		tag: {
+			Damage: 0
+			mmorpg_gear: "{\"baseStats\":{\"p\":81},\"imp\":{\"p\":34},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":17,\"id\":\"item_flat_armor\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":2,\"rs\":3,\"lvl\":1,\"gtype\":\"shield\",\"pot\":\"common\",\"pn\":100}"
+		}
+	}
+	id: "66B8806F322F10C1"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":81},\"imp\":{\"p\":34},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":17,\"id\":\"item_flat_armor\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":2,\"rs\":3,\"lvl\":1,\"gtype\":\"shield\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:offhand/tome/iron"
+				tag: {
+					mmorpg_gear: "{\"baseStats\":{\"p\":71},\"imp\":{\"p\":78},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":2,\"id\":\"item_perc_ms\",\"t\":1,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":5,\"rs\":1,\"lvl\":1,\"gtype\":\"tome\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:offhand/dodge/iron"
+				tag: {
+					mmorpg_gear: "{\"baseStats\":{\"p\":4},\"imp\":{\"p\":31},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":15,\"id\":\"item_both_dodge\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":3,\"rs\":4,\"lvl\":1,\"gtype\":\"totem\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+	]
+	title: "Primera Mano Secundaria"
+}

@@ -1,0 +1,1089 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decorations"
+	group: "5F2CCE8075FCC994"
+	icon: "handcrafted:bamboo_fancy_bed"
+	id: "08A3CE628804D7D6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Cada &eCampana de Viento&r produce diferentes sonidos ambientales según su material. También ahuyentan a los Fantasmas en un radio de 25 bloques."
+				""
+				"La &eCampana de Viento de Vidrio&r puede teñirse para crear un diseño personalizado. Lava el diseño haciendo clic derecho en un bloque de agua."
+				""
+				"Puedes &eatarlas/desatarlas&r agachándote y haciendo clic derecho en una Campana de Viento con la mano vacía para desactivar el efecto de ahuyentar Fantasmas."
+			]
+			id: "0E7863B918B4B195"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "05957DDC02A24CC9"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Campanadas"
+			tasks: [{
+				id: "3355405161F752F4"
+				item: "chimes:glass_bells"
+				type: "item"
+			}]
+			title: "El viento sopla"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&eLuces Nocturnas&r añade fuentes de luz decorativas que pueden encenderse y apagarse."
+			]
+			id: "31C042465B27EC87"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "28E649D855379875"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Luces nocturnas"
+			tasks: [
+				{
+					id: "77BD1CD948CBC5A5"
+					item: "nightlights:hanging_lights_default"
+					type: "item"
+				}
+				{
+					id: "1A360D0080ACEB31"
+					item: "nightlights:fairy_lights_default"
+					type: "item"
+				}
+			]
+			title: "Iluminación con estilo"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&eSupplementaries&r y &eSupplementaries Squared&r añaden numerosos bloques &edecorativos y funcionales&r que son fáciles de fabricar y usar."
+			]
+			id: "74E14D9A9F4799D4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "12CDA68D5F398808"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Suplementos"
+			tasks: [
+				{
+					id: "3D5A39806227B36B"
+					item: "supplementaries:flag_white"
+					type: "item"
+				}
+				{
+					id: "2417CC783542CB88"
+					item: "supplementaries:candle_holder"
+					type: "item"
+				}
+				{
+					id: "46B341261AC67D12"
+					item: "supplementaries:item_shelf"
+					type: "item"
+				}
+				{
+					id: "2552629E3C335847"
+					item: "supplementaries:wind_vane"
+					type: "item"
+				}
+				{
+					id: "0F14FADDFB78FF74"
+					item: "supplementaries:sconce"
+					type: "item"
+				}
+			]
+			title: "Diseñador de interiores"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&eHandcrafted&r añade muebles como &ecamas elegantes, mostradores y sillas.&r Estos son personalizables con &esábanas&r y &ealmohadas&r de distintos colores."
+				""
+				"El &eMartillo&r te permite cambiar la apariencia de los bloques en distintas formas, como cambiar el tipo de una escalera sin necesidad de quitarla y volver a colocarla."
+			]
+			id: "6A465BF497661001"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "45138A03C0BDB5AC"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Hecho a mano"
+			tasks: [
+				{
+					id: "7C737EF24A0DD366"
+					item: "handcrafted:white_cushion"
+					type: "item"
+				}
+				{
+					id: "31FE8C4D49C42EA5"
+					item: "handcrafted:white_sheet"
+					type: "item"
+				}
+				{
+					id: "4A94BB46A7D9D52C"
+					item: "handcrafted:hammer"
+					type: "item"
+				}
+			]
+			title: "Mobiliario especializado"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&eMacaw's Doors&r añade numerosas variaciones y estilos de puertas para fabricar."
+				""
+				"&eMacaw's Bridges&r añade puentes y variantes de puentes."
+				""
+				"&eMacaw's Lights and Lamps&r añade diversos tipos de lámparas y fuentes de luz."
+			]
+			id: "3C9F2AB674921503"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3F7E8E123A70AC50"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Decoración de guacamayos"
+			tasks: [
+				{
+					id: "6B06D8650053E266"
+					item: "mcwdoors:oak_barn_door"
+					type: "item"
+				}
+				{
+					id: "3BEA773995483823"
+					item: "mcwbridges:pliers"
+					type: "item"
+				}
+				{
+					id: "3C698BB503A1FAEC"
+					item: "mcwlights:lava_lamp"
+					type: "item"
+				}
+			]
+			title: "Construcción mejorada"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&eFloral Enchantment&r añade arbustos florales de los cuales puedes obtener &eenredaderas&r de cada flor. Las enredaderas florales se obtienen de &earbustos.&r También puedes conseguir &epiedra musgosa&r de cada flor para decorar. Además, añade algunos &eaccesorios&r y decoraciones con temática floral."
+			]
+			id: "32823645E2FE4F43"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4BD548221E47022A"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Encanto floral"
+			tasks: [{
+				id: "4F4158D32907A7C0"
+				item: "floralench:floral_basket"
+				type: "item"
+			}]
+			title: "Jardinero"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E71DC1D9E7A83BB"]
+			description: [
+				"&eChipped&r añade bancos de trabajo que te permiten crear variantes de bloques. ¡&eChipped es compatible con FramedBlocks!&r"
+				""
+				"El &eBanco de Alquimia&r te permite fabricar variantes de obsidiana, piedra luminosa, linternas marinas y arena de almas."
+				""
+				"El &eBanco del Botánico&r te permite fabricar variantes de bloques vegetales."
+				""
+				"La &eMesa del Carpintero&r te permite fabricar variantes de tablones y antorchas."
+				""
+				"El &eSoplador de Vidrio&r te permite fabricar variantes de bloques y paneles de vidrio."
+				""
+				"El &eTelar&r te permite fabricar variantes de bloques de lana y alfombras."
+				""
+				"La &eMesa del Albañil&r te permite fabricar variantes de bloques similares a la piedra."
+				""
+				"La &eMesa de Mecánica&r te permite fabricar variantes de lámparas de redstone, antorchas y linternas."
+			]
+			id: "3A66909746F7E06D"
+			rewards: [
+				{
+					id: "349B4A117F7BD340"
+					item: "simplehats:tinkerhat"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7BF0D4BE713CE528"
+					silent: true
+					title: "250 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			size: 1.25d
+			subtitle: "Astillado"
+			tasks: [
+				{
+					id: "4D48B532F654158B"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "5FD900BDF5AFACED"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "01B19695667C65A6"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "7B6D1A3CA7E94CF5"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "1B8FF702B10E8DA9"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "7E39A28EC72BC4C8"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "50DE9684F0DB3A91"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Astillado con opciones"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&eMCA: Reborn&r brinda una experiencia inmersiva a los jugadores. Algunas de sus características incluyen:"
+				""
+				"- ¡Adiós a los aldeanos calamar! Ahora son humanos e interactuables."
+				"- Hay muchas opciones de interacción con los aldeanos, como regalar objetos, conversar y más."
+				"- Puedes construir relaciones interactuando con los aldeanos, cada uno con su propia personalidad y estado de ánimo."
+				"- Una vez que tengas suficientes corazones, ¡puedes casarte con ellos!"
+				"- Después del matrimonio, puedes tener hijos que podrán realizar tareas como cultivar, talar árboles y más."
+				"- Tus hijos eventualmente crecerán y tendrán sus propias vidas."
+				"- Puedes casarte con otros jugadores en un servidor LAN o SMP."
+				"- Ayuda a expandir una aldea y aumenta tu rango hasta convertirte en rey."
+			]
+			id: "5DEC625AAF61ADAE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3BE249E997A6481F"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Minecraft cobra vida"
+			tasks: [{
+				id: "7DF2002BF8966859"
+				item: "mca:book_romance"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: [
+				"¿Alguna vez soñaste con ser un rey? ¡Puedes gestionar tu aldea y hacerla prosperar! Lee el libro para más información."
+			]
+			id: "57B5209F6744960D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5238432C6F96151E"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Gestión de pueblos"
+			tasks: [{
+				id: "1B52B998DACA2A94"
+				item: "mca:book_blueprint"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: [
+				"En MCA, puedes elegir tu apariencia, lo que determinará tu genética para futuros descendientes. Puedes usar el &ePeine&r y la &eAguja e Hilo,&r pero antes de hacerlo, puedes iniciar tu &eDestino.&r"
+				""
+				"Tu &eDestino&r te permitirá personalizar la apariencia de tu personaje - &c¡pero ten en cuenta que solo puedes hacerlo UNA VEZ por mundo!&r"
+				""
+				"Comando: /mca destiny"
+				""
+				"&b&oTen en cuenta que fabricar las pociones requiere cierta habilidad en la Profesión de Alquimia.&r&r"
+			]
+			id: "405A63031F2B3DD4"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "38CE3E0A09909566"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					command: "/mca destiny"
+					elevate_perms: true
+					icon: "mca:villager_editor"
+					id: "52498BF9583E22B2"
+					silent: true
+					title: "&eIniciar el personalizador de personajes de Destiny&r &c(UN SOLO USO)&r"
+					type: "command"
+				}
+			]
+			subtitle: "Destino"
+			tasks: [
+				{
+					id: "2A93B7DCCA9B2B66"
+					item: {
+						Count: 1
+						id: "mca:comb"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A1EFD950E5FEB6F"
+					item: {
+						Count: 1
+						id: "mca:needle_and_thread"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18B7CA6CFEC6E3A0"
+					item: "mca:potion_of_feminity"
+					type: "item"
+				}
+				{
+					id: "3D44930F8FDA61E0"
+					item: "mca:potion_of_masculinity"
+					type: "item"
+				}
+			]
+			title: "Grooming"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: [
+				"El &eOro Rosado&r se usa para fabricar objetos específicos de relaciones. ¡Lee el libro para descubrir más!"
+			]
+			id: "6B0990886F0D079E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4923C57810A678C4"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Relaciones"
+			tasks: [{
+				id: "5E26B808ED87038B"
+				item: "mca:book_rose_gold"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B0990886F0D079E"]
+			description: [
+				"¡Aprende a gestionar tu familia con esta nueva edición!"
+			]
+			id: "17AF31897E44E881"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1A9495733A04F89B"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Relaciones"
+			tasks: [{
+				id: "73C366ABDCFD9554"
+				item: "mca:book_family"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B0990886F0D079E"]
+			description: [
+				"Puedes fabricar &eOro Rosado&r usando &eOro en Bruto&r y &eCobre en Bruto.&r"
+			]
+			id: "5610D44E742948CC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "269A6DF9AC9FD22D"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Relaciones"
+			tasks: [{
+				id: "156DCFFEED6DD7D6"
+				item: "mca:rose_gold_dust"
+				type: "item"
+			}]
+			title: "Materiales caros"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			id: "7581AE7038A4357A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1D4D510D6BD7D1BF"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Relaciones"
+			tasks: [{
+				id: "7E892780F9050184"
+				item: "mca:bouquet"
+				type: "item"
+			}]
+			title: "Un regalo"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57B5209F6744960D"]
+			description: [
+				"¡Puedes ver la historia de la aldea con este libro!"
+			]
+			id: "3366932C88556127"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7E70154BB9F7355A"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Gestión de pueblos"
+			tasks: [{
+				id: "2D10ACB81E6A6877"
+				item: "mca:civil_registry"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57B5209F6744960D"]
+			description: [
+				"Usa el &ePlano&r en una aldea para gestionarla."
+			]
+			id: "6E074D0EF3EC5B70"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1A10F71B3BA1F601"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Gestión de pueblos"
+			tasks: [{
+				id: "0C15C2D4DB69840D"
+				item: "mca:blueprint"
+				type: "item"
+			}]
+			title: "Un plan de progreso"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57B5209F6744960D"]
+			description: [
+				"En casos raros, los aldeanos pueden infectarse, lo que podría resultar en su muerte. ¡Lee sobre las enfermedades y cómo curarlas para evitar que esto suceda!"
+			]
+			id: "6AEF98877F6AF6CA"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "24CC02F15B2D516B"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "037FB8A8F0CBF9EB"
+					item: "simplehats:doctorhat"
+					type: "item"
+				}
+			]
+			subtitle: "Gestión de pueblos"
+			tasks: [{
+				id: "1A7691EF79F81ED9"
+				item: "mca:book_infection"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AEF98877F6AF6CA"]
+			description: [
+				"A veces, nuestros aldeanos morirán (ya sea por accidente o intencionalmente...). Pero con MCA, ¡es posible devolverles la vida! Este tomo ilustra cómo puedes hacerlo. Pero prepárate, ya que requerirá que enfrentes a la muerte misma."
+			]
+			id: "009437C8BB7D9892"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "77C26525CBA1DE0C"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Gestión de pueblos"
+			tasks: [{
+				id: "07B0F92FC4E41DE3"
+				item: "mca:book_death"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5610D44E742948CC"]
+			description: [
+				"En MCA, puedes casarte con aldeanos o incluso con otros jugadores. Para casarte con un aldeano, primero debes proponerle matrimonio. ¡Esperemos que tu relación esté en buen estado y acepte!"
+				""
+				"Para casarte con otros jugadores, puedes usar el comando '/mca propose'."
+			]
+			id: "03DAE0F3497FF661"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0B8FCD61D3E2F9DE"
+					silent: true
+					title: "250 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "0230537D62321FCF"
+					item: "simplehats:milady_doll"
+					type: "item"
+				}
+			]
+			subtitle: "Relaciones"
+			tasks: [{
+				id: "2FE89D39632D7B42"
+				item: "mca:engagement_ring_rg"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["009437C8BB7D9892"]
+			description: [
+				"¡Derrota a la &eParca&r para devolver a la vida a tus aldeanos caídos!"
+				""
+				"&cLa Parca aparece a partir del nivel 30 como mínimo.&r"
+				""
+				"La Parca tiene:"
+				"&b+1% de Robo de Vida&r"
+				"&a10% de probabilidad de soltar una Runa Owd&r"
+			]
+			id: "564F958C07802B5B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6D63A4B38E0C681C"
+					silent: true
+					title: "500 Experiencia x Lv."
+					type: "command"
+				}
+				{
+					id: "1B2624ED552C3789"
+					item: "simplehats:bigbrain"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Gestión de pueblos"
+			tasks: [{
+				entity: "mca:grim_reaper"
+				icon: {
+					Count: 1
+					id: "mca:scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3C838778447C9753"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dar y tomar"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["564F958C07802B5B"]
+			description: [
+				"¡Puedes usar el &eBáculo de la Vida&r para revivir aldeanos muertos!"
+			]
+			id: "171F2819791E3C2F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "33C5158A421806ED"
+				silent: true
+				title: "250 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Gestión de pueblos"
+			tasks: [{
+				id: "7194C831C004317D"
+				item: {
+					Count: 1
+					id: "mca:staff_of_life"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Resurrección"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Con una Varita de Construcción puedes colocar múltiples bloques a la vez, extendiendo tu construcción en el lado al que estás mirando. Si eso no es suficiente, puedes mejorar tu varita con núcleos adicionales, permitiéndote colocar un bloque detrás del que estás mirando o incluso conjurar bloques en el aire."
+				""
+				"Cada varita viene con un Núcleo de Construcción. Puedes mejorar aún más tu varita agregándole núcleos adicionales. Para instalar un nuevo núcleo, colócalo junto con tu varita en una mesa de trabajo. Para cambiar entre núcleos, mantén presionada la tecla OPTKEY (CTRL) y haz clic izquierdo en el aire con tu varita. &cLas varitas de piedra no pueden mejorarse.&r"
+				""
+				"&eNúcleo de Construcción&r"
+				""
+				"Extiende tu construcción en el lado que estás mirando. El número máximo de bloques depende del nivel de la varita. Mantén presionada la tecla OPTKEY (CTRL) y usa la rueda del ratón para cambiar la restricción de colocación (Horizontal, Vertical, Norte/Sur, Este/Oeste, Sin bloqueo)."
+			]
+			id: "130759BFC47D58DE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1BE7D312966DC021"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Varillas de construcción"
+			tasks: [{
+				id: "6BD0E93EAF4C4C9E"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["130759BFC47D58DE"]
+			description: [
+				"Existen varitas básicas hechas de Piedra, Hierro y Diamante. Las varitas de niveles más altos son más poderosas y duran más tiempo."
+			]
+			id: "7DDC60601812FEA6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "300917AC34F03D82"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Varillas de construcción"
+			tasks: [{
+				id: "50DEC00FF30F8074"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DDC60601812FEA6"]
+			description: [
+				"&eNúcleo Angelical&r"
+				""
+				"Coloca un bloque en el lado opuesto del bloque (o fila de bloques) al que estás mirando. La distancia máxima depende del nivel de la varita. Haz clic derecho en el aire para colocar un bloque en el vacío (similar a los bloques angelicales, de ahí el nombre). Para hacerlo, debes tener el bloque que deseas colocar en tu mano secundaria. No puedes colocar un bloque en el vacío si has caído más de 10 bloques de profundidad (no es una herramienta de rescate fácil contra caídas al vacío)."
+			]
+			id: "13B7B1C35F13C86D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1B26FC45F4717F75"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Varillas de construcción"
+			tasks: [{
+				id: "72C3C6230D81D4E4"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DDC60601812FEA6"]
+			description: [
+				"&eRestricción&r: si la restricción está habilitada, la varita solo colocará bloques en una fila o columna (elige entre Norte/Sur, Este/Oeste en un plano horizontal y Horizontal, Vertical en un plano vertical). Si el bloqueo de dirección está desactivado, la varita extenderá toda la cara de la construcción a la que apunta. Esta opción no tiene efecto en el modo Angelical."
+				""
+				"&eDirección&r: si está configurado en \"Jugador\", la varita coloca los bloques en la misma dirección en la que los colocarías manualmente. El modo Objetivo coloca los bloques en la misma dirección que su bloque de soporte."
+				""
+				"&eReemplazo&r: habilita/deshabilita el reemplazo de bloques reemplazables (líquidos, nieve, hierba alta)."
+				""
+				"&eCoincidencia&r: selecciona qué bloques son extendidos por la varita. Si está en \"EXACTO\", solo extenderá bloques idénticos al seleccionado."
+				"\"SIMILAR\" tratará los bloques similares como iguales (por ejemplo, extenderá tierra y bloques de césped)."
+				"\"CUALQUIERA\" extenderá cualquier bloque en la cara de la construcción a la que estás mirando."
+				""
+				"&eAleatorio&r: si el modo aleatorio está activado, la varita coloca bloques aleatorios de tu barra de acceso rápido."
+			]
+			id: "619A04B3428907F1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2CD67EABBBECB4C4"
+				silent: true
+				title: "500 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Varillas de construcción"
+			tasks: [{
+				id: "52E3A18F1E4BE3F5"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&eFramedBlocks&r agrega bloques de diversas formas que pueden adoptar la apariencia de casi cualquier otro bloque del juego. Para hacerlo, primero debes fabricar un &eBloque Enmarcado&r básico."
+				""
+				"Fabrica una &eSierra de Enmarcado&r, que funciona como una Cortadora de Piedra pero para Bloques Enmarcados. Te permite gestionar fácilmente la forma que quieres para tu Bloque Enmarcado."
+			]
+			id: "03D703094F2DC94A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0370DBFA598A59EC"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "BloquesEnmarcados"
+			tasks: [{
+				id: "48E8FEFCED620C0A"
+				item: "framedblocks:framing_saw"
+				type: "item"
+			}]
+			title: "Primeros pasos con ¡Enmarcado!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03D703094F2DC94A"]
+			description: [
+				"Usando la &eSierra de Enmarcado&r, fabrica una &ePendiente Enmarcada.&r"
+			]
+			id: "7D4D72D4B936240C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6548E28FCD6DB0A3"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "BloquesEnmarcados"
+			tasks: [{
+				id: "62E342C0A2DED1C9"
+				item: "framedblocks:framed_slope"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D4D72D4B936240C"]
+			description: [
+				"La &eLlave Inglesa Enmarcada&r se usa para rotar un Bloque Enmarcado. En la mayoría de los bloques, el comportamiento de rotación depende de la cara en la que se haga clic."
+				""
+				"El &eMartillo Enmarcado&r te permite extraer bloques del marco y devolverlos a su estado predeterminado."
+				""
+				"El &eDestornillador Enmarcado&r se usa para alternar entre diferentes estados del bloque camuflado."
+				""
+				"La &eLlave Enmarcada&r permite bloquear ciertos Bloques Enmarcados en su forma actual para evitar actualizaciones por bloques vecinos. Esto permite colocar bloques en configuraciones que normalmente no serían posibles con los vecinos deseados (como colocar Escaleras Enmarcadas en forma de esquina sin necesidad de mantener los bloques adyacentes)."
+				""
+				"¡Hay otras herramientas de FramedBlocks disponibles, revísalas en &eJEI!&r"
+			]
+			id: "5E71DC1D9E7A83BB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "337D19FEE194795C"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "BloquesEnmarcados"
+			tasks: [
+				{
+					id: "2CD93E35DB4888B6"
+					item: "framedblocks:framed_wrench"
+					type: "item"
+				}
+				{
+					id: "26B02CB43C3D8E5E"
+					item: "framedblocks:framed_hammer"
+					type: "item"
+				}
+				{
+					id: "346E0C173E6BEB68"
+					item: "framedblocks:framed_screwdriver"
+					type: "item"
+				}
+				{
+					id: "72ECCC291DE1738D"
+					item: "framedblocks:framed_key"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D4D72D4B936240C"]
+			description: [
+				"Las &eRefuerzos Enmarcados&r permiten darle a cualquier Bloque Enmarcado en el que se inserten la dureza y propiedades de la &eObsidiana!&r"
+			]
+			id: "49ED3E0B2E317DF6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7D808B6752D831FC"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "BloquesEnmarcados"
+			tasks: [{
+				id: "63B204F32F396EF5"
+				item: "framedblocks:framed_reinforcement"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: [
+				"Si te has encontrado con una aldea vacía o simplemente quieres poblarla más mediante el poder del comercio, puedes acceder a un &eTerminal de Comercio&r para comprar huevos de aldeano."
+			]
+			id: "20AB86BF7E21FD3B"
+			rewards: [
+				{
+					count: 5
+					id: "4159A4D6D2EE46E3"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2A2C8679E7193891"
+					silent: true
+					title: "100 Experiencia x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "Terminal comercial"
+			tasks: [
+				{
+					id: "7590F368349C7E55"
+					item: "mca:male_villager_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "0C9856B277D7C90B"
+					item: "mca:female_villager_spawn_egg"
+					type: "item"
+				}
+			]
+			title: "Ciudad fantasma"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"La &eMega Antorcha&r es el sueño de todo constructor de bases, ya que evita la aparición de monstruos hostiles en un radio masivo de &964 bloques&r! Haz clic derecho con la mano vacía para mostrar su área de efecto exacta, mantén presionado Shift y haz clic derecho para ocultarla."
+			]
+			id: "25A4EFCBB5F8AC31"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6327B1498874B28B"
+				silent: true
+				title: "100 Experiencia x Lv."
+				type: "command"
+			}]
+			subtitle: "Se acabaron las sorpresas desagradables."
+			tasks: [{
+				id: "34E000AEDA4852D2"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "Ilumina el mundo"
+			x: 3.0d
+			y: -6.0d
+		}
+	]
+	title: "Hacienda"
+}

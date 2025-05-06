@@ -1,0 +1,1570 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iv_2"
+	group: "1E3C4B5FFAE48A39"
+	icon: {
+		Count: 1
+		id: "blue_skies:bluebright_spear"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0CEC2D7B2260686B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"09CFBF8766DA4706"
+				"30B56119C4EA7398"
+			]
+			description: [
+				"Tu siguiente tarea es investigar &eEl End&r y derrotar al &eDragón del End&r. Para llegar allí, encuentra una &eFortaleza&r, donde podrías hallar un &eMarco de Portal del End&r. Puedes activar el portal insertando &eOjos de End&r en el marco."
+				""
+				"&eRequiere que TODAS las dependencias estén completadas.&r"
+			]
+			id: "75454F0A3C4C3596"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 19000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4D18B65191DEAB27"
+				silent: true
+				title: "19000 Experiencia"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Búsqueda principal"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "20FC7F4ADCE826EB"
+				type: "advancement"
+			}]
+			title: "El End"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0998037F5701A2D7"]
+			description: [
+				"Has encontrado al Guardián del Portal... Está dispuesto a darte información, pero por un precio."
+				""
+				"Pudiste aprender de él (gratis) que conoce 2 dimensiones alternativas: el &eEverbright&r y el &eEverdawn&r. Según el Guardián del Portal, es posible acceder a estas dimensiones desde el Overworld."
+				""
+				"También parece que tiene algún tipo de &eencendedor a la venta&r. Aparentemente, es necesario para acceder a las dimensiones. Tal vez valga la pena comprarlo para ver qué pasa, pero necesitarás más información. Quizás &erebuscar en la casa&r pueda ser útil..."
+			]
+			id: "01B3ED0D457F7A7C"
+			rewards: [
+				{
+					count: 6
+					id: "72738BFF8A4EC51A"
+					item: "lightmanscurrency:coin_iron"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "16AD0ECACA8534A4"
+					silent: true
+					title: "10000 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda principal"
+			tasks: [{
+				id: "18AAB8BD2E919933"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "La Pasión por los Viajes se Enciende"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01B3ED0D457F7A7C"]
+			description: [
+				"&cSolo requiere completar 1 tarea.&r"
+				""
+				"En lugar de depender de los portales que aparecen en la &eCasa del Guardián del Portal&r, puedes fabricarlos tú mismo."
+				""
+				"¡Incluso puedes comprar los bloques en la &eTerminal de Comercio/Tablón de Trueque&r!"
+			]
+			id: "467EF949DCDD7863"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1C5BD6EBA4C93030"
+				silent: true
+				title: "12500 Experiencia"
+				type: "command"
+			}]
+			subtitle: "Portal determinista"
+			tasks: [
+				{
+					count: 10L
+					id: "11CAD902CC783BD8"
+					item: "blue_skies:lunar_stonebrick"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3A7BB8BB2C556636"
+					item: "blue_skies:turquoise_stonebrick"
+					type: "item"
+				}
+			]
+			title: "Portales deterministas"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: ["BRRrrr, hace mucho frío en esta dimensión... ¡Pero lo lograste! El &eEverbright&r es una dimensión de escarcha perpetua. Ahora sería un buen momento para consultar el &9Diario Azul&r..."]
+			id: "44D0530C2718FC69"
+			rewards: [
+				{
+					id: "6835CDD0FE491A5B"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":40,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de equipo raro (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "13C6B993CC7FEA59"
+					silent: true
+					title: "14500 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda principal"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "79AF45CD5E5AF2BC"
+				title: "Visita el Everbright"
+				type: "dimension"
+			}]
+			title: "El Everbright"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: ["¡Vaya, hace mucho calor y humedad en esta dimensión... Pero lo lograste! El &eEverdawn&r es una dimensión llena de mutaciones de criaturas y temperaturas extremas. Ahora sería un buen momento para consultar el &9Diario Azul&r..."]
+			id: "260297A19CCA9015"
+			rewards: [
+				{
+					id: "191758AAA5952A15"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":40,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de equipo raro (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1F5AACD729066105"
+					silent: true
+					title: "14500 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda principal"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "6B78A3B8F87B2FEC"
+				title: "Visita el Everdawn"
+				type: "dimension"
+			}]
+			title: "El Alba"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01B3ED0D457F7A7C"]
+			description: ["El Guardián del Portal también está dispuesto a regalar su &ediario&r. Se ve muy viejo y mohoso, pero según él, contiene mucha &einformación&r sobre las dimensiones."]
+			id: "10ABAF144ABC131E"
+			rewards: [
+				{
+					count: 3
+					id: "4E3CA8022FAD70C9"
+					item: "mmorpg:stone/3"
+					title: "Piedras épicas"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "03BD8073B19FA10A"
+					silent: true
+					title: "13500 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda principal"
+			tasks: [{
+				id: "4436206A9CCFCCC9"
+				item: "blue_skies:blue_journal"
+				type: "item"
+			}]
+			title: "Su guía personal de Blue Skies"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: [
+				"Para acceder a la &eMazmorra de la Naturaleza&r del Everbright, primero necesitarás encontrar la &eMazmorra Cegadora&r de la dimensión... Según el Guardián del Portal, podrás &eencontrar al Invocador&r en la Mazmorra Cegadora del Everbright."
+				""
+				"Ten cuidado con el Invocador, ya que lucha con ataques de rayos y energía, además de tener gólems para protegerse. Según el Guardián, el Invocador se vuelve &emás fuerte en presencia de más enemigos&r (jugadores)."
+				""
+				"Derrota al Invocador y podrás acceder a la Mazmorra de la Naturaleza."
+				""
+				"También puedes &evolver a invocar&r al Invocador usando el &eArco Etéreo&r obtenido de él sobre una &eLlave Cegadora (Everbright)&r."
+				""
+				"&cEl Invocador aparece a partir del nivel 45.&r"
+				""
+				"El Invocador tiene:"
+				"&b+50% Daño Físico convertido en Daño de Rayo&r"
+				"&a10% Probabilidad de soltar una Runa Bri&r"
+			]
+			icon: {
+				Count: 1
+				id: "mmorpg:weapon/staff/iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F455D8A504B112D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0CEFB91DE0714449"
+					silent: true
+					title: "20000 Experiencia"
+					type: "command"
+				}
+				{
+					id: "5D645D17422CCBDF"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/enderman"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda principal"
+			tasks: [
+				{
+					icon: "blue_skies:bright_blinding_keystone"
+					id: "055FC215AAF81A94"
+					structure: "blue_skies:everbright_blinding_dungeon"
+					title: "Encuentra una Mazmorra Cegadora (Everbright)"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:summoner"
+					icon: {
+						Count: 1
+						id: "mmorpg:weapon/staff/iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0CCF277C1EE31264"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Una nueva sede"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: [
+				"Para acceder a la &eMazmorra Envenenada&r del Everdawn, primero necesitarás encontrar la &eMazmorra Cegadora&r de la dimensión... Según el Guardián del Portal, podrás &eencontrar al Alquimista&r en la Mazmorra Cegadora del Everdawn."
+				""
+				"Ten cuidado con las pociones y construcciones físicas mientras luchas contra el Alquimista. Muchos de sus ataques están telegrafiados, pero si no prestas atención, podrías pagar un alto precio. Según el Guardián, el Alquimista se vuelve &emás fuerte en presencia de más enemigos&r (jugadores)."
+				""
+				"Derrota al Alquimista y podrás acceder a la Mazmorra Envenenada."
+				""
+				"También puedes &evolver a invocar&r al Alquimista usando el &eArco del Ocaso&r obtenido de él sobre una &eLlave Cegadora (Everdawn)&r."
+				""
+				"&cEl Alquimista aparece a partir del nivel 45.&r"
+				""
+				"El Alquimista tiene:"
+				"&b+50% Daño Físico convertido en Daño del Caos&r"
+				"&c+100% Daño recibido de Proyectiles&r"
+				"&a10% Probabilidad de soltar una Runa Daw&r"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:greater_potion_flask"
+				tag: { }
+			}
+			id: "63DA191A8533F1AE"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2B451560B8BFF45C"
+					silent: true
+					title: "20000 Experiencia"
+					type: "command"
+				}
+				{
+					id: "36DC7DA698607017"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/witch"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda principal"
+			tasks: [
+				{
+					icon: "blue_skies:dawn_blinding_keystone"
+					id: "117C1E4EBD07991B"
+					structure: "blue_skies:everdawn_blinding_dungeon"
+					title: "Encuentra una Mazmorra Cegadora (Everdawn)"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:alchemist"
+					icon: {
+						Count: 1
+						id: "twilightforest:greater_potion_flask"
+						tag: { }
+					}
+					id: "55846F2347E4D804"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Un nuevo laboratorio"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: [
+				"Has derrotado al Invocador y, en sus últimos momentos, te habla sobre la Mazmorra de la Naturaleza."
+				""
+				"La Mazmorra de la Naturaleza es un &emasivo laberinto verde&r de &e4 pisos&r. Cada piso contiene &e1 de las 4 llaves&r y una escalera que lleva al siguiente nivel."
+				""
+				"En la cima del piso encontrarás al &eTriturador Estelar&r. Este árbol de movimientos lentos puede dar golpes muy fuertes, pero podrías encontrar oportunidades para aturdirlo si usas una &olana&r. Según el Guardián del Portal, el Triturador Estelar se vuelve &emás fuerte en presencia de más enemigos&r (jugadores)."
+				""
+				"Si encuentras una Mazmorra de la Naturaleza que &eya ha sido despejada&r, puedes regresar con el &eGuardián del Portal&r y &ecomprar las llaves necesarias&r."
+				""
+				"También puedes &evolver a invocar&r al Triturador Estelar usando el &eArco de la Naturaleza&r obtenido de él sobre una &eLlave de la Naturaleza&r."
+				""
+				"&cEl Triturador Estelar aparece a partir del nivel 50.&r"
+				""
+				"El Triturador Estelar tiene:"
+				"&b+50% Daño Físico convertido en Daño de Rayo&r"
+				"&b+50% Probabilidad de Electrocución&r"
+				"&b+25% Probabilidad de Choque&r"
+				"&a25% Probabilidad de soltar una Runa Bri&r"
+			]
+			icon: "blue_skies:nature_key"
+			id: "30B56119C4EA7398"
+			rewards: [
+				{
+					id: "663B62B336DCAB4D"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de equipo raro (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "135D273C25E842F5"
+					silent: true
+					title: "25000 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "1A38E3424A25A4F8"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Búsqueda principal"
+			tasks: [
+				{
+					icon: "blue_skies:nature_key"
+					id: "522F544ED0AF2DF1"
+					structure: "blue_skies:nature_dungeon"
+					title: "Encuentra una Mazmorra de la Naturaleza"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:starlit_crusher"
+					icon: {
+						Count: 1
+						id: "blue_skies:starlit_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7AE9182E6A246E5E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Un desarraigo"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: [
+				"Has derrotado al Alquimista y, en sus últimos momentos, te habla sobre la Mazmorra Envenenada."
+				""
+				"La Mazmorra Envenenada es un &egran laberinto subterráneo&r de &e4 pisos&r. Cada piso contiene &e1 de las 4 llaves&r y una escalera que desciende al siguiente nivel. En la superficie, encontrarás un &egran árbol de arce hueco cubierto de telarañas&r."
+				""
+				"En las profundidades más bajas encontrarás a la &eArachnarca&r en su guarida. Este enemigo venenoso se lanza contra los objetivos y rocía veneno desde el techo, pero podrías encontrar oportunidades para aturdir a la araña si usas un &oescudo&r. Según el Guardián del Portal, la Arachnarca se vuelve &emás fuerte en presencia de más enemigos&r (jugadores)."
+				""
+				"Si encuentras una Mazmorra Envenenada que &eya ha sido despejada&r, puedes regresar con el &eGuardián del Portal&r y &ecomprar las llaves necesarias&r."
+				""
+				"También puedes &evolver a invocar&r a la Arachnarca usando el &eArco Venenoso&r obtenido de ella sobre una &eLlave del Veneno&r."
+				""
+				"&cLa Arachnarca aparece a partir del nivel 50.&r"
+				""
+				"La Arachnarca tiene:"
+				"&b+50% Daño Físico convertido en Daño del Caos&r"
+				"&b+33% Probabilidad de Envenenar&r"
+				"&a25% Probabilidad de soltar una Runa Daw&r"
+			]
+			icon: "blue_skies:poison_key"
+			id: "09CFBF8766DA4706"
+			rewards: [
+				{
+					id: "64F2BD6B14DAA4BD"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de equipo raro (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3376346B940F53CB"
+					silent: true
+					title: "25000 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "1161AA2AFCD41DBA"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Búsqueda principal"
+			tasks: [
+				{
+					icon: "blue_skies:poison_key"
+					id: "7A4081191F33BB95"
+					structure: "blue_skies:poison_dungeon"
+					title: "Encuentra una Mazmorra Envenenada"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:arachnarch"
+					icon: "aquamirae:anglers_fang"
+					id: "0EDF13A2831E8413"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Atrapado en una telaraña"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"260297A19CCA9015"
+				"44D0530C2718FC69"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+			"El Guardián mencionó que habría civilización en Everbright y Everdawn. Solo necesitas encontrarla."
+			""
+			"&eRequiere completar 1 dependencia.&r"
+		]
+			icon: "minecraft:campfire"
+			id: "5B4E23F4CD32950F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6122CD63934C4191"
+					table_id: 1620634734402786827L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "6DF34A2B450D376D"
+					item: "mmorpg:material/farming/2"
+					title: "Productos Empíreos"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "45C316F7912839EF"
+					silent: true
+					title: "18000 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Aldeas"
+			tasks: [
+				{
+					icon: "minecraft:soul_campfire"
+					id: "15376BBADD49A823"
+					structure: "blue_skies:village_brightlands"
+					title: "Encuentra una Aldea (Brightlands)"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:campfire"
+					id: "0C04E46B1BF636C0"
+					structure: "blue_skies:village_crystal_dunes"
+					title: "Encuentra una Aldea (Crystal Dunes)"
+					type: "structure"
+				}
+			]
+			title: "Campamento"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B4E23F4CD32950F"]
+			description: [
+			"Aparentemente, si encuentras un &eVigilante Nocturno&r, puede proporcionarte una &eBolsa de Botín&r que te permitirá &erobar a los aldeanos&r... Parece una actividad criminal que no les gustaría..."
+			""
+			"Eso es, si te atrapan."
+		]
+			id: "08D0C45FA283D50A"
+			rewards: [
+				{
+					id: "747892111AA9DE5D"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "3F2B997D92FBF0E8"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":40,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de runa común (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 19250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0AC5615867DF791F"
+					silent: true
+					title: "19250 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Aldeas"
+			tasks: [{
+				id: "39EE9E362FC12FBB"
+				item: "blue_skies:bag_of_spoils"
+				type: "item"
+			}]
+			title: "Carterista"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F455D8A504B112D"
+				"63DA191A8533F1AE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+			"Estas dimensiones parecen tener abundantes recursos naturales. Podría valer la pena recolectar algunos para fabricar cosas."
+			""
+			"&eRequiere completar 1 dependencia.&r"
+		]
+			id: "1E4735F6982A43ED"
+			rewards: [
+				{
+					id: "5245C2D702472E51"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":40,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de gemas comunes (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "12683C844A99C4C0"
+					silent: true
+					title: "17000 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "MINE y Slash"
+			tasks: [
+				{
+					count: 16L
+					id: "0D98593995337F43"
+					item: "blue_skies:pyrope_gem"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1DBB927107811622"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "209A546373165BD4"
+					item: "blue_skies:diopside_gem"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "512F2C3EB9850B9A"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
+			]
+			title: "Recuerda mis palabras..."
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E4735F6982A43ED"]
+			description: ["Según el &9Libro Azul&r, la &5Falsita&r se encuentra en el &eEverbright&r y posee una &epropiedad fortalecedora&r. El &6Horizonite&r se encuentra en el &eEverdawn&r y contiene una &egran cantidad de calor&r."]
+			id: "1FC3745ADFF992F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "405DBCD14DC27672"
+					table_id: 6715256251723704267L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "05E99D1E12995F08"
+					silent: true
+					title: "20000 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "2C1C7C596F1EF10F"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			subtitle: "MINE y Slash"
+			tasks: [
+				{
+					count: 4L
+					id: "6CA7D8E2785CCC34"
+					item: "blue_skies:falsite_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "765E2AC8712160F0"
+					item: "blue_skies:horizonite_ingot"
+					type: "item"
+				}
+			]
+			title: "Se avecinan problemas"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: [
+			"Has notado palos con diferentes propiedades mientras explorabas en Everbright. Tal vez sea posible usarlos para fabricar lanzas."
+			""
+			"Podría ser una buena idea consultar el &9Diario Azul&r para conocer los distintos tipos de palos. Estoy seguro de que el Guardián también lo ha notado."
+		]
+			id: "74FCB46359C566CA"
+			rewards: [
+				{
+					count: 4
+					id: "02D0D9F28BBFB03A"
+					item: "mmorpg:material/mining/2"
+					title: "Minerales Empíreos"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3AB0CC5DDBEF85A8"
+					silent: true
+					title: "13000 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Exploración Ever"
+			tasks: [{
+				id: "49FFE6F489219E0E"
+				item: {
+					Count: 1
+					id: "blue_skies:bluebright_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Lanzas y palos"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: [
+			"Has notado palos con diferentes propiedades mientras explorabas en Everdawn. Tal vez sea posible usarlos para fabricar lanzas."
+			""
+			"Podría ser una buena idea consultar el &9Diario Azul&r para conocer los distintos tipos de palos. Estoy seguro de que el Guardián también lo ha notado."
+		]
+			id: "07B675A69ECAD9D0"
+			rewards: [
+				{
+					count: 4
+					id: "217FA3CB78CE7CDD"
+					item: "mmorpg:material/mining/2"
+					title: "Minerales Empíreos"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5AE408B538326E95"
+					silent: true
+					title: "13000 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Exploración Ever"
+			tasks: [{
+				id: "42B8F5AE130930FB"
+				item: {
+					Count: 1
+					id: "blue_skies:lunar_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Palos y lanzas"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: [
+			"El Everbright parece estar habitado por muchas criaturas extrañas. No puedes decir si son mutaciones o simplemente inusuales por naturaleza."
+			""
+			"Las criaturas aquí parecen estar cubiertas de hielo..."
+			""
+			"&o&7¡Completar esta misión desbloquea una misión repetible en el capítulo de Misiones Repetibles!&r&r"
+		]
+			icon: "blue_skies:frose"
+			id: "61FABF4C4DB118C8"
+			rewards: [
+				{
+					count: 4
+					id: "1B63036807317E5D"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/5"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Pociones de restauración míticas"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "59D7A4D19D910329"
+					silent: true
+					title: "15500 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "305B94587B94BCCD"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			subtitle: "Exploración Ever"
+			tasks: [
+				{
+					entity: "blue_skies:armored_frost_spirit"
+					icon: {
+						Count: 1
+						id: "undergarden:froststeel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "46FBFA9B9E2C3F30"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:crynocerous"
+					icon: "simplehats:unicornhorn"
+					id: "17317C9793765AA5"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "Congelado en el tiempo"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: [
+			"El Everdawn parece estar habitado por muchas criaturas extrañas. No puedes decir si son mutaciones o simplemente inusuales por naturaleza."
+			""
+			"Aquí, parecen similares a los insectos que encontrarías en el Overworld."
+			""
+			"&o&7¡Completar esta misión desbloquea una misión repetible en el capítulo de Misiones Repetibles!&r&r"
+		]
+			icon: {
+				Count: 1
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B6034E8571F3AFA"
+			rewards: [
+				{
+					count: 4
+					id: "67D36AD44F7589CE"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/5"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Pociones de restauración míticas"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4058C769C50CDB26"
+					silent: true
+					title: "15500 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "4C24F2B02FA87DA8"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			subtitle: "Exploración Ever"
+			tasks: [
+				{
+					entity: "blue_skies:emberback"
+					icon: "minecraft:fire_coral_fan"
+					id: "76455A4279BE87D4"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:infested_swarmer"
+					icon: "botania:mycelium_seeds"
+					id: "4E4337946DE5B20B"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "Orugas espeluznantes"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5145DB1D393B6681"
+				"517A65DD1CDCA89F"
+				"08D0C45FA283D50A"
+				"5B4E23F4CD32950F"
+				"467EF949DCDD7863"
+				"5F455D8A504B112D"
+				"07B675A69ECAD9D0"
+				"6954FEF58C12CA7F"
+				"44D0530C2718FC69"
+				"1B6034E8571F3AFA"
+				"61FABF4C4DB118C8"
+				"74FCB46359C566CA"
+				"1FC3745ADFF992F2"
+				"09CFBF8766DA4706"
+				"75454F0A3C4C3596"
+				"1E4735F6982A43ED"
+				"260297A19CCA9015"
+				"01B3ED0D457F7A7C"
+				"10ABAF144ABC131E"
+				"63DA191A8533F1AE"
+				"30B56119C4EA7398"
+				"6EE535C73A769B4D"
+				"450D4FC0C8C994AD"
+				"2C0463FD0D5CBF91"
+				"1AD4461B780DE1AF"
+				"598F0B2047B2ED63"
+				"1A18C9F2B0E6E37B"
+				"54D98C5CCDE624EF"
+			]
+			description: ["&eCompleta&r todas las &emisiones&r del Acto IV para completar este logro. ¡Luego presúmelo con tu nuevo sombrero!"]
+			hide_dependency_lines: true
+			icon: "simplehats:questbook"
+			id: "713453058246129A"
+			rewards: [
+				{
+					id: "6237206235CF02D4"
+					item: "simplehats:questbook"
+					type: "item"
+				}
+				{
+					id: "67A86F3F2026EE49"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Dinero"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Logros"
+			tasks: [{
+				id: "0980095FE80FC990"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Completa todas las misiones del Acto IV"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: [
+			"En las dimensiones de Everbright y Everdawn, encontrarás &enuevas criaturas domesticables y posibles monturas&r."
+			""
+			"Podría ser divertido encontrar un &eReno&r, un &eCamello&r o incluso un &eZorro Cósmico&r."
+		]
+			icon: "minecraft:paper"
+			id: "5145DB1D393B6681"
+			rewards: [
+				{
+					id: "587FD04ECDD9103E"
+					item: "minecraft:saddle"
+					title: "Silla de montar"
+					type: "item"
+				}
+				{
+					id: "19FC818B02F0178A"
+					item: "blue_skies:camel_saddle"
+					title: "Silla de montar de camello"
+					type: "item"
+				}
+			]
+			subtitle: "Página perdida"
+			tasks: [{
+				id: "5410793780654A4C"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Monturas"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: [
+			"El &eHorno Snowcap&r puede aprovechar las propiedades especiales de calor y frío del &eHongo Snowcap como fuente de combustible&r."
+			""
+			"Cocinar con Hongos Snowcap producirá un &esubproducto frío&r que podría usarse en otro lugar."
+		]
+			id: "517A65DD1CDCA89F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 15500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "621213B3B25F0F08"
+				silent: true
+				title: "15500 Experiencia"
+				type: "command"
+			}]
+			subtitle: "Exploración Ever"
+			tasks: [{
+				advancement: "blue_skies:everbright/craft_snowcap_oven"
+				criterion: ""
+				id: "20A4DC3C89497906"
+				type: "advancement"
+			}]
+			title: "El tipo equivocado"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: ["La &eForja de Horizonite&r puede &efundir materiales sin necesidad de combustible&r gracias al calor natural del bloque. Tiene un &etiempo de recarga&r, pero se puede recargar más rápido usando cualquier objeto hecho de Horizonite o Piedra Solar."]
+			id: "6954FEF58C12CA7F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 15500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4D85B77A38196A19"
+				silent: true
+				title: "15500 Experiencia"
+				type: "command"
+			}]
+			subtitle: "Exploración Ever"
+			tasks: [{
+				advancement: "blue_skies:everdawn/craft_horizonite_forge"
+				criterion: ""
+				id: "166DEBA8C0BA4181"
+				type: "advancement"
+			}]
+			title: "Llamas muy calientes"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75454F0A3C4C3596"]
+			description: [
+			"El &eCódice&r es un accesorio o equipo que puedes equipar y que comienza a aparecer a partir del nivel 50. El &eCódice&r proporciona estadísticas poderosas al jugador según la diversidad del equipo equipado."
+			""
+			"En la parte inferior se listan los requisitos, como: tener 2 &cÚnicos&r, 1 pieza de equipo Normal (&7Común&r -> &5Mítico&r) y 2 &ePalabras Rúnicas&r equipadas."
+			""
+			"Dependiendo de cuántos de estos tengas equipados, el &eCódice&r proporcionará más estadísticas, las cuales pueden verse en la descripción emergente."
+		]
+			icon: "minecraft:paper"
+			id: "65FD2E8334B1DF1C"
+			rewards: [{
+				id: "5A57B86994265B51"
+				item: {
+					Count: 1
+					id: "mmorpg:omen"
+					tag: {
+						Damage: 0
+						mmorpg_omen: "{\"id\":\"blood\",\"lvl\":50,\"rar\":\"common\",\"rarities\":{\"NORMAL\":1,\"UNIQUE\":2,\"RUNED\":2},\"slot_req\":[{\"slot\":\"helmet\",\"rtype\":\"NORMAL\"}],\"aff\":[{\"p\":15,\"id\":\"jewel_corrupt_critical_damage\",\"rar\":\"common\",\"ty\":\"jewel_corruption\"},{\"p\":15,\"id\":\"gear_corruptphysical_resist\",\"rar\":\"common\",\"ty\":\"chaos_stat\"}]}"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Página perdida"
+			tasks: [{
+				id: "272F644A9E6BED12"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Libro de los récords"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: ["Si tienes problemas para defenderte del Daño Elemental, ¡considera fabricar un nuevo Escudo, Tomo o Tótem!"]
+			id: "450D4FC0C8C994AD"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4AACF55C8A2C99F6"
+					silent: true
+					title: "15500 Experiencia"
+					type: "command"
+				}
+				{
+					id: "7FBC362CFB278857"
+					item: "mmorpg:runes/wir"
+					type: "item"
+				}
+			]
+			subtitle: "Profesiones"
+			tasks: [{
+				id: "0C231DE25B40FE7B"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/offhand/epic"
+					tag: {
+						tier: 2
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Rasgos defensivos"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: ["Aumenta tus Atributos Principales para obtener ventaja sobre tus enemigos..."]
+			id: "6EE535C73A769B4D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 17000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "42CE0F3820716AC1"
+				silent: true
+				title: "17000 Experiencia"
+				type: "command"
+			}]
+			subtitle: "Profesiones"
+			tasks: [
+				{
+					id: "6C08F041B2EF03B6"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/rare_str"
+						tag: {
+							tier: 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "41860D352A0DD737"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/rare_int"
+						tag: {
+							tier: 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0305F8AC4688B17B"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/rare_dex"
+						tag: {
+							tier: 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Brebaje del alquimista"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: ["¡Encuentra más criaturas en la dimensión Everbright para investigarlas!"]
+			id: "598F0B2047B2ED63"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "64EAE736F49AFC28"
+					silent: true
+					title: "15000 Experiencia"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "503861109D4D7FED"
+					item: "mmorpg:stone/2"
+					type: "item"
+				}
+			]
+			subtitle: "Exploración Ever"
+			tasks: [
+				{
+					entity: "blue_skies:diophyde_prowler"
+					icon: {
+						Count: 1
+						id: "blue_skies:diopside_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0B8B2A75937FF714"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:polargeist"
+					icon: "blue_skies:polar_posy"
+					id: "158CA09D8BFF3AF7"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "Depredadores congelados"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: ["¡Encuentra más criaturas en la dimensión Everdawn para investigarlas!"]
+			id: "1AD4461B780DE1AF"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "02163ADE8B5C9F55"
+					silent: true
+					title: "15000 Experiencia"
+					type: "command"
+				}
+				{
+					id: "74C089C57AD843CE"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+			]
+			subtitle: "Exploración Ever"
+			tasks: [
+				{
+					entity: "blue_skies:nyctofly"
+					icon: "moresnifferflowers:dragonfly"
+					id: "697C724F5CE76BE1"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:venom_spider"
+					icon: "minecraft:spider_eye"
+					id: "77D0AB1F0A381EBD"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "Pestilencia"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: [
+			"El &eLlamahuesos Supremo&r es una versión más poderosa del &eLlamahuesos&r. Cuenta con mayor defensa y tiene dos fases de combate. Puedes encontrarlo en las &eTorres Oscuras&r de las &edimensiones de Blue Skies&r y en &eEl End&r."
+			""
+			"&cEl Llamahuesos Supremo aparece a partir del nivel 45 y con rareza Mítica.&r"
+			""
+			"El Llamahuesos Supremo tiene:"
+			"&b+25% de Armadura&r"
+			"&b+40% de Resistencia Elemental&r"
+			"&b+75% de Resistencia al Caos&r"
+		]
+			id: "2C0463FD0D5CBF91"
+			rewards: [
+				{
+					id: "6978150D4E3B4209"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":40,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "69FC5BBDE8AC3CE0"
+					silent: true
+					title: "18500 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Exploración Ever"
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:bonescaller_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3ECCEC2AC662CA2A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Invitados inesperados"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: [
+			"El &eAcechador de Pesadillas&r es un espíritu extremadamente peligroso. Su aparición está acompañada de un sonido característico y un mensaje en el chat. Además, es completamente invisible: solo se pueden ver sus ojos brillantes. Mientras el Acechador es invisible, se mueve mucho más rápido. Cuando recibe daño, pierde la invisibilidad."
+			""
+			"El Acechador de Pesadillas detecta al jugador desde una gran distancia (hasta 70 bloques) y comienza a acechar a su víctima de inmediato. Al atacar, emite un grito penetrante y causa ceguera en su objetivo, sumiéndolo en una oscuridad total."
+			""
+			"&cEl Acechador de Pesadillas aparece a partir del nivel 55.&r"
+			""
+			"El Acechador de Pesadillas tiene:"
+			"&b+25% de Probabilidad de Sangrado&r"
+			"&b+50% de Evasión&r"
+			"&b+50% de Resistencia Elemental&r"
+		]
+			id: "1A18C9F2B0E6E37B"
+			rewards: [
+				{
+					id: "3125555512B95F56"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"epic\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "25E48201F98C883C"
+					silent: true
+					title: "25500 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Exploración Ever"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: "born_in_chaos_v1:nightmare_stalker_skull"
+				id: "4BF8629E04C358A2"
+				type: "kill"
+				value: 3L
+			}]
+			title: "El acosador"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: [
+			"El &eRobavidas&r es una temible criatura no-muerta. Después de recibir suficiente daño, revela su verdadera forma con un grito. El &eRobavidas&r también provoca periódicamente una explosión oscura que empuja al jugador y a todas las criaturas cercanas, causando daño."
+			""
+			"&cEl Robavidas aparece a partir del nivel 55.&r"
+			""
+			"El Robavidas tiene:"
+			"&b+2% de Robo de Vida por Golpe&r"
+			"&b+50% de Resistencia Elemental&r"
+			"&b+50% de Resistencia al Caos&r"
+		]
+			id: "54D98C5CCDE624EF"
+			rewards: [
+				{
+					id: "686DF000293C6267"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"epic\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5E4FECB2A3D5C667"
+					silent: true
+					title: "25500 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Exploración Ever"
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "2B03EB693EBBE6F3"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Drenador de Vida"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: ["¿Necesitas un poco de EXP? ¡Considera comer &eMariscos con Experiencia&r a través de las profesiones!"]
+			id: "221133BF7C60E9C3"
+			rewards: [
+				{
+					id: "58E05252C5F75132"
+					item: "mmorpg:material/fishing/2"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2C39F5BECE4AE2FF"
+					silent: true
+					title: "17000 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Profesiones"
+			tasks: [{
+				id: "261373246C850AB3"
+				item: {
+					Count: 1
+					id: "mmorpg:seafood/legendary_exp"
+					tag: {
+						tier: 2
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Acuario Everbright"
+			x: 9.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Lv. 35-55"]
+	title: "Acto IV"
+}

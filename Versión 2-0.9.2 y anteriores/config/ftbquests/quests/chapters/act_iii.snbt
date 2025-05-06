@@ -1,0 +1,1376 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iii"
+	group: "1E3C4B5FFAE48A39"
+	icon: "undergarden:catalyst"
+	id: "31B544F80AB89D6E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["Parece que los &e'Rotlings'&r no son las únicas criaturas podridas. Hay muchas razas diferentes de ellos."]
+			icon: "minecraft:rotten_flesh"
+			id: "5E98541EEB25174A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58382CF9AB2A0A3E"
+					table_id: 1433159522818962256L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1206AB15279F8FA5"
+					silent: true
+					title: "6000 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda Principal"
+			tasks: [
+				{
+					entity: "undergarden:rotbeast"
+					icon: "minecraft:rotten_flesh"
+					id: "2C4A8A938CB95DE1"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "undergarden:rotwalker"
+					icon: "alexsmobs:cockroach_wing"
+					id: "03FF1260F86F8A4E"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "Criaturas Putrefactas"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18D44E8B9226FB02"]
+			description: ["Te dijeron que esta dimensión era húmeda y mohosa, pero no esperabas que estuviera pudriéndose. Mata a los molestos &e'Rotlings'&r que siguen atacándote, parecen ser la causa de la podredumbre."]
+			id: "2AFB98683E249B7D"
+			rewards: [
+				{
+					count: 2
+					id: "5DCBFD4165D4B05B"
+					item: "lightmanscurrency:coin_gold"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "495F3EA9B5202D6E"
+					silent: true
+					title: "5000 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda Principal"
+			tasks: [{
+				entity: "undergarden:rotling"
+				icon: "alexsmobs:cockroach_wing_fragment"
+				id: "5C9A9DA8C7B9EEFC"
+				type: "kill"
+				value: 8L
+			}]
+			title: "Enemigos Extranjeros"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C25A5681CC704B8"]
+			description: [
+				"Ahora que estás equipado, es momento de ver qué está causando estas anomalías en el océano. Has notado algo de actividad en los &e'Laberintos de Hielo del Mundo Superior'&r... Podría valer la pena investigarlo. Puedes encontrar estos Laberintos de Hielo en la &esuperficie cerca de los Océanos Congelados Profundos&r."
+				""
+				"Dicen que una planta rara llamada &e'Oxygelium'&r se puede encontrar en el &efondo de estos Laberintos de Hielo&r en el océano. Alternativamente, puedes encontrarlas en &e'Almas Torturadas'&r. Si tienes problemas para encontrar &e'Almas Torturadas'&r, ¡puedes intentar desafiar el &e'Portal del Laberinto de Hielo'&r!"
+				""
+				"Necesitarás la &e'Armadura de Rayo'&r para sobrevivir al frío. Se puede fabricar."
+				""
+				"&c¡Las criaturas de Aquamirae aparecen a un nivel mínimo de 35!&r"
+				""
+				"&eRequiere que TODAS las dependencias estén completadas.&r"
+			]
+			icon: "minecraft:ice"
+			id: "217637D12CF3011E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A6264B5A2D68399"
+					table_id: 5102974831465220002L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "513C3E0F390949B6"
+					silent: true
+					title: "7250 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda Principal"
+			tasks: [
+				{
+					biome: "minecraft:deep_frozen_ocean"
+					icon: "minecraft:water_bucket"
+					id: "0BFF2BEAE062A2F4"
+					title: "Explora el Bioma de las Profundidades Oceánicas Heladas"
+					type: "biome"
+				}
+				{
+					icon: "minecraft:ice"
+					id: "7D9182428353834C"
+					structure: "aquamirae:ice_maze/common"
+					title: "Encouentra un Laberinto de Hielo"
+					type: "structure"
+				}
+			]
+			title: "Las Profundidades Ocultas"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E98541EEB25174A"]
+			description: [
+				"Hablaste con un habitante del pueblo que afirmaba haber vivido en el Jardín Subterráneo. Según ese habitante, una vez hubo entidades poderosas en templos por toda la tierra que protegían la civilización de la Podredumbre reptante. Necesitarás encontrar unas &e'Catacumbas del Jardín Subterráneo'&r para completar esta misión."
+				""
+				"Sin embargo, parece que todo eso quedó en el pasado. Nuevas investigaciones sugieren que algunas nuevas criaturas acechan en las profundidades del Mundo Superior."
+				""
+				"&o&7¡Al completar esta misión, desbloquearás una Misión Repetible en el Capítulo de Repetibles!&r&r"
+			]
+			id: "775A13E1924D6C9A"
+			rewards: [
+				{
+					id: "22D6AB0E769C0B19"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de equipo raro (Lv. 35)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "235DECB54BBFBDE3"
+					silent: true
+					title: "6250 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "1E135904CF7ED95A"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda Principal"
+			tasks: [{
+				entity: "undergarden:forgotten"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "074321BF73A109FA"
+				type: "kill"
+				value: 16L
+			}]
+			title: "Civilización del Pasado"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["Has escuchado de un anciano del pueblo que originalmente era del Jardín Subterráneo. Según el anciano, ya no hay aldeas en el Jardín Subterráneo debido a la Podredumbre reptante. Sin embargo, puede que aún existan criaturas &e'Nacidos de Piedra'&r dispuestas a comerciar."]
+			id: "34AE4F64C6DCC76B"
+			rewards: [
+				{
+					id: "3598048059AFC907"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":30,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de Moneda Común (Lv. 30)"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7B53CAD7E3888851"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4AB967C7D0BC5EA0"
+					silent: true
+					title: "5500 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Delegación"
+			tasks: [{
+				advancement: "undergarden:undergarden/stoneborn_trade"
+				criterion: ""
+				id: "41919A014FCB8BFF"
+				type: "advancement"
+			}]
+			title: "Amigos Extranjeros"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["Explora las profundidades del Jardín Subterráneo y encontrarás algunos recursos útiles que pueden convertirse en equipo."]
+			id: "73CB23341BA13CD0"
+			rewards: [
+				{
+					count: 3
+					id: "61183E226D5E94A5"
+					item: "mmorpg:stone/3"
+					title: "Piedras Épicas"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6B975E6A9D52282E"
+					silent: true
+					title: "5000 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "MINE y Slash"
+			tasks: [{
+				advancement: "undergarden:undergarden/mine_ore"
+				criterion: ""
+				id: "5E1546F833807E4F"
+				type: "advancement"
+			}]
+			title: "Nuevos recursos"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["Si tienes problemas para encontrar un &e'Marco de Portal del End'&r y te estás quedando sin &e'Ojos de Ender'&r, tal vez sea momento de fabricar un &e'Endolocalizador'&r, que funciona igual que un Ojo de Ender, ¡pero tiene usos ilimitados!"]
+			id: "2E0F302F9BBF7E36"
+			rewards: [
+				{
+					count: 3
+					id: "04EA5114ACF663AF"
+					item: "lightmanscurrency:coin_gold"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1FC44A6913452913"
+					silent: true
+					title: "7500 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Localización de Eco"
+			tasks: [{
+				id: "40F07F24ADE9D1A4"
+				item: {
+					Count: 1
+					id: "alexsmobs:endolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ayuda para la búsqueda de estructuras"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"59A29FC72CB20EB7"
+				"6BA03D598BD6C2AD"
+				"360C736C3975B377"
+				"43D444B5C1395F3E"
+				"2A8673F98F14484D"
+				"11DB53435CA1D59E"
+				"5E98541EEB25174A"
+				"2E0F302F9BBF7E36"
+				"2AFB98683E249B7D"
+				"217637D12CF3011E"
+				"18B4B295493669DD"
+				"775A13E1924D6C9A"
+				"60A18C940B623CDA"
+				"73CB23341BA13CD0"
+				"46DB9530C236A4AD"
+				"55F9F418C4CA3B3A"
+				"0998037F5701A2D7"
+				"5C25A5681CC704B8"
+				"0AFF7911E9C10C1B"
+				"3054F5AA249874B1"
+				"58F782F592F2ADEB"
+				"34AE4F64C6DCC76B"
+				"45EA60D4FE6CFFAC"
+				"713FE37BCF17FA27"
+				"4F6C1721D3A47BFC"
+				"3242634F49140F5F"
+				"3984F3F1D86ADE21"
+				"45501F3F04639DB1"
+			]
+			description: ["Completa todas las misiones del Acto III para completar este logro. ¡Luego presúmelo con tu nuevo sombrero!"]
+			hide_dependency_lines: true
+			icon: "simplehats:babydolphin"
+			id: "6852C249CA093735"
+			rewards: [
+				{
+					id: "07B40C2CAFFA4A41"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "69E1F9E5F47DE548"
+					item: "simplehats:babydolphin"
+					title: "Delfín bebé"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Logros"
+			tasks: [{
+				id: "7F4620276B50AC30"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Completa todas las misiones del Acto III"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E0F302F9BBF7E36"]
+			description: ["El &e'Buscador de Peces Extraños'&r localizará fragmentos cercanos del Agujero del Diablo, los cuales contienen &e'peces y botín únicos'&r."]
+			id: "58F782F592F2ADEB"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "479F2BD1BBE7BC9A"
+					silent: true
+					title: "8000 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "2B95DBCDDE09AA83"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+				{
+					id: "2CD9791B813A37F2"
+					item: "simplehats:seaweedhat"
+					type: "item"
+				}
+			]
+			subtitle: "Localización de Eco"
+			tasks: [{
+				id: "0B89633D93313B67"
+				item: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			dependency_requirement: "one_completed"
+			description: ["Este conjunto de &e'armadura'&r te permite &e'minar y luchar'&r fácilmente bajo el agua. Puedes fabricar &e'Tanques de Oxígeno con Oxygelium'&r que se encuentra bajo el agua en un &e'Laberinto de Hielo'&r o conseguirlo de las &e'Almas Torturadas'&r en esa misma área. ¡También puedes considerar usar equipo de &e'Neptunium'&r obtenido mediante la pesca para luchar bajo el agua!"]
+			id: "43D444B5C1395F3E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 6750"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "482D24E3915BCF42"
+				silent: true
+				title: "6750 Experiencia"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "Kit de buceo"
+			tasks: [
+				{
+					id: "7B1370680492A67F"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15969F7FC51090F2"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: [
+				"Estas criaturas no muertas han sido vistas deambulando por los &e'Laberintos de Hielo en la superficie, cerca del Océano Congelado Profundo'&r."
+				""
+				"&o&7¡Al completar esta misión, desbloquearás una Misión Repetible en el Capítulo de Repetibles!&r&r"
+			]
+			id: "60A18C940B623CDA"
+			rewards: [
+				{
+					count: 8
+					id: "4C7692645F8A7345"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					id: "023076E4060597AE"
+					item: "mmorpg:material/fishing/2"
+					title: "Pescado crudo empíreo"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "132D51D143AFAECD"
+					silent: true
+					title: "8500 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Aventura submarina"
+			tasks: [{
+				entity: "aquamirae:tortured_soul"
+				icon: {
+					Count: 1
+					id: "betterarcheology:soul_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6DC389E918151695"
+				type: "kill"
+				value: 24L
+			}]
+			title: "Los muertos inquietos"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["Estos peces definitivamente parecen sospechosos... ¡y están en tierra firme! Estas criaturas se pueden encontrar en los &e'Laberintos de Hielo cerca del Océano Congelado Profundo'&r."]
+			id: "3054F5AA249874B1"
+			rewards: [
+				{
+					count: 4
+					id: "18127D8F7D2FE528"
+					item: "mmorpg:material/fishing/2"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2D6BC5CAD878B4F4"
+					silent: true
+					title: "8750 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Aventura submarina"
+			tasks: [{
+				entity: "aquamirae:maw"
+				icon: "alexsmobs:flying_fish"
+				id: "64029E0952041AA3"
+				type: "kill"
+				value: 16L
+			}]
+			title: "Terrores terrestres"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["Los &e'Peces Linterna'&r en el agua del &e'Laberinto de Hielo'&r parecen lo suficientemente normales..."]
+			id: "59A29FC72CB20EB7"
+			rewards: [
+				{
+					id: "5623647895FDB31F"
+					item: "mmorpg:material/fishing/3"
+					title: "Pescado crudo angelical"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "325506065E24D465"
+					silent: true
+					title: "8750 Experiencia"
+					type: "command"
+				}
+				{
+					id: "13A003531A29BE48"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:ice_maze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Aventura submarina"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:anglers_fang"
+				id: "793FAAC99A394C65"
+				type: "kill"
+				value: 12L
+			}]
+			title: "Criaturas de las profundidades marinas"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59A29FC72CB20EB7"]
+			description: [
+				"Esta resbaladiza y sinuosa criatura se puede encontrar en los &e'Refugios'&r cerca del &e'Laberinto de Hielo'&r. Alternativamente, puedes encontrar una en un &e'Portal del Laberinto de Hielo'&r."
+				""
+				"&cLa Anguila aparece a un nivel mínimo de 35.&r"
+				""
+				"La Anguila tiene:"
+				"&b+50% de Daño Físico convertido en Daño de Frío&r"
+				"&a15% de probabilidad de soltar Runa Und&r"
+			] 
+			id: "46DB9530C236A4AD"
+			rewards: [
+				{
+					count: 2
+					id: "16C206CAA7691022"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 9250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5E42161C284D2B09"
+					silent: true
+					title: "9250 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "0F7E84FB337FE624"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "61E1F9C240855D16"
+					title: "Cruel ascendencia"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aventura submarina"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "alexsmobs:shed_snake_skin"
+				id: "05F31113091D1241"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nadador resbaladizo"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3054F5AA249874B1"]
+			description: [
+				"Nunca vista realmente por ningún ser vivo, el mito de la &e'Madre del Laberinto de Hielo'&r dice que es una criatura poderosa que merodea los mares, atacando tanto a marineros como a piratas. Si quieres encontrarla, se dice que tiene una posibilidad de &e'aparecer con los Peces Linterna'&r (&75.0% de probabilidad de aparecer cuando un Pez Linterna muere&r). También se rumorea que dentro del estómago de la criatura encontrarás un raro tesoro pirata antiguo..."
+				""
+				"&cLa Madre del Laberinto de Hielo aparece a un nivel mínimo de 35.&r"
+				""
+				"La Madre del Laberinto de Hielo tiene:"
+				"&b+50% de Daño Físico convertido en Daño de Frío&r"
+				"&a50% de probabilidad de soltar Runa Und&r"
+			]
+			id: "18B4B295493669DD"
+			rewards: [
+				{
+					count: 8
+					id: "3E4E7CF7278690E7"
+					item: "lightmanscurrency:coin_gold"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "0DDB0EF1FF5F5BA3"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de equipo raro (Lv. 35)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7153FEA8AA828FFB"
+					silent: true
+					title: "14000 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "060035A5B1D52952"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aventura submarina"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				id: "0962A21E9E55A320"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Madre de las profundidades marinas"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3054F5AA249874B1"
+				"60A18C940B623CDA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"El &e'Fantasma de la Capitán Cornelia'&r aparece cuando se toca un cierto sonido desde un &e'cuerno'&r..."
+				""
+				"Algunos dicen que el &e'cuerno'&r se puede encontrar dentro de una &e'gran criatura con aspecto maternal'&r que acecha en el &e'Océano Congelado Profundo'&r, o que se puede obtener al completar un &e'Portal del Laberinto de Hielo'&r."
+				""
+				"El &e'Fantasma de la Capitán Cornelia'&r es resistente a la muerte... Comenzará a &cregenerar su salud rápidamente cuando esté a punto de morir&r. Puedes usar una &e'Poción de Debilidad Arrojadiza'&r para contrarrestar esto."
+				""
+				"&cEl Fantasma de la Capitán Cornelia aparece a un nivel mínimo de 40.&r"
+				""
+				"El Fantasma de la Capitán Cornelia tiene:"
+				"&b+50% de Daño Físico convertido en Daño de Frío&r"
+				"&b+25% de Probabilidad de Golpe Crítico&r"
+				"&a10% de probabilidad de soltar Runa Und&r"
+				""
+				"&eRequiere completar 1 dependencia.&r"
+			]
+			id: "55F9F418C4CA3B3A"
+			rewards: [
+				{
+					id: "3460CB6300D902AD"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A9A07576D36CFDF"
+					item: "mmorpg:material/fishing/3"
+					title: "Pescado crudo angelical"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "59ABA7C0A346C178"
+					silent: true
+					title: "15000 Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Búsqueda principal"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:pirate_pouch"
+				id: "36993DF8C06FCE11"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Armario de la Capitána Cornelia"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73CB23341BA13CD0"]
+			description: ["Estos &e'Lingotes Fríos'&r se pueden usar para fabricar un poderoso equipo de &e'Acero Helado'&r. Se pueden encontrar en los &e'Biomas Subterráneos Fríos'&r, como los &e'Campos de Escarcha, el Bosque de Niebla Helada'&r y los biomas de &e'Mar Helado'&r.&r."]
+			id: "0AFF7911E9C10C1B"
+			rewards: [
+				{
+					count: 4
+					id: "0D451539F1EC255E"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "052C4DC20201AB66"
+					silent: true
+					title: "5000 Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "0CBDF4F483A66437"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			subtitle: "MINE y Slash"
+			tasks: [{
+				count: 8L
+				id: "154C7E9E60887877"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			title: "Lingotes fríos"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"Es momento de visitar al erudito Aldeano. Puede que sepa algo sobre dimensiones alternativas que contienen criaturas poderosas."
+				""
+				"Puedes encontrar al &e'Guardián del Portal'&r en &e'Casas de Guardianes del Portal'&r, las cuales pueden aparecer en las &emontañas, llanuras o aldeas nevadas&r."
+				""
+				"Sin embargo, puede que necesites una forma de persuadirlo para que te dé la información... ¿Quizás algunas &a'Esmeraldas'&r?"
+			]
+			id: "0998037F5701A2D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 9250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4BE8EDFC75B0DD85"
+				silent: true
+				title: "9250 Experiencia"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Búsqueda principal"
+			tasks: [{
+				icon: "blue_skies:blinding_key"
+				id: "0C15001804C8AF74"
+				structure: "#blue_skies:gatekeeper_houses"
+				title: "Encontrar un guardián"
+				type: "structure"
+			}]
+			title: "Los guardianes"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"En lo profundo de las &e'Catacumbas'&r, puedes encontrar raramente guardianes desactivados. Se dice que estos guardianes protegían a las personas de las criaturas de la Podredumbre, pero hace mucho tiempo que perdieron su magia. Por supuesto, eso es solo lo que se dice..."
+				""
+				"Si no puedes encontrar estos guardianes, puede que tengas más suerte forzando un portal al pasado con un &e'Portal del Laberinto'&r."
+				""
+				"&cEl Guardián Olvidado aparece a un nivel mínimo de 35.&r"
+				""
+				"El Guardián Olvidado tiene:"
+				"&b+50% de Resistencia Elemental&r"
+				"&a10% de probabilidad de soltar Runa Und&r"
+			]
+			id: "5C25A5681CC704B8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 12500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "45269ACB23D984A3"
+					silent: true
+					title: "12500 Experiencia"
+					type: "command"
+				}
+				{
+					id: "2EFCEBBD529078B6"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/labyrinth"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "El Jardín Subterráneo"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "68ABFF4A22C968A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secretos ocultos"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C25A5681CC704B8"]
+			description: [
+				"¿Tienes dificultades con algunos enemigos? Puedes potenciarte usando la &e'Profesión de Infusión de Mine and Slash'&r. Los &e'Pergaminos'&r se pueden usar en tu equipo para &e'aplicar aleatoriamente un atributo beneficioso'&r. Este atributo se puede mejorar usando Pergaminos de Infusión adicionales."
+				""
+				"Consulta el capítulo de &e'Profesiones de M\\&S'&r para obtener más información sobre cómo usar este sistema."
+			]
+			icon: "minecraft:paper"
+			id: "360C736C3975B377"
+			rewards: [
+				{
+					count: 4
+					id: "45BD213CEE617FC1"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/common"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "06864F652BEF71AF"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/uncommon"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Página perdida"
+			tasks: [{
+				id: "1CF415B71E5C7734"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Encantamientos no vainilla"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6C1721D3A47BFC"]
+			description: [
+			"En CTE2, algunas estadísticas de Vanilla tienen compatibilidad con Mine and Slash!"
+			""
+			"Vanilla : &aMine and Slash&r"
+			"Salud : &b+0.5% Escudo Mágico&r"
+			"Armadura : &b+0.5% Armadura&r"
+			"Dureza de Armadura : &b+0.5% Armadura&r"
+			"Daño de Ataque : &b+0.5% Daño Total&r"
+			"Suerte : &b+3% Probabilidad de Encontrar Magia&r"
+			""
+			"Además, se incluye compatibilidad con encantamientos. Puedes ver cómo el encantamiento afecta las estadísticas de Mine and Slash en la &bdescripción del encantamiento en azul&r."
+			""
+			"Los encantamientos de objetos tienen un límite en el Nivel XI, y el límite global (del jugador) es 3 veces este. Así que si tienes 3 objetos con Protección XI, cualquier Protección adicional no contribuirá a las estadísticas de Mine and Slash."
+		]
+			icon: "minecraft:paper"
+			id: "11DB53435CA1D59E"
+			rewards: [{
+				id: "050336E8ABF73D0D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Página perdida"
+			tasks: [{
+				id: "28690175BDCF5B11"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Compatibilidad de estadísticas y encantamientos"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34AE4F64C6DCC76B"]
+			description: [
+			"La &eMesa de Imbuir&r te permite &ecombinar encantamientos de nivel máximo&r. Puedes usar la mesa para aumentar en &e1&r el nivel máximo de un encantamiento en un objeto. Por ejemplo, usar un libro de &eFortuna III&r para mejorar un pico que ya tiene &eFortuna III&r resultará en un pico con &eFortuna IV&r."
+			""
+			"&oNota que no todos los encantamientos son compatibles con este sistema."
+		]
+			id: "6BA03D598BD6C2AD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 5500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7B45C6A08AC082FC"
+				silent: true
+				title: "5500 Experiencia"
+				type: "command"
+			}]
+			subtitle: "Crear una mesa imbuida"
+			tasks: [{
+				id: "50C250274B0E7598"
+				item: "illagerinvasion:imbuing_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60A18C940B623CDA"]
+			description: ["&eAguamarina&r cae de &eAhogados, Calamares y Guardianes&r y se puede usar para comerciar con &eMoradores del Mar&r! Los Moradores del Mar son tritones que se encuentran en las &eprofundidades del océano&r. Por lo general, se pueden encontrar congregados en &epueblos submarinos&r."]
+			id: "2A8673F98F14484D"
+			rewards: [
+				{
+					id: "2623FECED1EC26D4"
+					item: {
+						Count: 1
+						id: "seadwellers:depth_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0E5CD2D42DE0C09E"
+					silent: true
+					title: "8000 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Aventura submarina"
+			tasks: [{
+				id: "59C725105DC08072"
+				item: "seadwellers:aquamarine"
+				type: "item"
+			}]
+			title: "Habitantes del mar"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: [
+			"Las resistencias juegan un papel importante en mantenerte con vida. Hay 3 Elementos: &cFuego&r, &bFrío&r y &eRelámpago&r. También existen los tipos de daño &7Físico&r y &5Caos&r."
+			""
+			"El &6Daño Elemental&r se vuelve prominente a partir de este punto, con la mayoría de los enemigos teniendo algún tipo de Daño Elemental (ya sea innato o por afijos). Es &evital&r que mantengas tus &6Resistencias Elementales&r! La &5Resistencia al Caos&r también es crucial, aunque más difícil de obtener."
+			""
+			"A medida que te vuelves más fuerte, los enemigos también lo hacen. &l&cCada 25 niveles, tus resistencias bajan permanentemente un 25%!&r&r"
+			""
+			"&eNv. 1-24:&r &b+25% Resistencia Ele/Caos&r"
+			"&eNv. 25-49:&r +0% Resistencia Ele/Caos"
+			"&eNv. 50-74:&r &c-25% Resistencia Ele/Caos&r"
+			"&eNv. 75+:&r &c-50% Resistencia Ele/Caos&r"
+		]
+			icon: "minecraft:paper"
+			id: "45EA60D4FE6CFFAC"
+			rewards: [
+				{
+					id: "40026BEF380DF951"
+					item: "mmorpg:runes/bri"
+					type: "item"
+				}
+				{
+					id: "2CA2591F8F90D243"
+					item: "mmorpg:gems/emerald/3"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1698C3C7A8EAD812"
+					silent: true
+					title: "6000 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Página perdida"
+			tasks: [{
+				id: "3C2F08373F7EA7F7"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Resistencias"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["360C736C3975B377"]
+			description: ["¡Intenta fabricar tu propio Pergamino de Infusión con una rareza más alta! Las Infusiones de Botas son particularmente poderosas, ya que puedes obtener estadísticas especiales que solo se encuentran en estas Infusiones de Botas!"]
+			id: "713FE37BCF17FA27"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 7500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "794C0235E593BB75"
+				silent: true
+				title: "7500 Experiencia"
+				type: "command"
+			}]
+			subtitle: "Profesiones"
+			tasks: [{
+				id: "3909083DF06CD4CE"
+				item: {
+					Count: 1
+					id: "mmorpg:enchantment/family/armor/rare"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Proteger los pies"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+			"Los &eNaga&r son criaturas voladoras que se encuentran por todo el &eUndergarden&r."
+			""
+			"El Naga tiene:"
+			"&b+75% Daño Físico convertido en Daño de Caos&r"
+			"&b+50% Probabilidad de Veneno&r"
+			"&b+50% Daño de Veneno&r"
+		]
+			id: "4F6C1721D3A47BFC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 7500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1F0BB657CC303C1D"
+				silent: true
+				title: "7500 Experiencia"
+				type: "command"
+			}]
+			subtitle: "El jardín subterráneo"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: "mowziesmobs:naga_fang"
+				id: "6D0F50A483937869"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Bajo el... ¿Bajo el jardín?"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+			"&eUmvuthi, el Ave Solar&r es un gran jefe neutral que se puede encontrar en el Bosque Umvuthana. Es un heliomante que sirve como creador de los Abavuthana."
+			""
+			"Umvuthi se puede encontrar en un &ePortal de las Profundidades&r."
+			""
+			"Si un jugador se acerca usando una Máscara de Umvuthana, podrá comerciar con Umvuthi."
+			""
+			"&cUmvuthi aparece a un nivel mínimo de 35.&r"
+			""
+			"Umvuthi tiene:"
+			"&b+100% Daño Físico convertido en Daño de Fuego&r"
+			"&b+50% Probabilidad de Quemadura&r"
+			"&b+50% Resistencia al Fuego&r"
+			"&b+50% Resistencia al Relámpago&r"
+			"&a10% de probabilidad de soltar Runa Und&r"
+		]
+			id: "3242634F49140F5F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "57410F6F9D28BDAF"
+					silent: true
+					title: "10000 Experiencia"
+					type: "command"
+				}
+				{
+					id: "74337A0D2AD5AE80"
+					item: "handcrafted:golden_thick_pot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "El Jardín Subterráneo"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B2171B88D4B353E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "El Jefe del Sol"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6C1721D3A47BFC"]
+			description: [
+			"Los &eFerrous Wroughtnauts&r comienzan quietos, con sus brazos apoyados en su hacha. Cuando un jugador se acerca o los ataca, se preparan y comienzan a atacar. Cuando no están en combate, los Wroughtnauts regeneran rápidamente su salud."
+			""
+			"&c&l¡Advertencia! Los Ferrous Wroughtnauts pueden romper tu escudo. ¡Procede con precaución!&r&r"
+			""
+			"Puedes encontrarlos en sus Arenas a lo largo del Jardín Subterráneo."
+			""
+			"Los Ferrous Wroughtnauts tienen:"
+			"&b+50% Probabilidad de Sangrado&r"
+			"&b+50% Armadura&r"
+			"&b+40% Resistencia Elemental&r"
+			"&a10% de probabilidad de soltar Runa Und&r"
+		]
+			id: "3984F3F1D86ADE21"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 11000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "62F5C57610CB66C2"
+					silent: true
+					title: "11000 Experiencia"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "180E05BD7E85DF3F"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "El Jardín Subterráneo"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:wrought_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3A1232490F44573A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Firmeza"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59A29FC72CB20EB7"]
+			description: ["¿Necesitas un pequeño impulso de EXP? Considera comer &eMariscos de Ganancia de Experiencia&r creados a través de Profesiones!"]
+			id: "0E47D45B630AF684"
+			rewards: [
+				{
+					id: "39D6AD6223534A8D"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4A1C2918189AC326"
+					silent: true
+					title: "8500 Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Profesiones"
+			tasks: [{
+				id: "16B63C712B862DD3"
+				item: {
+					Count: 1
+					id: "mmorpg:seafood/rare_exp"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sentirse un poco hambriento"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+			"¿Alguna vez quisiste regresar al Overworld para explorar, pero encontraste que los niveles eran demasiado bajos para que la experiencia fuera agradable? En ciertos niveles clave, las Dimensiones pasadas se \"enfurecerán\", aumentando sus rangos de nivel para que los jugadores puedan volver y disfrutar de esas Dimensiones pasadas!"
+			""
+			"&c------------------------------&r"
+			""
+			"&eOverworld&r - Nv. &b50-70&r"
+			"&eNether&r - Nv. &b55-75&r"
+			"&eUndergarden&r - Nv. &b60-80&r"
+			"&eEverbright/Everdawn&r - Nv. &b65-85&r"
+			"&eThe End&r - Nv. &b70-90&r"
+			"&eThe Otherside&r - Nv. &b75-95&r"
+		]
+			icon: "minecraft:paper"
+			id: "45501F3F04639DB1"
+			rewards: [{
+				id: "231B1473E7401DAA"
+				item: "mmorpg:currency/enchant_reroll"
+				type: "item"
+			}]
+			subtitle: "Página perdida"
+			tasks: [{
+				id: "69D1987CC32E4D4C"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Viajar hacia atrás"
+			x: 10.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Lv. 25-40"]
+	title: "Acto III"
+}

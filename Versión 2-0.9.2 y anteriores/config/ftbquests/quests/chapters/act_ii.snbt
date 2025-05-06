@@ -1,0 +1,1210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_ii"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:nether_star"
+	id: "5381722ABA7D14DD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"18E09A4B9FC1B43F"
+				"29CADE48F14D6436"
+			]
+			description: ["Bueno, estos &eLemurianos&r ciertamente no pertenecen aquí..."]
+			id: "52DAC9E8213D2624"
+			rewards: [
+				{
+					id: "545891FC6956AAC5"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":15,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de equipo raro (Lv. 15)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0D1D6AA7D64C4EE8"
+					silent: true
+					title: "1250 de Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Riesgo de Lluvia"
+			tasks: [{
+				entity: "riskofrain_mobs:lemurian_entity"
+				icon: "nightlights:octopus_purple"
+				id: "13BF61F2B380DC9E"
+				type: "kill"
+				value: 24L
+			}]
+			title: "Seres De Otro Mundo II"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+			"Los mosquitos ya son lo suficientemente molestos en el Overworld... ¡Estos son enormes, se te pegan en la cara y son generalmente difíciles de matar!"
+			""
+			"Estos horribles insectos voladores mutantes se encuentran en los &ebosques del Nether&r."
+			]
+			id: "322725A82ADAA810"
+			rewards: [
+				{
+					count: 8
+					id: "6846F506D4DBBC18"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/2"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Pociones de Restauración Raras"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "124DB96872E3BE33"
+					silent: true
+					title: "1250 de Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Bosques Carmesíes"
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				icon: "alexsmobs:mosquito_proboscis"
+				id: "3EADF779EE3B6C1A"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Plagas Sangrientas"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: ["Parece que tu intuición era correcta. Las Fortalezas del Nether están infestadas de enemigos extraños. El &eEsqueleto Wither&r parece soltar fragmentos de su calavera, los cuales emanan una especie de energía."]
+			id: "63F4CAF1CA065949"
+			rewards: [
+				{
+					id: "33816632385BF1A6"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":25,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de equipo raro (Lv. 25)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6F4E216D74BB3692"
+					silent: true
+					title: "2000 de Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda Principal"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "672F0F6E02A6D254"
+				type: "kill"
+				value: 16L
+			}]
+			title: "Coleccionistas de Calaveras"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E09A4B9FC1B43F"]
+			description: [
+			"Parece que no todas las criaturas aquí son hostiles por naturaleza. Pero necesitamos demostrar que hablamos en serio.",
+			"",
+			"Es hora de encargarse de algunos &ePiglins&r y algunos &eHoglins&r. Los encontrarás más comúnmente en los &ePáramos del Nether&r y los &eBosques Carmesí&r."
+			]
+			icon: "minecraft:piglin_head"
+			id: "29CADE48F14D6436"
+			rewards: [
+				{
+					id: "27D034D602B200EA"
+					item: "lightmanscurrency:coin_gold"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "69DCE5D67CC781CF"
+					item: "mmorpg:stone/2"
+					title: "Piedra Rara"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "01CC496042A47CC6"
+					silent: true
+					title: "1250 de Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda Principal"
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					icon: "minecraft:piglin_head"
+					id: "0709550781191C90"
+					type: "kill"
+					value: 12L
+				}
+				{
+					entity: "minecraft:hoglin"
+					icon: "nethersdelight:hoglin_trophy"
+					id: "6ACD5F7F9447DCCB"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "Seres De Otro Mundo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: [
+			"En el Nether, es posible que te encuentres con criaturas agresivas y ardientes. Aunque el &eWyrm&r y el &eBlaze&r parecen poderosos, es casi seguro que existen criaturas de magma aún más fuertes, dado el tamaño y la profundidad del Nether.",
+			"",
+			"Tal vez sea mejor estar preparado contra el fuego. Intenta encontrar y derrotar a estos enemigos para poner a prueba tus habilidades.",
+			"",
+			"&o&7¡Completar esta tarea desbloquea una misión repetible en el capítulo de Misiones Repetibles!&r&r"
+			]
+			icon: "minecraft:blaze_powder"
+			id: "1D01AD334C7C70F1"
+			rewards: [
+				{
+					count: 5
+					id: "1E1B2C1F4FA4CF20"
+					item: "lightmanscurrency:coin_iron"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3544639BC2E3A192"
+					silent: true
+					title: "1750 de Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Aventura Ardiente"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "0B92DB0E2C3ACA8E"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "realmrpg_wyrms:red_wyrm"
+					icon: "minecraft:blaze_powder"
+					id: "123E1ECFC39D0945"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "Enemigos Ardientes"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["277A8C4C5D50ED00"]
+			description: [
+			"Seguramente ya te has encontrado con estas criaturas voladoras... Algo te dice que hay cientos de ellas acechando en cada esquina.",
+			"",
+			"Deben provenir de algún lugar..."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "alexsmobs:lava_vision"
+				}
+			}
+			id: "1EA8FC97142B16A7"
+			rewards: [
+				{
+					count: 3
+					id: "5486B8641330278A"
+					item: "mmorpg:soul_extractor/rare"
+					title: "Extractores de Almas con Equipo Raro"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2604E2CD0966E3DD"
+					silent: true
+					title: "2250 de Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Aventura Ardiente"
+			tasks: [{
+				entity: "monsterplus:lava_squid"
+				icon: {
+					Count: 1
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				id: "6EC7ADFF37CD9E71"
+				type: "kill"
+				value: 24L
+			}]
+			title: "Escupidores de Llamas"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: [
+			"Esto es esa &ecosa.&r"
+			""
+			"La Madre Calamar de Lava Tiene:"
+			"&b+50% Daño Físico a Fuego&r"
+			"&a5% Probabilidad de Soltar Runa Net&r"
+			]
+			icon: "simplehats:burning_m_bison"
+			id: "05AD0B9A77F0325F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "535DAF2AABB78097"
+					table_id: 1687722018226746788L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "79DBFB1E7228F818"
+					silent: true
+					title: "2500 de Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "3669A04AB95A4666"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aventura Ardiente"
+			tasks: [{
+				entity: "monsterplus:mother_lava_squid"
+				icon: "simplehats:burning_m_bison"
+				id: "01A75F2295A67935"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Madre"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63F4CAF1CA065949"]
+			description: [
+			"Coloca &eArena de Almas&r en forma de T, coronada con &e3 Cráneos de Esqueleto Wither&r para invocar al &eWither.&r",
+			"",
+			"Este jefe es muy difícil, ya que requiere que tengas un arma de proyectiles o un hechizo para encargarte de su primera fase. En la segunda fase, prepárate para que el Wither esté muy cerca y personal...",
+			"",
+			"&o&eConsejo:&r &o¿Tienes problemas para derrotar al Wither? ¿Sabías que cuanto mayor sea el nivel de un enemigo en comparación contigo, menos daño recibe y más daño inflige? Este bono comienza a aplicarse con una diferencia de nivel de 3.&r",
+			"",
+			"&cEl Wither aparece a nivel mínimo 30.&r",
+			"",
+			"El Wither Tiene:",
+			"&b+50% Daño Físico a Fuego&r",
+			"&b+20% Resistencia Elemental&r",
+			"&a10% Probabilidad de Soltar Runa Net&r"
+			]
+			id: "114D74DF8284ACC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77CCFAF579DA3451"
+					table_id: 2150601229175429082L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2D5BE1067A169265"
+					silent: true
+					title: "7500 de Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "351D370BEAFABF0E"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Búsqueda Principal"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_rose"
+				id: "17530C3BC3EA0BB2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ritual Oscuro"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["277A8C4C5D50ED00"]
+			description: [
+			"Bueno, aquí tienes a uno de esos grandes villanos que te han encargado eliminar. El &eBlaze Real&r es un enemigo poderoso: necesitarás estar preparado.",
+			"",
+			"Los discos giratorios alrededor del &eBlaze Real&r deben ser destruidos antes de que pueda recibir daño.",
+			"",
+			"Puedes encontrar al &Blaze Reale&r en las &eCiudadelas.&r Alternativamente, puedes usar un &ePortal de la Fortaleza Infernal&r.",
+			"",
+			"El Blaze Real Tiene:",
+			"&b+50% Daño Físico a Fuego&r",
+			"&b+25% Probabilidad de Quemadura&r",
+			"&a5% Probabilidad de Soltar Runa Net&r"
+			]
+			id: "42A954877474A58F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74422C75EF7AACE2"
+					table_id: 4329773747337249676L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "777824462105E261"
+					silent: true
+					title: "2500 de Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "6E3B5E2EB562F8D7"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aventura Ardiente"
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				icon: {
+					Count: 1
+					id: "friendsandfoes:wildfire_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6541A85B5313AC4F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Gobernante de las Llamas"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+			"Has informado de tus logros a la guardia del pueblo y recibido tus recompensas. Es hora de avanzar a la siguiente dimensión: el &eJardín Subterráneo&r. Una dimensión húmeda, pegajosa y en su mayoría habitable, con algunas criaturas curiosas... Puede que no estén mutadas, pero vale la pena echar un vistazo.",
+			"",
+			"Crea un &eCatalizador&r usando tu &eEstrella del Nether&r y accede al Jardín Subterráneo construyendo un portal con &eLadrillos de Piedra en la misma forma que el Portal del Nether&r. Actívalo usando el Catalizador."
+			]
+			icon: "undergarden:catalyst"
+			id: "18D44E8B9226FB02"
+			rewards: [
+				{
+					count: 3
+					id: "281851AAA2C7DC0E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 4500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4E1BE362EAFA93B2"
+					silent: true
+					title: "4500 de Experiencia"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Búsqueda Principal"
+			tasks: [
+				{
+					id: "4F61CA02549D0BF8"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					icon: "undergarden:depthrock"
+					id: "21C702BD4DC49479"
+					title: "Visita el Jardín Subterráneo"
+					type: "dimension"
+				}
+			]
+			title: "Catalizador de Viajes"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63F4CAF1CA065949"
+				"1D01AD334C7C70F1"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+			"Has visto en las Fortalezas del Nether pistas de otra estructura. \"La Ciudadela\" está grabada en las paredes de la Fortaleza en varios lugares. Tal vez puedas encontrar la &eCiudadela&r e investigarla.",
+			"",
+			"&eRequiere 1 dependencia para ser completada.&r"
+			]
+			id: "277A8C4C5D50ED00"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "08F3F886C4A30C65"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/blaze"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6FEAA0D1FF245EA5"
+					silent: true
+					title: "2000 de Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Aventura Ardiente"
+			tasks: [{
+				advancement: "friendsandfoes:nether/find_citadel"
+				criterion: ""
+				id: "6E38DD14F2F2B52D"
+				type: "advancement"
+			}]
+			title: "Un Castillo en la Oscuridad"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["322725A82ADAA810"]
+			description: ["Si te encuentras muriendo con frecuencia, puedes fabricar un &eAncla de Respawn&r. Para fabricarlo, primero necesitarás encontrar algo de &eObsidiana Llorosa&r!"]
+			id: "0A37821899EAE5B4"
+			rewards: [
+				{
+					count: 5
+					id: "297CFA167CCC5830"
+					item: "lightmanscurrency:coin_iron"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "46A8D34E894763CE"
+					silent: true
+					title: "1750 de Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Bosques carmesíes"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_crying_obsidian"
+				criterion: ""
+				id: "79B01E4A345318F7"
+				type: "advancement"
+			}]
+			title: "Lágrimas Secas"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+			"Ocasionalmente, verás grandes estructuras imponentes en El Nether. ¿Cómo es eso posible? ¿Hay civilización aquí?",
+			"",
+			"Tal vez encontrar una de estas estructuras y explorarla te brinde pistas sobre dónde encontrar criaturas poderosas."
+			]
+			id: "45535AECCE43183A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3F6B3CF23487B7AE"
+				silent: true
+				title: "1500 de Experiencia"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Búsqueda Principal"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "110553725D320A0F"
+				type: "advancement"
+			}]
+			title: "Fortaleza del Nether"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29CD881773D976E5"]
+			description: [
+			"Si el &eMosquito Carmesí&r bebe la sangre de un &eMungus&r cubierto con &eHongos Distorsionados&r, entonces el mosquito se volverá azul y comenzará a crecer en tamaño, convirtiéndose eventualmente en un &eMosco Distorsionado&r.",
+			"",
+			"Alternativamente, puedes alimentar a un &eMosquito Carmesí&r con &eMezcla Distorsionadad&r. ¿No sabes dónde conseguirla? ¡Puedes &ecomprarla en el Terminal de Comercio/Tablón de Trueque&r!",
+			"",
+			"Eso suena como un proceso muy mutágeno...",
+			"",
+			"El Mosco Distorsionado Tiene:",
+			"&b+40% Armadura&r",
+			"&a10% Probabilidad de Soltar Runas Net&r"
+			]
+			id: "37167129D6D6A280"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B1573668D8133F2"
+					table_id: 2180584499743187208L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "55F31513DD96482E"
+					silent: true
+					title: "2000 de Experiencia"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "6AF21C1384426C0B"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Bosques Carmesíes"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:warped_muscle"
+				id: "3A77AF5EDDC8EE67"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bosque Chad"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: [
+			"Los &eExtractores de Alma de Equipo&r se pueden usar en el equipo. Obtendrás las \"estadísticas\" del equipo de vuelta como un alma, destruyendo el objeto base en el proceso. ¡Luego puedes usar el alma en otro equipo!",
+			"",
+			"Por otro lado, los &eLimpiadores de Alma de Equipo&r se usan para deshacerse de las estadísticas del equipo mientras se conserva el objeto base.",
+			"",
+			"Los &eExtractores de Gemas&r se usan para quitar las &eGemas&r de tu equipo con ranuras. No hay penalización por hacerlo, pero el extractor se consumirá. También hay un &eExtractor de Runas&r, pero usarlo costará &e1 Potencial de Equipo&r."
+			]
+			icon: "minecraft:paper"
+			id: "60D44B70BB06539B"
+			rewards: [
+				{
+					count: 5
+					id: "06397D5030906CA7"
+					item: "mmorpg:soul_extractor/uncommon"
+					title: "Extractores de Almas Equipo Poco Común"
+					type: "item"
+				}
+				{
+					id: "019842FB37A2A722"
+					item: "mmorpg:currency/extract_gem"
+					type: "item"
+				}
+				{
+					id: "14ADF13CF85D2BDC"
+					item: "mmorpg:soul_cleaner"
+					title: "Limpiador de Equipo"
+					type: "item"
+				}
+			]
+			subtitle: "Página perdida"
+			tasks: [{
+				id: "5222FCC05296547A"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Extractores de Alma de Equipo"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C2D7F2998CC495F"]
+			description: [
+			"El &eHorrible Ghast&r se puede encontrar en las &eMazmorras Horribles&r del Nether. Las Mazmorras Horribles se encuentran en los &eValle de Almas y Bosque Distorsionados&r donde aparecen como estructuras circulares flotantes. Puedes invocarlo colocando una &eEstrella del Nether en el altar&r.",
+			"",
+			"El &eGuardián del Nether&r es un poderoso enemigo encontrado en el &eCastillo de la Custodia&r del Nether. Los Castillos de la Custodia se encuentran en los &eDesiertos del Nether y Bosques Carmesí subterráneos&r. Puedes invocar al Guardián colocando una &eEstrella del Nether en el altar&r.",
+			"",
+			"&cTen en cuenta que estas estructuras no se pueden encontrar convencionalmente con la Brújula del Explorador. Puede que necesites encontrarlas manualmente.&r",
+			"",
+			"El Horrible Ghast Tiene:",
+			"&b+50% Daño Físico a Fuego&r",
+			"&b+30% Resistencia Elemental&r",
+			"&a15% Probabilidad de Soltar Runas del Nether&r",
+			"",
+			"El Guardián del Nether Tiene:",
+			"&b+50% Daño Físico a Fuego&r",
+			"&b+40% Armadura&r",
+			"&a15% Probabilidad de Soltar Runas del Nether&r"
+			]
+			icon: "minecraft:ghast_tear"
+			id: "4B57F45BE30AA5F2"
+			rewards: [
+				{
+					id: "6D6B60B2B13A812C"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":30,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Cofre de equipo raro (Lv. 30)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "603037141A03BB23"
+					silent: true
+					title: "5000 de Experiencia"
+					type: "command"
+				}
+				{
+					id: "2B90EDAC5DA53732"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:hellish_fortress"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "40EEEAB2C09C5FCA"
+					title: "1 punto de talento"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "0B062AF006F72FED"
+					title: "Ascendencia de los Novatos"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Grandes Enemigos"
+			tasks: [
+				{
+					entity: "stalwart_dungeons:awful_ghast"
+					icon: "minecraft:ghast_tear"
+					id: "51228A86D700915C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "stalwart_dungeons:nether_keeper"
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "70C7BE00D37C0827"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Defensores de los Infiernos"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4B57F45BE30AA5F2"
+				"42A954877474A58F"
+				"05AD0B9A77F0325F"
+				"37167129D6D6A280"
+				"3F61325EA08B6DAA"
+			]
+			description: ["Derrota a todos los mini-jefes del Acto II para completar este logro. ¡Luego presúmelo con tu nuevo sombrero!"]
+			hide_dependency_lines: true
+			icon: "simplehats:fakefire"
+			id: "389CFAF34A692969"
+			rewards: [
+				{
+					id: "42E82408B8908750"
+					item: "simplehats:fakefire"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0C37E20EAA887073"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Logros"
+			tasks: [{
+				id: "5285A75C058C5073"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "¡Derrota a todos los minijefes del Acto II!"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63F4CAF1CA065949"]
+			description: [
+			"&eLos Tableros de Recompensas&r generarán &emisiones aleatorias&r para que completes a cambio de recompensas especificadas. Toma una &erequisición&r desde la interfaz del tablero y complétala dentro del &elímite de tiempo&r.",
+			"",
+			"Craftea &eDecretos&r para agregar nuevos tipos de misiones al tablero, determinado aleatoriamente por el tipo de decreto."
+			]
+			id: "0726C033448D45CE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "10A31C7272F8C27A"
+				silent: true
+				title: "1500 de Experiencia"
+				type: "command"
+			}]
+			subtitle: "Misión Imposible"
+			tasks: [
+				{
+					id: "164D7BC468D2116C"
+					item: "bountiful:bountyboard"
+					type: "item"
+				}
+				{
+					id: "264FCC3C7B7531D6"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{}"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52DAC9E8213D2624"]
+			description: ["Los &eImanes&r son increíblemente útiles para mazmorras y exploración, ya que atraerán cualquier objeto caído hacia ti. Sostén uno en la mano y haz clic derecho mientras presionas shift para configurar su rango y filtros. ¡Incluso se pueden mejorar para tener un rango mucho más grande!"]
+			id: "25F1A1475A6E6F1D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "35B0C955A02DD55F"
+				silent: true
+				title: "1000 de Experiencia"
+				type: "command"
+			}]
+			subtitle: "Imanes"
+			tasks: [{
+				id: "2A9C784EEF5930E4"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "¿Cómo Funcionan?"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["322725A82ADAA810"]
+			description: [
+			"&eLightman's Currency&r es un mod que agrega esas monedas que obtienes al matar cosas. Puedes usar estas monedas para intercambiar a veces con los aldeanos, comprar gemas de Soporte y Aumento al final de cada Acto, o configurar tiendas para comerciar con otros jugadores.",
+			"",
+			"Incluso en un jugador, puedes comprar artículos del comerciante. Craft to Exile 2 tiene algunos artículos predeterminados que se pueden comprar independientemente del mundo. ¡Configura un &eTerminal de Comercio/Tablón de Trueque&r para verlo!",
+			"",
+			"Ejemplos de cosas que puedes comprar:",
+			"- Materiales de Profesión de Mine and Slash",
+			"- Paleta de Pintura y Partitura de Música",
+			"- Recursos Raros",
+			"- Bloques Comunes (Tierra, Piedra, etc.)",
+			"",
+			"Si estás jugando en multijugador, incluso puedes comprar &eBloques de Reclamación FLAN&r usando la opción de compra FLAN.",
+			"",
+			"&oPara más información, consulta la misión \"&eLightman's Currency&r\" en el capítulo &eJolly Cooperation&r!"
+			]
+			id: "29CD881773D976E5"
+			rewards: [{
+				id: "2ECADA7B5FE7D7E1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Moneda"
+			tasks: [{
+				id: "165EE02B3146E124"
+				item: "lightmanscurrency:terminal"
+				type: "item"
+			}]
+			title: "Comprar Felicidad"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: ["Crea un &eManiquí de Objetivo&r y colócalo. ¡Puedes golpearlo para ver tu daño por segundo! También puedes habilitar la opción &5Registro de Daño en el Chat&r en la pestaña &eFunciones&r del &eHub de MNS&r para ver el &e desglose exacto de los valores de daño&r."]
+			id: "12B20146ED616389"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1E68A513E06D4438"
+				silent: true
+				title: "1000 de Experiencia"
+				type: "command"
+			}]
+			subtitle: "Medidor DPS"
+			tasks: [{
+				id: "201D6D22A54727D4"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D01AD334C7C70F1"]
+			description: [
+			"&eLas Monedas&r son varios objetos que se pueden usar directamente en tu equipo. Modificarán tu equipo y lo potenciarán.",
+			"",
+			"Cada pieza de equipo tiene una cantidad de &ePotencial&r. Usar una moneda en el equipo reducirá su &ePotencial&r. Una vez que el Potencial llegue a 0, las monedas con Costo de Potencial no podrán aplicarse. Sin embargo, no todas las Monedas usan Potencial y se pueden usar en cualquier momento.",
+			"",
+			"Algunas Monedas, como la &eOrbe del Caos,&r pueden añadir efectos muy poderosos, pero también pueden causar efectos negativos en tu equipo. &cCon la Orbe del Caos, existe un 25% de posibilidad de que tu objeto se convierta en Carbón&r."
+			]
+			icon: "minecraft:paper"
+			id: "68EB4F5B367C3C47"
+			rewards: [{
+				id: "63FF5032A26E8ACD"
+				item: "mmorpg:currency/affix_tier_up_down"
+				type: "item"
+			}]
+			subtitle: "Página Perdida"
+			tasks: [{
+				id: "5B5346C72F51EAD5"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Más sobre las Monedas"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: [
+			"Es posible que hayas notado que algunos mobs del &eNether&r causan más &cDaño de Fuego.&r Los mobs nativos de una dimensión específica tienden a tener afinidad con un elemento en particular. Por ejemplo, en el Nether, algunos mobs causan una combinación de Daño de Fuego y Físico.",
+			"",
+			"&oTambién ten en cuenta que esto no significa que tomen menos daño del elemento con el que tienen afinidad.&r",
+			"",
+			"&nAfinidades Elementales&r",
+			"",
+			"&lOverworld:&r &7Ninguna&r",
+			"&lNether:&r &cFuego&r",
+			"&lJardín Subterráneo:&r &5Caos&r",
+			"&lAquamirae&r Mobs: &bFrío&r",
+			"&lEverbright:&r &bFrío&r + &eRayos&r",
+			"&lEverdawn:&r &cFuego&r + &5Caos&r",
+			"&lThe End:&r &cFuego&r + &eRayos&r + &5Caos&r",
+			"&lThe Otherside:&r &5Caos&r",
+			"&lThe Twilight Forest:&r &7Ninguna&r"
+			]
+			icon: "minecraft:paper"
+			id: "3F61325EA08B6DAA"
+			rewards: [
+				{
+					count: 2
+					id: "486CB77D39ED6397"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "56C4CFD439EAE625"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/blaze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Página Perdida"
+			tasks: [{
+				id: "5CE8B1EB861233D7"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Afinidades de la Mafia"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+			"Las Profesiones de Mine and Slash a veces pueden ser tediosas de subir... ¿Sabías que ganar experiencia a través del combate te da &eExperiencia de Profesión Descansada&r? Esta experiencia se acumula y se consumirá al realizar actividades de Profesión para mejorar la experiencia ganada.",
+			"",
+			"De manera similar, realizar actividades de Profesión te dará &eExperiencia de Combate Descansada&r!",
+			"",
+			"Puedes ver cuánta Experiencia Descansada tienes en el Hub de Mine and Slash al pasar el ratón sobre el ícono de Profesión."
+			]
+			icon: "minecraft:paper"
+			id: "256EB6DAF1808F35"
+			rewards: [{
+				id: "6313F964AAACAA08"
+				item: "mmorpg:currency/enchant_reroll"
+				type: "item"
+			}]
+			subtitle: "Página Perdida"
+			tasks: [{
+				id: "41373A88D8FE08D7"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Un Momento de Respiro"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+			"&eAscendancy&r es una forma de hacer crecer aún más a tu personaje al completar tareas desafiantes. Para empezar, debes &ecompletar la misión \"Defensores del Nether\"&r, lo que desbloqueará el &eCapítulo de Ascendancy&r.",
+			"",
+			"La primera misión que completes te otorgará 1 punto de Ascendancy, justo lo necesario para elegir tu especialización. ¡Con cada desafío posterior que completes, ganarás más puntos de Ascendancy!",
+			"",
+			"Estos puntos están limitados a 7, y puedes usarlos de manera similar a los puntos de Talento en la pestaña de Ascendancy del &eMine and Slash Hub&r.",
+			"",
+			"Solo puedes seleccionar un árbol de Ascendancy a la vez. Para seleccionar otro árbol, primero debes restablecer y recuperar todos tus puntos en el árbol actual."
+			]
+			icon: "minecraft:paper"
+			id: "3C2D7F2998CC495F"
+			rewards: [
+				{
+					id: "7048624200E724FF"
+					item: "mmorpg:potions/reset_points_ascendancy"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3EC017DEA512E603"
+					silent: true
+					title: "2500 de Experiencia"
+					type: "command"
+				}
+			]
+			subtitle: "Página perdida"
+			tasks: [{
+				id: "24A37C91BE150CC6"
+				title: "Haga clic una vez leído"
+				type: "checkmark"
+			}]
+			title: "Ascendencia"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: ["¡Cocina una comida sustanciosa para mantenerte con vida! Comer alimentos te otorgará estadísticas adicionales durante un tiempo determinado."]
+			id: "75349B31576A3930"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "031D6995F7F53586"
+				silent: true
+				title: "1250 de Experiencia"
+				type: "command"
+			}]
+			subtitle: "Profesiones"
+			tasks: [{
+				id: "08BE1394EA5B782D"
+				item: {
+					Count: 1
+					id: "mmorpg:food/uncommon_life"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Para Reflexionar"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: ["¡Intenta crear un arma personalizada para ayudarte en tu aventura!"]
+			id: "575DEFDB9962966C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 2000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "49B99CB75F267628"
+				silent: true
+				title: "2000 de Experiencia"
+				type: "command"
+			}]
+			subtitle: "Profesiones"
+			tasks: [{
+				id: "21E5841575537E9D"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/weapon/rare"
+					tag: {
+						tier: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "El Más Afilado"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52DAC9E8213D2624"]
+			description: [
+				"&eCreeper Fantasmal&r aparecen en &eBosques Distorsionados&r y &eEl End&r. Se dividen al contacto, ¡así que tendrás que manejarlos con cuidado!"
+				""
+				"El Creeper Fantasmal Tiene:"
+				"&b+25% Probabilidad de Esquivar&r"
+			]
+			id: "3B1B7EC7FF90C8E4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "266DF2422C836890"
+				silent: true
+				title: "1500 de Experiencia"
+				type: "command"
+			}]
+			subtitle: "Bombas explosivas e invisibles"
+			tasks: [{
+				entity: "born_in_chaos_v1:phantom_creeper_copy"
+				icon: "born_in_chaos_v1:phantom_bomb"
+				id: "549C3B917A1ABE21"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Criaturas de Otro Mundo III"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Lv. 10-30"]
+	title: "Acto II"
+}
