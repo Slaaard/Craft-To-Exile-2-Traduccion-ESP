@@ -22,7 +22,7 @@ No se garantiza compatibilidad con versiones anteriores o futuras. Si decides pr
 
 ### 💾 Paso ULTRA SUGERIDO
 Si quieres conservar un respaldo o volver a la versión original en inglés en el futuro, revisa el video tutorial que he preparado:
-📺 [VIDEO TUTORIAL PARA TRADUCCIÓN COMPLETA](https://youtu.be/XRrmj6TKvg4)
+📺 [VIDEO TUTORIAL PARA TRADUCCIÓN COMPLETA](https://youtu.be/RZ5w38BiP0Q)
 
 ### 🔍 Paso 1: Ubicar tu carpeta raíz del ModPack
 - Ruta común en CurseForge:
@@ -39,7 +39,7 @@ Si no planeas regresar a la versión en inglés o respaldar archivos:
 ### 🧩 Paso Recomendado: Traducción Extendida de Datapacks
 Si deseas una **traducción aún más completa**, incluyendo textos adicionales para datapacks personalizados del ModPack (como nuevas clases, habilidades y elementos del mod de M&S y otros mods principales), puedes descargar el contenido adicional aquí:
 
-🔗 [Descargar Traducción Extendida desde mi Gumroad (gratis)](https://slaaard.gumroad.com/l/qsmfo)
+🔗 [Descargar Traducción Extendida desde mi Gumroad (gratis)](https://slaaard.gumroad.com/l/cte2-esp)
 
 ✅ ¡Listo! Ya deberías tener traducido el juego con misiones principales, tooltips, las nuevas clases, herramientas y habilidades.
 
