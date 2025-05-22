@@ -1,0 +1,288 @@
+{
+    "globalizedConfig": true,
+    "enabled": true,
+    "addMessagesIfDisabled": false,
+    "showVanillaWhenUnfocused": false,
+    "vanillaInputBox": false,
+    "saveInputBoxMessage": false,
+    "wrappedMessageLineIndent": 0,
+    "maxMessages": -1,
+    "maxCommandSuggestions": 15,
+    "jumpToMessageMode": "CURSOR",
+    "selectChatLinePriority": 100,
+    "timestampSettings": {
+        "enabled": true,
+        "timestampFormat": "&7Sent at &e{hh:mm:ss a}&7.",
+        "chatTimestampModeType": "HOVER"
+    },
+    "inputOverFlowAutoFillSettings": {
+        "enabled": true,
+        "onlyOnEnter": true,
+        "clearQueueIfCloseOnEmpty": true,
+        "autoFillCommandInteraction": "IGNORE",
+        "queueMode": "OVERWRITE"
+    },
+    "messageImagePreviewSettings": {
+        "enabled": true,
+        "hasPreviewLinePriority": 20,
+        "previewLineColor": -932928701
+    },
+    "hideChatEnabled": false,
+    "hideChatShowWhenFocused": true,
+    "hideChatShowHiddenOnScreen": true,
+    "hideChatToggleKey": {
+        "key": "key.keyboard.unknown",
+        "modifier": 0
+    },
+    "alwaysShowChat": false,
+    "alwaysShowChatToggleKey": {
+        "key": "key.keyboard.unknown",
+        "modifier": 0
+    },
+    "compactMessagesEnabled": true,
+    "compactMessagesRefreshAddedTime": false,
+    "compactMessagesSearchAmount": 1,
+    "compactMessageComparatorMode": "VANILLA",
+    "compactMessageSettings": {
+        "ignoreTimestamps": true,
+        "contents": true,
+        "style": true,
+        "styleSettings": {
+            "color": true,
+            "bold": true,
+            "italic": true,
+            "underlined": true,
+            "strikethrough": true,
+            "obfuscated": true,
+            "clickEvent": true,
+            "hoverEvent": true,
+            "insertion": true,
+            "font": true
+        }
+    },
+    "scrollbarEnabled": true,
+    "invertedScrolling": false,
+    "scrollbarColor": -8354165,
+    "scrollbarWidth": 6,
+    "animationEnabled": true,
+    "animationDisableOnFocus": false,
+    "animationNewMessageTransitionTime": 200,
+    "tabEditorScreen": true,
+    "windowEditorScreen": true,
+    "scrollCycleTabEnabled": true,
+    "arrowCycleTabEnabled": true,
+    "moveToTabWhenCycling": true,
+    "inputBoxAutoAdjustChatWindowEnabled": true,
+    "tabNotificationSettings": {
+        "enabled": true,
+        "scale": 0.4
+    },
+    "movableChatEnabled": true,
+    "movableChatShowEnabledOnScreen": true,
+    "movableChatKey": {
+        "key": "key.keyboard.right.control",
+        "modifier": 0
+    },
+    "movableChatColor": -922746881,
+    "movableChatSelectedColor": -939458816,
+    "movableChatToggleTextBarElement": false,
+    "inputBoxSettings": {
+        "startY": -10,
+        "normalizeInputWhileTyping": false,
+        "maxInputBoxInputLength": 1280,
+        "showInputBoxInputLength": true,
+        "showInputBoxInputLengthBackgroundColor": 0
+    },
+    "sendNoteEnabled": true,
+    "sendNoteKey": {
+        "key": "key.keyboard.enter",
+        "modifier": 4
+    },
+    "sendNoteClickMode": "APPEND_INPUT",
+    "sendNoteSelectMode": "LINE",
+    "sendNoteSelectKey": "key.keyboard.left.shift",
+    "sendNoteSelectModeKey": "WHOLE_MESSAGE",
+    "sendNoteTextBarElementEnabled": true,
+    "filterMessagesEnabled": true,
+    "filterMessagesLinePriority": 150,
+    "filterMessagesPatterns": [],
+    "hoverHighlightEnabled": true,
+    "hoverHighlightLinePriority": 0,
+    "hoverHighlightMode": "BRIGHTER",
+    "hoverHighlightColor": 419430400,
+    "bookmarkEnabled": true,
+    "bookmarkLinePriority": 30,
+    "bookmarkColor": -925260989,
+    "bookmarkKey": {
+        "key": "key.keyboard.b",
+        "modifier": 2
+    },
+    "bookmarkTextBarElementEnabled": true,
+    "bookmarkTextBarElementKey": {
+        "key": "key.keyboard.b",
+        "modifier": 2
+    },
+    "autoBookMarkPatterns": [],
+    "findMessageEnabled": true,
+    "findMessageHighlightInputBox": false,
+    "findMessageHighlightMatchedText": true,
+    "findMessageIgnoreCase": true,
+    "findMessageLinePriority": 250,
+    "findMessageKey": {
+        "key": "key.keyboard.f",
+        "modifier": 2
+    },
+    "findMessageDefaultMode": "CONTAINS",
+    "findMessageTextBarElementEnabled": true,
+    "copyMessageKey": {
+        "key": "key.keyboard.c",
+        "modifier": 2
+    },
+    "copyMessageLinePriority": 50,
+    "copyNoFormatting": true,
+    "copyMessageFormattingSymbolOverride": "",
+    "copyMessageSeparator": "\n",
+    "deleteMessageEnabled": true,
+    "deleteMessageKey": {
+        "key": "key.keyboard.d",
+        "modifier": 2
+    },
+    "screenshotChatEnabled": true,
+    "screenshotChatCopyToClipboard": true,
+    "screenshotChatSaveToFile": true,
+    "screenshotChatAutoUpload": true,
+    "screenshotChatLinePriority": 200,
+    "screenshotChatKey": {
+        "key": "key.keyboard.s",
+        "modifier": 2
+    },
+    "screenshotDefaultScreenShotMode": "CURRENT_WINDOW",
+    "screenshotDefaultScreenBackgroundMode": "TRANSPARENT",
+    "screenshotDefaultScreenShotWindowsMode": "SPLIT",
+    "screenshotChatTextBarElementEnabled": true,
+    "playerHeadChatDisplayEnabled": true,
+    "playerHeadChatDisplayShowOnWrapped": false,
+    "playerHeadChatDisplayOffsetNonHeadMessages": false,
+    "playerHeadChatDisplayOffsetNonHeadMessagesShowOnWrapped": true,
+    "keyNoScroll": "key.keyboard.left.control",
+    "keyFineScroll": "key.keyboard.left.shift",
+    "keyLargeScroll": "key.keyboard.left.alt",
+    "keyPeekChat": "key.keyboard.p",
+    "translatorEnabled": true,
+    "translatorTextBarElementEnabled": true,
+    "translatorRegexes": [],
+    "translateTo": "Auto Detect",
+    "translateSelf": "Auto Detect",
+    "translateSpeak": "English",
+    "translateKeepOnAfterChatClose": true,
+    "translateKey": {
+        "key": "key.keyboard.t",
+        "modifier": 2
+    },
+    "translateToggleKey": {
+        "key": "key.keyboard.t",
+        "modifier": 2
+    },
+    "translateClickEnabled": true,
+    "speechToTextEnabled": true,
+    "speechToTextToInputBox": true,
+    "speechToTextCharset": "UTF-8",
+    "speechToTextMicrophoneKey": "key.keyboard.b",
+    "speechToTextQuickSendKey": "key.keyboard.enter",
+    "speechToTextTranslateEnabled": false,
+    "speechToTextTranslateToInputBox": true,
+    "speechToTextTranslateLang": "English",
+    "speechToTextAutoReplacePlayers": true,
+    "speechToTextAutoReplacePlayersMaxSearchDepth": 3,
+    "speechToTextReplace": [],
+    "chatWindows": [
+        {
+            "generalSettings": {
+                "disabled": false,
+                "backgroundColor": -2147483648,
+                "unfocusedBackgroundColorOpacityMultiplier": 0.39999998,
+                "scale": 1.0,
+                "textOpacity": 1.0,
+                "textShadow": true,
+                "unfocusedTextOpacityMultiplier": 1.0,
+                "unfocusedHeight": 0.5,
+                "lineSpacing": 0.0,
+                "messageAlignment": "LEFT",
+                "messageDirection": "BOTTOM_UP"
+            },
+            "outlineSettings": {
+                "enabled": false,
+                "showWhenChatNotOpen": false,
+                "outlineColor": 0,
+                "unfocusedOutlineColorOpacityMultiplier": 0.39999998,
+                "outlineBoxType": "TEXT_BOX",
+                "outlineTabType": "SELECTED_TAB_OPEN_TOP"
+            },
+            "padding": {
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "renderer": {
+                "x": 0,
+                "y": -29,
+                "width": 309,
+                "height": 162
+            },
+            "tabSettings": {
+                "selectedTabIndex": 0,
+                "startRenderTabIndex": 0,
+                "hideTabs": false,
+                "showTabsWhenChatNotOpen": true,
+                "position": "BOTTOM",
+                "tabTextColorSelected": -1,
+                "tabTextColorUnselected": -6710887,
+                "unfocusedTabOpacityMultiplier": 0.39999998,
+                "tabs": [
+                    {
+                        "pattern": "(?s).*",
+                        "formatted": false,
+                        "name": "Todo",
+                        "autoPrefix": "",
+                        "serverTabPatterns": [],
+                        "priority": 0,
+                        "alwaysAdd": true,
+                        "skipOthers": false,
+                        "commandsOverrideAutoPrefix": true,
+                        "temporary": false
+                    },
+                    {
+                        "pattern": ".*(?i)(dealt|applied).*(?i)damage.*",
+                        "formatted": false,
+                        "name": "Daño",
+                        "autoPrefix": "",
+                        "serverTabPatterns": [],
+                        "priority": 1,
+                        "alwaysAdd": false,
+                        "skipOthers": true,
+                        "commandsOverrideAutoPrefix": true,
+                        "temporary": false
+                    },
+                    {
+                        "pattern": "(?i)Killed.*|\\+.*(?i)Exp.*|.*has.*(?i)level.*\\!.*",
+                        "formatted": false,
+                        "name": "Botín",
+                        "autoPrefix": "",
+                        "serverTabPatterns": [],
+                        "priority": 2,
+                        "alwaysAdd": false,
+                        "skipOthers": true,
+                        "commandsOverrideAutoPrefix": true,
+                        "temporary": false
+                    }
+                ]
+            },
+            "autoTabCreator": {
+                "autoTabOptions": []
+            }
+        }
+    ],
+    "speechToTextSampleRate": 48000,
+    "speechToTextMicrophone": "Default",
+    "speechToTextSelectedAudioModel": ""
+}
