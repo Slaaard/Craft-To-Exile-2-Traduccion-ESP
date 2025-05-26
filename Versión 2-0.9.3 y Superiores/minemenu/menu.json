@@ -1,0 +1,124 @@
+{
+  "main": {
+    "0": {
+      "title": "Configuración de Inventory HUD",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:diamond_chestplate\",tag:{Damage:0}}"
+      },
+      "action": {
+        "key": {
+          "key": "key.inventoryhud.openconfig",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Configuración de Jade",
+      "icon": {
+        "stack": "{Count:1b,id:\"mmorpg:gems/emerald/2\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.jade.config",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Configuración del Minimapa",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:filled_map\"}"
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_minimap_settings",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Marcadores",
+      "icon": {
+        "stack": "{Count:1b,id:\"waystones:mossy_waystone\"}"
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_waypoints_key",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "Billetera",
+      "icon": {
+        "stack": "{Count:1b,id:\"lightmanscurrency:wallet_copper\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.lightmanscurrency.open_wallet",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Centro de Mine and Slash",
+      "icon": {
+        "stack": "{Count:1b,id:\"mmorpg:skill_gems/skill/dex\"}"
+      },
+      "action": {
+        "key": {
+          "key": "hub_screen",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "Misiones",
+      "icon": {
+        "stack": "{Count:1b,id:\"ftbquests:book\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbquests.quests",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "Equipos FTB",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:player_head\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbteams.open_gui",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Libro de Comida",
+      "icon": {
+        "stack": "{Count:1b,id:\"solonion:food_book\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.solonion.open_food_book",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Alternar a Superposición Clara",
+      "icon": {
+        "stack": "{Count:1b,id:\"mcwlights:garden_light\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.moreoverlays.lightoverlay.desc",
+          "toggle": false
+        }
+      }
+    }
+  }
+}
