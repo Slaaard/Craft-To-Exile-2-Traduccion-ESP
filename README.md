@@ -32,11 +32,35 @@ Si quieres conservar un respaldo o volver a la versión original en inglés en e
 
 ### 📂 Paso 2: Reemplazar archivos (Traducción completa)
 Si no planeas regresar a la versión en inglés o respaldar archivos:
-1. Copia las carpetas **`config`** del repositorio.
+1. Copia las carpetas **`config y minemenu`** del repositorio.
 2. Pégalas en tu directorio raíz de **Craft to Exile 2**.
 3. Cuando te pida reemplazar archivos, selecciona **Reemplazar todo**.
 
-### 🧩 Paso Recomendado: Traducción Extendida de Datapacks
+## 📁 Instalación Manual con Respaldo Seguro
+
+Si prefieres instalar la traducción manualmente y **hacer respaldo de tus archivos originales**, sigue estos pasos:
+
+### 🛡️ 1. Haz una copia de seguridad
+Antes de reemplazar los archivos, ve a las siguientes carpetas `chatplus, customization, quests, minemenu` dentro de tu instalación del ModPack y **renómbralas agregando la palabra `-original`** al final. Las Carpetas mencionadas se encuentran dentro de las siguientes rutas:
+  ```
+  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config\chatplus
+  ```
+  ```
+  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config\fancymenu\customization
+  ```
+  ```
+  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config\ftbquests\quests
+  ```
+  ```
+  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\minemenu
+  ```
+
+Esto asegura que podrás **restaurar fácilmente los archivos originales** en dado caso de que haya algún error o quieres volver a la versión en inglés.
+
+### 📦 2. Copia los archivos del repositorio
+Ahora copia las carpetas del repositorio (con los archivos traducidos) y pégalas en las mismas rutas anteriores:
+
+### 🧩 Paso Extra Recomendado: Traducción Extendida de Datapacks
 Si deseas una **traducción aún más completa**, incluyendo textos adicionales para datapacks personalizados del ModPack (como nuevas clases, habilidades y elementos del mod de M&S y otros mods principales), puedes descargar el contenido adicional aquí:
 
 🔗 [Descargar Traducción Extendida desde mi Gumroad (gratis)](https://slaaard.gumroad.com/l/cte2-esp)
