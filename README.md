@@ -12,6 +12,7 @@ Esta traducción ha sido **probada y funciona correctamente** en las siguientes 
 - `2.0.9.4`
 - `2.0.9.4b`
 - `2.0.9.5`
+- `2.1.0.0`
 
 No se garantiza compatibilidad con versiones anteriores o futuras. Si decides probarla en otra versión, ¡cuéntame tu experiencia creando un issue o dejando un comentario en el video tutorial! Tu feedback puede ayudarme a mantener esta traducción actualizada. 🔧
 
@@ -46,20 +47,20 @@ Si prefieres instalar la traducción manualmente y **hacer respaldo de tus archi
 ### 🛡️ 1. Haz una copia de seguridad
 Antes de reemplazar los archivos, ve a las siguientes carpetas `chatplus, customization, quests, minemenu` dentro de tu instalación del ModPack y **renómbralas agregando la palabra `-original`** al final. Las Carpetas mencionadas se encuentran dentro de las siguientes rutas:
   ```
-  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config\chatplus
+  C:\Users\%USERPROFILE%\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config\chatplus
   ```
   ```
-  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config\fancymenu\customization
+  C:\Users\%USERPROFILE%\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config\fancymenu\customization
   ```
   ```
-  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config\ftbquests\quests
+  C:\Users\%USERPROFILE%\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config\ftbquests\quests
   ```
   ```
-  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\minemenu
+  C:\Users\%USERPROFILE%\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\minemenu
   ```
-El archivo `firstjoinmessage.json5` copiala, pega y remplaza dentro de tu instalación del ModPack o **renómbralas agregando la palabra `-original`** al final como respaldo en la siguiente ruta.
+El archivo `firstjoinmessage.json5` y demás archivos copialos, pega y remplaza dentro de tu instalación del ModPack o **renómbralas agregando la palabra `-original`** al final como respaldo en la siguiente ruta.
   ```
-  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config
+  C:\Users\%USERPROFILE%\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)\config
   ```
 
 Esto asegura que podrás **restaurar fácilmente los archivos originales** en dado caso de que haya algún error o quieres volver a la versión en inglés.
