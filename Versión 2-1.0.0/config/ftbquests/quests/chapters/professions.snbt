@@ -1,0 +1,1181 @@
+{
+	default_hide_dependency_lines: false,
+	default_quest_shape: "",
+	filename: "professions",
+	group: "5F2CCE8075FCC994",
+	icon: {
+		Count: 1b,
+		id: "minecraft:diamond_pickaxe",
+		tag: {
+			Damage: 0
+		}
+	},
+	id: "3FD221468FC33E9D",
+	order_index: 0,
+	quest_links: [],
+	quests: [
+		{
+			dependencies: ["5B97985430859986"],
+			description: [
+				"El reciclaje es el acto de deconstruir tu equipo en materiales que se pueden usar para craftear objetos de Profesión, equipo o para reparar.",
+				"",
+				"Para usar una Estación de Reciclaje, &ldebes&r colocar una tolva sobre la estación y poner tu equipo a reciclar en la tolva. Reciclar en la Estación puede dar más resultados y experiencia que el auto-reciclaje.",
+				"",
+				"Tu equipo será reciclado y recibirás materiales como resultado. &eAl reciclar, recibirás &ePiedras&r de diversa rareza. Se usan para reparar o craftear equipo. También se pueden usar para craftear otros objetos. La rareza de la piedra depende de la rareza del equipo reciclado.",
+				"",
+				"&bTambién puedes reciclar tu equipo a través de la función de auto-reciclaje del Hub, pero ganarás menos experiencia haciéndolo.&r"
+			],
+			id: "16525899DA8C3A74",
+			rewards: [
+				{
+					count: 10,
+					id: "5D27E610193FC88F",
+					item: "mmorpg:stone/1",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 100",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "0352A11976D1DDF7",
+					silent: true,
+					title: "100 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "0367855050B7E8AC",
+				item: "mmorpg:salvaging_station",
+				type: "item"
+			}],
+			title: "Reciclaje",
+			x: -3.0d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["06E3D7523619E263"],
+			description: [
+				"Puedes craftear &eAlmas de Equipo Crafteadas&r para lo siguiente: armaduras, objetos de mano secundaria, joyería y armas. Al craftear equipo, hay algunos ingredientes:",
+				"",
+				"1. &eMineral por Niveles&r - se obtiene de Minería, se basan en el nivel de objeto que quieres craftear. Los rangos de nivel son los mismos que encontrarías en la Profesión de Minería.",
+				"",
+				"2. &ePiedras (Rareza)&r - las Piedras determinan la rareza del equipo que craftearás. Puedes obtener estas Piedras al reciclar. La cantidad de Piedras requerida depende de la rareza del equipo.",
+				"",
+				"3. &eLingotes + Objetos Identificadores&r - los objetos que determinan si estás crafteando armadura, objetos de mano secundaria, joyería o armas. ¡Consulta &cJEI&r para las recetas!",
+				"",
+				"4. &eDinero&r",
+				"",
+				"&lSiempre puedes consultar el &cJEI&r &lpara ver qué objetos se necesitan para el &eAlma de Equipo Crafteada&r&l.&r"
+			],
+			id: "66D05E37DC634CC8",
+			rewards: [
+				{
+					id: "3230DF5B7E7AFDEF",
+					item: "lightmanscurrency:coin_emerald",
+					title: "Money",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 100",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "3F252D9D1E228D51",
+					silent: true,
+					title: "100 de Experiencia x Nv.",
+					type: "command"
+				},
+				{
+					id: "7381C57602D80F7F",
+					item: "simplehats:hatbag_common",
+					type: "item"
+				},
+				{
+					exclude_from_claim_all: true,
+					id: "2B407159F4F31F62",
+					table_id: 8834087311923919794L,
+					type: "all_table"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "0BC1B554EEEDFF0E",
+				item: "mmorpg:gear_crafting_station",
+				type: "item"
+			}],
+			title: "Crafteo de Equipo",
+			x: -3.0d,
+			y: -3.0d
+		},
+		{
+			dependencies: [
+				"350315F71B69062F",
+				"5BAFAA732A026ADD"
+			],
+			dependency_requirement: "one_completed",
+			description: [
+				"Puedes cocinar alimentos que proporcionarán hambre y saturación, pero también bonificaciones de estadísticas. Al cocinar, hay algunos ingredientes:",
+				"",
+				"1. &eCarne/Productos Agrícolas/Pescado por Niveles&r - se obtienen de Ganadería, Agricultura y Pesca, y se basan en el nivel de objeto que quieres craftear. Los rangos de nivel son los mismos que encontrarías en las Profesiones de recolección. El tipo de alimento que usas depende de lo que cocines:",
+				"",
+				"&cCarne&r: Regeneración de Salud/Escudo Mágico",
+				"&2Productos Agrícolas&r: Regeneración de Maná/Energía",
+				"&bPescado&r: EXP/Botín",
+				"",
+				"2. &c1&r &ePiedra (Rareza)&r - las Piedras determinan la rareza del equipo que craftearás. Puedes obtener estas Piedras al reciclar.",
+				"",
+				"3. &eOtro Alimento&r - generalmente se usa como un ingrediente adicional que también puede determinar qué comida estás cocinando. ¡Consulta &cJEI&r para las recetas!",
+				"",
+				"4. &eDinero&r",
+				"",
+				"&lSiempre puedes consultar el &cJEI&r &lpara ver qué objetos se necesitan para &eCocinar&r&l.&r",
+				"",
+				"&eRequiere que se complete 1 dependencia.&r"
+			],
+			id: "0402FA5F0E1D4835",
+			rewards: [
+				{
+					id: "733A740BBD7E157B",
+					item: "lightmanscurrency:coin_emerald",
+					title: "Money",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 100",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "2A86C11774E7E94C",
+					silent: true,
+					title: "100 de Experiencia x Nv.",
+					type: "command"
+				},
+				{
+					id: "3F36BD44ADA840B1",
+					item: "simplehats:chefshat",
+					type: "item"
+				},
+				{
+					exclude_from_claim_all: true,
+					id: "6D912622A78183E5",
+					table_id: 4000157731876446784L,
+					type: "all_table"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "286493E91C2A3DE3",
+				item: "mmorpg:cooking_station",
+				type: "item"
+			}],
+			title: "Cocina",
+			x: 0.0d,
+			y: -3.0d
+		},
+		{
+			dependencies: ["4E27A84CE1F030A1"],
+			description: [
+				"Puedes preparar pociones que pueden recuperar salud y recursos, o proporcionar bonificaciones de estadísticas. Al preparar, hay algunos ingredientes:",
+				"",
+				"1. &eCarne/Productos Agrícolas/Pescado por Niveles&r - se obtienen de Ganadería, Agricultura y Pesca, y se basan en el nivel de objeto que quieres craftear. Los rangos de nivel son los mismos que encontrarías en las Profesiones de recolección. El tipo de alimento que usas depende de la poción que prepares:",
+				"",
+				"&cCarne&r: Poción de Salud/Recurso",
+				"&2Productos Agrícolas&r: Poción de Atributo Principal",
+				"&bPescado&r: Poción de Mejora de Daño",
+				"",
+				"2. &c1&r &ePiedra (Rareza)&r - las Piedras determinan la rareza del equipo que craftearás. Puedes obtener estas Piedras al reciclar.",
+				"",
+				"3. 1-2 &eOtros Alimentos&r - usados como ingrediente adicional. ¡Consulta &cJEI&r para las recetas!",
+				"",
+				"4. &eDinero&r",
+				"",
+				"&lSiempre puedes consultar el &cJEI&r &lpara ver qué objetos se necesitan para &eAlquimia&r&l.&r"
+			],
+			id: "69CEB39AA409EB41",
+			rewards: [
+				{
+					id: "45E800C630906FA0",
+					item: "lightmanscurrency:coin_emerald",
+					title: "Money",
+					type: "item"
+				},
+				{
+					count: 10,
+					id: "61CF1AA5B0CB52A9",
+					item: "mmorpg:material/fishing/0",
+					type: "item"
+				},
+				{
+					id: "72560260773744C2",
+					item: "minecraft:golden_carrot",
+					title: "Golden Carrot",
+					type: "item"
+				},
+				{
+					count: 4,
+					id: "06A71F74FBBAB6B4",
+					item: "minecraft:nether_wart",
+					title: "Nether Warts",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 100",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "0AC5084AFE23C772",
+					silent: true,
+					title: "100 de Experiencia x Nv.",
+					type: "command"
+				},
+				{
+					id: "442A185482E51811",
+					item: "simplehats:potionhead",
+					type: "item"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "1E06AAEDAF51CAC4",
+				item: "mmorpg:alchemy_station",
+				type: "item"
+			}],
+			title: "Alquimia",
+			x: 3.0d,
+			y: -3.0d
+		},
+		{
+			dependencies: ["06E3D7523619E263"],
+			description: [
+				"Puedes craftear &eInfusiones&r para lo siguiente: armaduras, objetos de mano secundaria, joyería y armas. Al craftear los pergaminos, hay algunos ingredientes:",
+				"",
+				"1. &eMineral por Niveles&r - se obtiene de Minería, se basan en el nivel de objeto que quieres craftear. Los rangos de nivel son los mismos que encontrarías en la Profesión de Minería.",
+				"",
+				"2. &ePiedras (Rareza)&r - las Piedras determinan la rareza del equipo que craftearás. Puedes obtener estas Piedras al reciclar.",
+				"",
+				"3. &eLingotes + Objetos Identificadores&r - los objetos que determinan si estás crafteando armadura, objetos de mano secundaria, joyería o armas. ¡Consulta &cJEI&r para las recetas",
+				"",
+				"4. &ePapel&r",
+				"",
+				"5. &eDinero&r",
+				"",
+				"&lSiempre puedes consultar el &cJEI&r &lpara ver qué objetos se necesitan para &eInfusiones&r&l.&r"
+			],
+			id: "5DA0A1825512C2E3",
+			rewards: [
+				{
+					id: "1911D5BB40B08AE4",
+					item: "lightmanscurrency:coin_emerald",
+					title: "Money",
+					type: "item"
+				},
+				{
+					count: 6,
+					id: "03487D940BB7FF6C",
+					item: {
+						Count: 1b,
+						id: "mmorpg:enchantment/family/armor/common",
+						tag: {
+							level: 1,
+							tier: 0
+						}
+					},
+					title: "Common Armor Enchantments",
+					type: "item"
+				},
+				{
+					id: "54A59A4D3825A0FB",
+					item: "mmorpg:material/mining/1",
+					title: "Celestial Ore",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 100",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "7C33BF31E52E9AB8",
+					silent: true,
+					title: "100 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "4A22DE4DF9A47E2D",
+				item: "mmorpg:enchanting_station",
+				type: "item"
+			}],
+			title: "Infusión",
+			x: -1.5d,
+			y: -3.0d
+		},
+		{
+			dependencies: ["5B97985430859986"],
+			description: [
+				"Minar cualquier tipo de mineral te otorgará experiencia en Minería. Sin embargo, solo ganarás la cantidad total de experiencia de los minerales relativos a tu nivel de Minería:",
+				"",
+				"&eNivel 1-20&r (&7Tier 0&r): Carbón, Hierro, Cobre",
+				"&eNivel 21-40&r (&aTier 1&r): Redstone, Lapislázuli, Oro, Cuarzo, Cloggrum",
+				"&eNivel 41-60&r (&9Tier 2&r): Esmeralda, Diamante, Acero Gélido, Utherium",
+				"&eNivel 61-80&r (&dTier 3&r): Regalium, Piedra Lunar, Piropo, Aquita",
+				"&eNivel 81-100&r (&6Tier 4&r): Falsita, Ventium, Horizonita",
+				"&eNivel 100&r (&5Tier 5&r): Charoita, Diópsido",
+				"",
+				"&cEso no significa que no recibirás experiencia de objetos fuera de tu rango de nivel, solo menos.&r",
+				"",
+				"Mientras minas, encontrarás &eMineral por Niveles&r (&7Espiritual&r, &aCelestial&r. &9Empíreo&r, &dAngélico&r, &6Divino&r y &5Piadoso&r), que se obtiene por azar dependiendo de tu nivel y el rango de nivel del mineral que estás minando. Este mineral se puede usar en otras Profesiones."
+			],
+			id: "06E3D7523619E263",
+			rewards: [{
+				count: 10,
+				id: "328BF723090CE6EC",
+				item: "mmorpg:material/mining/0",
+				type: "item"
+			}],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "19BB6A94ECC3A565",
+				item: {
+					Count: 1b,
+					id: "minecraft:iron_pickaxe",
+					tag: {
+						Damage: 0
+					}
+				},
+				type: "item"
+			}],
+			title: "Minería",
+			x: -1.5d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["5B97985430859986"],
+			description: [
+				"Cultivar y cosechar productos agrícolas te otorgará experiencia en Agricultura. Sin embargo, solo ganarás la cantidad total de experiencia de las plantas relativas a tu nivel de Agricultura:",
+				"",
+				"&eNivel 1-20&r (&7Tier 0&r): Trigo, Remolacha, Zanahoria, Patatas",
+				"&eNivel 21-40&r (&aTier 1&r): Melón, Calabaza, Lino, Repollo, Tomate, Cebolla, Granos de Cacao",
+				"&eNivel 41-60&r (&9Tier 2&r): Maíz, Gysahl Verde, Verruga del Nether, Arroz, Calabaza Sombría",
+				"&eNivel 61-80&r (&dTier 3&r): Fruto de Pino, Hojas de Invierno",
+				"&eNivel 81-100&r (&6Tier 4&r): Fruto de Escama, Frijoles Ígneos",
+				"&eNivel 100&r (&5Tier 5&r): Criorraíz, Nuez Solar",
+				"",
+				"&cEso no significa que no recibirás experiencia de objetos fuera de tu rango de nivel, solo menos.&r",
+				"",
+				"Mientras cosechas, encontrarás &eProductos Agrícolas por Niveles&r (&7Espiritual&r, &aCelestial&r. &9Empíreo&r, &dAngélico&r, &6Divino&r y &5Piadoso&r), que se obtienen por azar dependiendo de tu nivel y el rango de nivel de la planta que estás cosechando. Estos se pueden usar en otras Profesiones."
+			],
+			id: "350315F71B69062F",
+			rewards: [{
+				count: 10,
+				id: "4989A75D782C3EC1",
+				item: "mmorpg:material/farming/0",
+				type: "item"
+			}],
+			subtitle: "Profesiones M&S",
+			tasks: [{
+				id: "48940014C4EC1677",
+				item: {
+					Count: 1b,
+					id: "minecraft:iron_hoe",
+					tag: {
+						Damage: 0
+					}
+				},
+				type: "item"
+			}],
+			title: "Agricultura",
+			x: 0.0d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["5B97985430859986"],
+			description: [
+				"Pescar cualquier pez te otorgará experiencia en Pesca.",
+				"",
+				"Mientras pescas, encontrarás &ePeces por Niveles&r (&7Espiritual&r, &aCelestial&r. &9Empíreo&r, &dAngélico&r, &6Divino&r y &5Piadoso&r), que se obtienen por azar dependiendo de tu nivel. Por ejemplo, los Peces &7Espirituales&r se obtienen mientras tu nivel de Pesca está entre 1-20, los &aCelestiales&r mientras tu nivel está entre 21-40, etc. Los peces se pueden usar en otras Profesiones."
+			],
+			id: "5BAFAA732A026ADD",
+			rewards: [{
+				count: 10,
+				id: "564B2EEF75A0E3BD",
+				item: "mmorpg:material/fishing/0",
+				type: "item"
+			}],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "5433C4BA3B7B3B42",
+				item: {
+					Count: 1b,
+					id: "aquaculture:iron_fishing_rod",
+					tag: {
+						Damage: 0
+					}
+				},
+				type: "item"
+			}],
+			title: "Pesca",
+			x: 1.5d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["5B97985430859986"],
+			description: [
+				"&eCaza de Recompensas&r es una Profesión de Mine and Slash que sube de nivel a medida que completas recompensas de Bountiful. ¡Completa recompensas para ganar experiencia en Caza de Recompensas y &eVales de Recompensa&r!",
+				"",
+				"Los &eTablones de Recompensas&r generarán &erecompensas aleatorias&r para que las completes. ¡Toma una &esolicitud&r de la interfaz del tablón y complétala dentro del &elímite de tiempo&r para ganar las recompensas indicadas. A medida que completes recompensas, tu &ereputación&r (vinculada a ese bloque de Tablón de Recompensas) aumentará, incrementando el nivel de las recompensas.",
+				"",
+				"A medida que subas de nivel tu Caza de Recompensas, obtendrás acceso a más recompensas para comprar en la &eTienda de Profesiones&r. ¡Los objetos en esta tienda se pueden comprar con &eVales de Recompensa&r! Se puede acceder a la tienda con la &eTecla por Defecto: P, o la rueda de menú&r.",
+				"",
+				"Craftea &eDecretos&r para dar nuevos tipos de misiones al tablón por cada tipo de decreto, que se determina aleatoriamente.",
+				"",
+				"A través de la Caza de Recompensas podrás obtener &eCarnes por Niveles&r (&7Espiritual&r, &aCelestial&r. &9Empíreo&r, &dAngélico&r, &6Divino&r y &5Piadoso&r) para usar en la Cocina."
+			],
+			id: "4E27A84CE1F030A1",
+			rewards: [{
+				count: 10,
+				id: "2F43FF9AD7260A2D",
+				item: "mmorpg:material/meat/0",
+				type: "item"
+			}],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "19DE644926921DDB",
+				item: "minecraft:wheat",
+				type: "item"
+			}],
+			title: "Caza de Recompensas",
+			x: 3.0d,
+			y: -1.5d
+		},
+		{
+			description: [
+				"Mine and Slash añade su propio sistema de Profesiones. Las Profesiones se dividen en 3 categorías:",
+				"",
+				"&e&lRecolección:&r&r",
+				"- &7Minería&r: reúne materiales mientras minas.",
+				"- &2Agricultura&r: reúne materiales al cosechar productos agrícolas.",
+				"- &9Pesca&r: reúne peces especiales por azar mientras pescas.",
+				"- &6Caza de Recompensas&r: completa recompensas para obtener premios.",
+				"",
+				"&e&lCrafteo:&r&r",
+				"- &eCrafteo de Equipo&r: craftea equipo para usar en combate.",
+				"- &bEncantamiento&r: craftea pergaminos para mejorar tu equipo.",
+				"- &cCocina&r: cocina alimentos que proporcionan bonificaciones de estadísticas, botín y experiencia por un período de tiempo al consumirlos.",
+				"- &5Alquimia&r: crea poderosos brebajes para mejorar tus estadísticas por un período de tiempo.",
+				"",
+				"&e&lOtro:&r&r",
+				"- &4Reciclaje&r: extrae recursos del equipo al reciclarlo en una Estación de Reciclaje &e(también puedes habilitar el auto-reciclaje a través del Hub)&r.",
+				"",
+				"&c&lNota: ¡Las profesiones no pueden subir de nivel más allá de tu nivel de Mine and Slash!&r&r"
+			],
+			icon: {
+				Count: 1b,
+				id: "minecraft:diamond_pickaxe",
+				tag: {
+					Damage: 0
+				}
+			},
+			id: "5B97985430859986",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 250",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "5F6792B593BCCE90",
+				silent: true,
+				title: "250 de Experiencia x Nv.",
+				type: "command"
+			}],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "3921C843B8906ADB",
+				title: "Hacer Clic una Vez Leído",
+				type: "checkmark"
+			}],
+			title: "Resumen de Profesiones",
+			x: 0.0d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["5B97985430859986"],
+			description: [
+				"Las herramientas en Craft to Exile 2 pueden ganar niveles con el uso. A medida que aumentan de nivel, pueden ganar afijos que otorgarán varias mejoras.",
+				"",
+				"¡&eLas herramientas ganarán un afijo cada 20 niveles!&r"
+			],
+			icon: "minecraft:paper",
+			id: "4FC11A47AE877347",
+			rewards: [{
+				id: "1D951C04F12D86AD",
+				item: "lightmanscurrency:coin_iron",
+				type: "item"
+			}],
+			subtitle: "Página Perdida de Profesiones M&S",
+			tasks: [{
+				id: "425830C92EB05E74",
+				title: "Hacer Clic una Vez Leído",
+				type: "checkmark"
+			}],
+			title: "Subir de Nivel las Herramientas",
+			x: 1.5d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["66D05E37DC634CC8"],
+			description: [
+				"Las &ePiedras de Afilar&r se pueden usar en tu equipo para aumentar su potencia. El aumento de calidad se refleja en la estadística base del equipo (Daño de Arma, Armadura, Índice de Esquiva, etc.).",
+				"",
+				"Puedes craftear &ePiedras de Afilar&r en la &eEstación de Crafteo de Equipo&r usando Piedras. A medida que encuentres Piedras de mayor rareza, podrás craftear mejores &ePiedras de Afilar&r.",
+				"",
+				"¡Estas &ePiedras de Afilar&r pueden superar el límite normal de calidad de &b20&r, por lo que siempre deben usarse después de los &eOrbes de Calidad&r, ya que las &ePiedras de Afilar&r solo se pueden usar una vez en un objeto!"
+			],
+			id: "141FEAAFF05B9AD0",
+			rewards: [
+				{
+					count: 2,
+					id: "547E65938CA0A29C",
+					item: "mmorpg:stone/2",
+					title: "Rare Stones",
+					type: "item"
+				},
+				{
+					id: "3D8965F89B3ED0BF",
+					item: "mmorpg:currency/sharpening_stone_1",
+					type: "item"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "0A06314AF113F9B0",
+				item: "mmorpg:currency/sharpening_stone_0",
+				type: "item"
+			}],
+			title: "Aumentando la Calidad del Equipo",
+			x: -4.5d,
+			y: -3.0d
+		},
+		{
+			dependencies: ["69CEB39AA409EB41"],
+			description: [
+				"Prepara las pociones con lo siguiente:",
+				"",
+				"3x &7Carne Espiritual&r",
+				"1x &7Piedra Común&r",
+				"1x Pollo Cocido/3x Manzana",
+				"1x Tomate/Cebolla",
+				"1x Moneda de Cobre"
+			],
+			id: "50FD77E095AAC45F",
+			rewards: [
+				{
+					count: 15,
+					id: "0981A3CD67453EB1",
+					item: "mmorpg:material/meat/1",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "237FE61CA6C59BC2",
+					silent: true,
+					title: "250 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [
+				{
+					count: 16L,
+					id: "7E723FA212E31E4B",
+					item: {
+						Count: 1b,
+						id: "mmorpg:potion/health/0",
+						tag: {
+							level: 1,
+							tier: 0
+						}
+					},
+					type: "item"
+				},
+				{
+					count: 16L,
+					id: "0120CDCEBB47B1F9",
+					item: {
+						Count: 1b,
+						id: "mmorpg:potion/resource/0",
+						tag: {
+							level: 1,
+							tier: 0
+						}
+					},
+					type: "item"
+				}
+			],
+			title: "Pociones de Recuperación",
+			x: 3.0d,
+			y: -4.5d
+		},
+		{
+			dependencies: ["69CEB39AA409EB41"],
+			description: [
+				"Prepara las pociones con lo siguiente:",
+				"",
+				"3x &7Productos Agrícolas Espirituales&r",
+				"1x &7Piedra Común&r",
+				"3x Patata/Repollo/Zanahoria",
+				"1x Moneda de Cobre"
+			],
+			id: "53205D57DBDEE858",
+			rewards: [
+				{
+					count: 10,
+					id: "50520A4E47D0F85F",
+					item: "mmorpg:material/farming/1",
+					type: "item"
+				},
+				{
+					count: 8,
+					id: "15D78B8F7609066A",
+					item: "minecraft:nether_wart",
+					title: "Nether Warts",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "15C4752FC4CE35F1",
+					silent: true,
+					title: "250 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [
+				{
+					id: "1673E0EA465EEEFC",
+					item: {
+						Count: 1b,
+						id: "mmorpg:buff_potion/common_str",
+						tag: {
+							tier: 0
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "73300383E4D249CA",
+					item: {
+						Count: 1b,
+						id: "mmorpg:buff_potion/common_int",
+						tag: {
+							tier: 0
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "18858219F8B3DD30",
+					item: {
+						Count: 1b,
+						id: "mmorpg:buff_potion/common_dex",
+						tag: {
+							tier: 0
+						}
+					},
+					type: "item"
+				}
+			],
+			title: "Mejoras de Atributos",
+			x: 4.5d,
+			y: -4.5d
+		},
+		{
+			dependencies: ["5DA0A1825512C2E3"],
+			description: [
+				"Craftea una &eInfusión de Armadura Poco Común&r con lo siguiente:",
+				"",
+				"3x &7Mineral Espiritual&r",
+				"1x &aPiedra Poco Común&r",
+				"2x Lingote de Hierro",
+				"1x Cuero",
+				"1x Papel",
+				"5x Moneda de Cobre",
+				"",
+				"Cuando se usa en tu Equipo, tienes la posibilidad de aplicar una estadística aleatoria como bonificación. Luego puedes mejorar esa estadística aplicando Infusiones de mayor rareza.",
+				"",
+				"&cLa Infusión tiene una probabilidad de fallar cuando se usa&r, pero verás la descripción del objeto actualizada con \"Infusión\" una vez que tenga éxito. &cLas infusiones deben aplicarse en orden de rareza.&r Lo que significa que debes comenzar con una Infusión común exitosa antes de aplicar una poco común. No puedes aplicar una Infusión rara a un objeto con una Infusión común. El color de la descripción \"Infusión\" indica la rareza de la infusión."
+			],
+			id: "13CE922E843B9A50",
+			rewards: [
+				{
+					count: 4,
+					id: "3E9038789F3ED19A",
+					item: "minecraft:paper",
+					title: "Paper",
+					type: "item"
+				},
+				{
+					count: 4,
+					id: "35DB00B2EE31CADD",
+					item: "mmorpg:stone/2",
+					title: "Rare Stones",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "7A1D466C1C4DC0B0",
+					silent: true,
+					title: "250 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "46602E72F4D06D1C",
+				item: {
+					Count: 1b,
+					id: "mmorpg:enchantment/family/armor/uncommon",
+					tag: {
+						level: 1,
+						tier: 0
+					}
+				},
+				type: "item"
+			}],
+			title: "No Son Encantamientos de Vanilla",
+			x: -1.5d,
+			y: -4.5d
+		},
+		{
+			dependencies: ["0402FA5F0E1D4835"],
+			description: [
+				"Craftea la comida con lo siguiente:",
+				"",
+				"3x &7Pescado Espiritual&r",
+				"3x Pez Tropical",
+				"1x &7Piedra Común&r",
+				"1x Moneda de Cobre"
+			],
+			id: "29BD14415C264D41",
+			rewards: [
+				{
+					count: 10,
+					id: "260E57F5246191D1",
+					item: "mmorpg:material/fishing/1",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "1874108D1CC5EEE9",
+					silent: true,
+					title: "250 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "14728EE82752D08A",
+				item: {
+					Count: 1b,
+					id: "mmorpg:seafood/common_exp",
+					tag: {
+						tier: 0
+					}
+				},
+				type: "item"
+			}],
+			title: "Mariscos de Lujo",
+			x: 1.5d,
+			y: -3.0d
+		},
+		{
+			dependencies: ["0402FA5F0E1D4835"],
+			description: [
+				"Craftea los alimentos con lo siguiente:",
+				"",
+				"3x &7Carne/Productos Agrícolas Espirituales&r",
+				"2x Filete de Pescado Cocido/3x Remolacha",
+				"1x &7Piedra Común&r",
+				"1x Moneda de Cobre",
+				"",
+				"&cEl orden de los materiales no importa, ¡pero la salida de la estación debe estar vacía!&r"
+			],
+			id: "74D3767A981DAE84",
+			rewards: [
+				{
+					count: 10,
+					id: "1AFDC3779EB71D22",
+					item: "mmorpg:material/farming/1",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "303BACA6F3D5CE95",
+					silent: true,
+					title: "250 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [
+				{
+					id: "0007D7D85660469C",
+					item: {
+						Count: 1b,
+						id: "mmorpg:food/common_life",
+						tag: {
+							tier: 0
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "1D555271425DE10D",
+					item: {
+						Count: 1b,
+						id: "mmorpg:food/common_mana",
+						tag: {
+							tier: 0
+						}
+					},
+					type: "item"
+				}
+			],
+			title: "Alimentos Saludables",
+			x: 0.0d,
+			y: -4.5d
+		},
+		{
+			dependencies: ["66D05E37DC634CC8"],
+			description: [
+				"Craftea un &eAlma de Joyería Común Crafteada&r con lo siguiente:",
+				"",
+				"3x &7Mineral Espiritual&r",
+				"2x &7Piedra Común&r",
+				"1x Lingote de Hierro",
+				"1x Lingote de Cobre",
+				"1x Moneda de Cobre",
+				"",
+				"El Alma de Equipo Crafteada funcionará en cualquier objeto base que coincida con el tipo (Almas de Anillo en Anillos)."
+			],
+			id: "7C542CE6F026787C",
+			rewards: [
+				{
+					count: 10,
+					id: "5D52FE5D16AEAD00",
+					item: "mmorpg:material/mining/1",
+					type: "item"
+				},
+				{
+					id: "76BCE67805EE0024",
+					item: {
+						Count: 1b,
+						id: "mmorpg:stat_soul/family/armor/rare",
+						tag: {
+							tier: 0
+						}
+					},
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "5C53ABEEFE4798DC",
+					silent: true,
+					title: "250 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "394F2627DA3AB85C",
+				item: {
+					Count: 1b,
+					id: "mmorpg:stat_soul/family/jewelry/common",
+					tag: {
+						level: 1,
+						tier: 0
+					}
+				},
+				type: "item"
+			}],
+			title: "Humildes Comienzos",
+			x: -3.0d,
+			y: -4.5d
+		},
+		{
+			dependencies: ["69CEB39AA409EB41"],
+			description: [
+				"Prepara las pociones con lo siguiente:",
+				"",
+				"1x &7Pescado Espiritual&r",
+				"5x Lapislázuli/3x Lingote de Oro/3x Redstone",
+				"1x &7Piedra Común&r",
+				"1x Moneda de Cobre"
+			],
+			id: "609557127CC400F5",
+			rewards: [
+				{
+					count: 10,
+					id: "1F5213228CFE8423",
+					item: "mmorpg:material/fishing/1",
+					type: "item"
+				},
+				{
+					count: 2,
+					id: "0E3EF56AF97F2452",
+					item: "minecraft:golden_carrot",
+					title: "Golden Carrots",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "31EDE1FD872C0BB5",
+					silent: true,
+					title: "250 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [
+				{
+					id: "7A9908F77070FDB2",
+					item: {
+						Count: 1b,
+						id: "mmorpg:buff_potion/common_arcane",
+						tag: {
+							tier: 0
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "30DDFA1833670A12",
+					item: {
+						Count: 1b,
+						id: "mmorpg:buff_potion/common_crit",
+						tag: {
+							tier: 0
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "0A640BA5924AB2E9",
+					item: {
+						Count: 1b,
+						id: "mmorpg:buff_potion/common_might",
+						tag: {
+							tier: 0
+						}
+					},
+					type: "item"
+				}
+			],
+			title: "Daño Bruto",
+			x: 4.5d,
+			y: -3.0d
+		},
+		{
+			dependencies: ["69CEB39AA409EB41"],
+			description: [
+				"Prepara las pociones con lo siguiente:",
+				"",
+				"Las recetas para estas pociones son un poco diferentes, por favor consulta &cJEI&r para más información."
+			],
+			id: "70D6378FAA39BED0",
+			rewards: [
+				{
+					count: 2,
+					id: "15F556C5A1EA7854",
+					item: "minecraft:diamond",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 500",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "3FA933A7A6E67FE4",
+					silent: true,
+					title: "500 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [
+				{
+					id: "106CA4AA64E1CCEA",
+					item: "mmorpg:potions/reset_points_spell",
+					type: "item"
+				},
+				{
+					id: "406F817BC074EAEB",
+					item: "mmorpg:potions/reset_points_stat",
+					type: "item"
+				},
+				{
+					id: "5C2D308DBBAA24F4",
+					item: "mmorpg:potions/reset_points_talent",
+					type: "item"
+				}
+			],
+			x: 1.5d,
+			y: -4.5d
+		},
+		{
+			dependencies: ["5B97985430859986"],
+			description: [
+				"Las &eEstaciones de Crafteo&r para cada una de las Profesiones están &evinculadas al jugador que las colocó&r.",
+				"",
+				"¡Cada jugador necesitará su propio conjunto de Estaciones de Crafteo!"
+			],
+			icon: "minecraft:paper",
+			id: "3C7E703FC750E2B3",
+			rewards: [{
+				id: "1D66EBADBC1EE67A",
+				item: "lightmanscurrency:coin_iron",
+				type: "item"
+			}],
+			subtitle: "Página Perdida de Profesiones M&S",
+			tasks: [{
+				id: "6A644AC376F30A75",
+				title: "Hacer Clic una Vez Leído",
+				type: "checkmark"
+			}],
+			title: "¡A sus Estaciones!",
+			x: -1.5d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["7C542CE6F026787C"],
+			description: [
+				"Al usar un &eAlma de Equipo Crafteada&r, hay una &cprobabilidad&r de que salga como cualquiera de los tipos de armadura. Para evitar esta aleatoriedad, puedes usar &eModificadores de Alma&r.",
+				"",
+				"Puedes aplicar &eModificadores de Alma&r directamente sobre las &eAlmas de Equipo Crafteadas&r para &egarantizar el resultado del material (placas, tela, cuero)&r de tu objeto.",
+				"",
+				"¡También hay &eModificadores de Alma&r para los diversos conjuntos de armaduras híbridas!",
+				"",
+				"Usa el &eModificador de Alma&r en el &eAlma de Equipo Crafteada&r arrastrándolo y soltándolo. Puede que no notes ningún cambio, pero una vez que se use el &eAlma de Equipo Crafteada&r, verás que pertenece a ese tipo.",
+				"",
+				"Por ejemplo, ¡aplica un &eModificador de Alma de Tela&r a un &eAlma de Armadura Crafteada&r para garantizar una Armadura de Tela!"
+			],
+			id: "1F781E29B5ACDD96",
+			rewards: [{
+				count: 2,
+				id: "3DDB910D100481C8",
+				item: "mmorpg:stone/2",
+				type: "item"
+			}],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [
+				{
+					id: "742045832B4AD932",
+					item: "mmorpg:currency/force_soul_tag_armor_stat",
+					type: "item"
+				},
+				{
+					id: "7F8B59AA6D45DF34",
+					item: "mmorpg:currency/force_soul_tag_dodge_stat",
+					type: "item"
+				},
+				{
+					id: "74F7F3B44E28B6BD",
+					item: "mmorpg:currency/force_soul_tag_magic_shield_stat",
+					type: "item"
+				}
+			],
+			title: "Modificación de Alma",
+			x: -1.5d,
+			y: -6.0d
+		},
+		{
+			dependencies: ["7C542CE6F026787C"],
+			description: [
+				"Craftea un &eAlma de Arma Rara Crafteada&r con lo siguiente:",
+				"",
+				"3x &aMineral Celestial&r",
+				"4x &9Piedra Rara&r",
+				"2x Lingote de Cloggrum",
+				"1x Palo",
+				"1x Moneda de Hierro"
+			],
+			id: "59FA681B103BE2AB",
+			rewards: [
+				{
+					count: 3,
+					id: "14BE255969B2DE09",
+					item: "lightmanscurrency:coin_gold",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give xp_times_lvl @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "2FE4467A1FF871D2",
+					silent: true,
+					title: "250 de Experiencia x Nv.",
+					type: "command"
+				}
+			],
+			subtitle: "&aProfesiones de M\\&S&r",
+			tasks: [{
+				id: "1A660838036424BB",
+				item: {
+					Count: 1b,
+					id: "mmorpg:stat_soul/family/weapon/rare",
+					tag: {
+						level: 20,
+						tier: 1
+					}
+				},
+				type: "item"
+			}],
+			title: "Lección de Herrero",
+			x: -3.0d,
+			y: -6.0d
+		},
+		{
+			dependencies: ["5B97985430859986"],
+			description: ["Inserta el &eMétodo de Aprendizaje del Desensamblador&r en la &eestación de crafteo&r de tu elección para &eanular inmediatamente&r el objeto que has crafteado, pero ganar el &edoble de experiencia de Profesión&r."],
+			id: "4C14F8BB015A5892",
+			rewards: [{
+				id: "566A53AA87A4E85F",
+				item: "lightmanscurrency:coin_iron",
+				type: "item"
+			}],
+			subtitle: "Método de Aprendizaje del Desensamblador",
+			tasks: [{
+				id: "40C533C34F3858DF",
+				item: "mmorpg:destroy_output_exp",
+				type: "item"
+			}],
+			title: "Subir de Nivel Rápido",
+			x: 0.0d,
+			y: 1.5d
+		}
+	],
+	title: "&aProfesiones de M\\&S&r"
+}

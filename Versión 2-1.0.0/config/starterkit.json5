@@ -1,0 +1,15 @@
+{
+	// Cuando se añaden varios kits de inicio mediante /starterkit add, hay dos formas de distribuirlos. Si está activado, se elige uno al azar. Si está desactivado, los jugadores pueden elegir uno al unirse por primera vez.
+	"randomizeMultipleKitsToggle": true,
+	// Si los objetos que ya existían en el inventario, como libros añadidos por otros mods, deben ser devueltos al inventario después de entregar el kit. Si está desactivado, se eliminarán. Aún puedes añadirlos manualmente a través del kit.
+	"addExistingItemsAfterKitSet": true,
+	// Si la funcionalidad de efectos de poción/mobs debe estar activada. Esto significa que al crear un kit mediante /sk (add/set), también se guardan los efectos activos que tiene el jugador. Y al entregar los kits de inicio, se añaden los efectos a los nuevos jugadores.
+	"usePotionEffectsInStarterKit": true,
+	// Si los nombres de los kits deben ser formateados. Cada palabra comenzará con mayúscula.
+	"formatKitNames": true,
+	"chooseKitText": "%s, ¡puedes elegir un kit de inicio!",
+	// Si se debe enviar un anuncio al servidor cada vez que un nuevo jugador elige un kit. 'randomizeMultipleKitsToggle' debe estar desactivado y debe haber al menos 2 kits de inicio disponibles.
+	"announcePlayerKitChoiceInDedicatedServer": true,
+	// Si el kit de inicio debe ser entregado de nuevo después del comando '/ftbteamislands create' de FTB Team Islands. No hace nada si el mod no está instalado.
+	"enableFTBIslandCreateCompatibility": true
+}

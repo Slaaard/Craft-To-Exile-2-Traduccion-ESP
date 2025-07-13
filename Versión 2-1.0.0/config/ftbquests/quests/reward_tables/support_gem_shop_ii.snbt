@@ -1,0 +1,228 @@
+{
+	id: "592E126488931E8D"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chaos_pene\",\"type\":\"SUPPORT\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Penetración de Caos"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"water_pene\",\"type\":\"SUPPORT\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Penetración de Frío"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"crit_damage\",\"type\":\"SUPPORT\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño Crítico"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"plus_aoe\",\"type\":\"SUPPORT\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Área Expandida"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"proj_speed\",\"type\":\"SUPPORT\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Proyectiles Rápidos"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_pene\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Penetración de Fuego"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"proc_target\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Señor de la Guerra"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"heal_at_low\",\"type\":\"SUPPORT\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Cuidado Inmediato"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_pene\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Penetración de Rayo"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lmp_barrage\",\"type\":\"SUPPORT\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Andanada de Proyectiles Menores"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"mana_saver_dmg\",\"type\":\"SUPPORT\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Conservación"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"physical_pene\",\"type\":\"SUPPORT\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Penetración Física"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"spell_damage_no_crit\",\"type\":\"SUPPORT\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Destrucción Contenida"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_damage\",\"type\":\"SUPPORT\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño de Invocación"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"totem_damage\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño de Tótem"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"cast_speed\",\"type\":\"SUPPORT\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Lanzamiento Rápido"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"threat\",\"type\":\"SUPPORT\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Amenaza Mayor"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"minion_threat\",\"type\":\"SUPPORT\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Amenaza de Súbdito"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"effect_duration\",\"type\":\"SUPPORT\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Duración de Efecto"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"trap_damage\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño de Trampa"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"void_manipulation\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1}"
+				}
+			}
+			title: "Gema de Soporte de Manipulación del Vacío"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"focal_point\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Punto Focal"
+		}
+	]
+	title: "Tienda de Gemas de Soporte II"
+}

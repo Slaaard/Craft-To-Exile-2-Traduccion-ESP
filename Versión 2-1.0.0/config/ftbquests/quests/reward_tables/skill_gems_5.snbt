@@ -1,0 +1,38 @@
+{
+	id: "5B3859F06C78A3CF"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"taunt\",\"type\":\"SKILL\",\"perc\":30,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Provocar"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"quickdraw\",\"type\":\"SKILL\",\"perc\":34,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Desenfundado Rápido"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"poison_ball\",\"type\":\"SKILL\",\"perc\":32,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Bola de Veneno"
+		}
+	]
+	title: "Gemas de Habilidad 5"
+}

@@ -1,0 +1,48 @@
+{
+	id: "0BC1CE3619E5066A"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"totem_dmg_cdr\",\"type\":\"SUPPORT\",\"perc\":39,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Tótems Preparados"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lmp\",\"type\":\"SUPPORT\",\"perc\":30,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Proyectiles Múltiples Menores"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"poison_chance\",\"type\":\"SUPPORT\",\"perc\":31,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Probabilidad de Veneno"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_duration\",\"type\":\"SUPPORT\",\"perc\":39,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Duración de Invocación"
+		}
+	]
+	title: "Gemas de Soporte 2"
+}

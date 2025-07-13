@@ -1,0 +1,6 @@
+{
+	// Cuando está activado, envía un mensaje a un jugador cuando muere y tiene acceso a trucos, informando que se ha creado una copia de seguridad y que puede ser cargada.
+	"sendBackupReminderMessageToThoseWithAccessOnDeath": true,
+	// El mensaje enviado a los jugadores con acceso a trucos cuando 'sendBackupReminderMessageToThoseWithAccessOnDeath' está activado.
+	"backupReminderMessage": "Se ha creado una copia de seguridad de tu inventario antes de tu muerte y puede ser cargada con '/deathbackup load 0'."
+}

@@ -1,0 +1,2286 @@
+{
+	default_hide_dependency_lines: false,
+	default_quest_shape: "",
+	filename: "act_i",
+	group: "1E3C4B5FFAE48A39",
+	icon: {
+		Count: 1b,
+		id: "minecraft:iron_sword",
+		tag: {
+			Damage: 0
+		}
+	},
+	id: "6F8D9CB650A8A0C6",
+	order_index: 1,
+	quest_links: [],
+	quests: [
+		{
+			dependencies: ["0CDFB8E5BB59B981"],
+			description: [
+				"¡Los informes de exploración indican un aumento en la actividad de los Illagers. ¡Incluso ha habido informes de un aumento en las actividades nigrománticas!",
+				"",
+				"Revisa el área en busca de criaturas no muertas y &emátalas&r."
+			],
+			icon: {
+				Count: 1b,
+				id: "minecraft:wooden_sword",
+				tag: {
+					Damage: 0
+				}
+			},
+			id: "313921A7833269CF",
+			rewards: [
+				{
+					id: "523A80564F5B3B6A",
+					item: {
+						Count: 1b,
+						id: "gateways:gate_pearl",
+						tag: {
+							gateway: "gateways:basic/zombie"
+						}
+					},
+					title: "Zombie Gateway",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 125",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "72B420BFEB4D2F50",
+					silent: true,
+					title: "125 Experience",
+					type: "command"
+				}
+			],
+			shape: "rsquare",
+			subtitle: "Misión Principal",
+			tasks: [
+				{
+					entity: "minecraft:zombie",
+					icon: "ftb_ph:zombie",
+					id: "1CF03CBB118CB4BD",
+					type: "kill",
+					value: 5L
+				},
+				{
+					entity: "minecraft:skeleton",
+					icon: "ftb_ph:skeleton",
+					id: "6912869AEEF02CF4",
+					type: "kill",
+					value: 5L
+				}
+			],
+			title: "Arco de Entrenamiento",
+			x: 0.0d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"Has encontrado un &ePortal de Zombis&r de las últimas criaturas con las que luchaste. Extrañamente, sientes una energía incómoda que emana de él.",
+				"",
+				"¿Podría ser la causa del aumento de criaturas no muertas? Vale la pena echar un vistazo. Intenta usar la perla lejos de una aldea. Parece que podría abrir un portal al usarla..."
+			],
+			icon: {
+				Count: 1b,
+				id: "gateways:gate_pearl",
+				tag: {
+					gateway: "gateways:basic/zombie"
+				}
+			},
+			id: "4956C0B5633CE91E",
+			rewards: [
+				{
+					id: "1397C9FF3BAFD9BD",
+					item: {
+						Count: 1b,
+						id: "gateways:gate_pearl",
+						tag: {
+							gateway: "gateways:basic/witch"
+						}
+					},
+					title: "Witch Gateway",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "602249117C6F72CE",
+					silent: true,
+					title: "250 Experience",
+					type: "command"
+				},
+				{
+					auto: "enabled",
+					icon: "ftb_ph:talent",
+					id: "34AE80E5F42D3E80",
+					title: "1 Talent Point",
+					type: "custom"
+				}
+			],
+			subtitle: "Métodos de Nivel",
+			tasks: [
+				{
+					entity: "minecraft:zombie",
+					icon: "ftb_ph:zombie",
+					id: "3A09F9D7E19A7E9E",
+					type: "kill",
+					value: 20L
+				},
+				{
+					entity: "minecraft:husk",
+					icon: "ftb_ph:husk",
+					id: "0081A1F923E703C9",
+					type: "kill",
+					value: 4L
+				}
+			],
+			title: "Perturbaciones en el Aire",
+			x: 3.0d,
+			y: -3.0d
+		},
+		{
+			can_repeat: false,
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"¡Los exploradores han vuelto con otro informe! Se han avistado Zombis, Esqueletos y Creepers obscenamente grandes por el Overworld.",
+				"",
+				"Esto solo puede ser obra de las &eBrujas&r. Necesitarás encontrar una Bruja, interrogarla y quitarle cualquier objeto sospechoso."
+			],
+			icon: "minecraft:cauldron",
+			id: "0388547EAFE52B5F",
+			rewards: [
+				{
+					count: 4,
+					id: "5E5370AF7FBC8339",
+					item: {
+						Count: 1b,
+						id: "minecraft:splash_potion",
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					},
+					title: "Splash Potions of Chemical X",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 150",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "44AC5FC2AAB8AE3B",
+					silent: true,
+					title: "150 Experience",
+					type: "command"
+				},
+				{
+					exclude_from_claim_all: true,
+					id: "40C763D5F39FDA94",
+					table_id: 3790783906717981347L,
+					type: "choice"
+				}
+			],
+			shape: "rsquare",
+			subtitle: "Misión Principal",
+			tasks: [{
+				entity: "minecraft:witch",
+				icon: "ftb_ph:witch",
+				id: "02C46D668A930502",
+				type: "kill",
+				value: 3L
+			}],
+			title: "Un Problema Brebajeante",
+			x: 1.5d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["0388547EAFE52B5F"],
+			description: [
+				"Parece que la Bruja estaba preparando una poción sospechosa. Está etiquetada como &e\"Químico X\"&r. Quizás deberías ver qué hace, podría ser responsable de las criaturas grandes.",
+				"",
+				"Intenta lanzársela a un &eesqueleto normal&r y ver qué pasa. O si tengo la mala suerte, me encontraré con un &eEsqueleto Mutante&r por mi cuenta.",
+				"",
+				"&e¡Ten en cuenta que si te encuentras con un Zombi Mutante, revivirá hasta 4 veces a menos que muera mientras se quema!&r"
+			],
+			icon: {
+				Count: 1b,
+				id: "mutantmonsters:mutant_skeleton_skull",
+				tag: {
+					Damage: 0
+				}
+			},
+			id: "5FCA8577C7DB792D",
+			rewards: [
+				{
+					id: "004160CB2EF9E66B",
+					item: "mmorpg:currency/level_up_orb",
+					title: "Orb of Infinity",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "2E30BFE015E9A7C4",
+					silent: true,
+					title: "250 Experience",
+					type: "command"
+				},
+				{
+					exclude_from_claim_all: true,
+					id: "53538166A40324CB",
+					table_id: 8277515430762442209L,
+					type: "choice"
+				}
+			],
+			shape: "rsquare",
+			subtitle: "Misión Principal",
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton",
+				icon: {
+					Count: 1b,
+					id: "mutantmonsters:mutant_skeleton_skull",
+					tag: {
+						Damage: 0
+					}
+				},
+				id: "1D20D3BF3B9BD554",
+				type: "kill",
+				value: 1L
+			}],
+			title: "Un Experimento que Salió Mal",
+			x: 4.5d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["5FCA8577C7DB792D"],
+			dependency_requirement: "one_completed",
+			description: [
+				"Has confirmado que las Brujas estaban preparando pociones de Químico X para usarlas en criaturas del Overworld, convirtiéndolas en monstruosidades horribles.",
+				"",
+				"Sin embargo, debe haber alguna razón por la que todas han empezado a preparar Químico X colectivamente... Quizás es hora de que hagas la exploración tú mismo. Tu intuición apunta hacia los malvados &eIllagers.&r",
+				"",
+				"Tal vez puedas averiguar qué están tramando los Illagers. Se sabe que en el pasado han subcontratado la creación de pociones a las Brujas. Puedes encontrar &eSaqueadores&r en los &ePuestos de Avanzada de Saqueadores&r que aparecen con frecuencia en el Overworld.",
+				"",
+				"&o&7¡Completar esto desbloquea una Misión Repetible en el Capítulo de Repetibles!&r&r"
+			],
+			icon: {
+				Count: 1b,
+				id: "minecraft:splash_potion",
+				tag: {
+					Potion: "goblintraders:absorption"
+				}
+			},
+			id: "783CA457464E8E3D",
+			rewards: [
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "55703D37D362DFBB",
+					silent: true,
+					title: "250 Experience",
+					type: "command"
+				},
+				{
+					id: "39BEDAFB0052494D",
+					item: "mmorpg:currency/upgrade_common_affix",
+					type: "item"
+				}
+			],
+			shape: "rsquare",
+			subtitle: "Misión Principal",
+			tasks: [
+				{
+					entity: "minecraft:pillager",
+					icon: "ftb_ph:pillager",
+					id: "14618CB75F8DA2F8",
+					type: "kill",
+					value: 12L
+				},
+				{
+					entity: "minecraft:vindicator",
+					icon: "ftb_ph:vindicator",
+					id: "7BD8E97358F51C77",
+					type: "kill",
+					value: 6L
+				}
+			],
+			title: "Investigación",
+			x: 7.5d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["783CA457464E8E3D"],
+			description: [
+				"Estos &eIllagers&r no han tramado nada bueno. Han estado asaltando aldeas y se encuentran comúnmente en &eestructuras del Overworld&r.",
+				"",
+				"Ahora que sabes quién está detrás del aumento de criaturas hostiles, es hora de &ellevarles la pelea&r."
+			],
+			icon: "simplehats:hockeymask",
+			id: "56FF2D399F956629",
+			rewards: [
+				{
+					id: "354515A8CAD6A367",
+					item: {
+						Count: 1b,
+						id: "mmorpg:chest/rare_gear",
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":5,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					},
+					title: "Rare Gear Loot Chest (Lv. 5)",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 500",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "2DA88FAF6ABE615D",
+					silent: true,
+					title: "500 Experience",
+					type: "command"
+				}
+			],
+			subtitle: "Arco de los Illager",
+			tasks: [
+				{
+					entity: "illagerinvasion:basher",
+					icon: "ftb_ph:basher",
+					id: "111624BAC6AD7E0E",
+					type: "kill",
+					value: 4L
+				},
+				{
+					entity: "illagerinvasion:marauder",
+					icon: "ftb_ph:savager",
+					id: "416E99E238B786D4",
+					type: "kill",
+					value: 4L
+				},
+				{
+					entity: "illagerinvasion:provoker",
+					icon: "ftb_ph:provoker",
+					id: "40CF23F638C07E93",
+					type: "kill",
+					value: 4L
+				}
+			],
+			title: "Prevención de la Propagación",
+			x: 7.5d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["783CA457464E8E3D"],
+			description: ["Estos Illagers solo pueden ser encontrados fácilmente a través de un &ePortal de Incursores&r forzado."],
+			icon: {
+				Count: 1b,
+				id: "minecraft:iron_axe",
+				tag: {
+					Damage: 0
+				}
+			},
+			id: "67D7938E14CD96D4",
+			rewards: [
+				{
+					id: "322956878C8086DC",
+					item: {
+						Count: 1b,
+						id: "mmorpg:chest/currency",
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":5,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					},
+					title: "Common Currency Loot Chest (Lv. 5)",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 500",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "332F58B90C64735B",
+					silent: true,
+					title: "500 Experience",
+					type: "command"
+				},
+				{
+					id: "6F15877F9B2450C1",
+					item: "lightmanscurrency:coin_emerald",
+					type: "item"
+				}
+			],
+			subtitle: "Arco de los Illager",
+			tasks: [
+				{
+					entity: "illagerinvasion:archivist",
+					icon: "ftb_ph:archivist",
+					id: "48EB8067150A2569",
+					type: "kill",
+					value: 1L
+				},
+				{
+					entity: "illagerinvasion:sorcerer",
+					icon: "ftb_ph:sorcerer",
+					id: "3466BA58F158032F",
+					type: "kill",
+					value: 1L
+				}
+			],
+			title: "Partida de Incursión",
+			x: 7.5d,
+			y: 1.5d
+		},
+		{
+			dependencies: ["783CA457464E8E3D"],
+			dependency_requirement: "one_completed",
+			description: [
+				"Parece que tus sospechas estaban justificadas. A través del interrogatorio, has descubierto que el &eInvocador&r Illager es el autor intelectual de estos malvados planes.",
+				"",
+				"Rastrea al Invocador y pon fin a sus malvados planes. Te han dicho que se pueden encontrar en &eMansiones del Bosque&r... Aparentemente también pueden ser encontrados a través de un &ePortal de Incursores&r forzado.",
+				"",
+				"&cEl Invocador aparece con un nivel mínimo de 15.&r",
+				"",
+				"El Invocador Tiene:",
+				"&b+20% Resistencia Elemental&r",
+				"&a10% de probabilidad de soltar la Runa Owd&r"
+			],
+			icon: "simplehats:crown",
+			id: "3E1EC6A042CC9310",
+			rewards: [
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 2500",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "61C78A9757B59F10",
+					silent: true,
+					title: "2500 Experience",
+					type: "command"
+				},
+				{
+					exclude_from_claim_all: true,
+					id: "708A11185AA6E12C",
+					table_id: 847184936680359530L,
+					type: "choice"
+				},
+				{
+					id: "4DE8F79CE150A66E",
+					item: "simplehats:crown",
+					title: "Crown",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					icon: "ftb_ph:talent",
+					id: "3AE054E2C8C68607",
+					title: "2 Talent Points",
+					type: "custom"
+				}
+			],
+			shape: "rsquare",
+			size: 1.25d,
+			subtitle: "Misión Principal",
+			tasks: [{
+				entity: "illagerinvasion:invoker",
+				icon: "ftb_ph:invoker",
+				id: "25E3A4A8CE375525",
+				type: "kill",
+				value: 1L
+			}],
+			title: "El Autor Intelectual",
+			x: 9.0d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["783CA457464E8E3D"],
+			description: ["El &eIlusionista&r es engañoso y astuto. No es de extrañar que sea la mano izquierda del Invocador. Puedes encontrarlos en las &eTorres del Ilusionista&r. También pueden ser encontrados a través de un &ePortal de Incursores&r forzado."],
+			icon: {
+				Count: 1b,
+				id: "mmorpg:weapon/staff/iron",
+				tag: {
+					Damage: 0
+				}
+			},
+			id: "35796166DD6A69CE",
+			rewards: [
+				{
+					id: "6AFB125691B58647",
+					item: {
+						Count: 1b,
+						id: "mmorpg:chest/common_gear",
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":5,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					},
+					title: "Common Rune Loot Chest (Lv. 5)",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 750",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "5D215F1369125AE0",
+					silent: true,
+					title: "750 Experience",
+					type: "command"
+				},
+				{
+					id: "0BD1A1A9272CE58B",
+					item: {
+						Count: 1b,
+						id: "gateways:gate_pearl",
+						tag: {
+							gateway: "gateways:basic/enderman"
+						}
+					},
+					type: "item"
+				}
+			],
+			subtitle: "Arco de los Illager",
+			tasks: [{
+				entity: "minecraft:illusioner",
+				icon: "ftb_ph:illusioner",
+				id: "2BE997397056C5BC",
+				type: "kill",
+				value: 1L
+			}],
+			title: "Consejero Illager II",
+			x: 9.0d,
+			y: 1.5d
+		},
+		{
+			dependencies: ["783CA457464E8E3D"],
+			description: [
+				"El &eInquisidor&r es la mano derecha del Invocador. Acabar con uno de ellos será un duro golpe para las fuerzas del Invocador.",
+				"",
+				"Puedes encontrar al Inquisidor en la &eFortaleza Illager&r. También pueden ser encontrados a través de un &ePortal de Incursores&r forzado."
+			],
+			icon: {
+				Count: 1b,
+				id: "mmorpg:weapon/staff/wood",
+				tag: {
+					Damage: 0
+				}
+			},
+			id: "664D834AA6B16719",
+			rewards: [
+				{
+					id: "2043E25FA87E8E56",
+					item: {
+						Count: 1b,
+						id: "mmorpg:chest/rare_gear",
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":10,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					},
+					title: "Rare Gear Loot Chest (Lv. 10)",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 750",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "78A0C5335BFD302F",
+					silent: true,
+					title: "750 Experience",
+					type: "command"
+				},
+				{
+					id: "73D187CA3C9EC9E3",
+					item: {
+						Count: 1b,
+						id: "gateways:gate_pearl",
+						tag: {
+							gateway: "gateways:basic/slime"
+						}
+					},
+					type: "item"
+				}
+			],
+			subtitle: "Arco de los Illager",
+			tasks: [{
+				entity: "illagerinvasion:inquisitor",
+				icon: "ftb_ph:inquisitor",
+				id: "2CB01FCE39A1B730",
+				type: "kill",
+				value: 1L
+			}],
+			title: "Consejero Illager I",
+			x: 9.0d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["727ADA9C4F420BDC"],
+			description: [
+				"Has derrotado al Invocador Illager... Pero el Overworld aún no está a salvo.",
+				"",
+				"Debido a las actividades de los Illagers, se han abierto grietas a otras dimensiones en el Overworld. Tendrás que entrar en cada dimensión y estabilizar la conexión interdimensional. De lo contrario, ¡el Overworld podría ser invadido por criaturas de otros mundos!",
+				"",
+				"Es hora de ir al &eNether&r, un paisaje infernal de llamas. &ePuedes llegar allí construyendo un portal de Obsidiana. Activa el portal con un mechero y podrás entrar en el Nether.&r",
+				"",
+				"{image:cte2:textures/nether_portal.png width:160 height:128 align:1}"
+			],
+			icon: "minecraft:nether_star",
+			id: "18E09A4B9FC1B43F",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give exp @p 1000",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "28B6646CDD4EB2CA",
+				silent: true,
+				title: "1000 Experience",
+				type: "command"
+			}],
+			shape: "rsquare",
+			subtitle: "Misión Principal",
+			tasks: [{
+				dimension: "minecraft:the_nether",
+				icon: "minecraft:nether_star",
+				id: "1E9044A8D48D9197",
+				title: "Visit The Nether",
+				type: "dimension"
+			}],
+			title: "Reino Inexplorado",
+			x: 12.0d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["3E1EC6A042CC9310"],
+			description: [
+				"La línea de misiones de la Campaña de CTE2 se divide en múltiples actos, donde cada acto está asociado con una dimensión diferente, precedido por una línea de misiones de Prólogo (con la que ya estás familiarizado).",
+				"",
+				"A medida que completes las misiones principales, se revelarán más misiones secundarias. Y una vez que hayas completado la línea de misiones principales (generalmente de 5 a 7 misiones de duración), recibirás la misión para pasar al siguiente acto/dimensión.",
+				"",
+				"A medida que te muevas de una dimensión a otra, los monstruos se volverán más fuertes y la calidad del botín mejorará. Aunque los monstruos escalan con el nivel del jugador, tienen un límite en cada dimensión, lo que hace posible \"sobre-nivelar\" para una dimensión si tienes dificultades.",
+				"",
+				"&6Esta Misión Desbloquea Nuevas Tiendas en la Tienda de Campaña."
+			],
+			icon: "minecraft:paper",
+			id: "727ADA9C4F420BDC",
+			rewards: [
+				{
+					count: 50,
+					id: "0416D44C116837AA",
+					item: "lightmanscurrency:coin_iron",
+					title: "Money",
+					type: "item"
+				},
+				{
+					id: "09AB98FCA60D923A",
+					item: "mmorpg:potions/full_reset_talent",
+					type: "item"
+				},
+				{
+					id: "28DCAFAF13E5B4B4",
+					item: "mmorpg:potions/full_reset_spell",
+					type: "item"
+				},
+				{
+					id: "322B2479DC5B0063",
+					item: "mmorpg:potions/full_reset_passive",
+					type: "item"
+				},
+				{
+					id: "4109830D72D5DC3B",
+					item: "mmorpg:potions/full_reset_stat",
+					type: "item"
+				}
+			],
+			shape: "rsquare",
+			subtitle: "Página Perdida",
+			tasks: [{
+				id: "6FA3A47AFDD25C96",
+				title: "Click Once Read",
+				type: "checkmark"
+			}],
+			title: "Actos",
+			x: 10.5d,
+			y: 0.0d
+		},
+		{
+			dependencies: ["15C2A55BAFCA5084"],
+			description: [
+				"Criaturas luminiscentes acechan en el subsuelo para llamar la atención. Encuentra algunos &eEsqueletos Luminosos&r, mátalos y continúa explorando las profundidades.",
+				"",
+				"&o&7¡Completar esto desbloquea una Misión Repetible en el Capítulo de Repetibles!&r&r"
+			],
+			icon: {
+				Count: 1b,
+				id: "twilightforest:skeleton_skull_candle",
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1,
+						CandleColor: 0
+					}
+				}
+			},
+			id: "0D9B68F2990B8E94",
+			rewards: [
+				{
+					count: 5,
+					id: "1A0A49388DA210A9",
+					item: "lightmanscurrency:coin_iron",
+					title: "Money",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 150",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "7C2C1418BEA78297",
+					silent: true,
+					title: "150 Experience",
+					type: "command"
+				}
+			],
+			subtitle: "El Subsuelo",
+			tasks: [{
+				entity: "monsterplus:glow_skeleton",
+				icon: "ftb_ph:glow_skeleton",
+				id: "60852F7DA78E9C10",
+				type: "kill",
+				value: 8L
+			}],
+			title: "Problemas que Brillan en la Oscuridad",
+			x: 3.0d,
+			y: 3.0d
+		},
+		{
+			dependencies: ["051DB401E3A08D89"],
+			description: [
+				"¿Por qué brillan los esqueletos en primer lugar? Las criaturas de las que surgen los esqueletos no brillaban en la oscuridad...",
+				"",
+				"Para investigar esta posible osteo-mutación, encuentra un &eErmitaño del Abismo&r. Has oído que se pueden encontrar a través del &ePortal de las Noches del Overworld&r.",
+				"",
+				"Ten cuidado, puede lanzar varios hechizos e invocar súbditos para que le ayuden en combate.",
+				"",
+				"El Ermitaño del Abismo Tiene:",
+				"&b+30% Armadura&r",
+				"&a5% de probabilidad de soltar la Runa Owd&r"
+			],
+			icon: {
+				Count: 1b,
+				id: "monsterplus:darkstar",
+				tag: {
+					Damage: 0
+				}
+			},
+			id: "152D52A88F776A70",
+			rewards: [
+				{
+					id: "0579BD5D35950F36",
+					item: {
+						Count: 1b,
+						id: "mmorpg:chest/rare_gear",
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":10,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					},
+					title: "Rare Gear Loot Chest (Lv. 10)",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 750",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "2B3FC6937853FEFE",
+					silent: true,
+					title: "750 Experience",
+					type: "command"
+				},
+				{
+					exclude_from_claim_all: true,
+					id: "71705EA50FC99C7F",
+					table_id: 6943149240522624098L,
+					type: "choice"
+				},
+				{
+					auto: "enabled",
+					icon: "ftb_ph:talent",
+					id: "63D9C567E093E023",
+					title: "1 Talent Point",
+					type: "custom"
+				}
+			],
+			shape: "diamond",
+			subtitle: "El Subsuelo",
+			tasks: [{
+				entity: "monsterplus:abyssologer",
+				icon: {
+					Count: 1b,
+					id: "monsterplus:darkstar",
+					tag: {
+						Damage: 0
+					}
+				},
+				id: "60D90D429BE94FBC",
+				type: "kill",
+				value: 1L
+			}],
+			title: "Fuente Mutagénica",
+			x: 6.0d,
+			y: 4.5d
+		},
+		{
+			dependencies: ["0D9B68F2990B8E94"],
+			description: ["Has oído numerosas historias de &eGoblins&r y &eKobolds&r subterráneos. Algunas historias dicen que estas criaturas son agresivas y que no hay que meterse con ellas. Pero otras dicen que los Kobolds y Goblins son las criaturas subterráneas más amigables... Siempre que &elles lleves algo de dinero&r."],
+			icon: "mmorpg:loot_table_chest",
+			id: "6FF06A68E8DA88F2",
+			rewards: [{
+				id: "0266EEA438D94B03",
+				item: "lightmanscurrency:coin_gold",
+				type: "item"
+			}],
+			subtitle: "El Subsuelo",
+			tasks: [{
+				id: "749BBB5B3A9895C3",
+				item: "lightmanscurrency:coin_emerald",
+				type: "item"
+			}],
+			title: "Comerciantes Ocultos",
+			x: 3.0d,
+			y: 4.5d
+		},
+		{
+			dependencies: ["15C2A55BAFCA5084"],
+			description: [
+				"Los &eBloques de EXP&r son bloques que se pueden craftear y colocar. Te permiten almacenar cualquier &eexperiencia de vanilla&r en el bloque.",
+				"",
+				"Uso:",
+				"- Agáchate + clic derecho con la mano vacía para añadir toda tu experiencia actual al bloque.",
+				"- Clic derecho para quitar un nivel del bloque y añadirlo a tu barra de experiencia.",
+				"",
+				"&c¡Ten en cuenta que tu mano secundaria debe estar vacía!&r"
+			],
+			id: "6286EB870319776D",
+			rewards: [
+				{
+					id: "397DC27BBDC43B1B",
+					item: "minecraft:emerald",
+					title: "Emerald",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 125",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "25DDEDBC06834D92",
+					silent: true,
+					title: "125 Experience",
+					type: "command"
+				}
+			],
+			subtitle: "Los Extras",
+			tasks: [{
+				id: "36690510781ADE4D",
+				item: "globalxp:xp_block",
+				type: "item"
+			}],
+			x: 1.5d,
+			y: 3.0d
+		},
+		{
+			dependencies: ["4956C0B5633CE91E"],
+			description: [
+				"En CTE2, hay varios tipos de armas personalizadas. A continuación se muestra una lista de todos los tipos de armas, con las personalizadas resaltadas en &eamarillo&r.",
+				"",
+				"Espada, Hacha, Arco, Ballesta, &eBastón, Daga, Lanza, Martillo, Espadón, Guadaña, Guantelete&r.",
+				"",
+				"Ten en cuenta que necesitarás Almas de Estadísticas de Equipo al craftearlas para darles estadísticas de Mine and Slash.",
+				"",
+				"En CTE2 también puedes equipar &earmas a dos manos&r. Por el momento, las &eLanzas, Espadones y Guadañas&r son a dos manos.",
+				"",
+				"¡También puedes &ellevar dos armas de una mano&r! Las armas en la mano secundaria proporcionan el &e25%&r de sus estadísticas."
+			],
+			icon: "minecraft:paper",
+			id: "1367285A94791954",
+			rewards: [
+				{
+					id: "4DA65E4DA5733C27",
+					item: {
+						Count: 1b,
+						id: "roe_weapons:hammer_1",
+						tag: {
+							Damage: 0,
+							mmorpg_gear: "{\"baseStats\":{\"p\":68},\"imp\":{\"p\":22,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_vampirism\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":37,\"id\":\"heal_crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"hammer\"}",
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "3EAFA2F1B038FF69",
+					item: {
+						Count: 1b,
+						id: "roe_weapons:spear_1",
+						tag: {
+							Damage: 0,
+							mmorpg_gear: "{\"baseStats\":{\"p\":23},\"imp\":{\"p\":69,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":38,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":16,\"id\":\"catalyzing\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"spear\"}",
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "1A5D7C2FB9AF7997",
+					item: {
+						Count: 1b,
+						id: "roe_weapons:dagger_1",
+						tag: {
+							Damage: 0,
+							mmorpg_gear: "{\"baseStats\":{\"p\":93},\"imp\":{\"p\":91,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":27,\"id\":\"of_devastation\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":33,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"dagger\"}",
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "4C9C6B58399AD149",
+					item: {
+						Count: 1b,
+						id: "roe_weapons:gauntlet_1",
+						tag: {
+							Damage: 0,
+							mmorpg_gear: "{\"baseStats\":{\"p\":54},\"imp\":{\"p\":22,\"imp\":\"ceremonial_gauntlet\"},\"affixes\":{\"suf\":[{\"p\":20,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"gauntlet\"}",
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "171773CCFD2DABA4",
+					item: {
+						Count: 1b,
+						id: "roe_weapons:scythe_1",
+						tag: {
+							Damage: 0,
+							mmorpg_gear: "{\"baseStats\":{\"p\":60},\"imp\":{\"p\":3,\"imp\":\"rusted_scythe\"},\"affixes\":{\"suf\":[{\"p\":36,\"id\":\"of_devastation\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":19,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"scythe\"}",
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "2DED2F461AED8A69",
+					item: {
+						Count: 1b,
+						id: "roe_weapons:greatsword_1",
+						tag: {
+							Damage: 0,
+							mmorpg_gear: "{\"baseStats\":{\"p\":64},\"imp\":{\"p\":81,\"imp\":\"broad_greatsword\"},\"affixes\":{\"suf\":[{\"p\":30,\"id\":\"of_sweeping\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":29,\"id\":\"physical_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"greatsword\"}",
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					},
+					type: "item"
+				}
+			],
+			subtitle: "Página Perdida",
+			tasks: [{
+				id: "3C66E63FF35763F6",
+				title: "Click Once Read",
+				type: "checkmark"
+			}],
+			title: "Otros Tipos de Armas, a Dos Manos y Doble Empuñadura",
+			x: 3.0d,
+			y: -4.5d
+		},
+		{
+			dependencies: ["0D9B68F2990B8E94"],
+			description: [
+				"En la línea de misiones de la &eCampaña&r, varias misiones tendrán una forma de fondo diferente que puede indicar qué tipo de misión es.",
+				"",
+				"&aCuadrado con Esquinas Redondeadas: Misión Principal&r",
+				"&eCírculo: Misión Secundaria&r",
+				"&3Engranaje: Misión Repetible&r",
+				"&4Diamante: Mini-Jefe&r",
+				"&dOctágono: Tienda&r",
+				"&bHexágono: Logro&r",
+				"",
+				"Además, encontrarás &e\"Páginas Perdidas\" que tienen el icono de papel&r. Estas son misiones simples de hacer clic para completar que proporcionan información adicional."
+			],
+			icon: "minecraft:paper",
+			id: "051DB401E3A08D89",
+			rewards: [{
+				id: "123F37A228E151D5",
+				item: "farmersdelight:cake_slice",
+				type: "item"
+			}],
+			subtitle: "Página Perdida",
+			tasks: [{
+				id: "14B3CF645A1BD777",
+				title: "Click Once Read",
+				type: "checkmark"
+			}],
+			title: "Formas de las Misiones",
+			x: 4.5d,
+			y: 3.0d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"A lo largo de tu viaje, te encontrarás buscando equipo más poderoso. El poder del equipo se puede evaluar de 3 maneras principales:",
+				"",
+				"1. El &enivel&r del equipo, que determina el poder de las estadísticas del equipo. El nivel del equipo generalmente está determinado por el nivel del monstruo que se mata.",
+				"",
+				"2. La &erareza&r del equipo, que determina cuántas y qué tan altas pueden ser las estadísticas, y cuántos engastes puede tener. Hay 7 rarezas que se pueden obtener: &7Común&r, &aPoco Común&r, &9Raro&r, &dÉpico&r, &4Legendario&r, &5Mítico&r y &cÚnico&r. El equipo único es especial porque las estadísticas que tienen son predeterminadas. Son poderosos y a veces pueden permitir estilos de juego especiales.",
+				"",
+				"3. La &ecalidad&r del equipo, que mejora aún más ligeramente el poder.",
+				"",
+				"Algunos de estos atributos se pueden cambiar mediante &emonedas&r de Mine and Slash, como el Orbe del Infinito, que puede aumentar el nivel de un equipo. Además, algunas monedas se pueden craftear a través del sistema de profesiones de Mine and Slash para mejorar aún más tu equipo."
+			],
+			icon: "minecraft:paper",
+			id: "6A8C03172A7F61C3",
+			rewards: [
+				{
+					id: "12EB15177FBCDD7B",
+					item: "mmorpg:currency/level_up_orb",
+					title: "Orb of Infinity",
+					type: "item"
+				},
+				{
+					count: 5,
+					id: "1BEC2669FFDBCD9F",
+					item: "mmorpg:currency/sharpening_stone_0",
+					type: "item"
+				},
+				{
+					id: "402AFECF820302A3",
+					item: {
+						Count: 1b,
+						ForgeCaps: {
+							Parent: {
+								Items: [],
+								SelectedSlot: 0,
+								Size: 6
+							}
+						},
+						id: "supplementaries:quiver"
+					},
+					title: "Quiver",
+					type: "item"
+				}
+			],
+			shape: "circle",
+			subtitle: "Página Perdida",
+			tasks: [{
+				id: "0E7658B0923F7FFA",
+				title: "Click Once Read",
+				type: "checkmark"
+			}],
+			title: "Mejora de Equipo",
+			x: 0.0d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"El Favor es un sistema que recompensa a los jugadores por vivir. Cada minuto, generas una pequeña cantidad de Favor. &eEl Favor tiene un límite suave de 1000&r. Sin embargo, puedes superar este límite de Favor abriendo cofres.",
+				"",
+				"{image:cte2:textures/favor.png width:140 height:100 align:1}",
+				"",
+				"Con más de 250 de Favor, tendrás una bonificación del 2% a las caídas de botín. A medida que aumentes tu Favor, tu bonificación a las caídas de botín aumentará.",
+				"",
+				"¡Con el &elímite de 2500&r tienes un aumento del 25% en botín y experiencia!",
+				"",
+				"Ten en cuenta que existen requisitos de nivel para que ciertas rarezas comiencen a aparecer:",
+				"",
+				"&dÉpico&r: 10+",
+				"&4Legendario&r: 25+",
+				"&5Mítico&r: 50+",
+				"",
+				"Pero ten cuidado, ¡&cmorir te hará perder 500 de Favor!&r"
+			],
+			icon: "minecraft:paper",
+			id: "0B7C635945E7F3AA",
+			rewards: [{
+				id: "4A985BD8BB918BA2",
+				item: "mmorpg:currency/level_up_orb",
+				title: "Orb of Infinity",
+				type: "item"
+			}],
+			shape: "circle",
+			subtitle: "Página Perdida",
+			tasks: [{
+				id: "562B84F769A52A5D",
+				title: "Click Once Read",
+				type: "checkmark"
+			}],
+			title: "Favor",
+			x: 0.0d,
+			y: 1.5d
+		},
+		{
+			dependencies: [
+				"1367285A94791954",
+				"051DB401E3A08D89",
+				"6A8C03172A7F61C3",
+				"727ADA9C4F420BDC",
+				"0B7C635945E7F3AA",
+				"2C9B55C8C05E20E2",
+				"5DA2E0EE110431E0",
+				"4AF5F24C4B770EA5"
+			],
+			description: ["Lee todas las &ePáginas Perdidas&r del Acto I para completar este logro. ¡Luego presume con tu nuevo sombrero!"],
+			hide_dependency_lines: true,
+			icon: "simplehats:rabbitears",
+			id: "245FE9BAB6F6F545",
+			rewards: [
+				{
+					id: "64F19AB06C8D2784",
+					item: "simplehats:rabbitears",
+					title: "Bunny Ears",
+					type: "item"
+				},
+				{
+					id: "662036FEEC802916",
+					item: "lightmanscurrency:coin_gold",
+					title: "Money",
+					type: "item"
+				}
+			],
+			shape: "hexagon",
+			subtitle: "Logro",
+			tasks: [{
+				id: "1FEDB2A08602B52A",
+				title: "Click Once Read",
+				type: "checkmark"
+			}],
+			title: "¡Lee Todas las Páginas Perdidas del Acto I!",
+			x: 12.0d,
+			y: 4.5d
+		},
+		{
+			dependencies: ["727ADA9C4F420BDC"],
+			description: ["&eComforts&r añade &esacos de dormir&r que se pueden usar mientras te aventuras. En lugar de llevar una cama voluminosa contigo, ¡simplemente coloca el saco de dormir y &edescansa!&r"],
+			id: "76483BF6DF35C463",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give exp @p 750",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "66A431F69E17BCEF",
+				silent: true,
+				title: "750 Experience",
+				type: "command"
+			}],
+			subtitle: "Comodidades",
+			tasks: [{
+				id: "43A73897ACED59B9",
+				item: "comforts:sleeping_bag_white",
+				type: "item"
+			}],
+			x: 10.5d,
+			y: 1.5d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"Mantén presionado &e`&r para activar &eUltiminer,&r que es una forma avanzada de &eveinmining.&r Aparecerá un contorno que muestra los bloques que se minarán. Mantén presionado shift + ` para seleccionar un &epatrón,&r como Túnel de Minería, que mina una escalera. Solo el &epatrón Sin Forma hará veinmining&r, el resto se adhiere a su patrón.",
+				"",
+				"Usar Ultiminer consumirá &edurabilidad y hambre extra&r y también requiere la herramienta apropiada."
+			],
+			id: "15C2A55BAFCA5084",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give exp @p 100",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "598543904735A2F9",
+				silent: true,
+				title: "100 Experience",
+				type: "command"
+			}],
+			subtitle: "Eficiencia",
+			tasks: [{
+				id: "4DB46C0682811F67",
+				item: {
+					Count: 1b,
+					id: "minecraft:iron_pickaxe",
+					tag: {
+						Damage: 0
+					}
+				},
+				type: "item"
+			}],
+			title: "FTB Ultimine",
+			x: 1.5d,
+			y: 1.5d
+		},
+		{
+			dependencies: ["5FCA8577C7DB792D"],
+			description: ["La &eBrújula del Explorador&r te permite localizar &eestructuras&r mientras que la &eBrújula de la Naturaleza&r te permite encontrar &ebiomas específicos&r. Puede que necesites cambiar de ubicación para encontrar lo que buscas."],
+			id: "472D5441B6FCD6EC",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give exp @p 250",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "76647498F1F2AB21",
+				silent: true,
+				title: "250 Experience",
+				type: "command"
+			}],
+			subtitle: "Los Extras",
+			tasks: [
+				{
+					id: "5AC3D8ABA379DF8D",
+					item: {
+						Count: 1b,
+						id: "explorerscompass:explorerscompass",
+						tag: {}
+					},
+					type: "item"
+				},
+				{
+					id: "72F9B32EEF288BE1",
+					item: {
+						Count: 1b,
+						id: "naturescompass:naturescompass",
+						tag: {}
+					},
+					type: "item"
+				}
+			],
+			x: 6.0d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["727ADA9C4F420BDC"],
+			description: [
+				"Las &ePúas de Bambú&r dañarán a todo lo que las pise. También puedes aplicarles &eefectos de poción&r.",
+				"",
+				"La &eFlauta&r se puede tocar para atraer a cualquier &emascota domesticada&r que se haya perdido. Haz clic derecho en una criatura con ella para vincular la flauta con esa mascota.",
+				"",
+				"Usa la &eJaula&r para &eatrapar&r criaturas, particularmente mascotas domesticadas, para transportarlas.",
+				"",
+				"Los &eTablones de Anuncios&r pueden mostrar el texto de libros escritos.",
+				"",
+				"Los &eFrascos Suplementarios&r pueden almacenar 4 cubos o &e12&r botellas de cualquier líquido de vanilla (como miel, leche, lava, pociones, sopas, aliento de dragón o xp) así como luciérnagas. Los frascos también pueden almacenar criaturas pequeñas como slimes y abejas. Para &ecapturar&r vexes y endermites tendrás que usar los tintados. &eShift + clic derecho&r para colocar un frasco con una criatura en lugar de liberarla."
+			],
+			id: "44B1B924A5A4D16F",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give exp @p 250",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "20F3E066F9F557B2",
+				silent: true,
+				title: "250 Experience",
+				type: "command"
+			}],
+			subtitle: "Los Extras",
+			tasks: [
+				{
+					id: "2111C6DB7FD6A0F3",
+					item: "supplementaries:bamboo_spikes",
+					type: "item"
+				},
+				{
+					id: "508D00FB1DD255C8",
+					item: {
+						Count: 1b,
+						id: "supplementaries:flute",
+						tag: {
+							Damage: 0
+						}
+					},
+					type: "item"
+				},
+				{
+					id: "6BD689A99314A241",
+					item: "supplementaries:jar",
+					type: "item"
+				},
+				{
+					id: "7DC6717C3A2C5AB8",
+					item: "supplementaries:notice_board",
+					type: "item"
+				},
+				{
+					id: "07731E16BE8F3E4E",
+					item: "supplementaries:cage",
+					type: "item"
+				}
+			],
+			title: "Utilidades de Supplementaries",
+			x: 12.0d,
+			y: 1.5d
+		},
+		{
+			dependencies: ["5FCA8577C7DB792D"],
+			description: ["Parece que este &e\"Químico X\"&r desata mutaciones evolutivas salvajes. Los &eCerdos&r son simples y débiles, deben ser un animal fácil y &eseguro&r para probar esto. Dale de comer a un Cerdo un &eOjo de Araña Fermentado&r y lánzale &eQuímico X&r. Este proceso tiene una posibilidad de fallar, se puede comprar más &eQuímico X&r en el &eTerminal de Comercio/Tablero de Trueque&r."],
+			id: "65D73BD10CCCD984",
+			rewards: [
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 350",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "033A0EE9F9202F38",
+					silent: true,
+					title: "350 Experience",
+					type: "command"
+				},
+				{
+					count: 3,
+					id: "1C1C2E212F58C7DA",
+					item: "lightmanscurrency:coin_gold",
+					title: "Money",
+					type: "item"
+				}
+			],
+			subtitle: "Tu Propio Laboratorio",
+			tasks: [{
+				entity: "mutantmonsters:spider_pig",
+				icon: {
+					Count: 2b,
+					id: "simplehats:pighead"
+				},
+				id: "13735D779752C9AC",
+				type: "kill",
+				value: 2L
+			}],
+			title: "¿Qué Tan Malo Podría Ser?",
+			x: 4.5d,
+			y: 1.5d
+		},
+		{
+			dependencies: ["727ADA9C4F420BDC"],
+			description: [
+				"Tanto correr debe ser agotador... Quizás es hora de una &emontura.&r Craftea la &eChocopedia&r para aprender sobre la &ecría&r y &edomesticación&r de Chocobos. ¡Incluso puedes criar Chocobos especiales que tienen la habilidad de &evolar!&r",
+				"",
+				"&eTransporta&r monturas y mascotas de cualquier tipo a través de &eWaystones&r metiéndolas en &eJaulas&r o llevándolas con una &eCorrea.&r ¡Incluso sin Jaula o Correa, pueden teletransportarse contigo a través de la Waystone!"
+			],
+			id: "730BE78211A1573B",
+			rewards: [
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "400C5F606A015EFD",
+					silent: true,
+					title: "250 Experience",
+					type: "command"
+				},
+				{
+					auto: "enabled",
+					icon: "ftb_ph:talent",
+					id: "7A7B4EE2BBE28627",
+					title: "1 Talent Point",
+					type: "custom"
+				}
+			],
+			subtitle: "Chocobos Salvajes",
+			tasks: [{
+				id: "7280DA5550AACF38",
+				item: "chococraft:chocopedia",
+				type: "item"
+			}],
+			title: "Chococraft y Monturas",
+			x: 10.5d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["5FCA8577C7DB792D"],
+			description: [
+				"Las pociones de la Profesión de Alquimia pueden proporcionar beneficios útiles como curación y mejoras. Puedes ver cómo craftear estas pociones con más detalle en el capítulo \"&aProfesiones M&S&r\". Alternativamente, si no te interesan las Profesiones, &etambién puedes comprar estas pociones&r de varios comerciantes (Aldeanos, Comerciantes Goblin).",
+				"",
+				"&l&e¡Para usar pociones rápidamente, puedes presionar Y!&r&r",
+				"",
+				"Prepara las &aPociones de Salud Poco Comunes&r con lo siguiente:",
+				"",
+				"3x &7Carne Espiritual&r",
+				"1x &7Piedra Común&r",
+				"1x Pollo Cocido",
+				"1x Tomate",
+				"5x Moneda de Cobre"
+			],
+			id: "044F1A64E4751E01",
+			rewards: [
+				{
+					count: 8,
+					id: "309303AF9483B825",
+					item: {
+						Count: 1b,
+						id: "mmorpg:potion/health/2",
+						tag: {
+							level: 1,
+							tier: 0
+						}
+					},
+					title: "Rare Restoration Potions",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "0860A55C77EDCD28",
+					silent: true,
+					title: "250 Experience",
+					type: "command"
+				}
+			],
+			subtitle: "Profesiones M&S",
+			tasks: [{
+				count: 4L,
+				id: "7FEE130B9F995355",
+				item: {
+					Count: 1b,
+					id: "mmorpg:potion/health/1",
+					tag: {
+						level: 1,
+						tier: 0
+					}
+				},
+				type: "item"
+			}],
+			title: "Aceptando el Trabajo",
+			x: 6.0d,
+			y: 1.5d
+		},
+		{
+			dependencies: ["472D5441B6FCD6EC"],
+			description: [
+				"Las &eWaystones&r te permiten teletransportarte hacia y desde cada una que hayas desbloqueado. Las Waystones Globales se pueden usar entre dimensiones.",
+				"",
+				"La &ePiedra de Teletransporte&r te permite teletransportarte a cualquier waystone que hayas desbloqueado, pero tiene un tiempo de reutilización.",
+				"",
+				"También hay &enumerosos pergaminos&r para craftear que pueden actuar como &ePiedras de Teletransporte de un solo uso&r o para teletransportarte a una &ewaystone específica&r."
+			],
+			id: "749948B3A454617E",
+			rewards: [
+				{
+					count: 4,
+					id: "28EFCAAD2342E7CA",
+					item: "waystones:warp_scroll",
+					title: "Warp Scrolls",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "608D719FC25BE82F",
+					silent: true,
+					title: "250 Experience",
+					type: "command"
+				}
+			],
+			subtitle: "Los Extras",
+			tasks: [{
+				id: "65C065AB07D8CE15",
+				item: {
+					Count: 1b,
+					id: "waystones:warp_stone",
+					tag: {
+						Damage: 0
+					}
+				},
+				match_nbt: false,
+				type: "item"
+			}],
+			title: "Teletransportándose por Ahí",
+			x: 6.0d,
+			y: -3.0d
+		},
+		{
+			dependencies: ["152D52A88F776A70"],
+			description: [
+				"En Craft to Exile 2, puedes encontrar &eRunas específicas de cada dimensión&r que se pueden usar para engastar en tu equipo, o para craftear poderosas Palabras Rúnicas.",
+				"",
+				"Hay &e7 de estas Runas&r en total, y solo se pueden obtener de Jefes de Dimensión como el Invocador o el Dragón del End.",
+				"",
+				"&c------------------------------&r",
+				"",
+				"&eRuna Owd&r - Ermitaño del Abismo (&b5%&r), Invocador (&b10%&r), Fauces de Hielo (&b15%&r), La Parca (&b10%&r)",
+				"&eRuna Net&r - Mosco Deformado (&b10%&r), Fuego Salvaje (&b5%&r), Calamar de Lava Madre (&b5%&r), Wither (&b10%&r), Ghast Horrible (&b15%&r), Guardián del Nether (&b15%&r)",
+				"&eRuna Und&r - Forjado Férreo (&b10%&r), Umvuthi (&b10%&r), Tongbi, el Escultor (&b10%&r), Guardián Olvidado (&b10%&r), Anguila (&b15%&r), Madre del Laberinto (&b50%&r), Fantasma del Capitán Cornelia (&b10%&r)",
+				"&eRuna Bri&r - Invocador (&b10%&r), Triturador Estelar (&b25%&r)",
+				"&eRuna Daw&r - Alquimista (&b10%&r), Aracnarca (&b25%&r)",
+				"&eRuna End&r - Dragón del End (&b7.5%&r), Gusano del Vacío (&b5%&r), Refugiador (&b15%&r)",
+				"&eRuna Sid&r - Warden (&b10%&r), Liche de la Noche (&b15%&r), Guantelete del Nether (&b15%&r), Flor del Vacío (&b15%&r), Obsidilita (&b15%&r)"
+			],
+			icon: "minecraft:paper",
+			id: "2C9B55C8C05E20E2",
+			rewards: [
+				{
+					id: "0B08CCCE242A1619",
+					item: "mmorpg:runes/owd",
+					type: "item"
+				},
+				{
+					exclude_from_claim_all: true,
+					id: "5D11A9399E68F7CA",
+					table_id: 385353338452370382L,
+					type: "choice"
+				}
+			],
+			subtitle: "Página Perdida",
+			tasks: [{
+				id: "78F79A58FE29C912",
+				title: "Click Once Read",
+				type: "checkmark"
+			}],
+			title: "Runas de Dimensión",
+			x: 7.5d,
+			y: 4.5d
+		},
+		{
+			dependencies: ["0388547EAFE52B5F"],
+			description: ["Los &eParapentes&r se pueden usar para atravesar fácilmente grandes distancias abiertas, suponiendo que comiences desde un punto de partida lo suficientemente alto. Puedes usar fuentes de fuego para crear vientos ascendentes, lo que te permite flotar hacia arriba."],
+			id: "4A46491D07C3EED0",
+			rewards: [
+				{
+					id: "50A326F655E21EFF",
+					item: "paraglider:heart_container",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 75",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "50EBE487632EBE6A",
+					silent: true,
+					title: "75 Experience",
+					type: "command"
+				}
+			],
+			subtitle: "Atravesando el Espacio",
+			tasks: [{
+				id: "540B918DC067979F",
+				item: "paraglider:paraglider",
+				type: "item"
+			}],
+			title: "Parapente",
+			x: 3.0d,
+			y: 1.5d
+		},
+		{
+			dependencies: ["051DB401E3A08D89"],
+			description: [
+				"Las &eMesas de Transfiguración&r se pueden craftear y usar para cambiar la apariencia de tus objetos.",
+				"",
+				"Coloca la mesa en el mundo y haz clic derecho sobre ella. De izquierda a derecha, las ranuras son:",
+				"1. &eRanura de Combustible&r - se alimenta con Fragmentos de Amatista.",
+				"2. &eRanura Objetivo&r - el objeto que coloques aquí cambiará su apariencia.",
+				"3. &eRanura de Apariencia&r - la apariencia del objeto que coloques aquí se copiará en el objetivo. ¡El objeto aquí NO se consumirá al transfigurar!",
+				"",
+				"Además, puedes colocar &eFragmentos del Vacío&r en la Ranura de Apariencia para hacer que el objeto sea invisible."
+			],
+			id: "5883B9DEF98B079F",
+			rewards: [
+				{
+					count: 3,
+					id: "1AB0EB102E137C29",
+					item: "minecraft:amethyst_shard",
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 750",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "1606255B78C8641A",
+					silent: true,
+					title: "750 Experience",
+					type: "command"
+				}
+			],
+			subtitle: "Los Extras",
+			tasks: [{
+				id: "06F088656E20DBC2",
+				item: "transmog:transmogrification_table",
+				type: "item"
+			}],
+			title: "Luciendo Más Genial",
+			x: 6.0d,
+			y: 3.0d
+		},
+		{
+			dependencies: ["5FCA8577C7DB792D"],
+			description: [
+				"¿Estás jugando como un &5Brujo&r, &2Cazador&r o &9Elementalista&r? ¿Sabías que estas clases tienen acceso a invocaciones?",
+				"",
+				"Puedes configurar el &ecomportamiento de tus invocaciones&r en la pestaña de &eCaracterísticas&r del Menú de Mine and Slash (abajo a la izquierda). Puedes hacerlas agresivas o pasivas. Si se establece en pasivo, las invocaciones solo atacarán lo que tú hayas atacado.",
+				"",
+				"Además, puedes &edes-invocar&r tus invocaciones en cualquier momento usando la tecla de des-invocar (Por defecto: &eSupr&r)."
+			],
+			icon: "minecraft:paper",
+			id: "5DA2E0EE110431E0",
+			rewards: [{
+				count: 8,
+				id: "429A832BAB3604F6",
+				item: {
+					Count: 1b,
+					id: "mmorpg:potion/health/0",
+					tag: {
+						level: 1,
+						tier: 0
+					}
+				},
+				type: "item"
+			}],
+			subtitle: "Página Perdida",
+			tasks: [{
+				id: "13B1D70D3301273C",
+				title: "Click Once Read",
+				type: "checkmark"
+			}],
+			title: "Clases de Invocación",
+			x: 4.5d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["0388547EAFE52B5F"],
+			description: [
+				"¿Te resulta difícil sobrevivir?",
+				"",
+				"&eSpice of Life: Onion Edition &rda a cada alimento un factor de &e\"diversidad\"&r. Comer alimentos diversos otorga &ebeneficios,&r mientras que limitarse a unos pocos alimentos no lo hará. &eRevisa tu Libro de Comida en tu Menú (por defecto: H)&r para ver tu diversidad y beneficios actuales. &e¡Sigue comiendo diferentes alimentos y aumenta tu Salud, Alcance de Bloqueo, Velocidad de Movimiento y más!&r",
+				"",
+				"La &eBolsa de Almuerzo&r puede ser crafteada y mejorada para &ellevar toda tu comida&r de una vez, &eshift + clic derecho&r con ella en la mano para llenarla y clic derecho para comer."
+			],
+			icon: "minecraft:paper",
+			id: "4AF5F24C4B770EA5",
+			rewards: [
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 50",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "1EDD4D6B60F3D507",
+					silent: true,
+					title: "50 Experience",
+					type: "command"
+				},
+				{
+					id: "238CA135B4FDF78D",
+					item: {
+						Count: 1b,
+						ForgeCaps: {
+							Parent: {
+								Items: [],
+								Size: 5
+							}
+						},
+						id: "solonion:lunchbag"
+					},
+					type: "item"
+				}
+			],
+			subtitle: "Página Perdida",
+			tasks: [{
+				id: "109366712B105500",
+				title: "Click Once Read",
+				type: "checkmark"
+			}],
+			title: "Spice of Life: Onion Edition",
+			x: 3.0d,
+			y: -1.5d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"Los &eEspíritus Inquietos&r son espíritus vengativos que aparecen por la noche. Se pueden encontrar en cualquier lugar.",
+				"",
+				"El Espíritu Inquieto Tiene:",
+				"&b+30% Índice de Esquiva&r"
+			],
+			hide_dependency_lines: true,
+			icon: "mca:book_supporters",
+			id: "1DEC808C04130184",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 100",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "786CEB796300A021",
+				silent: true,
+				title: "100 Experience x Lv.",
+				type: "command"
+			}],
+			subtitle: "El Cementerio",
+			tasks: [{
+				entity: "born_in_chaos_v1:restless_spirit",
+				icon: "ftb_ph:restless_spirit",
+				id: "630C5043103095CC",
+				type: "kill",
+				value: 15L
+			}],
+			title: "Bestiario II",
+			x: 3.0d,
+			y: 6.0d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"Los &eGuías Espirituales&r se pueden encontrar en &ebiomas secos y cálidos&r. No se queman al sol gracias a su sombrero. Durante la batalla, llamará a aliados para que le ayuden.",
+				"",
+				"&cEl Guía Espiritual aparece con un nivel mínimo de 10.&r",
+				"",
+				"El Guía Espiritual Tiene:",
+				"&b+10% Probabilidad de Supresión de Daño&r",
+				"&b+40% Resistencia Elemental&r"
+			],
+			hide_dependency_lines: true,
+			hide_text_until_complete: false,
+			icon: "mca:book_supporters",
+			id: "39A431C3F5565DCC",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 150",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "659249CB38D17C7E",
+				silent: true,
+				title: "150 Experience x Lv.",
+				type: "command"
+			}],
+			subtitle: "Nivel 10 - Guía Espiritual",
+			tasks: [{
+				entity: "born_in_chaos_v1:spirit_guide",
+				icon: "ftb_ph:spirit_guide",
+				id: "21E70282049DD20C",
+				type: "kill",
+				value: 10L
+			}],
+			title: "Bestiario III",
+			x: 4.5d,
+			y: 6.0d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"El &eCaballero de la Puerta&r y el &eApaleador Esquelético&r son criaturas no muertas defensivas. Pueden aparecer en cualquier lugar. Para completar estas tareas, debes encontrar los salvajes.",
+				"",
+				"El Caballero de la Puerta Tiene:",
+				"&b+40% Armadura&r",
+				"",
+				"El Apaleador Esquelético Tiene:",
+				"&b+100% Armadura&r",
+				"&b+25% Resistencia Elemental&r"
+			],
+			hide_dependency_lines: true,
+			icon: "mca:book_supporters",
+			id: "761BC90863C35627",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 150",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "0A9CB394B575F1E7",
+				silent: true,
+				title: "150 Experience x Lv.",
+				type: "command"
+			}],
+			subtitle: "Guardianes No Muertos",
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:door_knight",
+					icon: "ftb_ph:door_knight",
+					id: "7900CC0A0431834E",
+					type: "kill",
+					value: 15L
+				},
+				{
+					entity: "born_in_chaos_v1:skeleton_thrasher",
+					icon: "ftb_ph:skeleton_thrasher",
+					id: "2C3E695872E63BE2",
+					type: "kill",
+					value: 5L
+				}
+			],
+			title: "Bestiario IV",
+			x: 6.0d,
+			y: 6.0d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"El &eMisionero&r es una criatura no muerta engañosamente poderosa. Puedes encontrarlos en cualquier lugar. Si se le ataca, comenzará a invocar criaturas no muertas para que le ayuden.",
+				"",
+				"El Misionero Tiene:",
+				"&b+100% Daño Físico a Frío&r",
+				"&b+25% Probabilidad de Congelar&r",
+				"&b+50% Resistencia Elemental&r"
+			],
+			hide_dependency_lines: true,
+			icon: "mca:book_supporters",
+			id: "58995DE0C6EBA1AB",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 200",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "4FB3264B31FDBA13",
+				silent: true,
+				title: "200 Experience x Lv.",
+				type: "command"
+			}],
+			subtitle: "Misión Cinco",
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner",
+				icon: "ftb_ph:missioner",
+				id: "4C85300D7B4ECA09",
+				type: "kill",
+				value: 5L
+			}],
+			title: "Bestiario V",
+			x: 7.5d,
+			y: 6.0d
+		},
+		{
+			dependencies: ["75454F0A3C4C3596"],
+			description: [
+				"&e&oRequiere completar El End en el Acto IV.&r&r",
+				"",
+				"El &eFauces de Hielo&r es una criatura antigua que se encuentra en biomas nevados. Su tamaño masivo, velocidad impresionante y poderoso aliento de hielo los convierten en oponentes casi imposibles.",
+				"",
+				"&cEl Fauces de Hielo aparece con un nivel mínimo de 50.&r",
+				"",
+				"El Fauces de Hielo Tiene:",
+				"&b+20% Salud&r",
+				"&b+100% Daño Físico a Frío&r",
+				"&b+33% Probabilidad de Congelar&r",
+				"&b+50% Resistencia Elemental&r",
+				"&b+30% Resistencia al Caos&r",
+				"&a15% de probabilidad de soltar la Runa Owd&r"
+			],
+			hide_dependency_lines: true,
+			icon: "mca:book_supporters",
+			id: "0CE7FFFDD4066916",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give exp @p 16000",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "428905CD2D70AC2E",
+				silent: true,
+				title: "16000 Experience",
+				type: "command"
+			}],
+			subtitle: "Nivel 50 - Páramos Gélidos",
+			tasks: [{
+				entity: "mowziesmobs:frostmaw",
+				icon: "ftb_ph:frostmaw",
+				id: "3C5F14EBFB344FB5",
+				type: "kill",
+				value: 2L
+			}],
+			title: "Bestiario VII",
+			x: 10.5d,
+			y: 6.0d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"La &eMadre de las Arañas&r es una gran araña depredadora que se encuentra en &eCuevas&r. Pueden invocar arañas más pequeñas para ayudar en combate.",
+				"",
+				"La Madre de las Arañas Tiene:",
+				"&b+100% Daño Físico a Caos&r",
+				"&b+33% Probabilidad de Envenenar&r",
+				"",
+				"&e&oLos libros del Bestiario se desbloquearán a medida que avances en los Actos.&r&r"
+			],
+			hide_dependency_lines: true,
+			icon: "mca:book_supporters",
+			id: "7032850A1F1FFF32",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 100",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "6FF4F59F68177438",
+				silent: true,
+				title: "100 Experience x Lv.",
+				type: "command"
+			}],
+			subtitle: "Terrenos Pútridos",
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider",
+				icon: "ftb_ph:mother_spider",
+				id: "20AB098D30A443A3",
+				type: "kill",
+				value: 5L
+			}],
+			title: "Bestiario I",
+			x: 1.5d,
+			y: 6.0d
+		},
+		{
+			dependencies: ["4956C0B5633CE91E"],
+			description: ["Puedes craftear equipo para prepararte para tu aventura. ¡Consulta el Capítulo de Profesiones M&S para obtener información detallada!"],
+			id: "4C68E7AC4C59F2EB",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give exp @p 350",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "50ED13731B6C4940",
+				silent: true,
+				title: "350 Experience",
+				type: "command"
+			}],
+			subtitle: "Profesiones M&S",
+			tasks: [{
+				id: "5F2746C9F73F6032",
+				item: {
+					Count: 1b,
+					id: "mmorpg:stat_soul/family/armor/uncommon",
+					tag: {
+						tier: 0
+					}
+				},
+				match_nbt: true,
+				type: "item"
+			}],
+			title: "Equípate II",
+			x: 4.5d,
+			y: -4.5d
+		},
+		{
+			dependencies: ["4956C0B5633CE91E"],
+			description: [
+				"Los &eKits de Reparación&r reparan automáticamente el equipo y las herramientas equipadas cada 10 segundos. La cantidad que reparan depende del nivel del kit.",
+				"",
+				"Tienen usos limitados, indicados por su carga. ¡Puedes llenar un kit dándole &ePiedras de Mine and Slash&r!"
+			],
+			icon: {
+				Count: 1b,
+				id: "auto_repair_kit:leather_kit",
+				tag: {
+					Damage: 0
+				}
+			},
+			id: "60D950E97EA8E2B7",
+			rewards: [
+				{
+					id: "7E70520E2DA233F8",
+					item: {
+						Count: 1b,
+						id: "auto_repair_kit:leather_kit",
+						tag: {
+							Damage: 0
+						}
+					},
+					type: "item"
+				},
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 250",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "6745F9E1DFB1E3DF",
+					silent: true,
+					title: "250 Experience",
+					type: "command"
+				}
+			],
+			subtitle: "Retención de Equipo",
+			tasks: [{
+				count: 8L,
+				id: "7773BDB87F5C4B52",
+				item: {
+					Count: 8b,
+					id: "minecraft:leather"
+				},
+				type: "item"
+			}],
+			title: "Auto-Reparación",
+			x: 4.5d,
+			y: -3.0d
+		},
+		{
+			dependencies: ["313921A7833269CF"],
+			description: [
+				"&eSir Calabaza&r es un espíritu misterioso que se encuentra durante el mes de octubre... Sin embargo, también puedes invocarlo destruyendo una &ecalabaza especial&r rodeada de velas que puedes encontrar en el mundo.",
+				"",
+				"Sir Calabaza Tiene:",
+				"&b+30% Armadura&r",
+				"&b+30% Resistencia Elemental&r",
+				"&b+30% Resistencia al Caos&r"
+			],
+			hide_dependency_lines: true,
+			icon: "mca:book_supporters",
+			id: "0D04908025368D7B",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 200",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "13D41258E79CCB8D",
+				silent: true,
+				title: "200 Experience x Lv.",
+				type: "command"
+			}],
+			subtitle: "Rey Calabaza",
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_the_headless",
+				icon: "ftb_ph:lord_of_pumpkin",
+				id: "55A5454CCB82C6A1",
+				type: "kill",
+				value: 1L
+			}],
+			title: "Bestiario VI",
+			x: 9.0d,
+			y: 6.0d
+		},
+		{
+			dependencies: ["0D04908025368D7B"],
+			description: [
+				"&eLord Calabaza&r es una versión más fuerte y final de &eSir Calabaza&r. Puedes luchar contra él invocándolo. Haz clic derecho en una &eCalabaza Maligna Infernal&r (creada o encontrada) usando un &eElixir de Transmutación&r.",
+				"",
+				"Ten en cuenta que uno de los componentes para el &eElixir de Transmutación&r, el &eComponente del Caos&r, se puede hacer preparando una &eSemilla del Caos&r en una &eBotella de Agua&r usando un &eSoporte para Pociones&r.",
+				"",
+				"&cLord Calabaza aparece con un nivel mínimo de 60 y Rareza Mítica.&r",
+				"",
+				"Lord Calabaza Tiene:",
+				"&b+50% Armadura&r",
+				"&b+50% Resistencia Elemental&r",
+				"&b+50% Resistencia al Caos&r"
+			],
+			icon: "mca:book_supporters",
+			id: "32228E2B053EF761",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give exp @p 16000",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "7591A16B2A0D894F",
+				silent: true,
+				title: "16000 Experience",
+				type: "command"
+			}],
+			subtitle: "Nivel 60 - Rey Calabaza II",
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_the_headless",
+				icon: "ftb_ph:lord_of_pumpkin",
+				id: "45B7B9E1EFF6B3F1",
+				type: "kill",
+				value: 1L
+			}],
+			title: "Bestiario VIb",
+			x: 9.0d,
+			y: 7.5d
+		},
+		{
+			dependencies: ["1DEC808C04130184"],
+			description: [
+				"Los &ePayasos Zombis&r son enemigos lentos y densos. Aplican Brebaje Intoxicante al golpear. Se pueden encontrar en &eCaravanas de Payasos&r.",
+				"",
+				"El Payaso Zombi Tiene:",
+				"&b+25% Daño Físico a Caos&r",
+				"&b+75% Resistencia al Caos&r"
+			],
+			icon: "mca:book_supporters",
+			id: "4E589D39C44CAAD2",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 120",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "04E41165D049095A",
+				silent: true,
+				title: "120 Experience x Lv.",
+				type: "command"
+			}],
+			subtitle: "¡La Broma es para Ti!",
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown",
+				icon: "ftb_ph:zombie_clown",
+				id: "0229F6B999DF46D0",
+				type: "kill",
+				value: 30L
+			}],
+			title: "Bestiario IIb",
+			x: 3.0d,
+			y: 7.5d
+		},
+		{
+			dependencies: ["749948B3A454617E"],
+			description: ["Puedes craftear tu propia &eWaystone&r para teletransportarte. Serán relativamente caras, ¡pero definitivamente valen la pena!"],
+			id: "4BA92370D0D0DC32",
+			rewards: [
+				{
+					auto: "enabled",
+					command: "/mine_and_slash give exp @p 500",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "597C6F3B17BA40CF",
+					silent: true,
+					title: "500 Experience",
+					type: "command"
+				},
+				{
+					exclude_from_claim_all: true,
+					id: "2D408A43E66CF473",
+					table_id: 385353338452370382L,
+					type: "choice"
+				}
+			],
+			subtitle: "Los Extras",
+			tasks: [{
+				id: "7F29159B548EDBA1",
+				item: "waystones:sandy_waystone",
+				type: "item"
+			}],
+			x: 7.5d,
+			y: -3.0d
+		},
+		{
+			dependencies: ["7032850A1F1FFF32"],
+			description: [
+				"El &eLíder de los Sabuesos Siniestros&r es un gran sabueso que se encuentra vagando por diferentes biomas durante la &bNoche&r. Pueden invocar sabuesos siniestros más pequeños para ayudar en combate.",
+				"",
+				"El Líder de los Sabuesos Siniestros Tiene:",
+				"&b+30% Probabilidad de Esquivar&r",
+				"&b+60% Probabilidad de Sangrado&r"
+			],
+			icon: "mca:book_supporters",
+			id: "6F1CBC071DD2414C",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 120",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "3F5DE85074BA9ED5",
+				silent: true,
+				title: "120 Experience x Lv.",
+				type: "command"
+			}],
+			subtitle: "Sabuesos Aulladores",
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader",
+				icon: "ftb_ph:direhound_leader",
+				id: "377631AE3921C331",
+				type: "kill",
+				value: 6L
+			}],
+			title: "Bestiario Ib",
+			x: 1.5d,
+			y: 7.5d
+		},
+		{
+			dependencies: ["761BC90863C35627"],
+			description: [
+				"El &eCaballero del Caos Caído&r es un orgulloso caballero que ha sucumbido al caos. Pueden aparecer por la &bNoche&r",
+				"",
+				"El Caballero del Caos Caído Tiene:",
+				"&b+50% Armadura&r",
+				"&b+100% Daño Físico a Caos&r"
+			],
+			icon: "mca:book_supporters",
+			id: "16739950F16AB006",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 150",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "2FE4336CA3038867",
+				silent: true,
+				title: "150 Experience x Lv.",
+				type: "command"
+			}],
+			subtitle: "Caballeros Caídos",
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight",
+				icon: "ftb_ph:fallen_chaos_knight",
+				id: "029D495A65716B1F",
+				type: "kill",
+				value: 5L
+			}],
+			title: "Bestiario IVb",
+			x: 6.0d,
+			y: 7.5d
+		},
+		{
+			dependencies: ["0D9B68F2990B8E94"],
+			description: [
+				"Durante tus viajes, puedes encontrar &eMapas de Obelisco&r en cofres. ¡Estos se pueden usar en &eObeliscos&r para activar encuentros instanciados basados en oleadas!",
+				"",
+				"Los monstruos que aparecen se ven afectados por los modificadores en el propio Mapa. Estos modificadores harán que el encuentro sea más difícil, pero aumentarán las recompensas.",
+				"",
+				"Los monstruos que aparecen en los encuentros de Obelisco escalan con tu nivel."
+			],
+			id: "7BE77FBF663D995C",
+			rewards: [{
+				id: "45AB4D5BADF27EBE",
+				item: "ancient_obelisks:obelisk_map",
+				type: "item"
+			}],
+			subtitle: "Instancias Basadas en Oleadas",
+			tasks: [{
+				id: "2E5E647AF53CF519",
+				item: "ancient_obelisks:obelisk",
+				type: "item"
+			}],
+			x: 4.5d,
+			y: 4.5d
+		},
+		{
+			dependencies: ["044F1A64E4751E01"],
+			description: [
+				"La &eCaza de Recompensas&r es una Profesión de Mine and Slash que sube de nivel a medida que completas recompensas de Bountiful. ¡Completa recompensas para ganar experiencia en Caza de Recompensas y &eVales de Recompensa&r!",
+				"",
+				"Los &eTablones de Recompensas&r generarán &erecompensas aleatorias&r para que las completes. ¡Toma una &esolicitud&r de la interfaz del tablón y complétala dentro del &elímite de tiempo&r para ganar las recompensas indicadas!",
+				"",
+				"¡Puedes craftear los Tablones de Recompensas o encontrarlos aleatoriamente por el mundo, generalmente en aldeas!",
+				"",
+				"Para más información, consulta: ",
+				"{ \"text\": \"Caza de Recompensas\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E27A84CE1F030A1\" } }"
+			],
+			id: "0726C033448D45CE",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give exp @p 500",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "10A31C7272F8C27A",
+				silent: true,
+				title: "500 Experience",
+				type: "command"
+			}],
+			subtitle: "Profesiones M&S",
+			tasks: [
+				{
+					id: "164D7BC468D2116C",
+					item: "bountiful:bountyboard",
+					type: "item"
+				},
+				{
+					id: "264FCC3C7B7531D6",
+					item: {
+						Count: 1b,
+						id: "bountiful:decree",
+						tag: {
+							"bountiful:decree_data": "{}"
+						}
+					},
+					type: "item"
+				}
+			],
+			title: "Tablones de Recompensas",
+			x: 7.5d,
+			y: 3.0d
+		}
+	],
+	subtitle: ["Nivel 1-15"],
+	title: "Acto I"
+}

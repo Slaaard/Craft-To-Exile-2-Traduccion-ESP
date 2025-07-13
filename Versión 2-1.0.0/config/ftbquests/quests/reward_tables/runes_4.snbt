@@ -1,0 +1,10 @@
+{
+	id: "74FAE7632A309372"
+	loot_size: 1
+	order_index: 45
+	rewards: [
+		{ item: "mmorpg:runes/har" }
+		{ item: "mmorpg:runes/toq" }
+	]
+	title: "Runas 4"
+}

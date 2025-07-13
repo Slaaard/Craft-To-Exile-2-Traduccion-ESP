@@ -1,0 +1,562 @@
+{
+  "noClaim": "No hay ninguna protección aquí.",
+  "inspectBlockOwner": "Esta es la protección de %1$s",
+  "inspectNoClaim": "Nadie es dueño de este bloque",
+  "claimBlocksFormat": "Bloques de Protección: %1$d + (Bonus) %2$d); Usados: %3$d; Restantes: %4$d",
+  "listClaims": "Listando todas las protecciones:",
+  "listAdminClaims": "Listando todas las protecciones de administrador en %1$s:",
+  "onlyOnePlayer": "Solo se puede usar un jugador como argumento",
+  "ownerTransferSuccess": "El nuevo dueño de la protección es: %1$s",
+  "ownerTransferFail": "Solo el dueño puede transferir protecciones",
+  "ownerTransferNoBlocks": "El nuevo dueño no tiene suficientes bloques de protección",
+  "ownerTransferNoBlocksAdmin": "Puedes ignorar esto cambiando a modo administrador",
+  "noSuchLevel": "La dimensión con id %s no existe",
+  "noSuchPlayer": "El jugador con uuid/nombre %s no existe",
+  "claimCreationFailCommand": "No se pudo crear la protección en esta posición",
+  "noPermission": "¡No tienes los permisos necesarios para hacer eso aquí!",
+  "noPermissionSimple": "¡Lo siento, no puedes hacer eso aquí!",
+  "noPermissionTooClose": "¡Lo siento, estás demasiado cerca de una protección para hacer eso aquí!",
+  "tooCloseClaim": "¡Estás demasiado cerca de un área protegida para hacer eso!",
+  "configReload": "Configuraciones recargadas",
+  "cantClaimHere": "Lo siento, no puedes proteger esta área",
+  "minClaimSize": "Esto es demasiado pequeño. El tamaño mínimo de protección es %d",
+  "maxClaims": "Se ha alcanzado la cantidad máxima de protecciones",
+  "landClaimDisabledWorld": "La protección de tierras está desactivada en este mundo",
+  "editMode": "Modo de edición establecido en %1$s",
+  "notEnoughBlocks": "No hay suficientes bloques de protección",
+  "conflictOther": "La protección se superpondría con otras protecciones",
+  "wrongMode": "Modo de protección incorrecto. Estás en modo-%1$s",
+  "stringScreenReturn": "Haz clic en el papel para volver",
+  "conflictSpawn": "La protección se superpondría con el área de aparición",
+  "claimCooldown": "Debes esperar %s ticks antes de crear otra protección",
+  "groupAdd": "Grupo %1$s añadido",
+  "groupRemove": "Grupo %1$s eliminado",
+  "groupExist": "El grupo ya existe",
+  "uuidFakeAdd": "Jugador falso con uuid %1$s añadido a la protección",
+  "uuidFakeRemove": "Jugador falso con uuid %1$s eliminado de la protección",
+  "uuidFakeModifyNo": "El jugador falso con el uuid dado ya está añadido",
+  "playerModify": "Grupo de permisos modificado para los siguientes jugadores a %1$s: %2$s",
+  "playerModifyNo": "No se pudo establecer el grupo de permisos para los jugadores. Probablemente porque ya pertenecen a un grupo",
+  "playerGroupAddFail": "No se pudo añadir ese jugador al grupo, ya sea porque el jugador ya está en un grupo o porque no se encontró ningún jugador con ese nombre",
+  "resizeClaim": "Redimensionando protección",
+  "resizeSuccess": "Protecciones redimensionadas",
+  "claimCreateSuccess": "Nueva protección creada",
+  "subClaimCreateSuccess": "Nueva sub-protección creada",
+  "deleteClaim": "Protección eliminada",
+  "deleteAllClaimConfirm": "¿Seguro que quieres eliminar todas tus protecciones? Escríbelo de nuevo para confirmar",
+  "deleteAllClaim": "Todas las protecciones eliminadas",
+  "deleteClaimError": "No puedes eliminar esta protección aquí",
+  "deleteSubClaim": "Sub-protección eliminada",
+  "deleteSubClaimError": "No hay ninguna sub-protección aquí. Cambia tu modo de protección para eliminar la protección principal.",
+  "deleteSubClaimAll": "Todas las sub-protecciones de esta protección han sido eliminadas",
+  "noSuchPerm": "No existe el permiso %1$s",
+  "editPerm": "%1$s ahora establecido en %2$s",
+  "editPermGroup": "%1$s para %2$s ahora establecido en %3$s",
+  "editPersonalGroup": "Permiso por defecto %1$s para el grupo %2$s ahora establecido en %3$s",
+  "nonGlobalOnly": "No se puede editar %1$s aquí ya que es un permiso global",
+  "adminMode": "Modo Administrador (Ignorar Protecciones) establecido en: %1$s",
+  "adminDeleteAll": "Se eliminaron todas las protecciones de los siguientes jugadores: %1$s",
+  "setAdminClaim": "Protección de administrador de esta zona ahora: %1$s",
+  "readGriefpreventionData": "Leyendo datos de GriefPrevention",
+  "readGriefpreventionClaimDataSuccess": "Datos de protecciones leídos correctamente",
+  "readGriefpreventionPlayerDataSuccess": "Datos de jugadores leídos correctamente",
+  "cantFindData": "No se encontraron datos de GriefPrevention en %1$s",
+  "errorFile": "Error al leer el archivo %1$s",
+  "readConflict": "%1$s entra en conflicto con protecciones existentes. ¡No se ha añadido al mundo! Conflictos:",
+  "giveClaimBlocks": "Se dieron %2$d bloques de protección a los siguientes jugadores: %1$s",
+  "giveClaimBlocksBonus": "Se dieron %2$d bloques de protección de bonus a los siguientes jugadores: %1$s",
+  "fakePlayerNotification1": "Un jugador falso intentó interactuar con tu protección en %1$s en %2$s.",
+  "fakePlayerNotification2": "Haz clic %s mientras estás en tu protección para añadir al jugador falso.",
+  "clickableComponent": "aquí",
+  "fakePlayerNotification3": "Haz clic %s para desactivar esta notificación.",
+  "fakePlayerNotification": "Notificación de Jugador Falso establecida en %s",
+  "claimBasicInfo": "Dueño: %1$s, desde: [x=%2$d,z=%3$d] hasta [x=%4$d,z=%5$d]); Cantidad de sub-protecciones: %6$d",
+  "claimBasicInfoNamed": "Protección: %7$s, Dueño: %1$s, desde: [x=%2$d,z=%3$d] hasta [x=%4$d,z=%5$d]); Cantidad de sub-protecciones: %6$d",
+  "claimSubHeader": "==Info de Sub-protección==",
+  "claimBasicInfoSub": "Dueño: %1$s, desde: [x=%2$d,z=%3$d] hasta [x=%4$d,z=%5$d]",
+  "claimBasicInfoSubNamed": "Protección: %6$s, Dueño: %1$s, desde: [x=%2$d,z=%3$d] hasta [x=%4$d,z=%5$d]",
+  "claimInfoPerms": "Permisos: %1$s",
+  "claimGroupInfoHeader": "Grupos: ",
+  "claimGroupPerms": "    Permisos: %1$s",
+  "claimGroupPlayers": "    Jugadores: %1$s",
+  "helpHeader": "Los subcomandos disponibles son (página %d):",
+  "helpCmdHeader": "====================",
+  "helpCmdSyntax": "Sintaxis: %1$s",
+  "screenEnableText": "Activado: %1$s",
+  "screenUneditable": "¡No Editable!",
+  "screenClose": "Cerrar",
+  "screenNext": "Siguiente",
+  "screenPrevious": "Anterior",
+  "screenAdd": "Añadir",
+  "screenBack": "Atrás",
+  "screenNoPerm": "Sin Permiso",
+  "screenFalse": "falso",
+  "screenTrue": "verdadero",
+  "screenDefault": "defecto",
+  "screenMenu": "Menú de Protección",
+  "screenMenuSub": "Menú de Sub-Protección",
+  "screenMenuGlobal": "Editar Permisos Globales",
+  "screenMenuGroup": "Editar Grupos de Permisos",
+  "screenMenuPotion": "Editar Efectos de Poción",
+  "screenMenuClaimText": "Editar Texto de Entrada/Salida",
+  "screenMenuFakePlayers": "Jugadores Falsos",
+  "screenMenuDelete": "Eliminar Protección",
+  "screenConfirm": "Confirmar",
+  "screenYes": "Sí",
+  "screenNo": "No",
+  "screenGroupPlayers": "Jugadores de %1$s",
+  "screenRemoveMode": "Modo Eliminar: %1$s",
+  "screenGlobalPerms": "Permisos Globales",
+  "screenGroupName": "%s",
+  "screenGroups": "Grupos de Protección",
+  "screenGroupPerms": "Permisos de %1$s",
+  "screenPersonalGroups": "Grupos Personales",
+  "screenPersonalPermissions": "Permisos Personales para %1$s",
+  "screenFakePlayerNameUUID": "%s",
+  "screenPotions": "Pociones de la Protección",
+  "screenPotionText": "%s",
+  "screenTitleEditor": "Mensajes de la protección",
+  "screenTitleEditorSub": "Mensajes de la sub-protección",
+  "screenTextJson": "Clic derecho para usar texto JSON. Revisa la Wiki de MC para ello.",
+  "screenEnterText": "Editar texto del título al entrar.",
+  "screenEnterSubText": "Editar texto del subtítulo al entrar.",
+  "screenLeaveText": "Editar texto del título al salir.",
+  "screenLeaveSubText": "Editar texto del subtítulo al salir.",
+  "screenDelete": "Usa \"$empty\" para borrar el mensaje",
+  "screenMenuItemUse": "Uso de ítems permitido",
+  "screenMenuBlockBreak": "Ruptura de bloques permitida",
+  "screenMenuBlockUse": "Uso de bloques permitido",
+  "screenMenuEntityAttack": "Ataque a entidades permitido",
+  "screenMenuEntityUse": "Interacciones con entidades permitidas",
+  "allowListEmptyTag": "Etiqueta Vacía",
+  "chatClaimTextEdit": "[Clic para comando]",
+  "sellDisabled": "La venta de bloques de protección está desactivada",
+  "buyDisabled": "La compra de bloques de protección está desactivada",
+  "sellFail": "No hay suficientes bloques de protección para vender",
+  "buyFail": "No hay suficiente dinero",
+  "buyFailItem": "No hay suficientes ítems",
+  "buyFailXP": "No hay suficientes puntos de experiencia",
+  "sellSuccess": "Vendidos %1$s bloques de protección por %2$s",
+  "sellSuccessItem": "Vendidos %1$s bloques de protección por %3$s x%2$s",
+  "sellSuccessXP": "Vendidos %1$s bloques de protección por %2$s puntos de experiencia",
+  "buySuccess": "Comprados %1$s bloques de protección por %2$s",
+  "buySuccessItem": "Comprados %1$s bloques de protección con %2$s ítems",
+  "buySuccessXP": "Comprados %1$s bloques de protección con %2$s puntos de experiencia",
+  "currencyMissing": "Falta un mod de economía compatible",
+  "trappedRescue": "Rescatando. No te muevas por 5 segundos",
+  "trappedFail": "El rescate no es necesario o ya estás siendo rescatado",
+  "trappedMove": "Te moviste. Teletransporte abortado",
+  "unlockDropsCmd": "Tus ítems de muerte están protegidos. Usa %1$s para desbloquearlos para otros jugadores",
+  "unlockDrops": "Tus ítems de muerte ahora están desbloqueados por %1$s ticks",
+  "unlockDropsMulti": "Ítems desbloqueados para %1$s",
+  "claimNameSet": "Nombre de la protección establecido a %1$s",
+  "claimNameUsed": "El dueño ya tiene otra protección con el mismo nombre",
+  "claimNameUsedSub": "Una de las sub-protecciones de esta protección ya tiene este nombre",
+  "setHome": "Hogar de la protección establecido en [x=%1$s,y=%2$s,z=%3$s]",
+  "teleportNoClaim": "No existe tal protección a la que teletransportarse",
+  "teleportHome": "Teletransportándote al hogar de la protección. No te muevas por 5 segundos",
+  "teleportHomeFail": "Teletransporte ya en curso",
+  "setEnterMessage": "Mensaje de entrada (título) establecido a %1$s",
+  "setEnterSubMessage": "Mensaje de entrada (subtítulo) establecido a %1$s",
+  "setLeaveMessage": "Mensaje de salida (título) establecido a %1$s",
+  "setLeaveSubMessage": "Mensaje de salida (subtítulo) establecido a %1$s",
+  "addIgnoreEntry": "Se añadió %1$s a la lista de ignorados de la protección %2$s",
+  "removeIgnoreEntry": "Se eliminó %1$s de la lista de ignorados de la protección %2$s",
+  "wiki": "Para más información, consulta la wiki:",
+  "flan:edit_claim": "Editar Protección",
+  "flan:edit_perms": "Editar Permisos",
+  "flan:edit_potions": "Editar Pociones",
+  "flan:break": "Romper",
+  "flan:place": "Colocar",
+  "flan:open_container": "Abrir Contenedor",
+  "flan:interact_block": "Interactuar con Bloque",
+  "flan:interact_sign": "Interactuar con Cartel",
+  "flan:anvil": "Yunque",
+  "flan:bed": "Cama",
+  "flan:beacon": "Faro",
+  "flan:door": "Puerta",
+  "flan:fence_gate": "Puerta de Valla",
+  "flan:trapdoor": "Trampilla",
+  "flan:button_lever": "Botón/Palanca",
+  "flan:pressure_plate": "Placa de Presión",
+  "flan:noteblock": "Bloque Musical",
+  "flan:redstone": "Redstone",
+  "flan:jukebox": "Tocadiscos",
+  "flan:enderchest": "Cofre de Ender",
+  "flan:enchantment": "Encantamiento",
+  "flan:itemframe_rotate": "Girar Marco",
+  "flan:lectern_take": "Tomar de Atril",
+  "flan:endcrystal_place": "Colocar Cristal del End",
+  "flan:target_block": "Bloque Diana",
+  "flan:projectiles": "Proyectiles",
+  "flan:trample": "Pisotear",
+  "flan:frost_walker": "Paso Helado",
+  "flan:portal": "Portal",
+  "flan:raid": "Asalto (Raid)",
+  "flan:boat": "Bote",
+  "flan:minecart": "Vagoneta",
+  "flan:bucket": "Cubo",
+  "flan:ender_pearl": "Perla de Ender",
+  "flan:chorus_fruit": "Fruta de Chorus",
+  "flan:animal_interact": "Interactuar con Animales",
+  "flan:hurt_animal": "Dañar Animales",
+  "flan:hurt_named": "Dañar Mobs con Nombre",
+  "flan:xp": "XP",
+  "flan:trading": "Comerciar",
+  "flan:armorstand": "Soporte para Armadura",
+  "flan:break_non_living": "Romper No Vivos",
+  "flan:drop": "Soltar",
+  "flan:pickup": "Recoger",
+  "flan:flight": "Vuelo",
+  "flan:can_stay": "Puede Permanecer",
+  "flan:teleport": "Teletransporte",
+  "flan:no_hunger": "Sin Hambre",
+  "flan:claim_message": "Mensaje de Protección",
+  "flan:archeology": "Arqueología",
+  "flan:hurt_player": "Dañar Jugador",
+  "flan:explosions": "Explosiones",
+  "flan:wither": "Wither",
+  "flan:enderman": "Enderman",
+  "flan:snow_golem": "Gólem de Nieve",
+  "flan:fire_spread": "Propagación de Fuego",
+  "flan:water_border": "Borde de Agua",
+  "flan:piston_border": "Borde de Pistón",
+  "flan:mob_spawn": "Aparición de Mobs",
+  "flan:animal_spawn": "Aparición de Animales",
+  "flan:lightning": "Rayo",
+  "flan:lock_items": "Bloquear Ítems",
+  "flan:fake_player": "Jugador Falso",
+  "flan:player_mob_spawn": "Aparición de Mobs por Jugador",
+  "flan:sculk": "Sculk",
+  "flan:edit_claim.desc": [
+    "Da permiso para editar (redimensionar, borrar...) la protección"
+  ],
+  "flan:edit_perms.desc": [
+    "Da permiso para cambiar los permisos de la protección"
+  ],
+  "flan:edit_potions.desc": [
+    "Da permiso para editar los efectos de poción de la protección"
+  ],
+  "flan:break.desc": [
+    "Permiso para romper bloques en la protección"
+  ],
+  "flan:place.desc": [
+    "Permiso para colocar bloques en la protección"
+  ],
+  "flan:open_container.desc": [
+    "Permiso para abrir contenedores",
+    "(cofre, horno, etc.)"
+  ],
+  "flan:interact_block.desc": [
+    "Permiso genérico para la interacción con bloques.",
+    "Alternativa a OPENCONTAINER",
+    "Se usa para todos los bloques que OPENCONTAINER no verifica"
+  ],
+  "flan:interact_sign.desc": [
+    "Permiso para editar carteles (p. ej. teñirlos)"
+  ],
+  "flan:anvil.desc": [
+    "Permiso para usar yunques"
+  ],
+  "flan:bed.desc": [
+    "Permiso para usar camas"
+  ],
+  "flan:beacon.desc": [
+    "Permiso para usar faros"
+  ],
+  "flan:door.desc": [
+    "Permiso para usar puertas"
+  ],
+  "flan:fence_gate.desc": [
+    "Permiso para usar puertas de valla"
+  ],
+  "flan:trapdoor.desc": [
+    "Permiso para usar trampillas"
+  ],
+  "flan:button_lever.desc": [
+    "Permiso para activar palancas y botones"
+  ],
+  "flan:pressure_plate.desc": [
+    "Permiso para activar placas de presión"
+  ],
+  "flan:noteblock.desc": [
+    "Permiso para cambiar bloques musicales"
+  ],
+  "flan:redstone.desc": [
+    "Permiso para cambiar componentes de redstone"
+  ],
+  "flan:jukebox.desc": [
+    "Permiso para insertar/sacar discos de música"
+  ],
+  "flan:enderchest.desc": [
+    "Permiso para usar cofres de Ender"
+  ],
+  "flan:enchantment.desc": [
+    "Permiso para usar mesas de encantamientos"
+  ],
+  "flan:itemframe_rotate.desc": [
+    "Permiso para rotar ítems en marcos"
+  ],
+  "flan:lectern_take.desc": [
+    "Permiso para cambiar libros en un atril"
+  ],
+  "flan:endcrystal_place.desc": [
+    "Permiso para colocar cristales del End"
+  ],
+  "flan:target_block.desc": [
+    "Permiso para activar bloques diana"
+  ],
+  "flan:projectiles.desc": [
+    "Permiso para que los proyectiles disparados",
+    "interactúen con bloques (p. ej. una flecha en un botón)"
+  ],
+  "flan:trample.desc": [
+    "Permiso para pisotear bloques",
+    "(tierra de cultivo, huevos de tortuga)"
+  ],
+  "flan:frost_walker.desc": [
+    "Permiso para que se active el encantamiento Paso Helado"
+  ],
+  "flan:portal.desc": [
+    "Permiso para usar portales al Nether"
+  ],
+  "flan:raid.desc": [
+    "Permiso para iniciar asaltos (raids) en la protección.",
+    "No evitará asaltos (justo) fuera"
+  ],
+  "flan:boat.desc": [
+    "Permiso para usar botes"
+  ],
+  "flan:minecart.desc": [
+    "Permiso para sentarse en vagonetas"
+  ],
+  "flan:bucket.desc": [
+    "Permiso para tomar líquidos con cubos"
+  ],
+  "flan:ender_pearl.desc": [
+    "Permiso para usar perlas de Ender"
+  ],
+  "flan:chorus_fruit.desc": [
+    "Permiso para comer frutas de Chorus"
+  ],
+  "flan:animal_interact.desc": [
+    "Permiso para interactuar con animales",
+    "(p. ej. esquilar ovejas)"
+  ],
+  "flan:hurt_animal.desc": [
+    "Permiso para dañar animales"
+  ],
+  "flan:hurt_named.desc": [
+    "Permiso para dañar mobs con nombre"
+  ],
+  "flan:xp.desc": [
+    "Permiso para recoger orbes de experiencia"
+  ],
+  "flan:trading.desc": [
+    "Permiso para comerciar con aldeanos"
+  ],
+  "flan:armorstand.desc": [
+    "Permiso para interactuar con soportes para armadura"
+  ],
+  "flan:break_non_living.desc": [
+    "Permiso para romper entidades no vivas como vagonetas o soportes para armadura"
+  ],
+  "flan:drop.desc": [
+    "Permitir soltar ítems"
+  ],
+  "flan:pickup.desc": [
+    "Permitir recoger ítems"
+  ],
+  "flan:flight.desc": [
+    "Permitir vuelo no creativo"
+  ],
+  "flan:can_stay.desc": [
+    "Permitir que los jugadores entren a tu protección"
+  ],
+  "flan:teleport.desc": [
+    "Permitir que un jugador se teletransporte al 'home' de tu protección"
+  ],
+  "flan:no_hunger.desc": [
+    "Desactivar el hambre"
+  ],
+  "flan:claim_message.desc": [
+    "Permiso para editar el mensaje de entrada/salida"
+  ],
+  "flan:archeology.desc": [
+    "Permitir a los jugadores cepillar bloques en esta protección"
+  ],
+  "flan:hurt_player.desc": [
+    "Permiso para dañar a otros jugadores"
+  ],
+  "flan:explosions.desc": [
+    "Activar/desactivar explosiones en la protección"
+  ],
+  "flan:wither.desc": [
+    "Activar/desactivar la rotura de bloques por el Wither en la protección"
+  ],
+  "flan:enderman.desc": [
+    "Permitir a los Enderman recoger y colocar bloques"
+  ],
+  "flan:snow_golem.desc": [
+    "Permitir la capa de nieve de los gólems de nieve"
+  ],
+  "flan:fire_spread.desc": [
+    "Activar/desactivar la propagación de fuego en la protección"
+  ],
+  "flan:water_border.desc": [
+    "Activar/desactivar que el agua cruce los bordes de la protección"
+  ],
+  "flan:piston_border.desc": [
+    "Activar/desactivar que los pistones empujen/atraigan a través de los bordes de la protección"
+  ],
+  "flan:mob_spawn.desc": [
+    "Evitar la aparición de mobs hostiles en la protección"
+  ],
+  "flan:animal_spawn.desc": [
+    "Evitar la aparición de otros mobs en la protección"
+  ],
+  "flan:lightning.desc": [
+    "Permitir que los rayos afecten las protecciones",
+    "p. ej. prender fuego a bloques",
+    "o afectar a animales (mobs están excluidos)"
+  ],
+  "flan:lock_items.desc": [
+    "Si los ítems deben bloquearse al morir"
+  ],
+  "flan:fake_player.desc": [
+    "Permitir a los jugadores falsos interactuar en esta protección.",
+    "Algunos mods usan el uuid del usuario para sus jugadores falsos.",
+    "Para esos mods este permiso no es necesario"
+  ],
+  "flan:player_mob_spawn.desc": [
+    "Permiso para que los jugadores afectados generen mobs con interacciones",
+    "P. ej. wardens, o endermites con perlas de ender"
+  ],
+  "flan:sculk.desc": [
+    "Permiso para sensores de sculk.",
+    "Los shriekers se manejan bajo PLAYERMOBSPAWN"
+  ],
+  "command.help": [
+    "help <página> | (cmd <comando>)",
+    "Muestra todos los comandos disponibles o información para el comando dado."
+  ],
+  "command.menu": [
+    "menu",
+    "Abre el menú de la protección si estás dentro de una y tienes permisos."
+  ],
+  "command.claimInfo": [
+    "claimInfo",
+    "Muestra información sobre la protección en la que te encuentras."
+  ],
+  "command.delete": [
+    "delete",
+    "Elimina la protección actual."
+  ],
+  "command.deleteAll": [
+    "deleteAll",
+    "Elimina todas tus protecciones (debes escribirlo dos veces para confirmar y evitar accidentes)."
+  ],
+  "command.deleteSubClaim": [
+    "deleteSubClaim",
+    "Elimina la sub-protección actual."
+  ],
+  "command.deleteAllSubClaims": [
+    "deleteAllSubClaims",
+    "Elimina todas las sub-protecciones de la protección actual."
+  ],
+  "command.list": [
+    "list <jugador>",
+    "Lista todas tus protecciones. Si eres op, puedes listar las de otros jugadores."
+  ],
+  "command.switchMode": [
+    "switchMode",
+    "Cambia entre el modo normal y el modo de sub-protección."
+  ],
+  "command.group": [
+    "group (add | remove <nombre>) | (players add | remove <jugador> [overwrite])",
+    "- Añade/elimina el grupo con ese nombre. También editable desde el menú.",
+    "- Añade/elimina un jugador al grupo. Si usas 'overwrite', sobreescribirá el grupo actual del jugador; si no, no hace nada. También editable desde el menú."
+  ],
+  "command.transferClaim": [
+    "transferClaim <jugador>",
+    "Transfiere la propiedad de la protección al jugador especificado. Solo funciona si eres el dueño."
+  ],
+  "command.addClaim": [
+    "addClaim (<x y z> <x y z>) | all | (rect x z)",
+    "Crea una protección con las posiciones dadas. Igual que usar la herramienta de protección.",
+    "<all> usa todos los bloques restantes para una protección cuadrada centrada en el jugador.",
+    "<rect> crea una protección rectangular centrada en el jugador."
+  ],
+  "command.permission": [
+    "permission {global | (group <nombre>) | (personal <nombre>)} <permiso> true | false | default",
+    "Establece permisos globales/de grupo/personales. También editable desde el menú (para permisos de grupo, haz clic derecho en el grupo en el menú)."
+  ],
+  "command.personalGroups": [
+    "personalGroups",
+    "Abre la GUI para editar los grupos personales."
+  ],
+  "command.sellBlocks": [
+    "sellBlocks <cantidad>",
+    "Vende <cantidad> de bloques de protección. Requiere un mod de economía compatible."
+  ],
+  "command.buyBlocks": [
+    "buyBlocks <cantidad>",
+    "Compra <cantidad> de bloques de protección. Requiere un mod de economía compatible."
+  ],
+  "command.trapped": [
+    "trapped",
+    "Si estás en una protección que no es tuya, intenta teletransportarte fuera de ella después de 5 segundos."
+  ],
+  "command.unlockDrops": [
+    "unlockDrops <jugadores>",
+    "Desbloquea los ítems de muerte para que otros jugadores puedan recogerlos. O todos los jugadores dados (requiere OP)."
+  ],
+  "command.setHome": [
+    "setHome",
+    "Estando en una protección con permiso suficiente, establece el 'home' de esa protección en tu posición actual."
+  ],
+  "command.teleport": [
+    "teleport self | admin | (other <jugador>) (<nombre de protección> | <uuid de protección>)",
+    "Teletranspórtate a la posición 'home' de la protección. Usa 'admin' para teletransportarte a protecciones de administrador."
+  ],
+  "command.name": [
+    "name self <nombre>",
+    "Establece el nombre de la protección actual."
+  ],
+  "command.claimMessage": [
+    "claimMessage (enter | leave) (title | subtitle) (string | text) <valor>",
+    "Establece el mensaje de la protección. Usa \"$empty\" para eliminar el mensaje."
+  ],
+  "command.ignoreList": [
+    "ignoreList (add | remove) <tipo> <valor>",
+    "Añade/Elimina una entrada a la lista de ignorados específica de la protección."
+  ],
+  "command.reload": [
+    "reload",
+    "Recarga la configuración en el juego."
+  ],
+  "command.adminMode": [
+    "adminMode",
+    "Cambia a modo administrador, ignorando todas las protecciones."
+  ],
+  "command.readGriefPrevention": [
+    "readGriefPreventionData",
+    "Convierte los datos del plugin GriefPrevention a Flan."
+  ],
+  "command.setAdminClaim": [
+    "setAdminClaim",
+    "Establece una protección como protección de administrador."
+  ],
+  "command.listAdminClaims": [
+    "listAdminClaim",
+    "Lista todas las protecciones de administrador en el mundo actual."
+  ],
+  "command.adminDelete": [
+    "adminDelete [all <jugador>]",
+    "Fuerza la eliminación de la protección actual o elimina todas las protecciones del jugador especificado."
+  ],
+  "command.giveClaimBlocks": [
+    "giveClaimBlocks <cantidad>",
+    "Da a un jugador bloques de protección adicionales."
+  ]
+}

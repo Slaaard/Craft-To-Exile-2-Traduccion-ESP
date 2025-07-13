@@ -1,0 +1,88 @@
+{
+	id: "6EAA29C2B08E30EE"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"armor\",\"type\":\"AURA\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Armadura"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"dodge\",\"type\":\"AURA\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Esquiva"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"magic_shield\",\"type\":\"AURA\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Escudo Mágico"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"physical_ailment\",\"type\":\"AURA\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento Decreto de Dolor"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_ailment\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento Decreto de Fuego"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"cold_ailment\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento Decreto de Escarcha"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_ailment\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento Decreto de Rayo"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chaos_ailment\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento Decreto de Caos"
+		}
+	]
+	title: "Tienda de Gemas de Aumento II"
+}

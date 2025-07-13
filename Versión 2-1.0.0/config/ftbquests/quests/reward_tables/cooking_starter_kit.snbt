@@ -1,0 +1,23 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "mmorpg:food/common_energy"
+		tag: {
+			tier: 0
+		}
+	}
+	id: "37836A436E072240"
+	loot_size: 9
+	order_index: 38
+	rewards: [
+		{ count: 3, item: "lightmanscurrency:coin_copper" }
+		{ item: "mmorpg:material/farming/0" }
+		{ item: "mmorpg:material/fishing/0" }
+		{ item: "minecraft:tropical_fish" }
+		{ item: "minecraft:beetroot" }
+		{ item: "minecraft:apple" }
+		{ item: "mmorpg:material/meat/0" }
+	]
+	title: "Kit de Inicio de Cocina"
+}

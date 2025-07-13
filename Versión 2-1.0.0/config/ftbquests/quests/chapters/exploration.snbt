@@ -1,0 +1,899 @@
+{
+	default_hide_dependency_lines: false,
+	default_quest_shape: "",
+	filename: "exploration",
+	group: "37C10F4BE9E00A26",
+	icon: "dungeon_realm:dungeon_map",
+	id: "2BCF4989FF2F0500",
+	order_index: 0,
+	quest_links: [],
+	quests: [
+		{
+			id: "437CF57874F0F97D",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "10848E4FE566992D",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "5D439F59A421563E",
+				structure: "#bettermineshafts:better_mineshafts",
+				type: "structure"
+			}],
+			x: -3.5d,
+			y: 6.5d
+		},
+		{
+			id: "489A9BF6204A632F",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "721E6F39E19F5014",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "45E72450047B4C2E",
+				structure: "deeperdarker:ancient_temple",
+				type: "structure"
+			}],
+			x: -6.5d,
+			y: 2.0d
+		},
+		{
+			id: "0761083418E1D108",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "3516F071C4184FF8",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "623224CBF5C6FB1D",
+				structure: "dungeons_arise:abandoned_temple",
+				type: "structure"
+			}],
+			x: 2.0d,
+			y: 2.0d
+		},
+		{
+			id: "06F062E21B71CDB8",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "108EEF76D226AED5",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "69F280C9A11F1689",
+				structure: "dungeons_arise:infested_temple",
+				type: "structure"
+			}],
+			x: -6.5d,
+			y: 6.5d
+		},
+		{
+			id: "4B8A218CAE96DA61",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "461F8C8B1FFE962A",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "355FC51708790335",
+				structure: "dungeons_arise:coliseum",
+				type: "structure"
+			}],
+			x: -6.5d,
+			y: 3.5d
+		},
+		{
+			id: "2283F30024D9489B",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "12B1D46ECAD46BA9",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "16C78DFE8EC7987A",
+				structure: "friendsandfoes:citadel",
+				type: "structure"
+			}],
+			x: -2.0d,
+			y: 6.5d
+		},
+		{
+			id: "6575477E1220DEBE",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "140A7A19AC941FC2",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "482C99CD9768E20F",
+				structure: "friendsandfoes:illusioner_shack",
+				type: "structure"
+			}],
+			x: -5.0d,
+			y: 2.0d
+		},
+		{
+			id: "276E8BE7E4449493",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "07C571571A58D24F",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "641E2D0E1B5EC620",
+				structure: "illagerinvasion:illager_fort",
+				type: "structure"
+			}],
+			x: 3.5d,
+			y: 5.0d
+		},
+		{
+			id: "3280AB4D1ECD12BF",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "79A33D24603F3E86",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "41FE0468544910E9",
+				structure: "illagerinvasion:labyrinth",
+				type: "structure"
+			}],
+			x: 3.5d,
+			y: 6.5d
+		},
+		{
+			id: "70BF809EB6674C63",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "3810523C5F459885",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "11554117EBB8400A",
+				structure: "#repurposed_structures:collections/mansions",
+				type: "structure"
+			}],
+			x: -3.5d,
+			y: 5.0d
+		},
+		{
+			id: "640B647B4A3B0BCC",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "1C404DE71B5D44DF",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "117496F034F50B58",
+				structure: "betterstrongholds:stronghold",
+				type: "structure"
+			}],
+			x: -3.5d,
+			y: 2.0d
+		},
+		{
+			id: "50EAD6F40AD69AEA",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "62FD35D2DAF0F585",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "671CE4C8EC50A60A",
+				structure: "betterfortresses:fortress",
+				type: "structure"
+			}],
+			x: -3.5d,
+			y: 3.5d
+		},
+		{
+			id: "0EE7E4B770335F2F",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "41BE634B7994732C",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "44E41CAE19D8181E",
+				structure: "minecraft:buried_treasure",
+				type: "structure"
+			}],
+			x: -5.0d,
+			y: 6.5d
+		},
+		{
+			id: "78B8C34C3E775483",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "2BA732C373088A47",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "15EC91793C1E54FE",
+				structure: "terralith:spire",
+				type: "structure"
+			}],
+			x: 2.0d,
+			y: 3.5d
+		},
+		{
+			id: "65C10787769C4233",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "323BE6FF8BCB4399",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "08C763738B7948B5",
+				structure: "undergarden:catacombs",
+				type: "structure"
+			}],
+			x: -2.0d,
+			y: 2.0d
+		},
+		{
+			id: "6346E346CD6137FA",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "185FAE208C5E5882",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "15571862F8331AB4",
+				structure: "dungeons_arise:undead_pirate_ship",
+				type: "structure"
+			}],
+			x: -6.5d,
+			y: 5.0d
+		},
+		{
+			id: "7CF126D06D1012BE",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "2E874EDF0B482F8B",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "4811E184E724447D",
+				structure: "terralith:fortified_village",
+				type: "structure"
+			}],
+			x: 2.0d,
+			y: 5.0d
+		},
+		{
+			id: "6F9D6A9FD43492AB",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "6CF0A80C3DF27C9D",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "37FE61B2BC5E8688",
+				structure: "terralith:glacial_hut",
+				type: "structure"
+			}],
+			x: 2.0d,
+			y: 6.5d
+		},
+		{
+			id: "738AFE0A7AD14851",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "548E9363000C779B",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "6F572D22F7C0B382",
+				structure: "illagerinvasion:illusioner_tower",
+				type: "structure"
+			}],
+			x: 5.0d,
+			y: 5.0d
+		},
+		{
+			id: "299AC3FA715FA40E",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "03C98E7B17B65B5F",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "2B13F7518DED18A2",
+				structure: "illagerinvasion:firecaller_hut",
+				type: "structure"
+			}],
+			x: 5.0d,
+			y: 3.5d
+		},
+		{
+			id: "53AE521FAE382EA0",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "5257CA5BED6E7943",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "5159D41A767BA1A5",
+				structure: "friendsandfoes:iceologer_cabin",
+				type: "structure"
+			}],
+			x: -2.0d,
+			y: 5.0d
+		},
+		{
+			id: "7016A9BBC3E5DB03",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "6EF0A2BEEC66FF7B",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "7CA868EFFF2E73FD",
+				structure: "#minecraft:shipwreck",
+				type: "structure"
+			}],
+			x: -5.0d,
+			y: 5.0d
+		},
+		{
+			id: "6716E581EE4266D0",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "1D3D810A674447C7",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "26621C1AD818EE8F",
+				structure: "kobolds:kobold_den_pirate",
+				type: "structure"
+			}],
+			x: 5.0d,
+			y: 6.5d
+		},
+		{
+			id: "2F1145906FD10FB9",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "327FCFBCBEB77AB5",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "317C03EA7A809E35",
+				structure: "kobolds:kobold_den",
+				type: "structure"
+			}],
+			x: 6.5d,
+			y: 2.0d
+		},
+		{
+			id: "4FCC437B65DBA05D",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "13692E50A95AE4E3",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "293073BE11D0F698",
+				structure: "bettermineshafts:mineshaft_dripstone",
+				type: "structure"
+			}],
+			x: -5.0d,
+			y: 3.5d
+		},
+		{
+			id: "38BD7AA65C5DA742",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "2EC1A074496A2776",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "4A0808831BEC8719",
+				structure: "friendsandfoes:illusioner_training_grounds",
+				type: "structure"
+			}],
+			x: -2.0d,
+			y: 3.5d
+		},
+		{
+			id: "263DE4AC80306EE1",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "7CF7BCB94512940D",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "40E059CDD9369B4E",
+				structure: "terralith:fortified_desert_village",
+				type: "structure"
+			}],
+			x: 3.5d,
+			y: 3.5d
+		},
+		{
+			id: "325B4FCD19EF68D1",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "5318C7927EF06250",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "38E20142F04D3D00",
+				structure: "terralith:underground/frosted_dungeon",
+				type: "structure"
+			}],
+			x: 3.5d,
+			y: 2.0d
+		},
+		{
+			id: "6FFADCD53B622AB8",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 50",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "345011CA95F24F2C",
+				silent: true,
+				title: "50 de Experiencia x Nv.",
+				type: "command"
+			}],
+			tasks: [{
+				id: "5D4C9AEB3EEC53F0",
+				structure: "illagerinvasion:sorcerer_hut",
+				type: "structure"
+			}],
+			x: 5.0d,
+			y: 2.0d
+		},
+		{
+			dependencies: [
+				"4FCC437B65DBA05D",
+				"0EE7E4B770335F2F",
+				"325B4FCD19EF68D1",
+				"6FFADCD53B622AB8",
+				"2F1145906FD10FB9",
+				"640B647B4A3B0BCC",
+				"38BD7AA65C5DA742",
+				"4B8A218CAE96DA61",
+				"263DE4AC80306EE1",
+				"299AC3FA715FA40E",
+				"7016A9BBC3E5DB03",
+				"50EAD6F40AD69AEA",
+				"53AE521FAE382EA0",
+				"6346E346CD6137FA",
+				"6F9D6A9FD43492AB",
+				"738AFE0A7AD14851",
+				"6716E581EE4266D0",
+				"70BF809EB6674C63",
+				"2283F30024D9489B",
+				"06F062E21B71CDB8",
+				"7CF126D06D1012BE",
+				"276E8BE7E4449493",
+				"437CF57874F0F97D",
+				"6575477E1220DEBE",
+				"0761083418E1D108",
+				"78B8C34C3E775483",
+				"3280AB4D1ECD12BF",
+				"489A9BF6204A632F",
+				"65C10787769C4233",
+				"378053892BC20822",
+				"67164081F0C0B1F8",
+				"16742DD3957CC064"
+			],
+			description: ["Debes descubrir &etodas&r las estructuras listadas como dependencias para desbloquear esto. Luego debes descubrir la &eMazmorra de Puzzles&r."],
+			id: "50228379A7F98359",
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "1F6EFD38E97E419B",
+					silent: true,
+					title: "500 de Experiencia x Nv.",
+					type: "command"
+				},
+				{
+					id: "256327E5E1F6C302",
+					item: "simplehats:triangleshades",
+					type: "item"
+				}
+			],
+			shape: "diamond",
+			size: 1.5d,
+			subtitle: "Desafío",
+			tasks: [{
+				id: "28B02EDA93008E03",
+				structure: "masiks_puzzle_dungeon:start",
+				type: "structure"
+			}],
+			title: "El Aventurero",
+			x: 0.0d,
+			y: 2.0d
+		},
+		{
+			id: "7ED4E8F92EFB6564",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 150",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "47B6BE362D50069E",
+				silent: true,
+				title: "150 de Experiencia x Nv.",
+				type: "command"
+			}],
+			subtitle: "Descubre los 53 biomas del Overworld de Vanilla",
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time",
+				criterion: "",
+				id: "7D623652033E7B53",
+				type: "advancement"
+			}],
+			x: 4.0d,
+			y: -3.0d
+		},
+		{
+			id: "00D8D8D716571CA9",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 150",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "5BC24D6AAFBD6988",
+				silent: true,
+				title: "150 de Experiencia x Nv.",
+				type: "command"
+			}],
+			subtitle: "Descubre los 16 biomas del Undergarden",
+			tasks: [{
+				advancement: "undergarden:undergarden/all_undergarden_biomes",
+				criterion: "",
+				id: "142CD65F351089D3",
+				type: "advancement"
+			}],
+			x: 2.5d,
+			y: -3.0d
+		},
+		{
+			id: "2B72C9F8A14CE92D",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 150",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "021607CC1AF3927C",
+				silent: true,
+				title: "150 de Experiencia x Nv.",
+				type: "command"
+			}],
+			subtitle: "Descubre los 4 biomas de El Otro Lado",
+			tasks: [{
+				advancement: "deeperdarker:main/explore_otherside",
+				criterion: "",
+				id: "0A050B980AB143E3",
+				type: "advancement"
+			}],
+			x: -4.0d,
+			y: -3.0d
+		},
+		{
+			id: "73D926F25D4C6C7F",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 150",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "42A22F81ED06A735",
+				silent: true,
+				title: "150 de Experiencia x Nv.",
+				type: "command"
+			}],
+			subtitle: "Descubre los 5 biomas del Nether de Vanilla",
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether",
+				criterion: "",
+				id: "1274CA08304658EA",
+				type: "advancement"
+			}],
+			x: 0.0d,
+			y: -4.5d
+		},
+		{
+			id: "30DBE53D08830011",
+			rewards: [{
+				auto: "enabled",
+				command: "/mine_and_slash give xp_times_lvl @p 150",
+				elevate_perms: true,
+				icon: "ftb_ph:exp",
+				id: "46019B79FAC9F8D1",
+				silent: true,
+				title: "150 de Experiencia x Nv.",
+				type: "command"
+			}],
+			subtitle: "Encuentra la Ciudad del End",
+			tasks: [{
+				advancement: "minecraft:end/find_end_city",
+				criterion: "",
+				id: "20A7806C0AE45C98",
+				type: "advancement"
+			}],
+			x: -2.5d,
+			y: -3.0d
+		},
+		{
+			dependencies: [
+				"30DBE53D08830011",
+				"2B72C9F8A14CE92D",
+				"73D926F25D4C6C7F",
+				"00D8D8D716571CA9",
+				"7ED4E8F92EFB6564"
+			],
+			dependency_requirement: "one_completed",
+			id: "4610C7167FF5A70D",
+			min_required_dependencies: 3,
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "26648D5A50715F5B",
+					silent: true,
+					title: "500 de Experiencia x Nv.",
+					type: "command"
+				},
+				{
+					id: "63A0AAAF0EC71678",
+					item: "simplehats:explorerhat",
+					type: "item"
+				}
+			],
+			shape: "diamond",
+			size: 1.5d,
+			subtitle: "Desafío",
+			tasks: [{
+				id: "68F61F6EB05F3DAA",
+				item: {
+					Count: 1b,
+					id: "aquaculture:neptunium_boots",
+					tag: {
+						Damage: 0
+					}
+				},
+				type: "item"
+			}],
+			title: "El Vagabundo",
+			x: 0.0d,
+			y: -3.0d
+		},
+		{
+			dependencies: [
+				"4610C7167FF5A70D",
+				"50228379A7F98359"
+			],
+			icon: {
+				Count: 1b,
+				id: "alexsmobs:tarantula_hawk_elytra",
+				tag: {
+					Damage: 0
+				}
+			},
+			id: "5E95CED116D2C8F4",
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" ha logrado ser un Explorador Experto\"}]}",
+					elevate_perms: true,
+					icon: "minecraft:cookie",
+					id: "15C5A864548A27EF",
+					title: "Haz clic aquí para presumir",
+					type: "command"
+				},
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750",
+					elevate_perms: true,
+					icon: "ftb_ph:exp",
+					id: "5A0E887A4B07757E",
+					silent: true,
+					title: "750 de Experiencia x Nv.",
+					type: "command"
+				},
+				{
+					count: 5,
+					id: "55F803E942F12CD2",
+					item: "lightmanscurrency:coin_diamond",
+					title: "Dinero",
+					type: "item"
+				},
+				{
+					id: "17D0673419E6A05D",
+					item: "simplehats:burning_m_bison",
+					type: "item"
+				}
+			],
+			shape: "hexagon",
+			size: 2.0d,
+			subtitle: "Logro",
+			tasks: [{
+				id: "602BDDE94CFE5702",
+				title: "Hacer Clic una Vez Leído",
+				type: "checkmark"
+			}],
+			title: "Explorador Experto",
+			x: 0.0d,
+			y: -0.5d
+		},
+		{
+			id: "378053892BC20822",
+			tasks: [{
+				id: "3E7825A3B3BCB55D",
+				structure: "dungeons_enhanced:castle",
+				type: "structure"
+			}],
+			x: 6.5d,
+			y: 3.5d
+		},
+		{
+			id: "67164081F0C0B1F8",
+			tasks: [{
+				id: "0F0AC75556B071A5",
+				structure: "dungeons_enhanced:elders_temple",
+				type: "structure"
+			}],
+			x: 6.5d,
+			y: 5.0d
+		},
+		{
+			id: "16742DD3957CC064",
+			tasks: [{
+				id: "61D0F19E6C500897",
+				structure: "dungeons_enhanced:desert_tomb",
+				type: "structure"
+			}],
+			x: 6.5d,
+			y: 6.5d
+		}
+	],
+	title: "Exploración"
+}

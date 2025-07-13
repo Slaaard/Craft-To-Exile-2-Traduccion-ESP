@@ -1,0 +1,7 @@
+{
+	// El mensaje que los jugadores recibirán cuando entren a un mundo por primera vez.
+	"firstJoinMessage": "Despiertas en un lugar desconocido. ¡Presiona H para acceder a tu menú radial y CTRL Derecho para mover tu Chat!",
+	// El color del mensaje. Los valores posibles son; 0: negro, 1: azul_oscuro, 2: verde_oscuro, 3: aguamarina_oscuro, 4: rojo_oscuro, 5: morado_oscuro, 6: dorado, 7: gris, 8: gris_oscuro, 9: azul, 10: verde, 11: aguamarina, 12: rojo, 13: morado_claro, 14: amarillo, 15: blanco.
+	// min: 0, max: 15
+	"firstJoinMessageTextFormattingColourIndex": 13
+}

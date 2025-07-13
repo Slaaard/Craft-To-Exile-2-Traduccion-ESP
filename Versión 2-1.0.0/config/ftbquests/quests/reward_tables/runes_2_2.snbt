@@ -1,0 +1,10 @@
+{
+	id: "26C122459779DBBD"
+	loot_size: 1
+	order_index: 43
+	rewards: [
+		{ item: "mmorpg:runes/cen" }
+		{ item: "mmorpg:runes/dos" }
+	]
+	title: "Runas 2"
+}

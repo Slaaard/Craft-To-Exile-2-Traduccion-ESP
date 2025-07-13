@@ -1,0 +1,45 @@
+{
+	icon: {
+		Count: 1
+		id: "mmorpg:skill_gems/support/str"
+		tag: {
+			mmorpg_skill_gem: "{\"id\":\"burn_chance\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+		}
+	}
+	id: "0D9DE420EEF90ECF"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"burn_chance\",\"type\":\"SUPPORT\",\"perc\":37,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Probabilidad de Quemadura"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"bleed_chance\",\"type\":\"SUPPORT\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Probabilidad de Sangrado"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"accuracy\",\"type\":\"SUPPORT\",\"perc\":34,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Precisión"
+		}
+	]
+	title: "Primera Gema de Soporte"
+}

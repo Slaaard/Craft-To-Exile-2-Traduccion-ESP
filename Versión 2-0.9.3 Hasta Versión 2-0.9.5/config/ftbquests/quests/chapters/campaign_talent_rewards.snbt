@@ -301,7 +301,7 @@ description: [
 		}
 		{
 			dependencies: ["4B57F45BE30AA5F2"]
-			description: [
+			
 description: [
 				"Completa la misión mencionada en la tarea para ganar automáticamente el(los) Punto(s) de Talento."
 				""

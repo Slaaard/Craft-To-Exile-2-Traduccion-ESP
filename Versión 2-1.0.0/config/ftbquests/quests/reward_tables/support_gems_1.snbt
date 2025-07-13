@@ -1,0 +1,38 @@
+{
+	id: "72DFA46D9968EDE1"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"crit_chance\",\"type\":\"SUPPORT\",\"perc\":35,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Probabilidad de Crítico"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"energy_on_hit\",\"type\":\"SUPPORT\",\"perc\":33,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Energía al Golpear"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"dot_damage\",\"type\":\"SUPPORT\",\"perc\":40,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño en el Tiempo"
+		}
+	]
+	title: "Gemas de Soporte 1"
+}

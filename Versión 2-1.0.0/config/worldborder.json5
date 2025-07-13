@@ -1,0 +1,55 @@
+{
+	// Cuando está activado, usa las coordenadas de 'overworldBorderCoords' para establecer el borde.
+	"enableCustomOverworldBorder": true,
+	// Cuando está activado, usa las coordenadas de 'netherBorderCoords' para establecer el borde.
+	"enableCustomNetherBorder": false,
+	// Cuando está activado, usa las coordenadas de 'endBorderCoords' para establecer el borde.
+	"enableCustomEndBorder": false,
+	// Cuando está activado, en lugar de teletransportar al jugador hacia adentro cerca de donde estaba, lo teletransporta desde la coordenada x/z positiva a la negativa y viceversa.
+	"shouldLoopToOppositeBorder": true,
+	// La cantidad de bloques que el jugador es teletransportado hacia adentro después de golpear el borde.
+	// min: 0, max: 1000
+	"distanceTeleportedBack": 10,
+	// El mensaje que se enviará al jugador cuando esté dentro de 'distanceTeleportedBack' del borde del mundo.
+	"nearBorderMessage": "¡Te estás acercando al borde del mundo!",
+	// El mensaje que se enviará al jugador cuando golpee el borde del mundo.
+	"hitBorderMessage": "¡Has golpeado el borde del mundo y has sido teletransportado hacia adentro!",
+	// El mensaje enviado al jugador cuando golpea el borde y 'shouldLoopToOppositeBorder' está activado.
+	"loopBorderMessage": "¡Has golpeado el borde del mundo y has dado la vuelta al mundo!",
+	// El borde del Overworld ubicado en la coordenada x positiva.
+	// min: 0, max: 100000
+	"overworldBorderPositiveX": 50000,
+	// El borde del Overworld ubicado en la coordenada x negativa.
+	// min: -100000, max: 0
+	"overworldBorderNegativeX": -50000,
+	// El borde del Overworld ubicado en la coordenada z positiva.
+	// min: 0, max: 100000
+	"overworldBorderPositiveZ": 50000,
+	// El borde del Overworld ubicado en la coordenada z negativa.
+	// min: -100000, max: 0
+	"overworldBorderNegativeZ": -50000,
+	// El borde del Nether ubicado en la coordenada x positiva.
+	// min: 0, max: 100000
+	"netherBorderPositiveX": 625,
+	// El borde del Nether ubicado en la coordenada x negativa.
+	// min: -100000, max: 0
+	"netherBorderNegativeX": -625,
+	// El borde del Nether ubicado en la coordenada z positiva.
+	// min: 0, max: 100000
+	"netherBorderPositiveZ": 625,
+	// El borde del Nether ubicado en la coordenada z negativa.
+	// min: -100000, max: 0
+	"netherBorderNegativeZ": -625,
+	// El borde del End ubicado en la coordenada x positiva.
+	// min: 0, max: 100000
+	"endBorderPositiveX": 5000,
+	// El borde del End ubicado en la coordenada x negativa.
+	// min: -100000, max: 0
+	"endBorderNegativeX": -5000,
+	// El borde del End ubicado en la coordenada z positiva.
+	// min: 0, max: 100000
+	"endBorderPositiveZ": 5000,
+	// El borde del End ubicado en la coordenada z negativa.
+	// min: -100000, max: 0
+	"endBorderNegativeZ": -5000
+}

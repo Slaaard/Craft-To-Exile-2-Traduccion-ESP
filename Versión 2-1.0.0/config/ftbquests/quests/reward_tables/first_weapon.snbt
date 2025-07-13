@@ -1,0 +1,147 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "05A0CE57058D6FB0"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:sword_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":45},\"imp\":{\"p\":5,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":52,\"id\":\"of_gluttony\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":26,\"id\":\"crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":4,\"id\":\"catalyzing\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"sword\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Espada"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:staff_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":49},\"imp\":{\"p\":55,\"imp\":\"cursed_staff\"},\"affixes\":{\"suf\":[{\"p\":52,\"id\":\"heal_suff\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":6,\"id\":\"warlords\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":51,\"id\":\"water_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"staff\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Bastón"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:bow_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":41},\"imp\":{\"p\":88,\"imp\":\"thicket_bow\"},\"affixes\":{\"suf\":[{\"p\":26,\"id\":\"of_consumption\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"fletchers\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":3,\"id\":\"wep_item_both\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"bow\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Arco"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:hammer_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":51},\"imp\":{\"p\":1,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":44,\"id\":\"of_consumption\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":42,\"id\":\"heal_crit_dmg_prefix\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":31,\"id\":\"physical_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"hammer\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Martillo"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:axe_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":36},\"imp\":{\"p\":86,\"imp\":\"war_axe\"},\"affixes\":{\"suf\":[{\"p\":24,\"id\":\"of_brutality\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":37,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":24,\"id\":\"precise\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"axe\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Hacha"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:spear_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":32},\"imp\":{\"p\":8,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":41,\"id\":\"of_ease\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":27,\"id\":\"wep_item_both\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":44,\"id\":\"physical_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"spear\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Lanza (2 Manos)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":72},\"imp\":{\"p\":99,\"imp\":\"thicket_crossbow\"},\"affixes\":{\"suf\":[{\"p\":29,\"id\":\"of_pene\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":7,\"id\":\"true_hit\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":30,\"id\":\"wep_item_both\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"crossbow\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Ballesta"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:dagger_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":83},\"imp\":{\"p\":76,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":60,\"id\":\"of_fast_cast\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":60,\"id\":\"physical_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":57,\"id\":\"chaos_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"dagger\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Daga"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:greatsword_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":47},\"imp\":{\"p\":85,\"imp\":\"imperial_greatsword\"},\"affixes\":{\"suf\":[{\"p\":32,\"id\":\"of_vampirism\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":4,\"id\":\"wep_item_flat_2h\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":41,\"id\":\"warlords\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"greatsword\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Mandoble (2 Manos)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:scythe_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":87},\"imp\":{\"p\":24,\"imp\":\"rusted_scythe\"},\"affixes\":{\"suf\":[{\"p\":39,\"id\":\"of_less_cd\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":47,\"id\":\"crit_prefix\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":28,\"id\":\"water_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"scythe\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Guadaña (2 Manos)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:gauntlet_2"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":69},\"imp\":{\"p\":75,\"imp\":\"brawlers_gauntlet\"},\"affixes\":{\"suf\":[{\"p\":43,\"id\":\"of_brutality\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":41,\"id\":\"crit_prefix\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":41,\"id\":\"wep_item_flat\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"gauntlet\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Guantelete"
+		}
+	]
+	title: "Primera Arma"
+}

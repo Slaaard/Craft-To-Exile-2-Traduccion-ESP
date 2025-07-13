@@ -1,0 +1,35 @@
+{
+	id: "54B21001ABEEE2D0"
+	loot_size: 1
+	order_index: 39
+	rewards: [
+		{
+			auto: "enabled"
+			command: "/mine_and_slash give unique_gear @p random 60 1"
+			elevate_perms: true
+			icon: "mmorpg:chest/legendary_gear"
+			silent: true
+			title: "Único Aleatorio (Nv. 60)"
+			type: "command"
+		}
+		{
+			auto: "enabled"
+			command: "/mine_and_slash give unique_gear @p random 80 1"
+			elevate_perms: true
+			icon: "mmorpg:chest/legendary_gear"
+			silent: true
+			title: "Único Aleatorio (Nv. 80)"
+			type: "command"
+		}
+		{
+			auto: "enabled"
+			command: "/mine_and_slash give unique_gear @p random 100 1"
+			elevate_perms: true
+			icon: "mmorpg:chest/legendary_gear"
+			silent: true
+			title: "Único Aleatorio (Nv. 100)"
+			type: "command"
+		}
+	]
+	title: "Tienda de Únicos Aleatorios"
+}

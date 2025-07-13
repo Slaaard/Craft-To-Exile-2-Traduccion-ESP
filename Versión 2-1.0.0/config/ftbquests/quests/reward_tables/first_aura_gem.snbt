@@ -1,0 +1,35 @@
+{
+	icon: {
+		Count: 1
+		id: "mmorpg:skill_gems/aura/dex"
+		tag: {
+			mmorpg_skill_gem: "{\"id\":\"energy_reg\",\"type\":\"AURA\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+		}
+	}
+	id: "51BC79A7A2C424C8"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"mana_reg\",\"type\":\"AURA\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Regeneración de Maná"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"energy_reg\",\"type\":\"AURA\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Regeneración de Energía"
+		}
+	]
+	title: "Primera Gema de Aumento"
+}
