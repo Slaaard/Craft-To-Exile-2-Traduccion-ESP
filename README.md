@@ -8,11 +8,11 @@ Esta traducción ha sido **probada y funciona correctamente** en las siguientes 
 
 - `2-0.9.2`
 - `2-0.9.3`
-- `2.0.9.3b`
-- `2.0.9.4`
-- `2.0.9.4b`
-- `2.0.9.5`
-- `2.1.0.0`
+- `2-0.9.3b`
+- `2-0.9.4`
+- `2-0.9.4b`
+- `2-0.9.5`
+- `2-1.0.0`
 
 No se garantiza compatibilidad con versiones anteriores o futuras. Si decides probarla en otra versión, ¡cuéntame tu experiencia creando un issue o dejando un comentario en el video tutorial! Tu feedback puede ayudarme a mantener esta traducción actualizada. 🔧
 
@@ -31,7 +31,7 @@ Si quieres conservar un respaldo o volver a la versión original en inglés en e
 ### 🔍 Paso 1: Ubicar tu carpeta raíz del ModPack
 - Ruta común en CurseForge:
   ```
-  C:\Users\tu_usuario\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)
+  C:\Users\%USERPROFILE%\curseforge\minecraft\Instances\Craft to Exile 2 (VR Support)
   ```
 
 ### 📂 Paso 2: Reemplazar archivos (Traducción completa)
