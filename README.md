@@ -13,6 +13,9 @@ Esta traducción ha sido **probada y funciona correctamente** en las siguientes 
 - `2-0.9.4b`
 - `2-0.9.5`
 - `2-1.0.0`
+- `2-1.0.1`
+- `2-1.0.2`
+- `2-1.0.3`
 
 No se garantiza compatibilidad con versiones anteriores o futuras. Si decides probarla en otra versión, ¡cuéntame tu experiencia creando un issue o dejando un comentario en el video tutorial! Tu feedback puede ayudarme a mantener esta traducción actualizada. 🔧
 

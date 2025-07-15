@@ -123,6 +123,16 @@
 			}
 			title: "Gema de Soporte de Voluntad de Hierro"
 		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"battery\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1}"
+				}
+			}
+			title: "Gema de Soporte de Batería"
+		}
 	]
 	title: "Tienda de Gemas de Soporte IV"
 }
