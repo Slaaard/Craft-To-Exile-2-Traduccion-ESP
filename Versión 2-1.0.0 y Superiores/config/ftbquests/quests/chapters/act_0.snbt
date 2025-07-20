@@ -622,13 +622,13 @@
 		{
 			dependencies: ["3059FF2D6DB1AC9F"],
 			description: [
-				"En CTE2, craftearás y encontrarás muchas piezas de equipamiento. Estas piezas de &eequipamiento no proporcionarán ninguna estadística a menos que les apliques Almas de Estadísticas de Equipo&r, esencialmente imbuyéndolas con estadísticas de Mine and Slash.",
-				"",
-				"&c¡El equipo sin un alma no tendrá ningún efecto, ni defensivo ni ofensivo!&r",
-				"",
-				"Las Almas de Estadísticas de Equipo se pueden usar en cualquier pieza de equipamiento que comparta el mismo tipo. Por ejemplo, los cuchillos de Aquaculture y Farmer's Delight tienen el tipo \"Daga\". ¡Al &ehacer clic en el objeto con un Alma de Estadística de Equipo&r de tipo \"Daga\", puedes aplicar estadísticas de Mine and Slash a los cuchillos!",
-				"",
-				"¿Quieres aprender más sobre cómo &ecraftear Almas de Estadísticas de Equipo&r? ¡Visita el capítulo de misiones de &aProfesiones M&S&r!"
+				"En CTE2, fabricarás y encontrarás muchas piezas de equipamiento. Estas piezas de &eequipo no otorgarán estadísticas a menos que les apliques Almas de Estadísticas&r, imbuyéndolas esencialmente con estadísticas de Mine and Slash."
+				""
+				"&c¡El equipo sin un alma no tendrá ningún efecto, ni defensivo ni ofensivo!&r"
+				""
+				"Las Almas de Estadísticas se pueden usar en cualquier pieza de equipo que comparta el mismo tipo. Por ejemplo, los cuchillos de Aquaculture y Farmer's Delight tienen el tipo \"Daga\". Al &ehacer clic en el objeto con un Alma de Estadísticas&r de tipo \"Daga\", ¡puedes aplicar estadísticas de Mine and Slash a los cuchillos!"
+				""
+				"¿Quieres saber más sobre cómo &efabricar Almas de Estadísticas&r? ¡Visita el capítulo de misiones de &aProfesiones M\\&S&r!"
 			],
 			icon: "ftbquests:book",
 			id: "289350CF47F41D69",

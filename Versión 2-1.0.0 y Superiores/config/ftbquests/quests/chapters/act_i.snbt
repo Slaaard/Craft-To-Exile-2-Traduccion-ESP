@@ -1926,7 +1926,7 @@
 		},
 		{
 			dependencies: ["4956C0B5633CE91E"],
-			description: ["Puedes craftear equipo para prepararte para tu aventura. ¡Consulta el Capítulo de Profesiones M&S para obtener información detallada!"],
+			description: ["Puedes fabricar equipo para prepararte para tu aventura. ¡Consulta el capítulo de Profesiones M\\&S para información detallada!"],
 			id: "4C68E7AC4C59F2EB",
 			rewards: [{
 				auto: "enabled",
