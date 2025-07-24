@@ -1397,7 +1397,7 @@
 		{
 			dependencies: ["5FCA8577C7DB792D"],
 			description: [
-				"Las pociones de la Profesión de Alquimia pueden proporcionar beneficios útiles como curación y mejoras. Puedes ver cómo craftear estas pociones con más detalle en el capítulo \"&aProfesiones M&S&r\". Alternativamente, si no te interesan las Profesiones, &etambién puedes comprar estas pociones&r de varios comerciantes (Aldeanos, Comerciantes Goblin).",
+				"Las pociones de la Profesión de Alquimia pueden proporcionar beneficios útiles como curación y mejoras. Puedes ver cómo craftear estas pociones con más detalle en el capítulo \"&aProfesiones de M\\&S&r\". Alternativamente, si no te interesan las Profesiones, &etambién puedes comprar estas pociones&r de varios comerciantes (Aldeanos, Comerciantes Goblin).",
 				"",
 				"&l&e¡Para usar pociones rápidamente, puedes presionar Y!&r&r",
 				"",
@@ -1436,7 +1436,7 @@
 					type: "command"
 				}
 			],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [{
 				count: 4L,
 				id: "7FEE130B9F995355",
@@ -1926,7 +1926,7 @@
 		},
 		{
 			dependencies: ["4956C0B5633CE91E"],
-			description: ["Puedes fabricar equipo para prepararte para tu aventura. ¡Consulta el capítulo de Profesiones M\\&S para información detallada!"],
+			description: ["Puedes fabricar equipo para prepararte para tu aventura. ¡Consulta el capítulo de Profesiones  M\\&S&r para información detallada!"],
 			id: "4C68E7AC4C59F2EB",
 			rewards: [{
 				auto: "enabled",
@@ -1938,7 +1938,7 @@
 				title: "350 Experience",
 				type: "command"
 			}],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [{
 				id: "5F2746C9F73F6032",
 				item: {
@@ -2257,7 +2257,7 @@
 				title: "500 Experience",
 				type: "command"
 			}],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [
 				{
 					id: "164D7BC468D2116C",

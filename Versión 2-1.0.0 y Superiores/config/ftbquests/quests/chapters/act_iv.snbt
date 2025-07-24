@@ -1236,7 +1236,7 @@
 					type: "item"
 				}
 			],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [{
 				id: "0C231DE25B40FE7B",
 				item: {
@@ -1267,7 +1267,7 @@
 				title: "17000 Experience",
 				type: "command"
 			}],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [
 				{
 					id: "6C08F041B2EF03B6",
@@ -1593,7 +1593,7 @@
 					type: "command"
 				}
 			],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [{
 				id: "261373246C850AB3",
 				item: {

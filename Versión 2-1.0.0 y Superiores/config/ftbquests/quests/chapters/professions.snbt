@@ -164,7 +164,7 @@
 					type: "all_table"
 				}
 			],
-			subtitle: "&aProfesiones de M\\&S&r",
+			subtitle: "&aProfesiones de M\\&S&r ",
 			tasks: [{
 				id: "286493E91C2A3DE3",
 				item: "mmorpg:cooking_station",
@@ -374,7 +374,7 @@
 				item: "mmorpg:material/farming/0",
 				type: "item"
 			}],
-			subtitle: "Profesiones M&S",
+			subtitle: "&aProfesiones de M\\&S&r",
 			tasks: [{
 				id: "48940014C4EC1677",
 				item: {
@@ -513,7 +513,7 @@
 				item: "lightmanscurrency:coin_iron",
 				type: "item"
 			}],
-			subtitle: "Página Perdida de Profesiones M&S",
+			subtitle: "Página Perdida de Profesiones de M\\&S&r",
 			tasks: [{
 				id: "425830C92EB05E74",
 				title: "Hacer Clic una Vez Leído",
@@ -1058,7 +1058,7 @@
 				item: "lightmanscurrency:coin_iron",
 				type: "item"
 			}],
-			subtitle: "Página Perdida de Profesiones M&S",
+			subtitle: "Página Perdida de Profesiones de M\\&S&r",
 			tasks: [{
 				id: "6A644AC376F30A75",
 				title: "Hacer Clic una Vez Leído",

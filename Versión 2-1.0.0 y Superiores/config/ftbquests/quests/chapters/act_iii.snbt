@@ -945,7 +945,7 @@
 			description: [
 				"¿Tienes dificultades con algunos monstruos? Puedes potenciarte usando la &eProfesión de Infusión&r de Mine and Slash. Los &ePergaminos&r se pueden usar en tu Equipo para &eaplicar aleatoriamente una estadística beneficiosa&r. Esta estadística se puede mejorar usando pergaminos de infusión posteriores.",
 				"",
-				"¡Consulta el capítulo de &eProfesiones M&S&r para obtener más información sobre cómo usar este sistema!"
+				"¡Consulta el capítulo de &eProfesiones de M\\&S&r para obtener más información sobre cómo usar este sistema!"
 			],
 			icon: "minecraft:paper",
 			id: "360C736C3975B377",
@@ -1155,7 +1155,7 @@
 				title: "7500 Experience",
 				type: "command"
 			}],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [{
 				id: "3909083DF06CD4CE",
 				item: {
@@ -1335,7 +1335,7 @@
 					type: "command"
 				}
 			],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [{
 				id: "16B63C712B862DD3",
 				item: {

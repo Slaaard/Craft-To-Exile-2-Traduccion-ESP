@@ -628,7 +628,7 @@
 				""
 				"Las Almas de Estadísticas se pueden usar en cualquier pieza de equipo que comparta el mismo tipo. Por ejemplo, los cuchillos de Aquaculture y Farmer's Delight tienen el tipo \"Daga\". Al &ehacer clic en el objeto con un Alma de Estadísticas&r de tipo \"Daga\", ¡puedes aplicar estadísticas de Mine and Slash a los cuchillos!"
 				""
-				"¿Quieres saber más sobre cómo &efabricar Almas de Estadísticas&r? ¡Visita el capítulo de misiones de &aProfesiones M\\&S&r!"
+				"¿Quieres saber más sobre cómo &efabricar Almas de Estadísticas&r? ¡Visita el capítulo de misiones de &aProfesiones de M\\&S&r!"
 			],
 			icon: "ftbquests:book",
 			id: "289350CF47F41D69",

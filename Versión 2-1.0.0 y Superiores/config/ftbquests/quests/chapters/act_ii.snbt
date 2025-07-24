@@ -1093,7 +1093,7 @@
 				title: "1250 Experience",
 				type: "command"
 			}],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [{
 				id: "08BE1394EA5B782D",
 				item: {
@@ -1124,7 +1124,7 @@
 				title: "2000 Experience",
 				type: "command"
 			}],
-			subtitle: "Profesiones M&S",
+			subtitle: "Profesiones de M\\&S&r",
 			tasks: [{
 				id: "21E5841575537E9D",
 				item: {
