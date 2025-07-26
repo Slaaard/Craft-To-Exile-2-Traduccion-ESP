@@ -1,0 +1,27 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:bow"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "19ADD3EEC74B272B"
+	loot_size: 2
+	order_index: 35
+	rewards: [
+		{ count: 64, item: "minecraft:arrow", only_one: true }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+		}
+	]
+	title: "Arco y Flechas"
+	use_title: true
+}

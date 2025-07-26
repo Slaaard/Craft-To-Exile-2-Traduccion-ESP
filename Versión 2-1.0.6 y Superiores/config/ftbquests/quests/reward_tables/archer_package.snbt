@@ -1,0 +1,27 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "minecraft:bow"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "041B1BC94D948F55"
+	loot_size: 2
+	order_index: 36
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":0},\"imp\":{\"p\":11},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":14,\"id\":\"crit_prefix\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":1,\"rs\":4,\"lvl\":1,\"gtype\":\"bow\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:arrow" }
+	]
+	title: "Paquete de Arquero"
+}

@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gem_shop"
+	group: "1E3C4B5FFAE48A39"
+	icon: "lightmanscurrency:coinpile_gold"
+	id: "1C1F2FEB2B92EA6A"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"Esta \"misión\" consume la moneda y te permite seleccionar una recompensa de la lista."
+				""
+				""
+				"&eEsta tienda se desbloquea una vez que completas \"Actos\" en el Acto I.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mmorpg:skill_gems/aura/str"
+			id: "55192DBA1B148B8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DA0E0BE6186F27C"
+				table_id: 501834786334198433L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "Tienda"
+			tasks: [{
+				consume_items: true
+				id: "0E910380456F764A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Tienda de Gemas de Aumento I"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"Esta \"misión\" consume la moneda y te permite seleccionar una recompensa de la lista."
+				""
+				""
+				"&eEsta tienda se desbloquea una vez que completas \"Actos\" en el Acto I.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mmorpg:skill_gems/support/str"
+			id: "285E66EF1B070F44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FF9697EF1D7FE64"
+				table_id: 6773419606258025386L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "Tienda"
+			tasks: [{
+				consume_items: true
+				id: "7FAC4A08A9F84E6E"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Tienda de Gemas de Soporte I"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"Esta \"misión\" consume la moneda y te permite seleccionar una recompensa de la lista."
+				""
+				""
+				"&eEsta tienda se desbloquea una vez que completas \"Ritual Oscuro\" en el Acto II.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mmorpg:skill_gems/aura/dex"
+			id: "5B5401DA5BD89BCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CD10129BE9897B0"
+				table_id: 7974232006375387374L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "Tienda"
+			tasks: [{
+				consume_items: true
+				id: "108033F458256676"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Tienda de Gemas de Aumento II"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"Esta \"misión\" consume la moneda y te permite seleccionar una recompensa de la lista."
+				""
+				""
+				"&eEsta tienda se desbloquea una vez que completas \"Ritual Oscuro\" en el Acto II.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mmorpg:skill_gems/support/dex"
+			id: "76048C827DB71DFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42682327F369DF7A"
+				table_id: 6426093941301649037L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "Tienda"
+			tasks: [{
+				consume_items: true
+				id: "28E4CDDAD8CAF772"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Tienda de Gemas de Soporte II"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"Esta \"misión\" consume la moneda y te permite seleccionar una recompensa de la lista."
+				""
+				""
+				"&eEsta tienda se desbloquea una vez que completas \"El Cofre de la Capitana Cornelia\" en el Acto III.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mmorpg:skill_gems/aura/int"
+			id: "7A05F5EA8254C615"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A40FF86D1CDB293"
+				table_id: 1584215562736554857L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "Tienda"
+			tasks: [{
+				consume_items: true
+				id: "49B1944942C92B6A"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Tienda de Gemas de Aumento III"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"Esta \"misión\" consume la moneda y te permite seleccionar una recompensa de la lista."
+				""
+				""
+				"&eEsta tienda se desbloquea una vez que completas \"El Cofre de la Capitana Cornelia\" en el Acto III.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mmorpg:skill_gems/support/int"
+			id: "6F018A195B337C80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D1DA70AF6728231"
+				table_id: 5185107981486810968L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "Tienda"
+			tasks: [{
+				consume_items: true
+				id: "6590FCCB60F53CE9"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "Tienda de Gemas de Soporte III"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"30B56119C4EA7398"
+				"09CFBF8766DA4706"
+			]
+			description: [
+				"Esta \"misión\" consume la moneda y te permite seleccionar una recompensa de la lista."
+				""
+				""
+				"&eEsta tienda se desbloquea una vez que completas \"Un Desarraigo\" &cy&r &e\"Atrapado en una Telaraña\" en el Acto IV.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mmorpg:skill_gems/aura/str"
+			id: "4368E5558B062807"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47DE73088AD4C1F4"
+				table_id: 3941102663062641829L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "Tienda"
+			tasks: [{
+				consume_items: true
+				id: "4CFE1BFC234987E5"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "Tienda de Gemas de Aumento IV"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"30B56119C4EA7398"
+				"09CFBF8766DA4706"
+			]
+			description: [
+				"Esta \"misión\" consume la moneda y te permite seleccionar una recompensa de la lista."
+				""
+				""
+				"&eEsta tienda se desbloquea una vez que completas \"Un Desarraigo\" &cy&r &e\"Atrapado en una Telaraña\" en el Acto IV.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mmorpg:skill_gems/support/str"
+			id: "56C51AF211DEF478"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07D8239A93D60C13"
+				table_id: 4343783444613774232L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "Tienda"
+			tasks: [{
+				consume_items: true
+				id: "2D8C26F083B682EA"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			title: "Tienda de Gemas de Soporte IV"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"¡Esta \"misión\" consume la moneda y te da un &eÚNICO&r objeto &cÚnico&r aleatorio de nivel 60, 80 o 100!"
+				""
+				""
+				"&eEsta tienda se desbloquea una vez que completas \"La Mente Maestra Maestra\" en el Epílogo.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mmorpg:chest/legendary_gear"
+			id: "2F90341CB7C42085"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AE40FF82ED7A6D2"
+				table_id: 6102958044406014672L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "Tienda"
+			tasks: [{
+				consume_items: true
+				id: "0525293A48F7C0FB"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			title: "Tienda de Únicos Aleatorios"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"La Tienda de la Campaña"
+				""
+				"Tienda de la Campaña: intercambia monedas por objetos de Mine and Slash"
+				""
+				"Se pueden desbloquear después de completar ciertas Misiones o Actos"
+			]
+			id: "5E8D1289340A4B82"
+			rewards: [{
+				count: 5
+				id: "223B13301E68BBCA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A53CF645688B3E"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "La Tienda de la Campaña"
+			x: 0.75d
+			y: -1.25d
+		}
+	]
+	title: "Tienda de la Campaña"
+}

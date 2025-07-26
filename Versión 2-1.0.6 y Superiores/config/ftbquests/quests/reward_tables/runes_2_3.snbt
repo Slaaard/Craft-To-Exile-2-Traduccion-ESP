@@ -1,0 +1,10 @@
+{
+	id: "63214D8F7BFB8545"
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{ item: "mmorpg:runes/ano" }
+		{ item: "mmorpg:runes/fey" }
+	]
+	title: "Runas 3"
+}

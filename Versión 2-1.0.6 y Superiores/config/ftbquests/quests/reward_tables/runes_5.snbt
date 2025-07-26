@@ -1,0 +1,10 @@
+{
+	id: "4A6987D204FA9F94"
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{ item: "mmorpg:runes/eno" }
+		{ item: "mmorpg:runes/xer" }
+	]
+	title: "Runas 5"
+}

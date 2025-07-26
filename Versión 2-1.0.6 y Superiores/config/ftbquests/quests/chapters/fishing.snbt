@@ -1,0 +1,1291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "37C10F4BE9E00A26"
+	icon: "mmorpg:material/fishing/2"
+	id: "5F95DDA1E0BA268A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "63AC29DDE537EB5B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3675FEC5C14EBF2E"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "77A4B835B85553BD"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "217B8E39E86A23EF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "59948EFF519CACF6"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "0002004161A2098D"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "36DC60BF60E3481A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "012EBE6E0D9D94BD"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "38DB83F924677E9B"
+				item: "aquaculture:jellyfish"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "16E9E743F7F5D2B8"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7BAD508109CB47DE"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "6FBCC3E20B3CA058"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "3B7B3B545E7F2433"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "47CC344CD6207669"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "70163D8044AB8304"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "2BA35B95D74FF964"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "35ED5866E352E8E5"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "74069DAD31AC6310"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			description: ["Aparece en biomas de &eJungla&r."]
+			id: "794378358AB30607"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "556CEA9605B1B274"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "682BA0A62ED2F59F"
+				item: "aquaculture:arrau_turtle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			description: ["Tiene una baja probabilidad de ser soltado por los &eSkelewags&r."]
+			id: "21F5B80CB82300A9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "098A037F19EC26D0"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "1828EF509E9CE9E0"
+				item: "alexsmobs:fish_bones"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "19F6EDDFE16530FB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1B15A18B3C7BB211"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "7333FAAE45865BD1"
+				item: "undergarden:raw_gwibling"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "1706167C429E3700"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5E2BF68090298666"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "432314338072F115"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "2AE90AA91EA7D8B1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2B6FF03AE17F39A6"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "50A3AB09230EE2EB"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "7371CB3124B587AA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1704ADCF72B4D6B3"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "62139B99F3A8A553"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "259B4373AD36CF64"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "753E8D4D8C2AAE98"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "1ED5CFEB02DA5933"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "5DD1BAF87775FAE4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "03A7068769D02DD7"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "646D39CAE4C10C7E"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "45AA6BB9593F66D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0BB3E5CA0314232A"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "1D10BC47C0A55893"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			id: "2737DBBDB6470EC8"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1874A07547100587"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "6F0FB864A32502E2"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "339E89D78088AE01"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1932560202366959"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "0DA6310A3DC383D5"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "1787D16758C8ABAE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "507D9B2FDE0F855C"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "15A545C4933E6814"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "542938A1B131D26F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6100DD33D80E31FF"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "77D77E8471EAF2D7"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "440009859D9C7E53"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "56C995B5F9EB2BE6"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "7D2CE7820357D2E5"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "04485A5AA8D3B213"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0C2C185D1451EAE2"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "62DDD237856BADA9"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "1F8997BD6D6D2734"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "672DF4C5D02054C0"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "45AEB5F40A18E3C5"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "1B3CF7ABD92B20EE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "48B6470200F89DA4"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "340664C9611CDBDB"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "293C79C408FF3A45"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4E3CB9D6F07349F7"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "0D0164DA5DAC439E"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "1AA9D085C48E0B81"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7A348ED93E2960FA"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5E849EC9AD9B0C74"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "2C7FB03D2B8D498D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1A56060D7F0A53EA"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "7D10419100DEAFF0"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "54674B2ABA1E5F03"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2BD63AA6E08BD638"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "16C86AC51BF75B60"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "0321A20599EF48D9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "72FC03E270DFC53D"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5CCC8923F96D03AA"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "302B5787FB962B23"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1592299421896666"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "6308FFB4D0BEA9F1"
+				item: {
+					Count: 1
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "53D823985369836C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "09023A7D0C367A9E"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "4375AB225A2C909D"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "12F2DDB353B0FBAF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "192FC0B1C5CB627C"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "356E7B8C567F675A"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			id: "1CEEACDCCB37F744"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3BCAFC4C05DC246C"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "0E6CECC1E7EF313F"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "4D4895183A411B3A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "068505EDA279FB82"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "76E44DAE730FE933"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			description: ["Aparece en biomas de &ePantano&r."]
+			id: "69634E18765F3A71"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "079E7F531CBFA4B4"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5F568B121CB9888C"
+				item: "aquaculture:box_turtle"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "3C17E5091A28D863"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "44476B2B8D972EA9"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "00DE7173A11753F8"
+				item: "aquaculture:goldfish"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "63517924B2D7B79E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "192C7B12493AE204"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "093865A8839B6D60"
+				item: {
+					Count: 1
+					id: "aquaculture:leech"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "745B323EB1273261"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6DF4629E87AD3496"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "7171C77B0F45DAC2"
+				item: "mmorpg:material/fishing/4"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "11FA3B43D0710998"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "24A941D65C55FC3D"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "425299EE106D1C54"
+				item: "mmorpg:material/fishing/3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "265156FBF6A1B441"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "27D504E5929170C9"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5F227036908EFFB4"
+				item: "mmorpg:material/fishing/2"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "47C34829D2DD2C4E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4F2A109E048357A1"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "78D357DF4DC56887"
+				item: "mmorpg:material/fishing/1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "01DB7952165EAEC5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7A4C6174B7E2C91A"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "4707A8FFD06A6E55"
+				item: "mmorpg:material/fishing/0"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "1DFF24281ECA0CA7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3C74AC3B96A31C3C"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "776E023B4D6F5726"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "0C7228401823A03B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6798A442727DCD9A"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "45AF0E3D64D37506"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "22CCDC1E42E2D623"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7642CC2A6CACB0B1"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D18F9C152772DFB"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "10675CAE2C591D1C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "602B1E698AA99844"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "6F9A3D46920B95B1"
+				item: "mmorpg:material/fishing/5"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			description: ["Aparece en las profundidades de los biomas de &eOcéano Profundo&r."]
+			id: "37B6D5296A4B3D2F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1FDF4A0BD4EAFCFF"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "615DF40507E9BFF7"
+				item: "alexsmobs:blobfish"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&eAquaculture&r expande enormemente la pesca al permitirte atrapar muchos &epeces nuevos, tesoros&r y personalizar nuevas &ecañas de pescar por niveles&r con la &eCaja de Aparejos.&r"
+				""
+				"Pesca una &eRecompensa de Neptuno&r para tener la oportunidad de conseguir &eLingotes de Neptunio&r, que se pueden usar para crear un poderoso &eequipo.&r"
+			]
+			id: "19527088738A2A88"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7C1DF682350DB7C5"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			size: 1.5d
+			subtitle: "Obtén uno de cada"
+			tasks: [
+				{
+					id: "3D59503141381E06"
+					item: {
+						Count: 1
+						id: "aquaculture:iron_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71954115EC95A61B"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					id: "1099761C9CEDBA39"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "2EAC71E96FF5E47D"
+					item: "aquaculture:iron_hook"
+					type: "item"
+				}
+			]
+			title: "Acuicultura"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2737DBBDB6470EC8"
+				"1787D16758C8ABAE"
+				"10675CAE2C591D1C"
+				"0321A20599EF48D9"
+				"01DB7952165EAEC5"
+				"22CCDC1E42E2D623"
+				"302B5787FB962B23"
+				"36DC60BF60E3481A"
+				"63AC29DDE537EB5B"
+				"2BA35B95D74FF964"
+				"1AA9D085C48E0B81"
+				"745B323EB1273261"
+				"0C7228401823A03B"
+				"4D4895183A411B3A"
+				"19F6EDDFE16530FB"
+				"5DD1BAF87775FAE4"
+				"259B4373AD36CF64"
+				"1DFF24281ECA0CA7"
+				"63517924B2D7B79E"
+				"339E89D78088AE01"
+				"1CEEACDCCB37F744"
+				"794378358AB30607"
+				"293C79C408FF3A45"
+				"2C7FB03D2B8D498D"
+				"53D823985369836C"
+				"217B8E39E86A23EF"
+				"440009859D9C7E53"
+				"265156FBF6A1B441"
+				"54674B2ABA1E5F03"
+				"11FA3B43D0710998"
+				"04485A5AA8D3B213"
+				"1B3CF7ABD92B20EE"
+				"69634E18765F3A71"
+				"3C17E5091A28D863"
+				"2AE90AA91EA7D8B1"
+				"542938A1B131D26F"
+				"19527088738A2A88"
+				"12F2DDB353B0FBAF"
+				"7371CB3124B587AA"
+				"3B7B3B545E7F2433"
+				"1706167C429E3700"
+				"16E9E743F7F5D2B8"
+				"1F8997BD6D6D2734"
+				"780B461DB038F95C"
+				"21F5B80CB82300A9"
+				"47C34829D2DD2C4E"
+				"45AA6BB9593F66D7"
+				"37B6D5296A4B3D2F"
+				"473A7132FCFB9559"
+				"5D2632E03B5BE0D7"
+				"5DB53669F077EFEB"
+				"1F806D80D2B80BFB"
+				"7F70DBD85D1BCE56"
+				"0397CC10FAD1785D"
+			]
+			id: "59242A72A38A5A9A"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" ¡ha logrado Hazte con Todos!\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "04C114E62B4B63C1"
+					title: "Haz clic aquí para presumir"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 1000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "686A1ED080EA0A37"
+					silent: true
+					title: "1000 de Experiencia x Nvl."
+					type: "command"
+				}
+				{
+					count: 4
+					id: "0C225076F08173DE"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "36BFAA8235959B1E"
+					item: "simplehats:fishing_hat"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Logro"
+			tasks: [{
+				id: "7DB9CE4C5E6F313B"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "¡Hazte con Todos!"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "780B461DB038F95C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "426DDF042A37857B"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "2159D090EC9C416F"
+				item: "aquaculture:fish_bones"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "473A7132FCFB9559"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "52514B769C2DB5C5"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "3864198570970450"
+				item: "aquaculture:starshell_turtle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "5D2632E03B5BE0D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "650460E37EBCFE6E"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "7E5D9AE706E02807"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "1F806D80D2B80BFB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2F4EE4A2040ACA89"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "6EB31D2A8B4B3B1A"
+				item: "blue_skies:charscale_moki"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "0397CC10FAD1785D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5B89857AD3AE3618"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "09E4626226AEA9DA"
+				item: "blue_skies:grittle_flatfish"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "7F70DBD85D1BCE56"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "169F48378F1846F2"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "7D349CE1A1FD02D2"
+				item: "blue_skies:horizofin_tunid"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "5DB53669F077EFEB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5E8036471122B3BB"
+				silent: true
+				title: "50 de Experiencia x Nvl."
+				type: "command"
+			}]
+			tasks: [{
+				id: "036C2587E5CAC473"
+				item: "blue_skies:municipal_monkfish"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19527088738A2A88"]
+			description: [
+				"¡Diferentes Flotadores pueden ayudar con la pesca!"
+				""
+				"¡El Flotador de Corcho aumenta el tamaño de tu 'barra de pesca', facilitando la captura de peces!"
+				""
+				"¡El Flotador Trampa hace que los peces escapen más lentamente cuando no los estás recogiendo!"
+				""
+				"¡El Flotador con Sónar muestra qué pez está en tu anzuelo antes de ser atrapado!"
+				""
+				"¡El Flotador de Tesoro evita que los peces escapen al recolectar Cofres del Tesoro y aumenta las posibilidades de que aparezcan Tesoros!"
+				""
+				"¡El Flotador de Calidad aumenta considerablemente la Experiencia ganada al pescar!"
+			]
+			id: "3AF3F4A0E84C0052"
+			rewards: [{
+				count: 4
+				id: "6D227EF1320DF233"
+				item: {
+					Count: 1
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Pesca Estilo Stardew"
+			tasks: [{
+				id: "46B04CC7E04BC357"
+				item: {
+					Count: 1
+					id: "stardew_fishing:cork_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mejoras de Pesca"
+			x: -1.5d
+			y: 7.5d
+		}
+	]
+	title: "Pesca"
+}

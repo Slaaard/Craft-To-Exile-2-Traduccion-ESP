@@ -1,0 +1,38 @@
+{
+	id: "28817482D9F80A5F"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chilling_touch\",\"type\":\"SKILL\",\"perc\":33,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Toque Helado"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_spear\",\"type\":\"SKILL\",\"perc\":29,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Lanza de Rayos"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"nature_balm\",\"type\":\"SKILL\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Bálsamo de la Naturaleza"
+		}
+	]
+	title: "Gemas de Habilidad 4"
+}

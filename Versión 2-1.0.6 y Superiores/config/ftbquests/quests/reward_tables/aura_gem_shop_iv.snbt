@@ -1,0 +1,58 @@
+{
+	id: "36B19BFDBF31DCA5"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"physical_damage\",\"type\":\"AURA\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Daño Físico"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_damage\",\"type\":\"AURA\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Daño de Fuego"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"cold_damage\",\"type\":\"AURA\",\"perc\":21,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Daño de Frío"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_damage\",\"type\":\"AURA\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Daño de Rayo"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chaos_damage\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Aumento de Daño de Caos"
+		}
+	]
+	title: "Tienda de Gemas de Aumento IV"
+}

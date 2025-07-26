@@ -1,0 +1,913 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jolly_cooperation"
+	group: "5C56FC6157E20EBE"
+	icon: "minecraft:rose_bush"
+	id: "05E0BC63F8DC87E2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eLightman's Currency&r introduce monedas como divisa, varios puestos de intercambio, la casa de subastas y más."
+				""
+				"Cualquier &eComerciante de Lightman&r que coloques solo puede ser modificado por ti o por tu &eequipo&r de Lightman. Las cuentas de equipo se pueden crear haciendo clic en el pequeño ícono de Steve en la esquina superior derecha de tu inventario. También hay un botón de &enotificaciones&r para eventos de comerciantes y cuentas de equipo. Las cuentas de equipo se utilizan para compartir ganancias y costos entre jugadores."
+				""
+				"La &eMoneda&r se obtiene &ematando&r monstruos, en &ebotines&r y en &emisiones.&r"
+				""
+				"Usa &e/lctrade&r para comerciar con otros jugadores cercanos."
+			]
+			id: "06B577BB603F2F0A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "374773DC08579C0F"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica una Máquina Expendedora"
+			tasks: [{
+				id: "3A6E6453C16F4C89"
+				item: "lightmanscurrency:vending_machine"
+				type: "item"
+			}]
+			title: "Moneda de Lightman"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06B577BB603F2F0A"]
+			description: [
+				"La mayoría de los bloques de Comerciante de Objetos pueden intercambiar cualquier objeto, pero algunos tipos de objetos como &elibros&r o &earmaduras&r requieren &eComerciantes&r específicos."
+				""
+				"Usa una &eCaja Registradora&r para &eenlazar&r cualquier comerciante colocado haciendo clic derecho para &evincularlo&r a la &eregistradora.&r Una vez que la registradora está colocada, todos los intercambios disponibles en los comerciantes &eaparecerán&r en la &einterfaz de la Caja Registradora&r."
+			]
+			id: "64C7494796410D04"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4A6C9A71A022A0C1"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica una Caja Registradora"
+			tasks: [{
+				id: "2DCBF62C3EC5F4FE"
+				item: "lightmanscurrency:cash_register"
+				type: "item"
+			}]
+			title: "Puestos de Intercambio"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64C7494796410D04"]
+			description: [
+				"Los &eCajeros Automáticos (ATM)&r pueden &eguardar tu dinero&r, &etransferir dinero&r entre cuentas personales y de equipo, y pueden &ecambiar monedas&r entre denominaciones."
+				""
+				"Las &eHuchas&r pueden almacenar monedas haciendo clic derecho sobre ellas con una moneda en la mano. Sin embargo, tendrás que &eromperla&r para sacar el dinero."
+				""
+				"El &eCofre de Dinero&r es una alternativa al Cajero Automático pero &esolo puede almacenar&r dinero. Si no &econfías&r en el Cajero del banco, guarda tus monedas en el Cofre de Dinero en su lugar."
+				""
+				"Usa &e/lcbaltop&r para ver quién tiene más dinero &eguardado en su cuenta bancaria&r."
+			]
+			id: "6C57A4CBA635B27E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "086A687857069566"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica uno de cada"
+			tasks: [
+				{
+					id: "0D6098AA97808306"
+					item: "lightmanscurrency:atm"
+					type: "item"
+				}
+				{
+					id: "37A73CBAF5EED880"
+					item: "lightmanscurrency:piggy_bank"
+					type: "item"
+				}
+				{
+					id: "70503A6E08BBB908"
+					item: "lightmanscurrency:coin_chest"
+					type: "item"
+				}
+			]
+			title: "Almacenamiento de Dinero"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C57A4CBA635B27E"]
+			description: [
+				"Las &eTerminales de Intercambio&r te permiten comerciar con cualquier otro comerciante en la &ered global&r. También puedes acceder a la &eCasa de Subastas&r del servidor, que no está disponible para los jugadores normales."
+				""
+				"Los &eComerciantes de la Red de Objetos&r tienen &e4&r niveles y solo se puede &eacceder&r a ellos a través de las Terminales de Intercambio."
+				""
+				"Puedes &emejorar&r cualquier comerciante normal para que se pueda acceder a él a través de la red y en persona colocando una &eMejora de Red&r en una de sus &eranuras de mejora&r."
+				""
+				"Los &ePuestos de Subasta&r permiten a los jugadores &epujar&r por objetos dentro del &etiempo asignado&r antes de que termine la subasta."
+			]
+			id: "2BB4B6FE41F4CC58"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2BD9D6EA6E99502E"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica uno de cada"
+			tasks: [
+				{
+					id: "5BE8EC6FBAEA12B4"
+					item: "lightmanscurrency:item_trader_server_sml"
+					type: "item"
+				}
+				{
+					id: "414707595643EEB0"
+					item: "lightmanscurrency:network_upgrade"
+					type: "item"
+				}
+				{
+					id: "01FE70F053D60BE3"
+					item: "lightmanscurrency:auction_stand_oak"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BB4B6FE41F4CC58"]
+			description: [
+				"El sistema de &eTickets&r es una buena manera de permitir que solo los &eclientes que pagan entren&r a un área designada o &eactiven un mecanismo de redstone&r. No dejes que nadie se apodere de los &eTickets Maestros&r que crees."
+				""
+				"La &eMáquina Tragamonedas&r te permite crear tus propios &epesos de pago y posibles recompensas&r para los clientes que pagan."
+			]
+			id: "322F44860B462AEF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "112776A78DA44E79"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica uno de cada"
+			tasks: [
+				{
+					id: "36CBBF5574C67135"
+					item: "lightmanscurrency:ticket_kiosk"
+					type: "item"
+				}
+				{
+					id: "76481E26B68A5DC5"
+					item: "lightmanscurrency:paygate"
+					type: "item"
+				}
+				{
+					id: "656E0AEF24D841CB"
+					item: "lightmanscurrency:ticket_machine"
+					type: "item"
+				}
+				{
+					id: "08328D273151AA2A"
+					item: "lightmanscurrency:slot_machine"
+					type: "item"
+				}
+			]
+			title: "Tickets y Máquinas Tragamonedas"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["322F44860B462AEF"]
+			id: "652C2A6786830558"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "76F366A39BE3CBF5"
+					silent: true
+					title: "500 de Experiencia x Nvl."
+					type: "command"
+				}
+				{
+					id: "7421D41C27D9A612"
+					item: "simplehats:halo"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [
+				{
+					count: 4L
+					id: "60D301B383B7C824"
+					item: "lightmanscurrency:coinpile_copper"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F2002492C9614D8"
+					item: "lightmanscurrency:coinpile_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "409E4DE17EB4AD7F"
+					item: "lightmanscurrency:coinpile_gold"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0C83A084CC749C05"
+					item: "lightmanscurrency:coinpile_emerald"
+					type: "item"
+				}
+				{
+					id: "0FB71A19BB5F835D"
+					item: "lightmanscurrency:coinpile_diamond"
+					type: "item"
+				}
+			]
+			title: "Gran Apostador"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&eJoy of Painting&r te permite crear obras de arte colocando un &elienzo&r de cualquier tamaño en un &ecaballete.&r Añade tintes a tu &epaleta&r y mézclalos para crear colores únicos. La &ePaleta&r se puede comprar en la &eTerminal de Intercambio&r. Asegúrate de &efirmar&r tu pintura cuando termines."
+				""
+				"Para fabricar una &ePaleta&r, necesitas tener 3 tablones y al menos 1 tinte. Esta es una receta dinámica, por lo que no aparecerá en JEI."
+			]
+			id: "792587BFEA5FB382"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0E94772DB7822516"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica uno de cada"
+			tasks: [
+				{
+					id: "5D1C69FA31081C44"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "7924B42762A8EFFC"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+				{
+					id: "39A4B0FB7967A97B"
+					item: "xercapaint:item_canvas"
+					type: "item"
+				}
+			]
+			title: "El Placer de Pintar"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&eMusical Instrument Minecraft Interface&r (MIMI) te permite &ereproducir MIDIs&r desde un &edispositivo MIDI conectado&r a tu computadora, desde &earchivos,&r o desde &eenlaces directos en línea&r."
+				""
+				"Las &einstrucciones&r completas del mod están disponibles en el &elibro guía del mod.&r Algunas características como &etocar instrumentos en multijugador&r no se discuten aquí."
+				""
+				"Para empezar, &edescarga&r una canción MIDI de internet y colócala en una &ecarpeta designada.&r"
+				""
+				"El &eTransmisor&r se usa para transmitir notas de un Archivo MIDI a los instrumentos en MIMI."
+				""
+				"Para usar un &eTransmisor&r, fabrica uno, colócalo en tu mano principal o secundaria y haz clic derecho para abrir la Pantalla del Transmisor (explicada a continuación). El Transmisor actúa un poco como un Cofre de Ender en el que cada jugador solo tiene uno, y cada objeto de Transmisor será el mismo para ese jugador."
+				""
+				"Puedes usar \"&b/mimi config&r\" para modificar la salida de sonido, etc."
+			]
+			id: "4EB78B5D6F8061E9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "554EE015F2507D1C"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica uno de cada"
+			tasks: [
+				{
+					id: "4F23B706CC2324EB"
+					item: "mimi:guide"
+					type: "item"
+				}
+				{
+					id: "43B80F923FC3A2CB"
+					item: "mimi:transmitter"
+					type: "item"
+				}
+				{
+					id: "2ED6A543049B0B62"
+					item: "mimi:piano"
+					type: "item"
+				}
+			]
+			title: "Creador de Música"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["309792D482119CAD"]
+			id: "659BC549DBEF88F7"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 525"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3889F09AFDC21CA0"
+					silent: true
+					title: "525 de Experiencia x Nvl."
+					type: "command"
+				}
+				{
+					id: "6D212FA3A888DEE3"
+					item: "simplehats:discoball"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [
+				{
+					id: "47AD9E90B03F4DB1"
+					item: "mimi:banjo"
+					type: "item"
+				}
+				{
+					id: "7E41E58B5E74D3B0"
+					item: "mimi:acguitar"
+					type: "item"
+				}
+				{
+					id: "56D43392BB56F7BA"
+					item: "mimi:elecguitar"
+					type: "item"
+				}
+				{
+					id: "785F904C8061C3A3"
+					item: "mimi:bassguitar"
+					type: "item"
+				}
+				{
+					id: "467709160C457369"
+					item: "mimi:violin"
+					type: "item"
+				}
+				{
+					id: "28A00BDFBE87255A"
+					item: "mimi:microphone"
+					type: "item"
+				}
+				{
+					id: "1FB2835B5D6A93BE"
+					item: "mimi:trumpet"
+					type: "item"
+				}
+				{
+					id: "38934E313D24B898"
+					item: "mimi:frenchhorn"
+					type: "item"
+				}
+				{
+					id: "7B4D310CB1E27CFB"
+					item: "mimi:saxophone"
+					type: "item"
+				}
+				{
+					id: "7F0657D7E9DFD8ED"
+					item: "mimi:clarinet"
+					type: "item"
+				}
+				{
+					id: "2BB1616BA365C884"
+					item: "mimi:flute"
+					type: "item"
+				}
+				{
+					id: "2739476A8CEBB15B"
+					item: "mimi:ocarina"
+					type: "item"
+				}
+				{
+					id: "0567DAB0D990E3B6"
+					item: "mimi:synlead"
+					type: "item"
+				}
+				{
+					id: "4D884F1E82BA36FA"
+					item: "mimi:kalimba"
+					type: "item"
+				}
+				{
+					id: "12BE5EA3BE95256F"
+					item: "mimi:bagpipe"
+					type: "item"
+				}
+				{
+					id: "1051698400C45193"
+					item: "mimi:oboe"
+					type: "item"
+				}
+				{
+					id: "2472D4AAC36C0DC2"
+					item: "mimi:accordion"
+					type: "item"
+				}
+				{
+					id: "0C1314DCB6C97BB6"
+					item: "mimi:harmonica"
+					type: "item"
+				}
+				{
+					id: "4936A5A89E23BD80"
+					item: "mimi:handbell"
+					type: "item"
+				}
+				{
+					id: "2C472301BC4C42EE"
+					item: "mimi:glockenspiel"
+					type: "item"
+				}
+				{
+					id: "5CCBD8322359627D"
+					item: "mimi:musicbox"
+					type: "item"
+				}
+				{
+					id: "2BBD7855C228EF2F"
+					item: "mimi:bassoon"
+					type: "item"
+				}
+				{
+					id: "21DA66CBB72A6853"
+					item: "mimi:woodblock"
+					type: "item"
+				}
+				{
+					id: "0D1DF75F16A2F3CF"
+					item: "mimi:bottle"
+					type: "item"
+				}
+				{
+					id: "54B0B2BB73B656CA"
+					item: "mimi:panflute"
+					type: "item"
+				}
+				{
+					id: "4683423FD1BEFEBE"
+					item: "mimi:recorder"
+					type: "item"
+				}
+				{
+					id: "42755B39EF617F8E"
+					item: "mimi:piano"
+					type: "item"
+				}
+				{
+					id: "632BE4A56AB6F421"
+					item: "mimi:drums"
+					type: "item"
+				}
+				{
+					id: "595D576DA1CEB23D"
+					item: "mimi:organ"
+					type: "item"
+				}
+				{
+					id: "30A1D51D610F9BD7"
+					item: "mimi:steeldrum"
+					type: "item"
+				}
+				{
+					id: "28E5DF11B2BAA23A"
+					item: "mimi:xylophone"
+					type: "item"
+				}
+				{
+					id: "32AAD54A012E17CE"
+					item: "mimi:vibraphone"
+					type: "item"
+				}
+				{
+					id: "1B31B9552DC755C0"
+					item: "mimi:marimba"
+					type: "item"
+				}
+				{
+					id: "046909048DB7BF5F"
+					item: "mimi:celesta"
+					type: "item"
+				}
+				{
+					id: "104DE9FDAB590DC7"
+					item: "mimi:tubularbells"
+					type: "item"
+				}
+				{
+					id: "39CF393D39899A9E"
+					item: "mimi:harpsichord"
+					type: "item"
+				}
+				{
+					id: "68DEAB1EDFC98630"
+					item: "mimi:keyboard"
+					type: "item"
+				}
+				{
+					id: "225D7169B6A6FC97"
+					item: "mimi:edrums"
+					type: "item"
+				}
+			]
+			title: "Músico de Big Band"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			description: ["&eLootr&r es un mod que hace que cada cofre de botín, barril y vagoneta con cofre generados en el mundo sea una versión especial que tiene &ebotín instanciado por jugador&r."]
+			id: "6E3023586AC43198"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "59AE27F4FBAA9B83"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Abre tu primer contenedor de Lootr"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "106E39AB117654B4"
+				type: "advancement"
+			}]
+			title: "Lootr"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3023586AC43198"]
+			id: "193B377248414AFF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6700E56A6207ED42"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Abre 10 contenedores de Lootr"
+			tasks: [{
+				advancement: "lootr:10loot"
+				criterion: ""
+				id: "1AA46A7D8EE1171F"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["193B377248414AFF"]
+			id: "39CC9458268DAF56"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "32D00F66966D0979"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Abre 25 contenedores de Lootr"
+			tasks: [{
+				advancement: "lootr:25loot"
+				criterion: ""
+				id: "75727D55D4BE0E34"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["082038507F4E98DF"]
+			id: "070790DD12F2C9A6"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "25E5D3BD5CFDDE5C"
+					silent: true
+					title: "500 de Experiencia x Nvl."
+					type: "command"
+				}
+				{
+					id: "59D0D1FDEF0E7795"
+					item: "simplehats:doubletake"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Desafío"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "2486E63A4C408549"
+				type: "advancement"
+			}]
+			title: "Bandido"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Fabrica un &eTelepase&r para vincularlo a ti. Otro jugador puede usar ese telepase para &eteletransportarse instantáneamente&r a ti."
+				""
+				"Los &eTelepases de Oro&r son de &eun solo&r uso, mientras que los &eTelepases de Diamante&r tienen &edurabilidad.&r Ambos pueden ser &eencantados.&r"
+			]
+			id: "0152DC99C57C0731"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0C7EFE6485B640A3"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica un Telepase de Diamante"
+			tasks: [{
+				id: "13F379B253EDA98D"
+				item: {
+					Count: 1
+					id: "telepass:diamond_telepass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39CC9458268DAF56"]
+			id: "082038507F4E98DF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "23A0D529C076FB7E"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Abre 50 contenedores de Lootr"
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "4B724240CC7B8D95"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"070790DD12F2C9A6"
+				"652C2A6786830558"
+				"659BC549DBEF88F7"
+			]
+			icon: "alexsmobs:soul_heart"
+			id: "70DA25C53FFEB49F"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" ha logrado ser un Jugador de Equipo\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "3B58A7BF33FCBB9E"
+					title: "Haz clic aquí para presumir"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "07421521F3C1CB44"
+					silent: true
+					title: "750 de Experiencia x Nvl."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "0279EAA6BA4B9D19"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Dinero"
+					type: "item"
+				}
+				{
+					id: "2E2C8624A41D58EF"
+					item: "simplehats:floatinghearts"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Logro"
+			tasks: [{
+				id: "1C2D9D8441D68E4C"
+				title: "Haz Clic al Leer"
+				type: "checkmark"
+			}]
+			title: "Jugador de Equipo"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			description: [
+				"&eFLAN&r se usa para reclamar terrenos. Haz clic derecho en el suelo con una &eAzada de Oro&r para empezar a reclamar."
+				""
+				"Puedes hacer clic derecho en cualquier lugar con un &epalo&r para ver quién es el dueño de qué y dónde están los límites."
+				""
+				"Usa &e/flan menu&r para editar tu reclamo. Usa &e/flan delete&r para eliminar el reclamo en el que estás parado. Usa &e/flan switchMode&r para crear sub-reclamos."
+				""
+				"Los &ePermisos Globales&r son permisos que se otorgan a cualquiera que &eno&r esté en un grupo de permisos."
+				""
+				"Haz &eclic derecho&r en los grupos de permisos para establecer sus permisos individuales."
+				""
+				"&4&lTu reclamo será eliminado después de 90 días de inactividad del propietario del reclamo en multijugador.&r&n&r"
+				""
+				"&eBloques de Reclamo Iniciales:&r 2000"
+				"&e+1&r Bloque cada &e10 segundos&r"
+				"&eMáximo de Bloques de Reclamo:&r 25600"
+				"&eTiempo para alcanzar el máximo:&r 66 horas"
+				"&eProfundidad Inicial del Reclamo:&r 20 bloques"
+				"&eMáximo de Reclamos:&r 5"
+				""
+				"La profundidad del reclamo continuará descendiendo &eautomáticamente&r si &econstruyes&r debajo de tu reclamo."
+			]
+			id: "447144432E16E12F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "75FDF97DC42DDF10"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			size: 1.5d
+			subtitle: "Fabrica uno de cada"
+			tasks: [{
+				id: "118E2836C81016A3"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Reclamando Terreno"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EB78B5D6F8061E9"]
+			description: ["Los instrumentos pueden ser &eafinados&r para cambiar cómo suenan y funcionan. Fabrica una &eMesa de Afinación&r y navega al capítulo en el &elibro guía del mod&r para ver la &elista completa&r de instrumentos que se pueden afinar y con qué objetos."]
+			id: "34D93634E3BD0A59"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "373E7EA816B5F7E0"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica una Mesa de Afinación"
+			tasks: [{
+				id: "568DA92753424F60"
+				item: "mimi:tuningtable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34D93634E3BD0A59"]
+			description: [
+				"El &eMaestro Mecánico&r &ereproducirá música por sí mismo&r si se le da un &einstrumento&r y un &ePanel de Control.&r Requiere una &eseñal de redstone&r para funcionar."
+				""
+				"Los bloques &eOyente&r y &eReceptor&r escuchan las &enotas tocadas cerca de ellos&r y emiten una &eseñal de redstone&r si coincide con el filtro establecido."
+			]
+			id: "13BFD3FE012DE2AE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "160744DEF54A6086"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica uno de cada"
+			tasks: [
+				{
+					id: "0608E7A2EAE0494D"
+					item: "mimi:mechanicalmaestro"
+					type: "item"
+				}
+				{
+					id: "19DFD7EE72173C45"
+					item: "mimi:listener"
+					type: "item"
+				}
+				{
+					id: "3FDBE267EACCBA27"
+					item: "mimi:receiver"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["13BFD3FE012DE2AE"]
+			description: [
+				"El &eTransmisor de Servidor&r es una forma de bloque del Transmisor que no necesita ser sostenido por un jugador para reproducir archivos MIDI. Sin embargo, solo puede reproducir canciones proporcionadas por el servidor. Los archivos MIDI se pueden agregar al Transmisor de Servidor colocándolos en la carpeta \"server_midi_files\" dentro de la carpeta de configuración de MIMI (también funciona para un solo jugador y el anfitrión en LAN) y haciendo clic en el botón de recargar."
+				""
+				"A diferencia del Transmisor de mano, donde la configuración se guarda una vez por jugador, la configuración del &eTransmisor de Servidor&r se guarda por separado en cada bloque. Mientras reproduce una canción, el bloque del Transmisor de Servidor emitirá una señal de Redstone."
+			]
+			id: "309792D482119CAD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "251B7685E57F4467"
+				silent: true
+				title: "100 de Experiencia x Nvl."
+				type: "command"
+			}]
+			subtitle: "Fabrica uno de cada"
+			tasks: [{
+				id: "60B81DC36D3F79DE"
+				item: "mimi:transmitterblock"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+	]
+	title: "Cooperación Amistosa"
+}

@@ -1,0 +1,58 @@
+{
+	id: "1DD8786C6E8517DA"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"physical_pene\",\"type\":\"SUPPORT\",\"perc\":33,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Penetración Física"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"plus_aoe\",\"type\":\"SUPPORT\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Área Expandida"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"proj_speed\",\"type\":\"SUPPORT\",\"perc\":28,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Proyectiles Rápidos"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"heal_at_low\",\"type\":\"SUPPORT\",\"perc\":27,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Cuidado Inmediato"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"trap_damage\",\"type\":\"SUPPORT\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño de Trampa"
+		}
+	]
+	title: "Gemas de Soporte 3"
+}

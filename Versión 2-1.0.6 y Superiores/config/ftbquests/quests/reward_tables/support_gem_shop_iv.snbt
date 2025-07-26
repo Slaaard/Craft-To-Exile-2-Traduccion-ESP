@@ -1,0 +1,138 @@
+{
+	id: "3C4838074D6D3B98"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"crit_dmg_less_non_crit_dmg\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Ruina Confiada"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"gmp_barrage\",\"type\":\"SUPPORT\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Andanada de Proyectiles Mayores"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"gmp\",\"type\":\"SUPPORT\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Proyectiles Múltiples Mayores"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"spell_damage\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño de Habilidad"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"reduced_proj_speed\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Proyectiles Lentos"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"brutality\",\"type\":\"SUPPORT\",\"perc\":21,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Brutalidad"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"swift_affliction\",\"type\":\"SUPPORT\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Afección Rápida"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"cluster_traps\",\"type\":\"SUPPORT\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Trampas en Racimo"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"archmage\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Hoja de Mago"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"imbuement\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Imbuición"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chaos_flat_dmg\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gema de Soporte de Daño Plano de Caos"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"iron_will\",\"type\":\"SUPPORT\",\"perc\":13,\"rar\":\"common\",\"links\":1}"
+				}
+			}
+			title: "Gema de Soporte de Voluntad de Hierro"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"battery\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1}"
+				}
+			}
+			title: "Gema de Soporte de Batería"
+		}
+	]
+	title: "Tienda de Gemas de Soporte IV"
+}

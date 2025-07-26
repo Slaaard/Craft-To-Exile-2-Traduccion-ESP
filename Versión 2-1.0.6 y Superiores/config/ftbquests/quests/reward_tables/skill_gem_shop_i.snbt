@@ -1,0 +1,218 @@
+{
+	id: "0E227194CDBA97C2"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"healing_aura\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Ola Sanadora"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"nature_balm\",\"type\":\"SKILL\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Bálsamo de la Naturaleza"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"power_chord\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Acorde de Poder"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"song_of_vigor\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Himno de Vigor"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"gong_strike\",\"type\":\"SKILL\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Golpe de Gong"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"boomerang\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Bumerán"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"shred\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Despedazar"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"rejuv_totem\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Tótem Rejuvenecedor"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"craft_arrows\",\"type\":\"SKILL\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Crear Flechas"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"arrow_barrage\",\"type\":\"SKILL\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Andanada de Flechas"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"charged_bolt\",\"type\":\"SKILL\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Proyectil Cargado"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_trap\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Trampa de Fuego"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fireball\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Bola de Fuego"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"frostball\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Esquirla de Hielo"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_spear\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Lanza de Rayos"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_nova\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Nova de Fuego"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"frost_nova\",\"type\":\"SKILL\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Nova de Escarcha"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chilling_touch\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Toque Helado"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"curse_of_agony\",\"type\":\"SKILL\",\"perc\":21,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Maldición de Agonía"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_spirit_wolf\",\"type\":\"SKILL\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Invocar Lobo Espiritual"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_zombie\",\"type\":\"SKILL\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Invocar Zombi"
+		}
+	]
+	title: "Tienda de Gemas de Habilidad I"
+}

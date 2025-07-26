@@ -1,0 +1,46 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:iron_leggings"
+		tag: {
+			Damage: 0
+			mmorpg_gear: "{\"baseStats\":{\"p\":94},\"imp\":{\"p\":93},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":13,\"id\":\"item_perc_armor\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":1,\"rs\":0,\"lvl\":1,\"gtype\":\"plate_pants\",\"pot\":\"common\",\"pn\":100}"
+		}
+	}
+	id: "75DE5BED07311A78"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:plate_0_leggings"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":12},\"imp\":{\"p\":71},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":14,\"id\":\"seraphim\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":4,\"rs\":4,\"lvl\":3,\"gtype\":\"plate_pants\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:leather_0_leggings"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":20},\"imp\":{\"p\":91},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":21,\"id\":\"seraphim\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":1,\"rs\":0,\"lvl\":3,\"gtype\":\"leather_pants\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:cloth_0_leggings"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":14},\"imp\":{\"p\":76},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":23,\"id\":\"item_flat_ms\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":0,\"rs\":1,\"lvl\":3,\"gtype\":\"cloth_pants\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+	]
+	title: "Primeros Pantalones"
+}

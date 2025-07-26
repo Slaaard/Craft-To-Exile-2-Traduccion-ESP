@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "1E3C4B5FFAE48A39", title: "&eCampaña&r" }
+		{ id: "5F2CCE8075FCC994", title: "&eDesarrollo&r" }
+		{ id: "37C10F4BE9E00A26", title: "&eBitácora&r" }
+		{ id: "5C56FC6157E20EBE", title: "&eMultijugador&r" }
+	]
+}

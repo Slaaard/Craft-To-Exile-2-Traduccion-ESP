@@ -1,0 +1,18 @@
+{
+	id: "06F0F27A3166249E"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:oak_log" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Test"
+}

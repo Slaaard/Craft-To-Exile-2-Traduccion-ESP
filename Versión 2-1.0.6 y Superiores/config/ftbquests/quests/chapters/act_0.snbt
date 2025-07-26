@@ -1,0 +1,936 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_0"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:book"
+	id: "44789E48CD607F46"
+	images: [{
+		color: 8026746
+		height: 15.0d
+		image: "watut:textures/particles/book.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.0d
+		y: 2.5d
+	}]
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&nBienvenido a Craft to Exile 2&r - un modpack altamente personalizado que convierte Minecraft en un RPG de acción."
+				""
+				"El primer capítulo de misiones, \"Prólogo\", está destinado a darte una visión general de ciertos sistemas introducidos en el modpack que pueden ser diferentes a lo que estás acostumbrado en la mayoría de los modpacks de Minecraft."
+				""
+				"&eCompleta cada \"página\" del Prólogo haciendo clic en la marca de verificación.&r"
+				""
+				"Para más información, visita nuestra &9Wiki&r (también puedes encontrar el enlace en el menú principal)."
+				""
+				"¡También siéntete libre de unirte a nuestro servidor de &9Discord&r (enlace también en el menú principal) donde podemos ayudarte con cualquier problema en el juego, o incluso simplemente charlar contigo sobre el modpack!"
+			]
+			icon: "minecraft:writable_book"
+			id: "30403B3DE1E47F33"
+			rewards: [
+				{
+					id: "662E6BDEDAE044A6"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4E506FC73E0B1EAC"
+					item: "minecraft:bread"
+					title: "Bread"
+					type: "item"
+				}
+			]
+			subtitle: "Índice de Contenidos"
+			tasks: [{
+				id: "77FDE21B75D712EC"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "¡Bienvenido a Craft to Exile 2!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"CTE2 admite misiones y juego en grupo. &e¡Todas las opciones de Equipos/Grupo son accesibles a través del Inventario!&r"
+				""
+				"Hay 3 comandos diferentes para usar en el juego en grupo:"
+				""
+				"Los &eEquipos de Mine and Slash&r te permiten compartir EXP y curarse/mejorarse mutuamente. ¡Además, verás los valores de Salud/Escudo Mágico de los miembros del grupo en la GUI!"
+				""
+				"FTB Teams te permite compartir el progreso de las misiones. FTB Teams también tiene un menú de chat de equipo personalizado, presiona - por defecto para acceder a él."
+				""
+				"Lightman's Teams te permite compartir dinero y notificaciones de comerciantes."
+			]
+			icon: "ftbquests:book"
+			id: "48075B2F138A9C2C"
+			rewards: [{
+				id: "7F6AE3A345D1324D"
+				item: "lightmanscurrency:coin_iron"
+				title: "Money"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Página 2b"
+			tasks: [{
+				id: "37CC2CFDC34FC657"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Juego en Grupo"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04849611F904771C"]
+			description: [
+				"Gracias a Mine and Slash, CTE2 tiene un sistema de progresión de niveles totalmente personalizado."
+				""
+				"Mata monstruos para ganar experiencia y recibe puntos de estadística con cada nivel. ¡Puedes asignar estos puntos en el centro principal &epresionando \"H\"&r. De hecho, la mayoría de los menús serán accesibles desde esta rueda de menú!"
+				""
+				"{image:cte2:textures/character_stats.png width:160 height:128 align:1}"
+				""
+				"Las estadísticas de tu jugador también se pueden aumentar por otros medios, como: equipo (gear) y puntos de talento que cubriremos más adelante."
+			]
+			icon: "minecraft:book"
+			id: "624D8CD0A4A6668B"
+			rewards: [
+				{
+					id: "5B3178D7FC9CF9B3"
+					item: "mmorpg:potions/reset_points_stat"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 400"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4A429E1B6344E4A4"
+					silent: true
+					title: "400 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Página 2"
+			tasks: [{
+				id: "352F3C2796BACD2F"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Estadísticas del Personaje"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"El &eÁrbol de Talentos&r permite una capa adicional de &epersonalización del personaje&r, y se encuentra en el centro de Mine and Slash."
+				""
+				"{image:cte2:textures/talent_tree.png width:160 height:115 align:1}"
+				""
+				"Cada nivel te otorga &e1 punto de talento.&r Necesitarás elegir tu posición inicial y luego &easignar puntos en nodos&r conectados a cualquier otro nodo que ya tengas. ¡Cada &enodo&r proporciona &ebonificaciones&r a las estadísticas y, en algunos casos, puede alterar tu ciclo de juego principal!"
+			]
+			icon: "minecraft:book"
+			id: "53A5ECD28E7E16E1"
+			rewards: [
+				{
+					id: "7F66934DFD28206B"
+					item: "mmorpg:potions/reset_points_talent"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3BC953334872A751"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Página 3"
+			tasks: [{
+				id: "07B9CDCDF05CC52E"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Árbol de Talentos"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A5ECD28E7E16E1"]
+			description: [
+				"{image:cte2:textures/gui.png width:160 height:105 align:1}"
+				""
+				"El menú &ePersonajes&r te permite guardar y cargar diferentes personajes. ¡Guardará toda la información de tu personaje excepto su equipo! Puedes tener hasta 3 personajes guardados. Los personajes recién creados comienzan en el nivel 1 pero comparten los desbloqueos de finalización de misiones como los &epuntos de Talento y Ascendencia&r."
+				""
+				"El menú &eReciclaje&r te permite convertir el botín malo en materiales de fabricación útiles al recogerlo."
+				""
+				"El menú &eClases&r permite la especialización del personaje. Aquí aprenderás habilidades y podrás mejorarlas con puntos. ¡En CTE2, puedes &eespecializarte en dos clases diferentes&r!"
+				""
+				"El menú &eJoyas&r se utiliza una vez que has asignado puntos en los Engastes de Joyas en el Árbol de Talentos. ¡Equipar Joyas puede mejorar las estadísticas de tu personaje!"
+				""
+				"Además, en la parte inferior de la GUI (donde están los picos), puedes ver tus niveles de &eProfesión&r."
+			]
+			icon: "minecraft:book"
+			id: "0C1568D71346C427"
+			rewards: [
+				{
+					count: 4
+					id: "6BA00FC78BAE6C85"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3B10C874A7833200"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Página 4"
+			tasks: [{
+				id: "60453E7473A695D0"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "El Resto de la GUI"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C1568D71346C427"]
+			description: [
+				"En CTE2, hay 3 estilos de lucha \"principales\". Puedes ser un &4guerrero de corto alcance&r, un &9lanzador de hechizos mágicos&r o un &2arquero de largo alcance&r. Esto es, por supuesto, una generalización básica, ya que cada personaje puede ser personalizado y expresado extensamente."
+				""
+				"¿Quieres ser un guerrero que escupe llamas? ¿Un lanzador de hechizos nigromante? ¿O incluso un cazador que lanza trampas?"
+				""
+				"CTE2 tiene mucho que ofrecer en términos de personalización de personajes. ¡Esperamos que encuentres el estilo de juego que mejor se adapte a ti!"
+			]
+			icon: "minecraft:book"
+			id: "3059FF2D6DB1AC9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "780B73E925FBD004"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+				{
+					count: 64
+					id: "1B21344DA58F8D97"
+					item: "minecraft:arrow"
+					title: "Arrows"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3098C9D09E030015"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Página 5"
+			tasks: [{
+				id: "7EA3FFEFB226B157"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Tu Primera Arma"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"El combate ha sido renovado en Craft to Exile 2. &eLas armas tienen animaciones y combos&r, y tienen diferentes propiedades dependiendo del tipo de arma que empuñes."
+				""
+				"Además, puedes presionar &e\"Alt\" para esquivar rodando&r, lo que tiene un breve tiempo de reutilización."
+				""
+				"¡No te olvides de tus ataques básicos en CTE2! Son poderosos en combate y se pueden usar junto con las habilidades."
+			]
+			icon: "minecraft:book"
+			id: "546A9D082F1A2160"
+			rewards: [
+				{
+					id: "4D3BA6D80A06AD15"
+					item: "minecraft:zombie_spawn_egg"
+					title: "Zombie Spawn Egg"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "539974DB413EB4B5"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Página 6"
+			tasks: [{
+				id: "222D99698592B33D"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Combate"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A39A9996E8D63F4"]
+			description: [
+				"Las habilidades requieren &9Maná&r o &aEnergía&r y se usan en combate. Se pueden aprender a través de la pestaña Clases y se pueden equipar en las ranuras &9cuadradas&r en la GUI de Habilidades:"
+				""
+				"{image:cte2:textures/skill_gem.png width:140 height:105 align:1}"
+				""
+				"Puedes modificar y mejorar las Habilidades subiéndolas de nivel o vinculándolas a Gemas de Soporte, que van en las ranuras &5circulares&r. Estas pueden aumentar el &eCosto de Recurso&r y el poder de la Habilidad vinculada."
+				""
+				"Las habilidades tienen un número máximo de Gemas de Soporte que se pueden vincular (ver \"&5Ranuras de Soporte:&r\"). El número de ranuras que puede tener una Habilidad está determinado por el &enivel de la Habilidad&r, con un máximo de 5 ranuras en el nivel 16. &ePara obtener la primera ranura, tu habilidad debe ser al menos de nivel 4.&r &cEl número de ranuras también&r está limitado por tu &enivel de jugador&r (1 ranura cada 10 niveles, comenzando en 1).&r"
+				""
+				"En la fila &einferior&r, equipa Gemas de Aumento que consumen Capacidad de Aumento para proporcionar estadísticas. Puedes ver cuánta Capacidad de Aumento te queda en &drosa&r a la derecha."
+			]
+			icon: "minecraft:book"
+			id: "22EAD61501470768"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F7B46C685D188ED"
+					table_id: 981191123936022223L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00B6E55860C350A9"
+					table_id: 5889716173591028936L
+					type: "choice"
+				}
+				{
+					id: "0FA3268AB0494B94"
+					item: "mmorpg:potions/reset_points_spell"
+					type: "item"
+				}
+				{
+					id: "104170C66DCC1E67"
+					item: "mmorpg:potions/reset_points_passive"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "555EEACB001F9F25"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Página 8"
+			tasks: [{
+				id: "703C97D9D47FEB19"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Gemas de Habilidad, Soporte y Aumento"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["546A9D082F1A2160"]
+			description: [
+				"¡Prueba tu nueva espada y tus conocimientos en combate!"
+				""
+				"&e¡No invoques a la criatura en la aldea ya que el Gólem de Hierro podría matar a tu Zombi! ¡También ten cuidado al invocarlo durante el día! Considera invocarlo en una cueva.&r"
+				""
+				"&o¡Asegúrate de asignar tus estadísticas antes de la pelea, ya que las armas tienen un requisito mínimo de estadísticas!&r"
+			]
+			icon: "minecraft:book"
+			id: "0A39A9996E8D63F4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 700"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1EDA06CB95371D19"
+				silent: true
+				title: "700 Experience"
+				type: "command"
+			}]
+			subtitle: "Página 7"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				icon: "ftb_ph:zombie"
+				id: "54F60D14EA2C9CC2"
+				title: "Kill x1 Zombie"
+				type: "advancement"
+			}]
+			title: "Primera Sangre"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22EAD61501470768"]
+			description: [
+				"En Minecraft, la &4Salud&r es tu fuerza vital, y si llega a 0, tu personaje morirá. En CTE2, no pierdes equipo al &4morir&r, pero a partir del nivel 50, perderás una buena parte de tu experiencia."
+				""
+				"Las defensas del personaje se pueden clasificar en 3 categorías: &4Armadura&r (placas), &2Evasión&r (cuero) y &9Escudo Mágico&r (tela), pero también pueden consistir en tipos híbridos (&8Brigantina&r = &4Armadura&r/&2Evasión&r)."
+				""
+				"La Armadura reduce el daño físico recibido, la evasión te da la oportunidad de negar por completo cualquier ataque, y el escudo mágico actúa como un amortiguador de salud adicional que se regenera lentamente. Puedes mejorar estas estadísticas principalmente a través del equipo, los puntos de estadística y el Árbol de Talentos."
+				""
+				"Hay &eotras formas de mitigar el daño&r, como las resistencias elementales, la evasión de hechizos y la reducción de daño. Puedes encontrar estas estadísticas en el equipo, en el Árbol de Talentos y en las Joyas."
+				""
+				"¡Hay opciones en el Árbol de Talentos que pueden cambiar cómo funcionan tus defensas, como establecer tu salud en 1 y dar una gran bonificación al escudo mágico!"
+				""
+				"&o¡Si no te gusta cómo se ve la armadura, puedes usar Armadura Cosmética para cubrirla!&r"
+			]
+			icon: "minecraft:book"
+			id: "7B22B96E95E5DA09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D5755216C597FF1"
+					table_id: 8672695084726290362L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FE70BFEB5ED2D52"
+					table_id: 7074154712315855923L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DC2202B09680066"
+					table_id: 8493327020853369464L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D6A4A9389EE9F37"
+					table_id: 5741053327200068691L
+					type: "choice"
+				}
+				{
+					id: "45990E4571B1B2EA"
+					item: "minecraft:skeleton_spawn_egg"
+					title: "Skeleton Spawn Egg"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4B863DDA4942C800"
+					silent: true
+					title: "250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Página 9"
+			tasks: [{
+				id: "4B40DF289BF860BF"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Equípate"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+				"Felicitaciones por completar la línea de misiones del Prólogo. ¡Al completar esta página final, finalmente puedes &ecomenzar tu viaje en el Acto I&r!"
+				""
+				"En CTE2, &epuedes completar tareas en misiones posteriores incluso si aún no has completado las dependencias&r. Sin embargo, no podrás reclamar las recompensas hasta que llegues a la misión."
+				""
+				"Asegúrate de revisar las &eMisiones Secundarias&r, ya que contienen mucha información muy útil y te presentarán los otros mods utilizados en CTE2. ¡Hay varias integraciones entre otros mods y Mine and Slash que puedes descubrir a través de estas líneas de misiones!"
+			]
+			icon: "minecraft:writable_book"
+			id: "0CDFB8E5BB59B981"
+			rewards: [
+				{
+					count: 15
+					id: "58E255CF9F588325"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "513F1792134DC311"
+					silent: true
+					title: "500 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5786D74604BF83D1"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+			]
+			subtitle: "Apéndice"
+			tasks: [{
+				id: "4DE938BD22A26E0A"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Saquea. Sube de Nivel. Explora."
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"Las Gemas y las Runas se pueden engastar en el equipo que tenga ranuras disponibles. Puedes añadir ranuras a través de algunas monedas de Mine and Slash."
+				""
+				"Las &bGemas&r vienen en múltiples niveles. Puedes &ecombinar 3 de ellas para crear el siguiente nivel&r. Una vez que la hayas engastado en tu objeto (haz clic en el objeto con la Gema en tu cursor). Una vez en tu equipo, la Gema proporcionará estadísticas adicionales."
+				""
+				"Las &cRunas&r se pueden añadir al equipo para proporcionar también estadísticas adicionales. Si engastas una combinación específica de Runas en un &eequipo rúnico&7, ¡puedes crear una &ePalabra Rúnica&r que mejora el objeto con un conjunto específico de bonificaciones! ¡Ten en cuenta que el equipo rúnico puede tener más ranuras que el número de Runas requeridas para la Palabra Rúnica!"
+				""
+				"&e¡Haz clic derecho mientras sostienes una Runa para ver las Palabras Rúnicas disponibles para crear!&r Las &ePalabras Rúnicas&r solo se pueden crear en objetos de rareza &eRúnica&r."
+				""
+				"¡Es posible recuperar Gemas y Runas de los objetos usando un &eOrbe de Moneda Extractor!&r"
+			]
+			icon: "ftbquests:book"
+			id: "4C9F8B8F01189196"
+			rewards: [
+				{
+					id: "76247AC0012E1810"
+					item: "mmorpg:gems/azurite/1"
+					title: "Chipped Azurite"
+					type: "item"
+				}
+				{
+					id: "5722F71FCCB83AB8"
+					item: "mmorpg:gems/topaz/1"
+					title: "Chipped Topaz"
+					type: "item"
+				}
+				{
+					id: "45878D000E81C7B4"
+					item: "mmorpg:runes/ano"
+					title: "Ano Rune"
+					type: "item"
+				}
+				{
+					id: "549B167A69E67CFA"
+					item: "mmorpg:currency/extract_gem"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Página 9c"
+			tasks: [{
+				id: "1DADE93D8FAB373D"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Gemas y Runas"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"¡Prueba tus nuevos hechizos y armadura en combate!"
+				""
+				"&e¡No invoques a la criatura en la aldea ya que el Gólem de Hierro podría matar a tu Esqueleto! ¡También ten cuidado al invocarlo durante el día! Considera invocarlo en una cueva.&r"
+			]
+			icon: "minecraft:book"
+			id: "1895A7A94BE0A4B6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "23B96BB571FA8D03"
+				silent: true
+				title: "250 Experience"
+				type: "command"
+			}]
+			subtitle: "Página 10"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "ftb_ph:skeleton"
+				id: "33E51DA632612F0F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Muerte Fácil"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30403B3DE1E47F33"]
+			description: [
+				"&o\"¿Puede el dinero comprar la felicidad?\"&r"
+				""
+				"Bueno, en este caso, el dinero se puede usar para comprar muchas herramientas y recursos útiles. Podrás usar el dinero para intercambiar bienes con aldeanos y comerciantes de otros mods. ¡Por supuesto, también puedes usar dinero para comerciar con otros jugadores y, si estás en un servidor, comprar bloques de protección!"
+				""
+				"Puedes &eganar dinero matando monstruos o saqueando cofres&r. A veces también puedes vender bienes por dinero a los comerciantes."
+				""
+				"El &eTerminal de Intercambio/Tablón de Trueque&r es una herramienta valiosa para adquirir recursos específicos también.&r"
+				""
+				"Mantén tu dinero a salvo en la &eCartera&r que recibes de esta misión. ¡Más adelante, mejora la cartera para que pueda contener más dinero!"
+				""
+				"&eSi necesitas cambiar tu dinero por cantidades menores, puedes usar un Cajero Automático.&r"
+			]
+			icon: "minecraft:book"
+			id: "04849611F904771C"
+			rewards: [{
+				id: "409F7C072512843C"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_gold"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				title: "Wallet"
+				type: "item"
+			}]
+			subtitle: "Página 1"
+			tasks: [{
+				id: "33258148F7D6B004"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Dinero"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"En CTE2, fabricarás y encontrarás muchas piezas de equipo. Estas piezas de &eequipo no proporcionarán ninguna estadística a menos que les apliques Almas de Estadísticas de Equipo&r, esencialmente imbuyéndolas con estadísticas de Mine and Slash."
+				""
+				"&c¡El equipo sin alma no tendrá ningún efecto, ni defensivo ni ofensivo!&r"
+				""
+				"Las Almas de Estadísticas de Equipo se pueden usar en cualquier pieza de equipo que comparta el mismo tipo. ¡Al &ehacer clic en el objeto con un Alma de Estadísticas de Equipo&r de tipo \"Daga\", puedes aplicar estadísticas de Mine and Slash a los cuchillos!"
+				""
+				"¿Quieres aprender más sobre cómo &efabricar Almas de Estadísticas de Equipo&r? ¡Visita el capítulo de misiones &aProfesiones M\\&S&r!"
+			]
+			icon: "ftbquests:book"
+			id: "289350CF47F41D69"
+			rewards: [
+				{
+					id: "5B729B2C8440BDF5"
+					item: {
+						Count: 1
+						id: "aquaculture:wooden_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Wooden Fillet Knife"
+					type: "item"
+				}
+				{
+					id: "31743DFDD664B202"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul"
+						tag: {
+							CustomModelData: 15
+							mmorpg_stat_soul: "{\"tier\":0,\"slot\":\"dagger\",\"rar\":\"common\",\"fam\":\"NONE\",\"uniq\":\"\",\"can_sal\":true}"
+						}
+					}
+					title: "Dagger Stat Soul"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Página 5b"
+			tasks: [{
+				id: "1C99B6F792983F96"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Almas de Estadísticas de Equipo"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B22B96E5DA09"]
+			description: [
+				"Los Escudos (Armadura), Tótems (Evasión) y Tomos (Escudo Mágico) son objetos de mano secundaria que pueden aumentar tu estadística defensiva."
+				""
+				"Una opción defensiva en combate es la capacidad de rodar (por defecto: Alt). Esto está disponible para todos. Sin embargo, si equipas un escudo, también puedes usarlo para bloquear daño."
+				""
+				"Los escudos drenan &aEnergía&r mientras se sostienen, y si estás mirando en la dirección correcta, niegan el daño recibido."
+				""
+				"¿Sabías que el &eescudo puede tener una probabilidad pasiva de negar daño&r (similar a la evasión)? ¡Puedes obtener probabilidad de bloqueo del equipo o del Árbol de Talentos, lo que te permite tener una &oprobabilidad de negar daño incluso cuando no estás sosteniendo el escudo&r!"
+			]
+			icon: "ftbquests:book"
+			id: "119B706F79F22360"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "206EE0F673CCC5EB"
+				table_id: 7401807202655080641L
+				type: "choice"
+			}]
+			shape: "circle"
+			subtitle: "Página 9b"
+			tasks: [{
+				id: "0662DB198465C67A"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Bloqueo"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"Las Piedras de Senda (Waystones) están repartidas por todo el mundo y una vez descubiertas, se puede teletransportar a ellas a través de otras Piedras de Senda, Pergaminos de Teletransporte o Piedras de Teletransporte."
+				""
+				"Las Piedras de Senda pueden aparecer aleatoriamente en el mundo, pero &ea menudo se encuentran en aldeas&r. ¡Lleva algunos Pergaminos de Teletransporte para que puedas regresar fácilmente a cualquier Piedra de Senda descubierta!"
+			]
+			icon: "ftbquests:book"
+			id: "19319F327C09E772"
+			rewards: [{
+				count: 8
+				id: "1361F172A8236025"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Página 10c"
+			tasks: [{
+				id: "302BF9765FDEFFE8"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Piedras de Senda"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48075B2F138A9C2C"]
+			description: [
+				"Puedes &ereclamar un área&r para protegerla de visitantes (jugadores) no deseados. Puedes usar cualquier &eAzada de Oro&r para hacer esto (clic derecho en el suelo), pero aquí tienes una especial con nombre para que la uses."
+				""
+				"&o¡Consulta la misión \"&eReclamando Terreno con FLAN&r\" en el capítulo &eCooperación Amena&r para obtener muchos más detalles!&r"
+			]
+			icon: "ftbquests:book"
+			id: "31B023681AC62535"
+			rewards: [{
+				id: "13CF773EDFCB3C2E"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Página 2c"
+			tasks: [{
+				id: "5848EBF021C0262E"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Reclamando Terreno"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: ["A lo largo de tus viajes, encontrarás &eOrbes de Espíritu&r, que se pueden intercambiar en &eEstatuas de la Diosa&r por &cContenedores de Corazón&r. Cada Contenedor de Corazón aumenta tu Salud base en 2, hasta un máximo de 200 de Salud (100 Contenedores de Corazón). También puedes encontrar &eContenedores de Corazón de los Jefes&r en Craft to Exile 2."]
+			icon: "minecraft:book"
+			id: "1C852F78D386B77E"
+			rewards: [{
+				id: "605680F58634B88E"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			subtitle: "Página 11"
+			tasks: [{
+				id: "5C49990F810F10CF"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Contenedores de Corazón"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+				"Muy pronto te darás cuenta de que &eCraft to Exile 2&r tiene MUCHO botín para recolectar. La mayor parte del botín proviene de &eMine and Slash&r, el mod de RPG. Una de las cosas más frustrantes es mantener tu inventario organizado y tener suficiente espacio para recoger cosas."
+				""
+				"Esta &eBolsa Maestra&r &brecogerá y guardará específicamente objetos&r de &eMine and Slash&r y te ayudará a organizar tu botín. No puedes &ollevar&r explícitamente la bolsa, pero puedes usarla mientras la sostienes para ver el inventario."
+				""
+				"Si todavía tienes problemas con la gran cantidad de botín, también podrías considerar usar la &efunción de auto-reciclaje&r que se encuentra en el Centro. Para aprender más sobre esto, visita el &eCapítulo de Profesiones&r."
+			]
+			icon: "ftbquests:book"
+			id: "351118C34DCDFEB4"
+			rewards: [{
+				id: "76C1849A7E4A48AC"
+				item: "mmorpg:master_bag"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Página 11b"
+			tasks: [{
+				id: "6E5BF0F42C1A3C85"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Gestionando tu Inventario"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04849611F904771C"]
+			description: [
+				"&eCraft to Exile 2&r viene con &eatnaciones de teclas personalizadas&r. Sin embargo, ha habido &ccasos en los que las asignaciones de teclas personalizadas no se aplicaron&r. Puedes confirmar esto presionando R. Si aparece la rueda, entonces las asignaciones de teclas personalizadas no se aplicaron (debería ser H)."
+				""
+				"Para solucionar esto, presiona Esc y ve a &bOpciones > Controles > Asignación de Teclas > haz clic en Restablecer Teclas&r."
+			]
+			icon: "ftbquests:book"
+			id: "5CA9B71D52F01485"
+			rewards: [{
+				id: "59679DF2D778DA7F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Página 1b"
+			tasks: [{
+				id: "6F2223761F2F7200"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Asignación de Teclas"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"¡En CTE2 hay un límite en la cantidad de monstruos que se pueden matar dentro de un chunk antes de que &cdejen de dar botín o experiencia!&r El chunk se recuperará con el tiempo."
+				""
+				"Esto se hace para fomentar los viajes y la exploración en lugar del uso de métodos de experiencia automatizados."
+				""
+				"&o¡Explora y descubre! Hay muchas estructuras y peligros por encontrar."
+			]
+			icon: "ftbquests:book"
+			id: "151EDFFBB525349E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2CD733C2EAA8C466"
+				silent: true
+				title: "50 Experience"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "Página 10b"
+			tasks: [{
+				id: "321AFA63AEF2B67B"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Anti Granja de Monstruos"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30403B3DE1E47F33"]
+			description: [
+				"¡Craft to Exile 2 viene con &esoporte para RV&r! &lDebes&r tener lo siguiente:"
+				"- SteamVR"
+				"- Un casco de RV"
+				"- La ventana de Minecraft debe estar seleccionada en el PC"
+				""
+				"Una vez que lo anterior esté verificado, enciende tu casco y conéctalo a tu PC. Luego puedes habilitar la RV desde el menú principal. Algunas asignaciones de teclas ya están configuradas para ti. Sin embargo, probablemente querrás &econfigurar las entradas de SteamVR&r para Vivecraft para que se adapten mejor a tus necesidades."
+				""
+				"Por defecto, el &lmenú radial de RV&r se usa para los atajos de habilidades de Mine and Slash y algunos otros elementos de menú importantes. ¡Al abrir el menú radial, puedes mantener presionado el &lbotón de Agarre para acceder al segundo conjunto de opciones&r!"
+				""
+				"¡Además, hay soporte de integración de RV con la mayoría de los aspectos de Minecraft, como la Mesa de Crafteo y el uso inmersivo de espadas y arcos! ¡También puedes modificar la locomoción y habilitar correr en el sitio para moverte!"
+				""
+				"&lRealiza lo siguiente para evitar que la GUI no se cargue. Antes de salir del juego, debes desactivar la RV en el menú principal y, posteriormente, volver a habilitarla al iniciar sesión.&r"
+			]
+			icon: "simplehats:goggles"
+			id: "3FD1760A231D429D"
+			rewards: [{
+				id: "08FDBED97918BF5A"
+				item: "simplehats:goggles"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7A2278B60D17AB84"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Soporte de RV"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22EAD61501470768"]
+			description: [
+				"{image:cte2:textures/skill_bar.png width:120 height:120 align:center}"
+				""
+				"Las &eHabilidades&r se pueden asignar a tu barra de acceso rápido haciendo clic en &eBarra de Habilidades&r desde el centro."
+				""
+				"{image:cte2:textures/skill_hotbar.png width:160 height:120 align:center}"
+				""
+				"&ePuedes mover la barra de acceso rápido de Habilidades&r presionando ESC > Mods > Mine and Slash > Config > mine_and_slash-client > General > Overlays > &eEstablece SPELL HOTBAR OVERLAY TYPE para alternar entre horizontal/vertical y SPELL HOTBAR VERTICAL/HORIZONTAL CONFIGs para ajustar&r."
+			]
+			icon: "ftbquests:book"
+			id: "33E4003EA7B05BA4"
+			rewards: [{
+				count: 5
+				id: "7909F546B1BEADEA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Página 8b"
+			tasks: [{
+				id: "24E6BC2E8058814E"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "La Barra de Hechizos"
+			x: -1.0d
+			y: 3.0d
+		}
+	]
+	title: "Prólogo"
+}

@@ -1,0 +1,46 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:iron_chestplate"
+		tag: {
+			Damage: 0
+			mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":11},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":17,\"id\":\"seraphim\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":5,\"rs\":2,\"lvl\":1,\"gtype\":\"plate_chest\",\"pot\":\"common\",\"pn\":100}"
+		}
+	}
+	id: "622C723AF9BE0433"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:plate_0_chestplate"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":12},\"imp\":{\"p\":37},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":10,\"id\":\"item_both_armor\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":5,\"rs\":3,\"lvl\":3,\"gtype\":\"plate_chest\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:leather_0_chestplate"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":15},\"imp\":{\"p\":89},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":17,\"id\":\"item_both_dodge\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":3,\"rs\":2,\"lvl\":3,\"gtype\":\"leather_chest\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cte_essentials:cloth_0_chestplate"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":13},\"imp\":{\"p\":9},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":13,\"id\":\"item_flat_ms\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":3,\"rs\":1,\"lvl\":3,\"gtype\":\"cloth_chest\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+		}
+	]
+	title: "Primer Peto"
+}

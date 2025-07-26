@@ -1,0 +1,11 @@
+{
+	id: "05590CD1D376E3CE"
+	loot_size: 1
+	order_index: 42
+	rewards: [
+		{ item: "mmorpg:runes/ita" }
+		{ item: "mmorpg:runes/mos" }
+		{ item: "mmorpg:runes/nos" }
+	]
+	title: "Runas 1"
+}

@@ -1,0 +1,128 @@
+{
+	id: "05453CFA7AE3555B"
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{
+			icon: "minecraft:quartz"
+			item: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"flugel_tiara\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":98},\"imp\":{\"p\":79,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[10,34,29,41,17,56,94,89,36,80]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+					mmorpg_potential: "{\"potential\":50}"
+					variant: 1
+				}
+			}
+			title: "Variante Flugel"
+		}
+		{
+			icon: "botania:quartz_dark"
+			item: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"flugel_tiara\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":84},\"imp\":{\"p\":15,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[55,64,1,55,55,59,2,23,60,11]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+					mmorpg_potential: "{\"potential\":50}"
+					variant: 2
+				}
+			}
+			title: "Variante Ángel de un Ala"
+		}
+		{
+			icon: "botania:quartz_mana"
+			item: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"flugel_tiara\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":94},\"imp\":{\"p\":99,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[94,37,26,33,100,98,85,88,97,10]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+					mmorpg_potential: "{\"potential\":50}"
+					variant: 3
+				}
+			}
+			title: "Variante Hada de Hielo"
+		}
+		{
+			icon: "botania:quartz_blaze"
+			item: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"flugel_tiara\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":98},\"imp\":{\"p\":57,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[56,88,67,96,73,76,31,32,69,30]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+					mmorpg_potential: "{\"potential\":50}"
+					variant: 4
+				}
+			}
+			title: "Variante Fénix"
+		}
+		{
+			icon: "botania:quartz_lavender"
+			item: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"flugel_tiara\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":97},\"imp\":{\"p\":51,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[91,88,97,38,60,96,58,63,54,76]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+					mmorpg_potential: "{\"potential\":50}"
+					variant: 5
+				}
+			}
+			title: "Variante Princesa de Nieve Negra"
+		}
+		{
+			icon: "botania:quartz_red"
+			item: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"flugel_tiara\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":75},\"imp\":{\"p\":65,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[41,43,66,35,51,75,90,54,0,13]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+					mmorpg_potential: "{\"potential\":50}"
+					variant: 6
+				}
+			}
+			title: "Variante Señor del Abismo"
+		}
+		{
+			icon: "botania:quartz_elven"
+			item: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"flugel_tiara\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":76},\"imp\":{\"p\":16,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[42,56,82,30,3,17,32,59,88,24]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+					mmorpg_potential: "{\"potential\":50}"
+					variant: 7
+				}
+			}
+			title: "Variante Sílfide"
+		}
+		{
+			icon: "botania:quartz_sunny"
+			item: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"flugel_tiara\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":77},\"imp\":{\"p\":95,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[47,30,84,58,29,12,27,73,100,61]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+					mmorpg_potential: "{\"potential\":50}"
+					variant: 8
+				}
+			}
+			title: "Variante Mega Ultra Pollo"
+		}
+	]
+	title: "Tiara Flugel"
+}
